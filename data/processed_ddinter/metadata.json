@@ -1,0 +1,141 @@
+{
+  "version": "ddinter-local-2026-09-01",
+  "processed_on": "2026-09-01",
+  "schema": {
+    "pair_key": "str",
+    "drug_a_id": "str",
+    "drug_a_name": "str",
+    "drug_a_normalized": "str",
+    "drug_b_id": "str",
+    "drug_b_name": "str",
+    "drug_b_normalized": "str",
+    "severity_source": "str",
+    "severity": "str",
+    "source_categories": "str",
+    "raw_row_count": "int64"
+  },
+  "severity_mapping": {
+    "Major": "high",
+    "Moderate": "moderate",
+    "Minor": "low",
+    "Unknown": "unknown"
+  },
+  "raw_sources": [
+    {
+      "file": "ddinter_downloads_code_A.csv",
+      "source_category": "A",
+      "bytes": 3343434,
+      "sha256": "a22ca451d2b755ca2331886f7e00540c86f555f9f55704a59a19c691251f52e0"
+    },
+    {
+      "file": "ddinter_downloads_code_B.csv",
+      "source_category": "B",
+      "bytes": 867726,
+      "sha256": "76de5115a55587f0e822e1096b684fd3ddde058fbefcbb19896df58820ace130"
+    },
+    {
+      "file": "ddinter_downloads_code_D.csv",
+      "source_category": "D",
+      "bytes": 1520704,
+      "sha256": "c0627ec39965dbe27829e4934cd20d71eb079f4e373287678737bba9423a306a"
+    },
+    {
+      "file": "ddinter_downloads_code_H.csv",
+      "source_category": "H",
+      "bytes": 705088,
+      "sha256": "f0f925f0ba1ee68c4668d3e7a6732719b34623b22a0f5d017f9090e59f63c88e"
+    },
+    {
+      "file": "ddinter_downloads_code_L.csv",
+      "source_category": "L",
+      "bytes": 3885702,
+      "sha256": "f54f4486cc00344f8c86508c31c2ca3fad6d1d37ec3af5bcf609b4bbda5507ef"
+    },
+    {
+      "file": "ddinter_downloads_code_P.csv",
+      "source_category": "P",
+      "bytes": 317460,
+      "sha256": "83f8c0edb20d09ef29b8500b48f9623e208379525688ade9e70a7df2d8749d55"
+    },
+    {
+      "file": "ddinter_downloads_code_R.csv",
+      "source_category": "R",
+      "bytes": 1793766,
+      "sha256": "1c39c3d4a6e41659b7a988538d7f363867592abc6f41a815de8746f6e2150574"
+    },
+    {
+      "file": "ddinter_downloads_code_V.csv",
+      "source_category": "V",
+      "bytes": 700777,
+      "sha256": "353973fb300453946aea95733e8fb52338e4b59426d2ce6ca318363d4f84f10a"
+    }
+  ],
+  "quality": {
+    "raw_rows": 222383,
+    "final_unique_pairs": 160235,
+    "duplicates_removed": 62148,
+    "self_pairs": 0,
+    "severity_conflicts": 0,
+    "missing_required_values": {
+      "DDInterID_A": 0,
+      "Drug_A": 0,
+      "DDInterID_B": 0,
+      "Drug_B": 0,
+      "Level": 0,
+      "source_category": 0
+    },
+    "final_duplicate_pair_keys": 0
+  },
+  "eda_summary": {
+    "network": [
+      {
+        "network": "all_interactions",
+        "nodes": 1939,
+        "edges": 160235,
+        "density": 0.08528169010336417,
+        "connected_components": 3,
+        "max_degree": 910
+      },
+      {
+        "network": "major_only",
+        "nodes": 1501,
+        "edges": 26914,
+        "density": 0.023907617144126137,
+        "connected_components": 1,
+        "max_degree": 504
+      }
+    ],
+    "severity": [
+      {
+        "severity_source": "Major",
+        "severity": "high",
+        "unique_pairs": 26914
+      },
+      {
+        "severity_source": "Moderate",
+        "severity": "moderate",
+        "unique_pairs": 96675
+      },
+      {
+        "severity_source": "Minor",
+        "severity": "low",
+        "unique_pairs": 6833
+      },
+      {
+        "severity_source": "Unknown",
+        "severity": "unknown",
+        "unique_pairs": 29813
+      }
+    ],
+    "top_drug": {
+      "drug_id": "DDInter513",
+      "drug_name": "Dexamethasone",
+      "interaction_count": 910
+    },
+    "top_major_drug": {
+      "drug_id": "DDInter1676",
+      "drug_name": "Siponimod",
+      "major_interaction_count": 504
+    }
+  }
+}

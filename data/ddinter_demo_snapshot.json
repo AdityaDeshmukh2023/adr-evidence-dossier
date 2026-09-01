@@ -1,0 +1,36 @@
+{
+  "version": "demo-2026-08-31",
+  "source": "DDInter-inspired curated demonstrator; records must be revalidated against the linked primary labeling before publication.",
+  "interactions": {
+    "aspirin|ibuprofen": {
+      "id": "DDI-DEMO-001", "severity": "moderate", "confidence": 0.9,
+      "mechanism": "Concurrent use may reduce aspirin's antiplatelet effect and can increase gastrointestinal adverse-effect risk.",
+      "management": "Discuss regular combined use with a clinician or pharmacist; do not change prescribed treatment based on this tool.",
+      "evidence": [{"title": "Aspirin drug label interaction information", "url": "https://api.fda.gov/drug/label.json?search=drug_interactions:ibuprofen&limit=1", "excerpt": "Official labeling should be checked for the exact product and patient context.", "source": "openFDA drug labels", "retrieved_at": "2026-08-31"}]
+    },
+    "aspirin|warfarin": {
+      "id": "DDI-DEMO-002", "severity": "high", "confidence": 0.95,
+      "mechanism": "Both medicines can increase bleeding risk through different antithrombotic effects.",
+      "management": "High-risk educational alert: seek prompt advice from the prescribing clinician or pharmacist before any medication change.",
+      "evidence": [{"title": "Warfarin label", "url": "https://dailymed.nlm.nih.gov/dailymed/", "excerpt": "Anticoagulant labeling contains clinically important interaction and bleeding warnings.", "source": "DailyMed", "retrieved_at": "2026-08-31"}]
+    },
+    "clopidogrel|warfarin": {
+      "id": "DDI-DEMO-003", "severity": "high", "confidence": 0.92,
+      "mechanism": "Combining antiplatelet and anticoagulant effects can increase bleeding risk.",
+      "management": "High-risk educational alert: contact the care team or pharmacist for patient-specific review.",
+      "evidence": [{"title": "Clopidogrel prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/", "excerpt": "Use current product labeling and clinician assessment for bleeding-risk decisions.", "source": "DailyMed", "retrieved_at": "2026-08-31"}]
+    },
+    "fluoxetine|tramadol": {
+      "id": "DDI-DEMO-004", "severity": "high", "confidence": 0.9,
+      "mechanism": "The combination can increase serotonergic adverse-effect risk and may affect seizure risk in susceptible patients.",
+      "management": "High-risk educational alert: ask a qualified clinician or pharmacist to review this combination.",
+      "evidence": [{"title": "Tramadol drug-label information", "url": "https://api.fda.gov/drug/label.json?search=drug_interactions:tramadol&limit=1", "excerpt": "Check current labeling for interaction warnings and patient-specific contraindications.", "source": "openFDA drug labels", "retrieved_at": "2026-08-31"}]
+    },
+    "linezolid|sertraline": {
+      "id": "DDI-DEMO-005", "severity": "high", "confidence": 0.95,
+      "mechanism": "Linezolid has monoamine oxidase inhibitory activity and can interact with serotonergic medicines.",
+      "management": "High-risk educational alert: a prescriber must assess this combination; do not self-manage treatment.",
+      "evidence": [{"title": "Linezolid prescribing information", "url": "https://dailymed.nlm.nih.gov/dailymed/", "excerpt": "Consult the current product label and a clinician for serotonin syndrome precautions.", "source": "DailyMed", "retrieved_at": "2026-08-31"}]
+    }
+  }
+}

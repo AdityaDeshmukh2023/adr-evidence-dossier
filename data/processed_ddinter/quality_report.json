@@ -1,0 +1,16 @@
+{
+  "raw_rows": 222383,
+  "final_unique_pairs": 160235,
+  "duplicates_removed": 62148,
+  "self_pairs": 0,
+  "severity_conflicts": 0,
+  "missing_required_values": {
+    "DDInterID_A": 0,
+    "Drug_A": 0,
+    "DDInterID_B": 0,
+    "Drug_B": 0,
+    "Level": 0,
+    "source_category": 0
+  },
+  "final_duplicate_pair_keys": 0
+}

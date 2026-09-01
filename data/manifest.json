@@ -1,0 +1,9 @@
+{
+  "snapshot_date": "2026-09-01",
+  "purpose": "Research/showcase demonstrator; not a clinical knowledge base.",
+  "datasets": [
+    {"name":"DDInter demo snapshot","file":"ddinter_demo_snapshot.json","source":"https://ddinter.scbdd.com/download/","accessed":"2026-08-31","terms":"Verify DDInter terms and cite the primary database paper before redistribution.","preprocessing":"Small, reviewable showcase subset; linked evidence is shown per record."},
+    {"name":"Curated drug-food rules","file":"drug_food_rules.json","source":"Per-rule source URL","accessed":"2026-08-31","terms":"Each rule must retain its source and be independently reviewed before publication.","preprocessing":"Small demonstration rule set; each rule contains a human-readable source reference."},
+    {"name":"DDInter full local snapshot","file":"processed_ddinter/ddinter_cleaned.parquet","source":"ddinter_dataset/ddinter_downloads_code_*.csv","accessed":"2026-09-01","terms":"Verify DDInter terms and cite the primary database paper before redistribution.","preprocessing":"Merged eight source files, normalized matching names, created unordered ID pair keys, retained category provenance, and removed duplicate pairs without severity conflicts."}
+  ]
+}

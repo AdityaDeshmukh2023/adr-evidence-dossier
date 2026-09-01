@@ -1,0 +1,10 @@
+{
+  "version": "paper-evaluation-2026-08-31",
+  "purpose": "Fixed synthetic smoke-test benchmark. Expand and independently review before publication.",
+  "cases": [
+    {"id":"EVAL-001","medications":"Warfarin\nAspirin","foods":"","expected_alerts":1,"expected_severity":"high"},
+    {"id":"EVAL-002","medications":"Simvastatin","foods":"Grapefruit juice","expected_alerts":1,"expected_severity":"high"},
+    {"id":"EVAL-003","medications":"Fluoxetine\nTramadol","foods":"","expected_alerts":1,"expected_severity":"high"},
+    {"id":"EVAL-004","medications":"Acetaminophen\nAspirin","foods":"Banana","expected_alerts":0,"expected_severity":null}
+  ]
+}
