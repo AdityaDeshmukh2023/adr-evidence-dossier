@@ -1,0 +1,6 @@
+-r requirements-core.txt
+pytest==9.1.1
+pandas==3.0.5
+numpy==2.5.2
+pyarrow==25.0.1
+matplotlib==3.11.1

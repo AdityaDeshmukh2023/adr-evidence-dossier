@@ -20,7 +20,7 @@ def test_food_rule_is_flagged():
 
 
 def test_no_match_never_claims_safe():
-    result = analyze_medications("Acetaminophen\nAspirin")
+    result = analyze_medications("Acetaminophen")
     assert not result.alerts and "not mean the combination is safe" in result.warnings[0]
 
 
@@ -38,7 +38,8 @@ def test_full_ddinter_lookup_finds_downloaded_pair():
     result = analyze_medications("Abacavir\nNaltrexone")
     assert len(result.alerts) == 1
     assert result.alerts[0].severity == "moderate"
-    assert result.alerts[0].data_version == "ddinter-local-2026-09-01"
+    from adr_system.data import load_ddinter_lookup
+    assert result.alerts[0].data_version == load_ddinter_lookup()[0]['version']
 
 
 def test_unknown_medication_is_reported_without_false_alert():

@@ -1,0 +1,427 @@
+[
+  {
+    "scenario": "R01",
+    "record_id": "DDInter1951|DDInter20",
+    "node_ids": [
+      "mention:97aa9ce3de6c3fccf2cd332b",
+      "ingredient:6c2ac2eded0d0980fa381e11",
+      "finding:3347289f409a83d3068be599",
+      "evidence:61127f5dde2972337d5c21c1",
+      "source_document:576a279b6e1bab9b0239d569"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m1",
+      "warfarin",
+      "warfarin + acetylsalicylic acid",
+      "Warfarin label",
+      "Warfarin label"
+    ]
+  },
+  {
+    "scenario": "R01",
+    "record_id": "DDInter1951|DDInter20",
+    "node_ids": [
+      "mention:97aa9ce3de6c3fccf2cd332b",
+      "ingredient:6c2ac2eded0d0980fa381e11",
+      "finding:3347289f409a83d3068be599",
+      "evidence:cd1711f94b76018afaac124f",
+      "source_document:5aa6c0d6e1568884c32d2865"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m1",
+      "warfarin",
+      "warfarin + acetylsalicylic acid",
+      "DDInter interaction record",
+      "DDInter interaction record"
+    ]
+  },
+  {
+    "scenario": "R01",
+    "record_id": "DDInter1951|DDInter20",
+    "node_ids": [
+      "mention:b2fce88e145b599187677817",
+      "ingredient:63a2aff7a419df93982c8014",
+      "finding:3347289f409a83d3068be599",
+      "evidence:61127f5dde2972337d5c21c1",
+      "source_document:576a279b6e1bab9b0239d569"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m2",
+      "acetylsalicylic acid",
+      "warfarin + acetylsalicylic acid",
+      "Warfarin label",
+      "Warfarin label"
+    ]
+  },
+  {
+    "scenario": "R01",
+    "record_id": "DDInter1951|DDInter20",
+    "node_ids": [
+      "mention:b2fce88e145b599187677817",
+      "ingredient:63a2aff7a419df93982c8014",
+      "finding:3347289f409a83d3068be599",
+      "evidence:cd1711f94b76018afaac124f",
+      "source_document:5aa6c0d6e1568884c32d2865"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m2",
+      "acetylsalicylic acid",
+      "warfarin + acetylsalicylic acid",
+      "DDInter interaction record",
+      "DDInter interaction record"
+    ]
+  },
+  {
+    "scenario": "R02",
+    "record_id": "DDInter108|DDInter20",
+    "node_ids": [
+      "mention:112223fa0b0c5e5e67531afd",
+      "ingredient:63a2aff7a419df93982c8014",
+      "finding:8d70311aeca913acf4b16bf0",
+      "evidence:aadbdbdf684c080df90c3db7",
+      "source_document:c5fa5cb1f828959f1a6cfd47"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m1",
+      "acetylsalicylic acid",
+      "apixaban + acetylsalicylic acid",
+      "DDInter interaction record",
+      "DDInter interaction record"
+    ]
+  },
+  {
+    "scenario": "R02",
+    "record_id": "DDInter108|DDInter20",
+    "node_ids": [
+      "mention:713e41caebf230f9058bae26",
+      "ingredient:0fa27ad547033c179261b413",
+      "finding:8d70311aeca913acf4b16bf0",
+      "evidence:aadbdbdf684c080df90c3db7",
+      "source_document:c5fa5cb1f828959f1a6cfd47"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m2",
+      "apixaban",
+      "apixaban + acetylsalicylic acid",
+      "DDInter interaction record",
+      "DDInter interaction record"
+    ]
+  },
+  {
+    "scenario": "R03",
+    "record_id": "DDInter1|DDInter1263",
+    "node_ids": [
+      "mention:2b65657d03c06a08e33462bc",
+      "ingredient:d4fe53fc16774fda80567878",
+      "finding:e4689fc7e6da4697e5df109f",
+      "evidence:a32d6da5c82ece50a16f0b94",
+      "source_document:4ff3a63f678de29841ba3385"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m2",
+      "naltrexone",
+      "abacavir + naltrexone",
+      "DDInter interaction record",
+      "DDInter interaction record"
+    ]
+  },
+  {
+    "scenario": "R03",
+    "record_id": "DDInter1|DDInter1263",
+    "node_ids": [
+      "mention:579b155c5fcccd7158438ffe",
+      "ingredient:c9bea3ffa669cfca8ec51443",
+      "finding:e4689fc7e6da4697e5df109f",
+      "evidence:a32d6da5c82ece50a16f0b94",
+      "source_document:4ff3a63f678de29841ba3385"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m1",
+      "abacavir",
+      "abacavir + naltrexone",
+      "DDInter interaction record",
+      "DDInter interaction record"
+    ]
+  },
+  {
+    "scenario": "R04",
+    "record_id": "DDInter14|DDInter20",
+    "node_ids": [
+      "mention:3d2ca6e955b4008c9fa0f3a5",
+      "ingredient:63a2aff7a419df93982c8014",
+      "finding:6e99c6cc0763d8e63e0d5f91",
+      "evidence:7bbf92070202150fea027ddd",
+      "source_document:066e4e152be683f6f132be01"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m2",
+      "acetylsalicylic acid",
+      "acetaminophen + acetylsalicylic acid",
+      "DDInter interaction record",
+      "DDInter interaction record"
+    ]
+  },
+  {
+    "scenario": "R04",
+    "record_id": "DDInter14|DDInter20",
+    "node_ids": [
+      "mention:b27f7cd87fbe3fd80481808d",
+      "ingredient:255996cee866cd56eebf143a",
+      "finding:6e99c6cc0763d8e63e0d5f91",
+      "evidence:7bbf92070202150fea027ddd",
+      "source_document:066e4e152be683f6f132be01"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m1",
+      "acetaminophen",
+      "acetaminophen + acetylsalicylic acid",
+      "DDInter interaction record",
+      "DDInter interaction record"
+    ]
+  },
+  {
+    "scenario": "R05",
+    "record_id": "FOOD-DEMO-002",
+    "node_ids": [
+      "mention:fa9107ad24590ed4684f75f6",
+      "ingredient:74ef550744a52fe1a3fa41fd",
+      "finding:9f6a6666f94ff84d9eebf87a",
+      "evidence:60b89cf09946e7af1cacb551",
+      "source_document:576a279b6e1bab9b0239d569"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m1",
+      "simvastatin",
+      "simvastatin + grapefruit",
+      "Simvastatin label",
+      "Simvastatin label"
+    ]
+  },
+  {
+    "scenario": "R11",
+    "record_id": "DDI-DEMO-004",
+    "node_ids": [
+      "mention:a9d651802fd93f0f8b62a0cf",
+      "ingredient:ee21a541cd8d31bb184a81cd",
+      "finding:8d09f8a6cf26b8562259a994",
+      "evidence:604aec8ab9fc7605a77e8891",
+      "source_document:541e3a782ecb56b8bc000c00"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m2",
+      "tramadol",
+      "tramadol + fluoxetine",
+      "Tramadol drug-label information",
+      "Tramadol drug-label information"
+    ]
+  },
+  {
+    "scenario": "R11",
+    "record_id": "DDI-DEMO-004",
+    "node_ids": [
+      "mention:b043b25ff6c9e3f9bc84c1c5",
+      "ingredient:ccea2a97b1879c478440d386",
+      "finding:8d09f8a6cf26b8562259a994",
+      "evidence:604aec8ab9fc7605a77e8891",
+      "source_document:541e3a782ecb56b8bc000c00"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m1",
+      "fluoxetine",
+      "tramadol + fluoxetine",
+      "Tramadol drug-label information",
+      "Tramadol drug-label information"
+    ]
+  },
+  {
+    "scenario": "review_after",
+    "record_id": "DDInter1951|DDInter20",
+    "node_ids": [
+      "mention:bb07a1d862b326218ab7a4ec",
+      "ingredient:6c2ac2eded0d0980fa381e11",
+      "finding:9886624de42f48cee12c5ef6",
+      "evidence:61127f5dde2972337d5c21c1",
+      "source_document:576a279b6e1bab9b0239d569"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m1",
+      "warfarin",
+      "warfarin + acetylsalicylic acid",
+      "Warfarin label",
+      "Warfarin label"
+    ]
+  },
+  {
+    "scenario": "review_after",
+    "record_id": "DDInter1951|DDInter20",
+    "node_ids": [
+      "mention:bb07a1d862b326218ab7a4ec",
+      "ingredient:6c2ac2eded0d0980fa381e11",
+      "finding:9886624de42f48cee12c5ef6",
+      "evidence:cd1711f94b76018afaac124f",
+      "source_document:5aa6c0d6e1568884c32d2865"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m1",
+      "warfarin",
+      "warfarin + acetylsalicylic acid",
+      "DDInter interaction record",
+      "DDInter interaction record"
+    ]
+  },
+  {
+    "scenario": "review_after",
+    "record_id": "DDInter1951|DDInter20",
+    "node_ids": [
+      "mention:d102c4cc247dea0557d36554",
+      "ingredient:63a2aff7a419df93982c8014",
+      "finding:9886624de42f48cee12c5ef6",
+      "evidence:61127f5dde2972337d5c21c1",
+      "source_document:576a279b6e1bab9b0239d569"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m2",
+      "acetylsalicylic acid",
+      "warfarin + acetylsalicylic acid",
+      "Warfarin label",
+      "Warfarin label"
+    ]
+  },
+  {
+    "scenario": "review_after",
+    "record_id": "DDInter1951|DDInter20",
+    "node_ids": [
+      "mention:d102c4cc247dea0557d36554",
+      "ingredient:63a2aff7a419df93982c8014",
+      "finding:9886624de42f48cee12c5ef6",
+      "evidence:cd1711f94b76018afaac124f",
+      "source_document:5aa6c0d6e1568884c32d2865"
+    ],
+    "node_types": [
+      "mention",
+      "ingredient",
+      "finding",
+      "evidence",
+      "source_document"
+    ],
+    "labels": [
+      "Entry m2",
+      "acetylsalicylic acid",
+      "warfarin + acetylsalicylic acid",
+      "DDInter interaction record",
+      "DDInter interaction record"
+    ]
+  }
+]

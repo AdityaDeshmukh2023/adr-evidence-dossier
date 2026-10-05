@@ -1,0 +1,82 @@
+{
+  "capture_point": "after_training_before_metadata_fix",
+  "files": [
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "008983cef4bbc04f573c120e1ecbe7d4df0db23c1662e2850cc0a998336e0698",
+      "path": "adr_system/ml/__init__.py"
+    },
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "61b043e4c7645d1f277d9e08b90db35412bfe486edeb90a733f501619bf814bd",
+      "path": "adr_system/ml/calibration.py"
+    },
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "32398f5e7417bac2cf2ebb812ac06474014f1d01116aaa5e72468392c4747292",
+      "path": "adr_system/ml/dataset.py"
+    },
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "e6cab590559ca4831b789a956aaf8b474b1419553a1ac2676b9785b0e15cba98",
+      "path": "adr_system/ml/error_analysis.py"
+    },
+    {
+      "current_matches_execution": false,
+      "execution_sha256": "9a947fb4581a7c038820ca81a410be3e25c671a37ce3d631f3e2ba874f748604",
+      "path": "adr_system/ml/explain.py"
+    },
+    {
+      "current_matches_execution": false,
+      "execution_sha256": "52eed96246972339c57083cff75b84e19029d6b1f163d9767fa18fa491e844f5",
+      "path": "adr_system/ml/inference.py"
+    },
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "41721a67166947eb179421d8e7d30eca83e7daa4e3764e96a931194284f1b01a",
+      "path": "adr_system/ml/io.py"
+    },
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "bd9ac86aee1e8f42b3274dc31d02af65fd2c023306629a175bd09d8b80008af3",
+      "path": "adr_system/ml/metrics.py"
+    },
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "c4ce57138fb290ab57683155d5d7b069ea2826591838e92346eef21fef763c09",
+      "path": "adr_system/ml/models.py"
+    },
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "8aae619917d4a43dbd2d8897b2cb98deb04fac0e68c2a6dceb70f405fcc2c8f2",
+      "path": "adr_system/ml/molecules.py"
+    },
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "cddfd5dbf1d1dcd413f759ad7b987d00c9aba4af1841449642cb4c0ddc5ae03a",
+      "path": "adr_system/ml/robustness.py"
+    },
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "6307d355139ad224db249ebc907e7ff1218d69101e9aeb984e551876376f4c3e",
+      "path": "adr_system/ml/training.py"
+    },
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "d9ffd18d1323317a5eb3771dde74dffc401d1e1b2d4000ec816230c779012861",
+      "path": "scripts/prepare_ml_dataset.py"
+    },
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "e7bbf83c381e6dc98394e4e30825d0e29d13019d30645da618bcf373a0ec38cd",
+      "path": "scripts/prepare_molecules.py"
+    },
+    {
+      "current_matches_execution": true,
+      "execution_sha256": "29488f96f50d519f7557dc702b4029b5c78e3631b39d65f7d87a76210164e67c",
+      "path": "scripts/train_ml.py"
+    }
+  ],
+  "note": "Only bytes matching captured execution hashes archived. Changed inference/explanation helpers are not retrospectively claimed as original source.",
+  "status": "archived_matching_files"
+}

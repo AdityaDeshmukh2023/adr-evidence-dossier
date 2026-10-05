@@ -1,0 +1,8 @@
+{
+  "dropout": 0.2,
+  "embedding": 64,
+  "fingerprint_dim": 2048,
+  "hidden": 128,
+  "model_name": "graphsage",
+  "role_dim": 52
+}

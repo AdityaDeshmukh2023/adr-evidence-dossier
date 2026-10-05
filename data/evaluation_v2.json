@@ -1,0 +1,17 @@
+{
+  "version": "regression-2.0",
+  "purpose": "Source-conformance software fixtures, not independently validated clinical labels.",
+  "cases": [
+    {"id":"R01","medications":"Warfarin 5 mg Aspirin 75 mg","foods":"","expected":[["DDInter1951|DDInter20","drug-drug","high"]],"completeness":"complete_for_entered_medicines"},
+    {"id":"R02","medications":"Aspirin\nApixaban","foods":"","expected":[["DDInter108|DDInter20","drug-drug","high"]],"completeness":"complete_for_entered_medicines"},
+    {"id":"R03","medications":"Abacavir\nNaltrexone","foods":"","expected":[["DDInter1|DDInter1263","drug-drug","moderate"]],"completeness":"complete_for_entered_medicines"},
+    {"id":"R04","medications":"Acetaminophen\nAspirin","foods":"","expected":[["DDInter14|DDInter20","drug-drug","unknown"]],"completeness":"complete_for_entered_medicines"},
+    {"id":"R05","medications":"Simvastatin","foods":"grapefruit,grapefruit juice","expected":[["FOOD-DEMO-002","drug-food","high"]],"completeness":"complete_for_entered_medicines"},
+    {"id":"R06","medications":"Simvastatin","foods":"no grapefruit","expected":[],"completeness":"complete_for_entered_medicines"},
+    {"id":"R07","medications":"Warfarin","foods":"kaleidoscope","expected":[],"completeness":"complete_for_entered_medicines"},
+    {"id":"R08","medications":"Warfarln\nAspirin","foods":"","expected":[],"completeness":"incomplete"},
+    {"id":"R09","medications":"ZXQVVV\nAspirin","foods":"","expected":[],"completeness":"incomplete"},
+    {"id":"R10","medications":"","foods":"","expected":[],"completeness":"empty"},
+    {"id":"R11","medications":"Fluoxetine\nTramadol","foods":"","expected":[["DDI-DEMO-004","drug-drug","high"]],"completeness":"complete_for_entered_medicines"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "executed_at_utc": "2026-10-04T19:39:03.508574+00:00",
+  "pip_check": {
+    "core_only": 0,
+    "existing_application": 0,
+    "optional_ml_application": 0
+  },
+  "requirements_sha256": {
+    "requirements-core.txt": "0294b1e979a31d1db645e5ec41a594982b52749730bb4e65936db668d9087dd7",
+    "requirements-llm.txt": "defd4de88395a67daff8c14354db75a20c11312e672b32103538d1a55b8ed3ab",
+    "requirements-ml.txt": "2cc77b197aba7aedaae6e3970e01e947251ee355e3b1623a515c18972be26ebf",
+    "requirements-ocr.txt": "a9fb8efe0220e2d1dae747cd07941b9ea31dfa699209f58738d189d28614f410",
+    "requirements-research.txt": "22a47daafcb1b4241860e1339e84df02efa382c1a33b731fc6f14651085ff918",
+    "requirements.txt": "55f42356ff939f4d44ecda1b740dd6a1a5c62a7d90d8d2ab3a7b81309919617a",
+    "requirements-linux-ocr.lock": "28ccfd9d7111d3a865b61ee9bc7b9bc9cd6262a57e5a48d99ff3461697e8ada2",
+    "requirements-linux.lock": "348a1dca42ca75a80fa135c17455a8d37b535d08088b7ef0f0503bf3f92313d7",
+    "requirements-ml-windows.lock": "3230a6a1acb6f97f3f696cea553d1832a3095296070a6234efa2baf17f00e1a1",
+    "requirements-windows.lock": "b4ec6cb30bbce7b91482c9c0ed0f85e3f283a2b0a9eb57243b0a47f912822db0"
+  },
+  "scope": "Actual installed environments passed pip check; platform-specific locks do not establish container execution."
+}

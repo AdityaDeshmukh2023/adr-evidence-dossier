@@ -1,0 +1,14 @@
+{
+  "attempted": 1939,
+  "catalog_size": 1939,
+  "molecule_cache_sha256": "3fe99b389230bb440404b404f259b42f317fc12bb212d2fa008e340b569c7a96",
+  "snapshot": "v2_after_frozen_training_v1",
+  "statuses": {
+    "error": 0,
+    "mapped": 1337,
+    "unmapped": 602
+  },
+  "stereo_identity_mismatches": 0,
+  "unattempted": 0,
+  "v1_frozen_cache_sha256": "c2a2b2f301f59206e3a7dfebf231d84d8592fe60e093c98808b86c1524a38eaf"
+}

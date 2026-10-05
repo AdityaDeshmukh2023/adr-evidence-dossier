@@ -1,0 +1,18 @@
+{
+  "attempted_mappings": 1571,
+  "cache_status": "frozen_partial_import",
+  "catalog_size": 1939,
+  "class_counts": {
+    "high": 11435,
+    "low": 2483,
+    "moderate": 39861
+  },
+  "documented_role_molecules": 28,
+  "eligible_molecules": 1107,
+  "eligible_pairs": 53779,
+  "identity_mismatch_exclusions": 0,
+  "pair_exclusions": {
+    "missing_or_excluded_molecule": 76643,
+    "unknown_source_severity": 29813
+  }
+}

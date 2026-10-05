@@ -1,0 +1,6 @@
+{
+  "parsed_python_files": 75,
+  "syntax_errors": [],
+  "diff_check_exit_code": 0,
+  "scope": "Tracked diff whitespace and syntax of current Python source/test/CLI files; CRLF warnings are not whitespace failures."
+}

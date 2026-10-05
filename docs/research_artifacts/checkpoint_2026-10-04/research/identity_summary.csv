@@ -1,0 +1,4 @@
+input_kind,entries,exact_identity_correct,candidate_hits,exact_accuracy,candidate_recall_at_5
+clean,128,128,128,1.0,1.0
+mixed_corruption,128,30,124,0.234375,0.96875
+single_character_error,128,64,128,0.5,1.0

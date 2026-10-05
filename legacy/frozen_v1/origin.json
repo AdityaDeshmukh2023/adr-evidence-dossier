@@ -1,0 +1,11 @@
+{
+  "git_revision": "2cefac79294c5b9d514c8e8c7c9a3fab9adacbb9",
+  "files": [
+    "__init__.py",
+    "models.py",
+    "data.py",
+    "engine.py",
+    "normalization.py"
+  ],
+  "purpose": "Frozen pre-upgrade engine for software comparison only; never used for application findings."
+}

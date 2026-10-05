@@ -1,0 +1,208 @@
+{
+  "status": "passed",
+  "executed_at_utc": "2026-10-04T19:15:59.092015+00:00",
+  "checks": {
+    "source_records_preserved": true,
+    "unknown_only_predictions": true,
+    "model_outputs_excluded_from_groq": true,
+    "typed_graph_valid": true,
+    "json_replay_exact": true,
+    "html_hybrid_sections": true,
+    "absent_model_source_fallback": true,
+    "candidate_findings_remain_conditional_on_identity": true,
+    "sourced_mechanism_paths_present": true,
+    "repeat_outputs_stable": true
+  },
+  "checks_passed": 10,
+  "checks_total": 10,
+  "model": {
+    "status": "unavailable",
+    "reason": "model_artifacts_absent",
+    "task": "documented_interaction_severity"
+  },
+  "manifest": {
+    "artifacts": {
+      "terminology.json": "66619bc147870d3e0939519f3ef3a065d2da53a2e74f17c9614cd863ef8ec671",
+      "ddinter_demo_snapshot.json": "e72af3c12a54ade1e9f9b744cf3a8f463d9b923566fbb52da8f88cb756b96753",
+      "drug_food_rules.json": "726da8f5f8f6b02da1d1b290f18d2d3af2af184f59c07d813e6e55b336cd8b25",
+      "ddinter_lookup.json": "afb6885d161c5adeb9ad3a90eb3c65fdd44b746f4ce38b898ab43fb803855013",
+      "biological_roles.json": "fabaa837255571ebb09b153c8c12f841a740c8a44041fc83f62516af7fd236fc"
+    },
+    "code_sha256": {
+      "adr_system/__init__.py": "78ac139e6e5bff4d9f4cdc58cd73cdb8fc76dd63e8bcfb38a7b06e29462a8d2b",
+      "adr_system/biology.py": "d34dbb80a6e2f64ffbde77219ab505d38f5260ac72f0c32d58baf7e87cc17405",
+      "adr_system/data.py": "4208986ee8fbab98fe59fb0e1935dd03cfc3497963bcc25b6845e7282f0761d2",
+      "adr_system/engine.py": "74efbb95648d6e3e6fa65c7969bf77715d7ac2c9eaa8955438d6735c13e2ca9d",
+      "adr_system/evidence.py": "2fa1a44f1f6985462cb5be085cc3e5cd148324acc62733cfaf2116f908e5cb9b",
+      "adr_system/evidence_graph.py": "6c05feca052ecbabcd849cb521bba8e448e0178a92abf9480db0c479345b40fe",
+      "adr_system/explanations.py": "829293959c97785a56211da3afd45d140e5a35295e51a8568d7c5c51ecf7a588",
+      "adr_system/knowledge.py": "c6154aa6276a9c47b9af4e9aa27197078e77ca9fca62335f0fd6d838643b348c",
+      "adr_system/ml/__init__.py": "008983cef4bbc04f573c120e1ecbe7d4df0db23c1662e2850cc0a998336e0698",
+      "adr_system/ml/artifact_corrections.py": "4b78a8b0b1a1343ce7caed32af4c07524780c861f742cade3ef309c55ac49e84",
+      "adr_system/ml/calibration.py": "61b043e4c7645d1f277d9e08b90db35412bfe486edeb90a733f501619bf814bd",
+      "adr_system/ml/dataset.py": "32398f5e7417bac2cf2ebb812ac06474014f1d01116aaa5e72468392c4747292",
+      "adr_system/ml/error_analysis.py": "e6cab590559ca4831b789a956aaf8b474b1419553a1ac2676b9785b0e15cba98",
+      "adr_system/ml/explain.py": "7a224ae7824d321fe3143fe567e130f5b2ad29a09f5e7a45be91799e718b30d9",
+      "adr_system/ml/inference.py": "52eed96246972339c57083cff75b84e19029d6b1f163d9767fa18fa491e844f5",
+      "adr_system/ml/io.py": "41721a67166947eb179421d8e7d30eca83e7daa4e3764e96a931194284f1b01a",
+      "adr_system/ml/metrics.py": "bd9ac86aee1e8f42b3274dc31d02af65fd2c023306629a175bd09d8b80008af3",
+      "adr_system/ml/models.py": "c4ce57138fb290ab57683155d5d7b069ea2826591838e92346eef21fef763c09",
+      "adr_system/ml/molecules.py": "8aae619917d4a43dbd2d8897b2cb98deb04fac0e68c2a6dceb70f405fcc2c8f2",
+      "adr_system/ml/robustness.py": "cddfd5dbf1d1dcd413f759ad7b987d00c9aba4af1841449642cb4c0ddc5ae03a",
+      "adr_system/ml/training.py": "6307d355139ad224db249ebc907e7ff1218d69101e9aeb984e551876376f4c3e",
+      "adr_system/models.py": "32d74535a1f0d93de0f1ac1a5445bf5e5eed767df741bdc34fa40e03db235015",
+      "adr_system/normalization.py": "3dcedff80cd97acb0ddfacdd9e86e634dbbf619fad35d7cc66ec2bbc027b9f4a",
+      "adr_system/provenance.py": "0ee0ebcf0ff1a3d8cfdd8b46f7983f4cda68e625b755c26f51fbfdc4b3a98253",
+      "adr_system/report.py": "9de87ffb838b7fdd994b1b9b732709f23c597013d0961ef94435285bbb373cd8",
+      "adr_system/research.py": "0a74003f3cd287cd9a6d1e3a1a439f7a5d6cf578072f6b6f3b03067a54b1d299",
+      "adr_system/terminology.py": "71f198c6e95f45cab27263ef0f147269fa90aa87cd3afc758550d182a8a64594",
+      "adr_system/ui.py": "af08f50de54d4977798cafe2b5b5613115246cce1eb5f0415cdc2ad7000d0517",
+      "adr_system/uncertainty.py": "249c09d3f11948c737b8ac59236fd2069ea9d09f5f60e79d5a05cc03dc196afb",
+      "legacy/frozen_v1/adr_system/__init__.py": "78ac139e6e5bff4d9f4cdc58cd73cdb8fc76dd63e8bcfb38a7b06e29462a8d2b",
+      "legacy/frozen_v1/adr_system/data.py": "cecc52f70851f38dbf8b1c5eca646d58e2ea90660d70747a79e1f80836ccaa4d",
+      "legacy/frozen_v1/adr_system/engine.py": "7c3f2ca3c23dc8a6075ba26f7c7d88b1e8652d40752e523b3b27ef3d33c1c98b",
+      "legacy/frozen_v1/adr_system/models.py": "0887c21787a6db87f9498686b880a4e24063e1872777d558b3f59feacbcfef6d",
+      "legacy/frozen_v1/adr_system/normalization.py": "3e44e03f29175d8cf57a92471c947504c5bd2e9e025815de771977b3de8f2380",
+      "paddle_ocr.py": "ccf17b63d9c01e959f89262e35756149ff5101754fb70ccbe36589022381f5b6",
+      "llm.py": "367b4f8273267cd9334877f32cccc94547fa82ae3717bdb39511e3f248b8bf5e",
+      "scripts/benchmark.py": "ef816cf9285417ad3be0ed6bd8cd48a349acd79e35187884c0f8e8ec069bf0ca",
+      "scripts/correct_ml_bookkeeping.py": "f79e9f9f20e38ca25e681452fd2ddcf6b0ffe6589e04087cb6e6099d80d29193",
+      "scripts/doctor.py": "0a7701200335b4b6fea7f7423a5d58b952930ff308467da35a33f204a251374d",
+      "scripts/evaluate.py": "7d3566c96586e4100dc71a7214531bbf6f2e443f35d9c5dc338fbb69cbec3c30",
+      "scripts/explain_ml.py": "c7d22f776415f179d02886ed487aa8bba79b02219f5d764269135bf2ae4aae47",
+      "scripts/explanation_benchmark.py": "f51df8c54e3a190681de396987ffe260c47dd9e22344d18fb32d5ee409883fac",
+      "scripts/export_ml_errors.py": "d174f0b41b5f47eef59212123d782526569b07794e32fb950b9ccc28ef857d74",
+      "scripts/graph_benchmark.py": "734ca172b51c1ac26292efa2306f8148072d798f811f92ae4ad6d635a968aff6",
+      "scripts/hybrid_benchmark.py": "4b42b0749f6e19ced234246881069a0cd5bf1ab690f2b3ed374a70da9781ccaf",
+      "scripts/hybrid_model_robustness.py": "350839e5a5bf0538365e69af672500c7631a035f103bd46e97e13d55c87a41e0",
+      "scripts/hybrid_ocr_benchmark.py": "fec08e06d1c559988aaf85621b46fd4391ffc5d1a02c85acf412958a6b5af520",
+      "scripts/import_biology.py": "1575eee21559b691949a7a6d59c2e0fc83d0a0f45dbe77ad920152ee6a9d7318",
+      "scripts/live_evidence_smoke.py": "fe173da3fe516f38255acd79e7aa76aa66fdbd2eb2bd87a251deeaa22e0ebe69",
+      "scripts/ml_smoke.py": "2334f394dd56a7abe0e53a0eb2cbd78d32cc104a32961d1abb9bf7ed1c846403",
+      "scripts/ocr_benchmark.py": "aad3814685c0e4caa9895ab1cdd207c0a00e972131b86398413fab56ab57a3c9",
+      "scripts/ocr_smoke.py": "fe4f5d604656a4a488c7eb2a813e2f92cb28d323629cef098673d3e523429ce7",
+      "scripts/plot_hybrid_results.py": "ea03386695c8992d40f2d804f02f5dd15f0a0c9b498e6d8b90cc6aa11e1f7775",
+      "scripts/plot_ml_results.py": "186acdb75897bc3a820a1a6a01fb0d2e03cba28015b90ab0096d2790862ca5ce",
+      "scripts/prepare_annotations.py": "55e405bdb69068603cbb6a39ba42982d19e617a82247757c67f951608bd4e4c3",
+      "scripts/prepare_hybrid_bundle.py": "8482e3b1055b6df9b6815f15270786ef89012613ff7ade3c1c072f45445119c2",
+      "scripts/prepare_ml_dataset.py": "d9ffd18d1323317a5eb3771dde74dffc401d1e1b2d4000ec816230c779012861",
+      "scripts/prepare_molecules.py": "e7bbf83c381e6dc98394e4e30825d0e29d13019d30645da618bcf373a0ec38cd",
+      "scripts/prepare_paper_bundle.py": "bf5f5ac0c24ad3b42c495e10ecd394998e51355041cef3ec65ed7c64f2d3ca61",
+      "scripts/preprocess_ddinter.py": "24ce699bb97d268aa98e83feebc6841309ebc2e6c43390164412618c5f00f409",
+      "scripts/score_explanations.py": "40ca5eaa80e1a55bb1104c420a968a26dd194c68b0d5db1dcf4f59725ff29cf7",
+      "scripts/score_ml_robustness.py": "7408e824cacf13adf3454365310d1959292f490ace2ae359ad6c74abe469848c",
+      "scripts/train_ml.py": "29488f96f50d519f7557dc702b4029b5c78e3631b39d65f7d87a76210164e67c",
+      "scripts/verify_hybrid_release.py": "47b391cbc71a590cc6e63500934d56f578e05dcf949c51342cc1e3d109dc9b05",
+      "requirements-core.txt": "0294b1e979a31d1db645e5ec41a594982b52749730bb4e65936db668d9087dd7",
+      "requirements-llm.txt": "defd4de88395a67daff8c14354db75a20c11312e672b32103538d1a55b8ed3ab",
+      "requirements-ml.txt": "2cc77b197aba7aedaae6e3970e01e947251ee355e3b1623a515c18972be26ebf",
+      "requirements-ocr.txt": "a9fb8efe0220e2d1dae747cd07941b9ea31dfa699209f58738d189d28614f410",
+      "requirements-research.txt": "22a47daafcb1b4241860e1339e84df02efa382c1a33b731fc6f14651085ff918",
+      "requirements.txt": "55f42356ff939f4d44ecda1b740dd6a1a5c62a7d90d8d2ab3a7b81309919617a",
+      "requirements-linux-ocr.lock": "28ccfd9d7111d3a865b61ee9bc7b9bc9cd6262a57e5a48d99ff3461697e8ada2",
+      "requirements-linux.lock": "348a1dca42ca75a80fa135c17455a8d37b535d08088b7ef0f0503bf3f92313d7",
+      "requirements-ml-windows.lock": "3230a6a1acb6f97f3f696cea553d1832a3095296070a6234efa2baf17f00e1a1",
+      "requirements-windows.lock": "b4ec6cb30bbce7b91482c9c0ed0f85e3f283a2b0a9eb57243b0a47f912822db0"
+    },
+    "git_revision": "2cefac79294c5b9d514c8e8c7c9a3fab9adacbb9",
+    "python": "3.12.10",
+    "packages": {
+      "streamlit": "1.63.0",
+      "paddleocr": "not installed",
+      "paddlepaddle": "not installed",
+      "groq": "not installed",
+      "pandas": "3.0.6",
+      "torch": "not installed",
+      "rdkit": "not installed",
+      "shap": "not installed",
+      "torch-geometric": "not installed"
+    },
+    "algorithm": "hybrid-screening-v1",
+    "evidence_graph_schema": "1.1",
+    "candidate_limit": 5,
+    "candidate_min_similarity": 0.6,
+    "scope": "Known source records; not patient-specific risk prediction",
+    "hybrid_config": {
+      "include_hybrid": true,
+      "enable_research_model": true
+    },
+    "model_artifacts": {
+      "status": "unavailable",
+      "reason": "model_artifacts_absent",
+      "task": "documented_interaction_severity"
+    }
+  },
+  "predictions": [
+    {
+      "task": "documented_interaction_severity",
+      "conditional_on": "documented interaction",
+      "status": "abstained",
+      "model_version": null,
+      "model_name": null,
+      "calibration_protocol": null,
+      "scope": "Predict source severity; not patient risk or proof of a new interaction.",
+      "ingredient_ids": [
+        "DDInter14",
+        "DDInter20"
+      ],
+      "source_record_id": "DDInter14|DDInter20",
+      "source_state": "unknown",
+      "accepted": false,
+      "predicted_severity": null,
+      "probabilities": {},
+      "explanation": null,
+      "explanation_reference": null,
+      "explanation_status": "not_precomputed",
+      "calibration_sha256": null,
+      "calibration_version": null,
+      "feature_coverage": {
+        "molecular": "unavailable",
+        "biology": "unknown"
+      },
+      "abstention_reason": "model_artifacts_absent",
+      "source_unknown_applicability": "unvalidated_distribution; source labels unavailable"
+    }
+  ],
+  "no_source_record_demo": null,
+  "performance": {
+    "first_request_ms": 599.6002000010776,
+    "warm_repeats": 5,
+    "warm_median_ms": 0.44160000106785446,
+    "warm_p95_ms": 0.5572999998548767,
+    "warm_samples_ms": [
+      0.5572999998548767,
+      0.4721000004792586,
+      0.44160000106785446,
+      0.37659999907191377,
+      0.4019999996671686
+    ],
+    "scope": "Fresh-process first source/model request, then same three-entry request with warm caches; excludes Python launch, Streamlit rendering, OCR and live services."
+  },
+  "memory": {
+    "rss_mib": 171.4375,
+    "peak_working_set_mib": 229.45703125,
+    "scope": "Windows process working set; includes native ML allocations."
+  },
+  "logical_cpus": 16,
+  "candidate_cache": {
+    "before": {
+      "hits": 10,
+      "misses": 4,
+      "maxsize": 10240,
+      "currsize": 4
+    },
+    "after": {
+      "hits": 25,
+      "misses": 4,
+      "maxsize": 10240,
+      "currsize": 4
+    }
+  },
+  "model_cache": {
+    "hits": 0,
+    "misses": 0,
+    "maxsize": 2,
+    "currsize": 0
+  },
+  "scope": "Local software and artifact correctness; not clinical validation."
+}

@@ -1,0 +1,17 @@
+{
+  "dropout": 0.2,
+  "embedding": 64,
+  "fingerprint_dim": 2048,
+  "hidden": 128,
+  "model_name": "fusion",
+  "role_dim": 52,
+  "training": {
+    "batch_size": 2048,
+    "learning_rate": 0.001,
+    "maximum_epochs": 60,
+    "optimizer": "AdamW",
+    "optimizer_steps": 112,
+    "patience_epochs": 8,
+    "weight_decay": 0.0001
+  }
+}

@@ -3,3 +3,10 @@
 __pycache__/
 .pytest_cache/
 *.pyc
+.venv/
+.cache/
+pytest-cache-files-*/
+artifacts/
+data/private/
+*.log
+.streamlit/secrets.toml

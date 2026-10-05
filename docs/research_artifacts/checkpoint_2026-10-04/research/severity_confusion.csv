@@ -1,0 +1,17 @@
+method,reference,prediction,count
+impact,moderate,moderate,60
+impact,high,high,58
+uncertainty,moderate,moderate,57
+uncertainty,high,high,52
+uncertainty,unknown,unknown,41
+impact,unknown,unknown,40
+uncertainty,low,low,27
+impact,low,low,25
+uncertainty,high,not_detected,11
+uncertainty,moderate,not_detected,9
+impact,low,not_detected,8
+impact,unknown,not_detected,8
+uncertainty,unknown,not_detected,7
+uncertainty,low,not_detected,6
+impact,moderate,not_detected,6
+impact,high,not_detected,5

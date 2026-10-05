@@ -1,0 +1,192 @@
+{
+  "corrections": [
+    {
+      "model_version": "7413b8091bf197e61eb2",
+      "path": "artifacts\\ml\\training-minibatch\\pair\\fingerprint\\17",
+      "previous_model_version": "10c161b012c822ae45a9",
+      "qualified_coverage": 0.8839285714285714,
+      "qualified_threshold": 0.6390453240197286,
+      "status": "corrected"
+    },
+    {
+      "model_version": "52caf51408986b32f5cd",
+      "path": "artifacts\\ml\\training-minibatch\\pair\\fingerprint\\29",
+      "status": "already_corrected"
+    },
+    {
+      "model_version": "11d7e2f8b19f74710faa",
+      "path": "artifacts\\ml\\training-minibatch\\pair\\fingerprint\\43",
+      "previous_model_version": "7a027cc66dbcd1229332",
+      "qualified_coverage": 0.9084821428571429,
+      "qualified_threshold": 0.6115040489247846,
+      "status": "corrected"
+    },
+    {
+      "model_version": "c4c6d52570b61fd5731b",
+      "path": "artifacts\\ml\\training-minibatch\\pair\\graphsage\\17",
+      "previous_model_version": "5d795f05fb83349d2fdf",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "c1d2b7be5ddd0f3d22ed",
+      "path": "artifacts\\ml\\training-minibatch\\pair\\graphsage\\29",
+      "previous_model_version": "6103e04c7691cbfbc17b",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "2061f4ce96d32ded187a",
+      "path": "artifacts\\ml\\training-minibatch\\pair\\graphsage\\43",
+      "previous_model_version": "80d76c3365faf8a438fb",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "881691b43fd7a340970b",
+      "path": "artifacts\\ml\\training-minibatch\\pair\\fusion\\17",
+      "previous_model_version": "ea109aca725185cbb90d",
+      "qualified_coverage": 0.9337797619047619,
+      "qualified_threshold": 0.5893163308375778,
+      "status": "corrected"
+    },
+    {
+      "model_version": "8e18e909b2d914c87305",
+      "path": "artifacts\\ml\\training-minibatch\\pair\\fusion\\29",
+      "previous_model_version": "f57df602d3e9cbd861bb",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "d9f570669fbc45e47d68",
+      "path": "artifacts\\ml\\training-minibatch\\pair\\fusion\\43",
+      "previous_model_version": "efe76a8d5a515576fc51",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "c719be45d61bcd53b3a3",
+      "path": "artifacts\\ml\\training-minibatch\\pair\\role_fusion\\17",
+      "previous_model_version": "bb69bc1fcd8faaa9e5cf",
+      "qualified_coverage": 0.9315476190476191,
+      "qualified_threshold": 0.5962567255064204,
+      "status": "corrected"
+    },
+    {
+      "model_version": "5a592aa163c3902a4989",
+      "path": "artifacts\\ml\\training-minibatch\\pair\\role_fusion\\29",
+      "status": "already_corrected"
+    },
+    {
+      "model_version": "a709e23670fed1070819",
+      "path": "artifacts\\ml\\training-minibatch\\pair\\role_fusion\\43",
+      "previous_model_version": "b41b020c23d389252cf3",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "f9719605d6e64b5ebe66",
+      "path": "artifacts\\ml\\training-minibatch\\cold\\fingerprint\\17",
+      "previous_model_version": "3076206e2bbf074b3b1b",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "2565fde0d4ec0bdaa096",
+      "path": "artifacts\\ml\\training-minibatch\\cold\\fingerprint\\29",
+      "previous_model_version": "9ce1a28d1a0391206fb6",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "8b864f09f2c8752d3a50",
+      "path": "artifacts\\ml\\training-minibatch\\cold\\fingerprint\\43",
+      "previous_model_version": "4bc585bb7ae9566d1212",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "a0b45e887dca7bb8d5fb",
+      "path": "artifacts\\ml\\training-minibatch\\cold\\graphsage\\17",
+      "previous_model_version": "f00ad009bad29d4f1936",
+      "qualified_coverage": 0.1279683377308707,
+      "qualified_threshold": 0.9232822903365505,
+      "status": "corrected"
+    },
+    {
+      "model_version": "ba0e81b4016dc33d3e14",
+      "path": "artifacts\\ml\\training-minibatch\\cold\\graphsage\\29",
+      "previous_model_version": "a4448fafc6ce1071b102",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "58e578321dcb8c42465c",
+      "path": "artifacts\\ml\\training-minibatch\\cold\\graphsage\\43",
+      "previous_model_version": "731e55b1d06b857c35e6",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "80892e4f264b65925fbb",
+      "path": "artifacts\\ml\\training-minibatch\\cold\\fusion\\17",
+      "previous_model_version": "e0e9394f7faa420f5624",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "610e4f921a7deb01afef",
+      "path": "artifacts\\ml\\training-minibatch\\cold\\fusion\\29",
+      "previous_model_version": "edcd2f3244e8aaa41428",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "029475cf30779f323834",
+      "path": "artifacts\\ml\\training-minibatch\\cold\\fusion\\43",
+      "previous_model_version": "d4a184110da13274cec8",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "4028629d66f64a5a1f52",
+      "path": "artifacts\\ml\\training-minibatch\\cold\\role_fusion\\17",
+      "previous_model_version": "b207cb8ac1fb8cc2da2f",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    },
+    {
+      "model_version": "782becbf5c525c29bf7b",
+      "path": "artifacts\\ml\\training-minibatch\\cold\\role_fusion\\29",
+      "previous_model_version": "0015ee71e6104a5a9700",
+      "qualified_coverage": 0.10378188214599825,
+      "qualified_threshold": 0.9413539439061596,
+      "status": "corrected"
+    },
+    {
+      "model_version": "905de44bf6223ee9d0fe",
+      "path": "artifacts\\ml\\training-minibatch\\cold\\role_fusion\\43",
+      "previous_model_version": "964dc1d3bfaec56a3e30",
+      "qualified_coverage": 0.0,
+      "qualified_threshold": null,
+      "status": "corrected"
+    }
+  ],
+  "numerical_model_selection_changed": false,
+  "status": "executed"
+}

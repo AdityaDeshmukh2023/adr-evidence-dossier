@@ -1,0 +1,314 @@
+[
+  {
+    "output_id": "23c2caa0817c",
+    "text": "Assessment status: complete_for_entered_medicines.\n\nabacavir + naltrexone: source severity moderate. Mechanism unavailable in this source snapshot. Evidence: 071c56f38dda20ace1fb.",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1|DDInter1263",
+          "severity": "moderate",
+          "ingredient_ids": [
+            "DDInter1",
+            "DDInter1263"
+          ],
+          "evidence": [
+            {
+              "id": "071c56f38dda20ace1fb",
+              "excerpt": "Pair DDInter1|DDInter1263; source severity Moderate; categories A."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "output_id": "30ca1d440c88",
+    "text": "Assessment status: complete_for_entered_medicines.\n\ntramadol + fluoxetine: source severity high. The combination can increase serotonergic adverse-effect risk and may affect seizure risk in susceptible patients. Evidence: fdc16ef092ee13c8f271.\n\nSelected source excerpts:\nDDI-DEMO-004 [fdc16ef092ee13c8f271]: Check current labeling for interaction warnings and patient-specific contraindications.",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDI-DEMO-004",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1841",
+            "DDInter758"
+          ],
+          "evidence": [
+            {
+              "id": "fdc16ef092ee13c8f271",
+              "excerpt": "Check current labeling for interaction warnings and patient-specific contraindications."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "output_id": "4f765d45ac52",
+    "text": "Assessment status: complete_for_entered_medicines.\n\nwarfarin + acetylsalicylic acid: source severity high. Both medicines can increase bleeding risk through different antithrombotic effects. Evidence: 4e94b970a6965e54bc2c, f4947e035cb6d14f8548.\n\nSelected source excerpts:\nDDInter1951|DDInter20 [4e94b970a6965e54bc2c]: Pair DDInter1951|DDInter20; source severity Major; categories A,B.",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1951|DDInter20",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1951",
+            "DDInter20"
+          ],
+          "evidence": [
+            {
+              "id": "4e94b970a6965e54bc2c",
+              "excerpt": "Pair DDInter1951|DDInter20; source severity Major; categories A,B."
+            },
+            {
+              "id": "f4947e035cb6d14f8548",
+              "excerpt": "Anticoagulant labeling contains clinically important interaction and bleeding warnings."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "output_id": "6985985c7a01",
+    "text": "Assessment status: complete_for_entered_medicines.\n\nabacavir + naltrexone: source severity moderate. Mechanism unavailable in this source snapshot. Evidence: 071c56f38dda20ace1fb.\n\nSelected source excerpts:\nDDInter1|DDInter1263 [071c56f38dda20ace1fb]: source severity Moderate",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1|DDInter1263",
+          "severity": "moderate",
+          "ingredient_ids": [
+            "DDInter1",
+            "DDInter1263"
+          ],
+          "evidence": [
+            {
+              "id": "071c56f38dda20ace1fb",
+              "excerpt": "Pair DDInter1|DDInter1263; source severity Moderate; categories A."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "output_id": "7301a62597fc",
+    "text": "Assessment status: complete_for_entered_medicines.\n\nwarfarin + clopidogrel: source severity high. Combining antiplatelet and anticoagulant effects can increase bleeding risk. Evidence: a9089bc0f3843632f786, 9a9e9198f480bd73f6b0.\n\nSelected source excerpts:\nDDInter1951|DDInter413 [a9089bc0f3843632f786]: Pair DDInter1951|DDInter413; source severity Major; categories B.",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1951|DDInter413",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1951",
+            "DDInter413"
+          ],
+          "evidence": [
+            {
+              "id": "a9089bc0f3843632f786",
+              "excerpt": "Pair DDInter1951|DDInter413; source severity Major; categories B."
+            },
+            {
+              "id": "9a9e9198f480bd73f6b0",
+              "excerpt": "Use current product labeling and clinician assessment for bleeding-risk decisions."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "output_id": "9b9a5d8c73d3",
+    "text": "Assessment status: complete_for_entered_medicines.\n\nwarfarin + acetylsalicylic acid: source severity high. Both medicines can increase bleeding risk through different antithrombotic effects. Evidence: 4e94b970a6965e54bc2c, f4947e035cb6d14f8548.",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1951|DDInter20",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1951",
+            "DDInter20"
+          ],
+          "evidence": [
+            {
+              "id": "4e94b970a6965e54bc2c",
+              "excerpt": "Pair DDInter1951|DDInter20; source severity Major; categories A,B."
+            },
+            {
+              "id": "f4947e035cb6d14f8548",
+              "excerpt": "Anticoagulant labeling contains clinically important interaction and bleeding warnings."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "output_id": "adb209690902",
+    "text": "**Medication Interaction Record: DDI\u2011DEMO\u2011004**\n\n- **Severity:** High  \n- **Ingredients involved:**  \n  - DDInter1841  \n  - DDInter758  \n\n**Explanation**\n\nThis record indicates a high\u2011severity interaction between the two listed ingredients. The evidence provided (ID: **fdc16ef092ee13c8f271**) advises that clinicians should review the current labeling for interaction warnings and consider any patient\u2011specific contraindications. No additional details or treatment recommendations are supplied.",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDI-DEMO-004",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1841",
+            "DDInter758"
+          ],
+          "evidence": [
+            {
+              "id": "fdc16ef092ee13c8f271",
+              "excerpt": "Check current labeling for interaction warnings and patient-specific contraindications."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "output_id": "bbc1960663ca",
+    "text": "**Interaction between DDInter1 and DDInter1263**\n\n- **Severity:** Moderate  \n- **Evidence ID:** 071c56f38dda20ace1fb  \n\nThe evidence indicates that when DDInter1 and DDInter1263 are taken together, a moderate\u2011severity interaction may occur. No additional details about the clinical implications or management are provided in the supplied record.",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1|DDInter1263",
+          "severity": "moderate",
+          "ingredient_ids": [
+            "DDInter1",
+            "DDInter1263"
+          ],
+          "evidence": [
+            {
+              "id": "071c56f38dda20ace1fb",
+              "excerpt": "Pair DDInter1|DDInter1263; source severity Moderate; categories A."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "output_id": "c07e1d243863",
+    "text": "Assessment status: complete_for_entered_medicines.\n\nwarfarin + clopidogrel: source severity high. Combining antiplatelet and anticoagulant effects can increase bleeding risk. Evidence: a9089bc0f3843632f786, 9a9e9198f480bd73f6b0.",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1951|DDInter413",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1951",
+            "DDInter413"
+          ],
+          "evidence": [
+            {
+              "id": "a9089bc0f3843632f786",
+              "excerpt": "Pair DDInter1951|DDInter413; source severity Major; categories B."
+            },
+            {
+              "id": "9a9e9198f480bd73f6b0",
+              "excerpt": "Use current product labeling and clinician assessment for bleeding-risk decisions."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "output_id": "c3427f2f3607",
+    "text": "**Interaction between DDInter1951 and DDInter20**\n\n- **Severity:** High (classified as \u201cMajor\u201d in the source).  \n- **Evidence:**  \n  - *Evidence ID 4e94b970a6965e54bc2c*: \u201cPair DDInter1951|DDInter20; source severity Major; categories A,B.\u201d  \n  - *Evidence ID f4947e035cb6d14f8548*: \u201cAnticoagulant labeling contains clinically important interaction and bleeding warnings.\u201d  \n\nThese records indicate that co\u2011administration of DDInter1951 and DDInter20 carries a high risk of clinically significant interaction, specifically related to bleeding.",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1951|DDInter20",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1951",
+            "DDInter20"
+          ],
+          "evidence": [
+            {
+              "id": "4e94b970a6965e54bc2c",
+              "excerpt": "Pair DDInter1951|DDInter20; source severity Major; categories A,B."
+            },
+            {
+              "id": "f4947e035cb6d14f8548",
+              "excerpt": "Anticoagulant labeling contains clinically important interaction and bleeding warnings."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "output_id": "d3556e210a1e",
+    "text": "**Interaction between DDInter1951 and DDInter413**\n\n- **Severity:** High (classified as \u201cMajor\u201d in the source).  \n- **Key point:** The combination of these two ingredients carries a significant risk of bleeding.  \n- **Evidence:**  \n  - *a9089bc0f3843632f786* \u2013 states the pair is a Major interaction.  \n  - *9a9e9198f480bd73f6b0* \u2013 advises that decisions about bleeding risk should rely on current product labeling and clinician assessment.",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1951|DDInter413",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1951",
+            "DDInter413"
+          ],
+          "evidence": [
+            {
+              "id": "a9089bc0f3843632f786",
+              "excerpt": "Pair DDInter1951|DDInter413; source severity Major; categories B."
+            },
+            {
+              "id": "9a9e9198f480bd73f6b0",
+              "excerpt": "Use current product labeling and clinician assessment for bleeding-risk decisions."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "output_id": "d76866ed1069",
+    "text": "Assessment status: complete_for_entered_medicines.\n\ntramadol + fluoxetine: source severity high. The combination can increase serotonergic adverse-effect risk and may affect seizure risk in susceptible patients. Evidence: fdc16ef092ee13c8f271.",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDI-DEMO-004",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1841",
+            "DDInter758"
+          ],
+          "evidence": [
+            {
+              "id": "fdc16ef092ee13c8f271",
+              "excerpt": "Check current labeling for interaction warnings and patient-specific contraindications."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

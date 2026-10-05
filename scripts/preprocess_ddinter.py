@@ -10,7 +10,6 @@ import sys
 from datetime import date
 from pathlib import Path
 
-import matplotlib.pyplot as plt
 import networkx as nx
 import pandas as pd
 
@@ -65,6 +64,8 @@ def clean(raw: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     frame = raw.copy()
     for column in ["DDInterID_A", "Drug_A", "DDInterID_B", "Drug_B", "Level"]:
         frame[column] = frame[column].astype(str).str.strip()
+        if frame[column].eq('').any():
+            raise ValueError(f'Blank required values after trimming: {column}')
     invalid_levels = sorted(set(frame["Level"]) - set(LEVEL_MAP))
     if invalid_levels:
         raise ValueError(f"Unexpected severity values: {invalid_levels}")
@@ -113,6 +114,9 @@ def clean(raw: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
 def create_lookup(cleaned: pd.DataFrame) -> dict:
     drug_index: dict[str, dict] = {}
     for row in cleaned.itertuples(index=False):
+        for name, ident in ((row.drug_a_normalized, row.drug_a_id), (row.drug_b_normalized, row.drug_b_id)):
+            if name in drug_index and drug_index[name]['id'] != ident:
+                raise ValueError(f'Ambiguous normalized drug name maps to different IDs: {name}')
         drug_index.setdefault(row.drug_a_normalized, {"id": row.drug_a_id, "name": row.drug_a_name})
         drug_index.setdefault(row.drug_b_normalized, {"id": row.drug_b_id, "name": row.drug_b_name})
     interactions = {
@@ -128,6 +132,7 @@ def create_lookup(cleaned: pd.DataFrame) -> dict:
 
 
 def save_eda(cleaned: pd.DataFrame, raw: pd.DataFrame, quality: dict) -> dict:
+    import matplotlib.pyplot as plt
     TABLE_DIR.mkdir(parents=True, exist_ok=True); CHART_DIR.mkdir(parents=True, exist_ok=True)
     raw_categories = raw.groupby("source_category").size().rename("raw_rows").reset_index().sort_values("source_category")
     severity = cleaned.groupby(["severity_source", "severity"]).size().rename("unique_pairs").reset_index()
@@ -182,7 +187,9 @@ def write_report(quality: dict, eda: dict) -> None:
 
 
 def main() -> None:
+    global VERSION
     raw, sources = load_raw(); cleaned, quality = clean(raw)
+    VERSION = 'ddinter-content-' + hashlib.sha256(''.join(s['sha256'] for s in sources).encode()).hexdigest()[:16]
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     cleaned.to_csv(OUTPUT_DIR / "ddinter_cleaned.csv", index=False)
     cleaned.to_parquet(OUTPUT_DIR / "ddinter_cleaned.parquet", index=False)

@@ -1,0 +1,9 @@
+case_id,group_id,kind,variant,error,character_edits,reference_characters,word_edits,reference_words,ingredient_correct,ingredient_total,ingredient_extra,finding_correct,finding_total,finding_extra,latency_seconds,cer,wer
+printed_0_clean,image-0,printed,clean,,0,16,0,2,2,2,0,1,1,0,9.49991250000312,0.0,0.0
+printed_0_rotation_3_degrees,image-0,printed,rotation_3_degrees,,0,16,0,2,2,2,0,1,1,0,1.2261266999994405,0.0,0.0
+printed_0_blur,image-0,printed,blur,,0,16,0,2,2,2,0,1,1,0,1.148807100005797,0.0,0.0
+printed_0_low_contrast,image-0,printed,low_contrast,,0,16,0,2,2,2,0,1,1,0,1.1728760999976657,0.0,0.0
+printed_1_clean,image-1,printed,clean,,0,19,0,2,2,2,0,1,1,0,1.1356672999972943,0.0,0.0
+printed_1_rotation_3_degrees,image-1,printed,rotation_3_degrees,,0,19,0,2,2,2,0,1,1,0,1.135609499993734,0.0,0.0
+printed_1_blur,image-1,printed,blur,,0,19,0,2,2,2,0,1,1,0,1.1019350999995368,0.0,0.0
+printed_1_low_contrast,image-1,printed,low_contrast,,0,19,0,2,2,2,0,1,1,0,1.1253109999961453,0.0,0.0

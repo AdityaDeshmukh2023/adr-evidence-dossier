@@ -1,0 +1,18 @@
+{
+  "archived_file_hashes_checked": 614,
+  "bundle_manifest_sha256": "7005c6a4aa174cae7bf8840920ffdf9f56e3b924e5c282f815bda6cbde8420e8",
+  "checks": {
+    "archived_sha256": "matching",
+    "frozen_molecule_mapping_sha256": "matching",
+    "selected_checkpoint_hashes": "matching",
+    "selected_dataset_version": "matching"
+  },
+  "dataset_sha256": "041938cc699d9600a2afbc3d72301a15691579edc6f42d83a096f8284d4009e4",
+  "scope": "Archive integrity and research provenance; no additional model or clinical validation.",
+  "selected_model_version": "5a592aa163c3902a4989",
+  "status": "passed",
+  "total_bundle_bytes": 184605400,
+  "total_files_with_manifest": 615,
+  "verification_method": "Independent file read-back with hashlib; separate from archive writer.",
+  "verified_at_utc": "2026-10-04T19:43:33.645828+00:00"
+}

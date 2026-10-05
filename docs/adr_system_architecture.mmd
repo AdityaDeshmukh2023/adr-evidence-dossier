@@ -1,0 +1,55 @@
+  flowchart TB
+      classDef user fill:#EAF2F8,stroke:#2E5D7B,color:#102A43,stroke-width:1.5px
+      classDef process fill:#EAF7F2,stroke:#287A62,color:#103B31,stroke-width:1.5px
+      classDef data fill:#FFF5E6,stroke:#B16A24,color:#4A2808,stroke-width:1.5px
+      classDef safety fill:#FDECEC,stroke:#A33D34,color:#541A16,stroke-width:1.5px
+      classDef output fill:#F2ECF9,stroke:#6A4C93,color:#2F1B4A,stroke-width:1.5px
+
+      subgraph OFFLINE[Offline data preparation and research analysis]
+        RAW[Downloaded DDInter CSV files<br/>8 ATC-category files]:::data
+        PRE[Preprocessing pipeline<br/>merge · normalize · unordered pair key<br/>deduplicate · validate severity]:::process
+        CLEAN[Versioned processed DDInter snapshot<br/>160,235 unique pairs · 1,939 drugs<br/>CSV · Parquet · JSON lookup · metadata]:::data
+        EDA[EDA and reproducibility assets<br/>quality report · tables · charts<br/>network statistics]:::output
+        RAW --> PRE --> CLEAN
+        CLEAN --> EDA
+      end
+
+      subgraph RUNTIME[ADR Evidence Dossier runtime]
+        UI[Streamlit user interface<br/>manual medication entry<br/>optional prescription-image upload<br/>optional food/drink input]:::user
+        OCR[Optional PaddleOCR<br/>text extraction<br/>user edits output before analysis]:::process
+        NORM[Medication normalization<br/>dose-text cleanup · aliases<br/>DDInter drug-name matching]:::process
+        ENGINE[Deterministic interaction engine<br/>pair lookup · severity mapping<br/>drug-food rule matching]:::process
+        DDI[DDInter JSON lookup<br/>known drug-drug interactions]:::data
+        FOOD[Curated drug-food rules<br/>source-linked demonstration rules]:::data
+        ALERT[Structured InteractionAlert<br/>entities · type · severity<br/>provenance · confidence]:::safety
+        UI --> OCR --> NORM
+        UI --> NORM
+        NORM --> ENGINE
+        DDI --> ENGINE
+        FOOD --> ENGINE
+        ENGINE --> ALERT
+      end
+
+      subgraph EVIDENCE[Optional supporting evidence and explanation]
+        LIVE[openFDA and PubChem<br/>label excerpts and chemical facts]:::data
+        BOUND[Evidence-bounded explanation layer<br/>Groq Llama only summarizes<br/>supplied structured evidence]:::safety
+        FALLBACK[Deterministic explanation fallback<br/>when LLM/API is unavailable]:::process
+        ALERT --> LIVE
+        ALERT --> BOUND
+        LIVE --> BOUND
+        ALERT --> FALLBACK
+      end
+
+      subgraph DELIVERY[Results, transparency, and safety]
+        RESULTS[Results dossier<br/>alert cards · citations<br/>source status · uncertainty]:::output
+        GRAPH[Interactive interaction map<br/>severity-coloured network]:::output
+        REPORT[Downloadable HTML evidence report<br/>run ID · data version · disclaimer]:::output
+        DISCLAIMER[Safety boundary<br/>educational decision support only<br/>not diagnosis or prescribing advice]:::safety
+        BOUND --> RESULTS
+        FALLBACK --> RESULTS
+        ALERT --> GRAPH
+        RESULTS --> REPORT
+        RESULTS --> DISCLAIMER
+      end
+
+      CLEAN -. generated lookup .-> DDI

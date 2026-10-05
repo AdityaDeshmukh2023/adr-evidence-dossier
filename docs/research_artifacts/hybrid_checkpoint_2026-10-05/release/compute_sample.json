@@ -1,0 +1,23 @@
+{
+  "training_processes": [
+    {
+      "pid": 4728,
+      "RSS_MiB": 474.5,
+      "peak_working_set_MiB": 590.9,
+      "Torch_compute_threads": 4
+    },
+    {
+      "pid": 22680,
+      "RSS_MiB": 10.7,
+      "peak_working_set_MiB": 10.7,
+      "Torch_compute_threads": 4
+    },
+    {
+      "pid": 24256,
+      "RSS_MiB": 64.1,
+      "peak_working_set_MiB": 65.3,
+      "Torch_compute_threads": 4
+    }
+  ],
+  "measurement": "Windows process working set; peak observed while full comparison was running."
+}

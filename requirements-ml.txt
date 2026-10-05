@@ -1,0 +1,9 @@
+# Optional research environment; does not replace the core app environment.
+numpy>=1.26,<3
+requests>=2.31,<3
+rdkit>=2024.9,<2027
+torch>=2.5,<3
+scikit-learn>=1.5,<2
+shap>=0.46,<1
+torch-geometric>=2.6,<3
+matplotlib>=3.9,<4

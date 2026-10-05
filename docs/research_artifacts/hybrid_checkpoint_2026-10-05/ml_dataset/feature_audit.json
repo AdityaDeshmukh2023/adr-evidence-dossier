@@ -1,0 +1,14 @@
+{
+  "node_fields": [
+    "canonical_smiles",
+    "fingerprint_bits",
+    "inchikey",
+    "ingredient_id",
+    "name",
+    "roles"
+  ],
+  "passed": true,
+  "source_severity_labels_are_supervision_only": true,
+  "uses_interaction_text_as_feature": false,
+  "uses_source_severity_as_feature": false
+}

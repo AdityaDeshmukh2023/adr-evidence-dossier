@@ -1,0 +1,6634 @@
+{
+  "base_pairs": 100,
+  "cases": [
+    {
+      "entries": [
+        {
+          "text": "dofetilide"
+        },
+        {
+          "text": "enzalutamide"
+        }
+      ],
+      "group_id": "M0000",
+      "id": "MREC-0000-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter580",
+          "DDInter649"
+        ],
+        "source_record_id": "DDInter580|DDInter649",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "dofelilide"
+        },
+        {
+          "text": "enzalutamlde"
+        }
+      ],
+      "group_id": "M0000",
+      "id": "MREC-0000-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter580",
+          "DDInter649"
+        ],
+        "source_record_id": "DDInter580|DDInter649",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "odfetilide"
+        },
+        {
+          "text": "enzaxutamide"
+        }
+      ],
+      "group_id": "M0000",
+      "id": "MREC-0000-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter580",
+          "DDInter649"
+        ],
+        "source_record_id": "DDInter580|DDInter649",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "leuprolide"
+        },
+        {
+          "text": "nortriptyline"
+        }
+      ],
+      "group_id": "M0001",
+      "id": "MREC-0001-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1042",
+          "DDInter1316"
+        ],
+        "source_record_id": "DDInter1042|DDInter1316",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "lelprolide"
+        },
+        {
+          "text": "nortriptyiine"
+        }
+      ],
+      "group_id": "M0001",
+      "id": "MREC-0001-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1042",
+          "DDInter1316"
+        ],
+        "source_record_id": "DDInter1042|DDInter1316",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "leuproldie"
+        },
+        {
+          "text": "norriptyline"
+        }
+      ],
+      "group_id": "M0001",
+      "id": "MREC-0001-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1042",
+          "DDInter1316"
+        ],
+        "source_record_id": "DDInter1042|DDInter1316",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "quinine"
+        },
+        {
+          "text": "sorafenib"
+        }
+      ],
+      "group_id": "M0002",
+      "id": "MREC-0002-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1557",
+          "DDInter1702"
+        ],
+        "source_record_id": "DDInter1557|DDInter1702",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "luinine"
+        },
+        {
+          "text": "soralenib"
+        }
+      ],
+      "group_id": "M0002",
+      "id": "MREC-0002-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1557",
+          "DDInter1702"
+        ],
+        "source_record_id": "DDInter1557|DDInter1702",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "quiinne"
+        },
+        {
+          "text": "sorafenbi"
+        }
+      ],
+      "group_id": "M0002",
+      "id": "MREC-0002-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1557",
+          "DDInter1702"
+        ],
+        "source_record_id": "DDInter1557|DDInter1702",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "tamoxifen"
+        },
+        {
+          "text": "vardenafil"
+        }
+      ],
+      "group_id": "M0003",
+      "id": "MREC-0003-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1744",
+          "DDInter1918"
+        ],
+        "source_record_id": "DDInter1744|DDInter1918",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "tamoxilen"
+        },
+        {
+          "text": "vardlnafil"
+        }
+      ],
+      "group_id": "M0003",
+      "id": "MREC-0003-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1744",
+          "DDInter1918"
+        ],
+        "source_record_id": "DDInter1744|DDInter1918",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "tam0x1fen"
+        },
+        {
+          "text": "ardenafil"
+        }
+      ],
+      "group_id": "M0003",
+      "id": "MREC-0003-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1744",
+          "DDInter1918"
+        ],
+        "source_record_id": "DDInter1744|DDInter1918",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "saquinavir"
+        },
+        {
+          "text": "canagliflozin"
+        }
+      ],
+      "group_id": "M0004",
+      "id": "MREC-0004-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1640",
+          "DDInter280"
+        ],
+        "source_record_id": "DDInter1640|DDInter280",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "slquinavir"
+        },
+        {
+          "text": "canalliflozin"
+        }
+      ],
+      "group_id": "M0004",
+      "id": "MREC-0004-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1640",
+          "DDInter280"
+        ],
+        "source_record_id": "DDInter1640|DDInter280",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "sauinavir"
+        },
+        {
+          "text": "canalgiflozin"
+        }
+      ],
+      "group_id": "M0004",
+      "id": "MREC-0004-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1640",
+          "DDInter280"
+        ],
+        "source_record_id": "DDInter1640|DDInter280",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "methylphenobarbital"
+        },
+        {
+          "text": "ozanimod"
+        }
+      ],
+      "group_id": "M0005",
+      "id": "MREC-0005-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1190",
+          "DDInter1376"
+        ],
+        "source_record_id": "DDInter1190|DDInter1376",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "methylphenobarbitai"
+        },
+        {
+          "text": "ozlnimod"
+        }
+      ],
+      "group_id": "M0005",
+      "id": "MREC-0005-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1190",
+          "DDInter1376"
+        ],
+        "source_record_id": "DDInter1190|DDInter1376",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "methylphenobarbitax"
+        },
+        {
+          "text": "0zan1m0d"
+        }
+      ],
+      "group_id": "M0005",
+      "id": "MREC-0005-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1190",
+          "DDInter1376"
+        ],
+        "source_record_id": "DDInter1190|DDInter1376",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "levomilnacipran"
+        },
+        {
+          "text": "dipyridamole"
+        }
+      ],
+      "group_id": "M0006",
+      "id": "MREC-0006-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1059",
+          "DDInter573"
+        ],
+        "source_record_id": "DDInter1059|DDInter573",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "levomilnacipral"
+        },
+        {
+          "text": "dlpyridamole"
+        }
+      ],
+      "group_id": "M0006",
+      "id": "MREC-0006-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1059",
+          "DDInter573"
+        ],
+        "source_record_id": "DDInter1059|DDInter573",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "1ev0m11nac1pran"
+        },
+        {
+          "text": "dipyridamoel"
+        }
+      ],
+      "group_id": "M0006",
+      "id": "MREC-0006-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1059",
+          "DDInter573"
+        ],
+        "source_record_id": "DDInter1059|DDInter573",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "metoprolol"
+        },
+        {
+          "text": "crizotinib"
+        }
+      ],
+      "group_id": "M0007",
+      "id": "MREC-0007-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1200",
+          "DDInter448"
+        ],
+        "source_record_id": "DDInter1200|DDInter448",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "metoproiol"
+        },
+        {
+          "text": "lrizotinib"
+        }
+      ],
+      "group_id": "M0007",
+      "id": "MREC-0007-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1200",
+          "DDInter448"
+        ],
+        "source_record_id": "DDInter1200|DDInter448",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "metopolol"
+        },
+        {
+          "text": "crizotxnib"
+        }
+      ],
+      "group_id": "M0007",
+      "id": "MREC-0007-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1200",
+          "DDInter448"
+        ],
+        "source_record_id": "DDInter1200|DDInter448",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "osilodrostat"
+        },
+        {
+          "text": "simvastatin"
+        }
+      ],
+      "group_id": "M0008",
+      "id": "MREC-0008-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1351",
+          "DDInter1675"
+        ],
+        "source_record_id": "DDInter1351|DDInter1675",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "osilodrostal"
+        },
+        {
+          "text": "slmvastatin"
+        }
+      ],
+      "group_id": "M0008",
+      "id": "MREC-0008-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1351",
+          "DDInter1675"
+        ],
+        "source_record_id": "DDInter1351|DDInter1675",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "oislodrostat"
+        },
+        {
+          "text": "sivastatin"
+        }
+      ],
+      "group_id": "M0008",
+      "id": "MREC-0008-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1351",
+          "DDInter1675"
+        ],
+        "source_record_id": "DDInter1351|DDInter1675",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "thalidomide"
+        },
+        {
+          "text": "cabazitaxel"
+        }
+      ],
+      "group_id": "M0009",
+      "id": "MREC-0009-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1789",
+          "DDInter259"
+        ],
+        "source_record_id": "DDInter1789|DDInter259",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "thalidomidl"
+        },
+        {
+          "text": "cabazitalel"
+        }
+      ],
+      "group_id": "M0009",
+      "id": "MREC-0009-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1789",
+          "DDInter259"
+        ],
+        "source_record_id": "DDInter1789|DDInter259",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "thxlidomide"
+        },
+        {
+          "text": "cabaz1taxe1"
+        }
+      ],
+      "group_id": "M0009",
+      "id": "MREC-0009-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1789",
+          "DDInter259"
+        ],
+        "source_record_id": "DDInter1789|DDInter259",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "pimozide"
+        },
+        {
+          "text": "vandetanib"
+        }
+      ],
+      "group_id": "M0010",
+      "id": "MREC-0010-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1470",
+          "DDInter1917"
+        ],
+        "source_record_id": "DDInter1470|DDInter1917",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "plmozide"
+        },
+        {
+          "text": "landetanib"
+        }
+      ],
+      "group_id": "M0010",
+      "id": "MREC-0010-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1470",
+          "DDInter1917"
+        ],
+        "source_record_id": "DDInter1470|DDInter1917",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "pimozied"
+        },
+        {
+          "text": "vandetxnib"
+        }
+      ],
+      "group_id": "M0010",
+      "id": "MREC-0010-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1470",
+          "DDInter1917"
+        ],
+        "source_record_id": "DDInter1470|DDInter1917",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ondansetron"
+        },
+        {
+          "text": "pentamidine"
+        }
+      ],
+      "group_id": "M0011",
+      "id": "MREC-0011-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1342",
+          "DDInter1420"
+        ],
+        "source_record_id": "DDInter1342|DDInter1420",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ondansetrol"
+        },
+        {
+          "text": "pentamidinl"
+        }
+      ],
+      "group_id": "M0011",
+      "id": "MREC-0011-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1342",
+          "DDInter1420"
+        ],
+        "source_record_id": "DDInter1342|DDInter1420",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ondansetrox"
+        },
+        {
+          "text": "pentamidie"
+        }
+      ],
+      "group_id": "M0011",
+      "id": "MREC-0011-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1342",
+          "DDInter1420"
+        ],
+        "source_record_id": "DDInter1342|DDInter1420",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "modafinil"
+        },
+        {
+          "text": "tofacitinib"
+        }
+      ],
+      "group_id": "M0012",
+      "id": "MREC-0012-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1236",
+          "DDInter1825"
+        ],
+        "source_record_id": "DDInter1236|DDInter1825",
+        "source_severity": "low"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "modalinil"
+        },
+        {
+          "text": "tolacitinib"
+        }
+      ],
+      "group_id": "M0012",
+      "id": "MREC-0012-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1236",
+          "DDInter1825"
+        ],
+        "source_record_id": "DDInter1236|DDInter1825",
+        "source_severity": "low"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "modafinix"
+        },
+        {
+          "text": "tofaciinib"
+        }
+      ],
+      "group_id": "M0012",
+      "id": "MREC-0012-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1236",
+          "DDInter1825"
+        ],
+        "source_record_id": "DDInter1236|DDInter1825",
+        "source_severity": "low"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "methimazole"
+        },
+        {
+          "text": "cannabidiol"
+        }
+      ],
+      "group_id": "M0013",
+      "id": "MREC-0013-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1170",
+          "DDInter284"
+        ],
+        "source_record_id": "DDInter1170|DDInter284",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "methimazlle"
+        },
+        {
+          "text": "clnnabidiol"
+        }
+      ],
+      "group_id": "M0013",
+      "id": "MREC-0013-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1170",
+          "DDInter284"
+        ],
+        "source_record_id": "DDInter1170|DDInter284",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "methiamzole"
+        },
+        {
+          "text": "cannab1d101"
+        }
+      ],
+      "group_id": "M0013",
+      "id": "MREC-0013-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1170",
+          "DDInter284"
+        ],
+        "source_record_id": "DDInter1170|DDInter284",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "trazodone"
+        },
+        {
+          "text": "cobicistat"
+        }
+      ],
+      "group_id": "M0014",
+      "id": "MREC-0014-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1851",
+          "DDInter424"
+        ],
+        "source_record_id": "DDInter1851|DDInter424",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "trazolone"
+        },
+        {
+          "text": "cobicislat"
+        }
+      ],
+      "group_id": "M0014",
+      "id": "MREC-0014-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1851",
+          "DDInter424"
+        ],
+        "source_record_id": "DDInter1851|DDInter424",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "trazodon"
+        },
+        {
+          "text": "c0b1c15tat"
+        }
+      ],
+      "group_id": "M0014",
+      "id": "MREC-0014-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1851",
+          "DDInter424"
+        ],
+        "source_record_id": "DDInter1851|DDInter424",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "tacrolimus"
+        },
+        {
+          "text": "dextropropoxyphene"
+        }
+      ],
+      "group_id": "M0015",
+      "id": "MREC-0015-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1735",
+          "DDInter528"
+        ],
+        "source_record_id": "DDInter1735|DDInter528",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "tacrolimls"
+        },
+        {
+          "text": "dextropropolyphene"
+        }
+      ],
+      "group_id": "M0015",
+      "id": "MREC-0015-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1735",
+          "DDInter528"
+        ],
+        "source_record_id": "DDInter1735|DDInter528",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "tacr011mu5"
+        },
+        {
+          "text": "dextr0pr0p0xyphene"
+        }
+      ],
+      "group_id": "M0015",
+      "id": "MREC-0015-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1735",
+          "DDInter528"
+        ],
+        "source_record_id": "DDInter1735|DDInter528",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ixazomib"
+        },
+        {
+          "text": "rifabutin"
+        }
+      ],
+      "group_id": "M0016",
+      "id": "MREC-0016-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1002",
+          "DDInter1589"
+        ],
+        "source_record_id": "DDInter1002|DDInter1589",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "lxazomib"
+        },
+        {
+          "text": "riflbutin"
+        }
+      ],
+      "group_id": "M0016",
+      "id": "MREC-0016-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1002",
+          "DDInter1589"
+        ],
+        "source_record_id": "DDInter1002|DDInter1589",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "xiazomib"
+        },
+        {
+          "text": "r1fabut1n"
+        }
+      ],
+      "group_id": "M0016",
+      "id": "MREC-0016-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1002",
+          "DDInter1589"
+        ],
+        "source_record_id": "DDInter1002|DDInter1589",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "carteolol"
+        },
+        {
+          "text": "dicyclomine"
+        }
+      ],
+      "group_id": "M0017",
+      "id": "MREC-0017-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter303",
+          "DDInter543"
+        ],
+        "source_record_id": "DDInter303|DDInter543",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "larteolol"
+        },
+        {
+          "text": "dicycllmine"
+        }
+      ],
+      "group_id": "M0017",
+      "id": "MREC-0017-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter303",
+          "DDInter543"
+        ],
+        "source_record_id": "DDInter303|DDInter543",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "carteooll"
+        },
+        {
+          "text": "diccylomine"
+        }
+      ],
+      "group_id": "M0017",
+      "id": "MREC-0017-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter303",
+          "DDInter543"
+        ],
+        "source_record_id": "DDInter303|DDInter543",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "saquinavir"
+        },
+        {
+          "text": "talazoparib"
+        }
+      ],
+      "group_id": "M0018",
+      "id": "MREC-0018-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1640",
+          "DDInter1742"
+        ],
+        "source_record_id": "DDInter1640|DDInter1742",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "saquinalir"
+        },
+        {
+          "text": "talazolarib"
+        }
+      ],
+      "group_id": "M0018",
+      "id": "MREC-0018-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1640",
+          "DDInter1742"
+        ],
+        "source_record_id": "DDInter1640|DDInter1742",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "sxquinavir"
+        },
+        {
+          "text": "ta1az0par1b"
+        }
+      ],
+      "group_id": "M0018",
+      "id": "MREC-0018-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1640",
+          "DDInter1742"
+        ],
+        "source_record_id": "DDInter1640|DDInter1742",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "piroxicam"
+        },
+        {
+          "text": "treprostinil"
+        }
+      ],
+      "group_id": "M0019",
+      "id": "MREC-0019-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1478",
+          "DDInter1852"
+        ],
+        "source_record_id": "DDInter1478|DDInter1852",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "piroxilam"
+        },
+        {
+          "text": "lreprostinil"
+        }
+      ],
+      "group_id": "M0019",
+      "id": "MREC-0019-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1478",
+          "DDInter1852"
+        ],
+        "source_record_id": "DDInter1478|DDInter1852",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "p1r0x1cam"
+        },
+        {
+          "text": "trepr05t1n11"
+        }
+      ],
+      "group_id": "M0019",
+      "id": "MREC-0019-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1478",
+          "DDInter1852"
+        ],
+        "source_record_id": "DDInter1478|DDInter1852",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "progesterone"
+        },
+        {
+          "text": "empagliflozin"
+        }
+      ],
+      "group_id": "M0020",
+      "id": "MREC-0020-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1529",
+          "DDInter636"
+        ],
+        "source_record_id": "DDInter1529|DDInter636",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "lrogesterone"
+        },
+        {
+          "text": "lmpagliflozin"
+        }
+      ],
+      "group_id": "M0020",
+      "id": "MREC-0020-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1529",
+          "DDInter636"
+        ],
+        "source_record_id": "DDInter1529|DDInter636",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "progexterone"
+        },
+        {
+          "text": "empagilflozin"
+        }
+      ],
+      "group_id": "M0020",
+      "id": "MREC-0020-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1529",
+          "DDInter636"
+        ],
+        "source_record_id": "DDInter1529|DDInter636",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "phenylpropanolamine"
+        },
+        {
+          "text": "chlorpromazine"
+        }
+      ],
+      "group_id": "M0021",
+      "id": "MREC-0021-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1458",
+          "DDInter363"
+        ],
+        "source_record_id": "DDInter1458|DDInter363",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "phenylproplnolamine"
+        },
+        {
+          "text": "chiorpromazine"
+        }
+      ],
+      "group_id": "M0021",
+      "id": "MREC-0021-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1458",
+          "DDInter363"
+        ],
+        "source_record_id": "DDInter1458|DDInter363",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "phnylpropanolamine"
+        },
+        {
+          "text": "chlorpromzine"
+        }
+      ],
+      "group_id": "M0021",
+      "id": "MREC-0021-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1458",
+          "DDInter363"
+        ],
+        "source_record_id": "DDInter1458|DDInter363",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "quinine"
+        },
+        {
+          "text": "siponimod"
+        }
+      ],
+      "group_id": "M0022",
+      "id": "MREC-0022-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1557",
+          "DDInter1676"
+        ],
+        "source_record_id": "DDInter1557|DDInter1676",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "quinile"
+        },
+        {
+          "text": "siponimol"
+        }
+      ],
+      "group_id": "M0022",
+      "id": "MREC-0022-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1557",
+          "DDInter1676"
+        ],
+        "source_record_id": "DDInter1557|DDInter1676",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "uinine"
+        },
+        {
+          "text": "51p0n1m0d"
+        }
+      ],
+      "group_id": "M0022",
+      "id": "MREC-0022-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1557",
+          "DDInter1676"
+        ],
+        "source_record_id": "DDInter1557|DDInter1676",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "chlordiazepoxide"
+        },
+        {
+          "text": "dextromethorphan"
+        }
+      ],
+      "group_id": "M0023",
+      "id": "MREC-0023-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter355",
+          "DDInter527"
+        ],
+        "source_record_id": "DDInter355|DDInter527",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "chlordialepoxide"
+        },
+        {
+          "text": "dextromethlrphan"
+        }
+      ],
+      "group_id": "M0023",
+      "id": "MREC-0023-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter355",
+          "DDInter527"
+        ],
+        "source_record_id": "DDInter355|DDInter527",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "chlordiazepoxie"
+        },
+        {
+          "text": "dextromethophan"
+        }
+      ],
+      "group_id": "M0023",
+      "id": "MREC-0023-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter355",
+          "DDInter527"
+        ],
+        "source_record_id": "DDInter355|DDInter527",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "phenyl salicylate"
+        },
+        {
+          "text": "cyclosporine"
+        }
+      ],
+      "group_id": "M0024",
+      "id": "MREC-0024-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1449",
+          "DDInter458"
+        ],
+        "source_record_id": "DDInter1449|DDInter458",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "phenyl salicylatl"
+        },
+        {
+          "text": "cyllosporine"
+        }
+      ],
+      "group_id": "M0024",
+      "id": "MREC-0024-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1449",
+          "DDInter458"
+        ],
+        "source_record_id": "DDInter1449|DDInter458",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "phenyl saicylate"
+        },
+        {
+          "text": "cyclosporien"
+        }
+      ],
+      "group_id": "M0024",
+      "id": "MREC-0024-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1449",
+          "DDInter458"
+        ],
+        "source_record_id": "DDInter1449|DDInter458",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "trazodone"
+        },
+        {
+          "text": "codeine"
+        }
+      ],
+      "group_id": "M0025",
+      "id": "MREC-0025-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1851",
+          "DDInter429"
+        ],
+        "source_record_id": "DDInter1851|DDInter429",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "trazldone"
+        },
+        {
+          "text": "codelne"
+        }
+      ],
+      "group_id": "M0025",
+      "id": "MREC-0025-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1851",
+          "DDInter429"
+        ],
+        "source_record_id": "DDInter1851|DDInter429",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "traz0d0ne"
+        },
+        {
+          "text": "c0de1ne"
+        }
+      ],
+      "group_id": "M0025",
+      "id": "MREC-0025-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1851",
+          "DDInter429"
+        ],
+        "source_record_id": "DDInter1851|DDInter429",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "naldemedine"
+        },
+        {
+          "text": "nevirapine"
+        }
+      ],
+      "group_id": "M0026",
+      "id": "MREC-0026-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1258",
+          "DDInter1285"
+        ],
+        "source_record_id": "DDInter1258|DDInter1285",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "naldlmedine"
+        },
+        {
+          "text": "nevirapinl"
+        }
+      ],
+      "group_id": "M0026",
+      "id": "MREC-0026-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1258",
+          "DDInter1285"
+        ],
+        "source_record_id": "DDInter1258|DDInter1285",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "naldemdine"
+        },
+        {
+          "text": "nevrapine"
+        }
+      ],
+      "group_id": "M0026",
+      "id": "MREC-0026-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1258",
+          "DDInter1285"
+        ],
+        "source_record_id": "DDInter1258|DDInter1285",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "propiomazine"
+        },
+        {
+          "text": "epinephrine"
+        }
+      ],
+      "group_id": "M0027",
+      "id": "MREC-0027-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1537",
+          "DDInter652"
+        ],
+        "source_record_id": "DDInter1537|DDInter652",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "proplomazine"
+        },
+        {
+          "text": "epinephline"
+        }
+      ],
+      "group_id": "M0027",
+      "id": "MREC-0027-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1537",
+          "DDInter652"
+        ],
+        "source_record_id": "DDInter1537|DDInter652",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "pxopiomazine"
+        },
+        {
+          "text": "ep1nephr1ne"
+        }
+      ],
+      "group_id": "M0027",
+      "id": "MREC-0027-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1537",
+          "DDInter652"
+        ],
+        "source_record_id": "DDInter1537|DDInter652",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "levofloxacin"
+        },
+        {
+          "text": "crizotinib"
+        }
+      ],
+      "group_id": "M0028",
+      "id": "MREC-0028-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1055",
+          "DDInter448"
+        ],
+        "source_record_id": "DDInter1055|DDInter448",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "levofloxalin"
+        },
+        {
+          "text": "crizotlnib"
+        }
+      ],
+      "group_id": "M0028",
+      "id": "MREC-0028-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1055",
+          "DDInter448"
+        ],
+        "source_record_id": "DDInter1055|DDInter448",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "levofloxaxin"
+        },
+        {
+          "text": "cr1z0t1n1b"
+        }
+      ],
+      "group_id": "M0028",
+      "id": "MREC-0028-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1055",
+          "DDInter448"
+        ],
+        "source_record_id": "DDInter1055|DDInter448",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "verapamil"
+        },
+        {
+          "text": "cabazitaxel"
+        }
+      ],
+      "group_id": "M0029",
+      "id": "MREC-0029-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1928",
+          "DDInter259"
+        ],
+        "source_record_id": "DDInter1928|DDInter259",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "verapamll"
+        },
+        {
+          "text": "cabazltaxel"
+        }
+      ],
+      "group_id": "M0029",
+      "id": "MREC-0029-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1928",
+          "DDInter259"
+        ],
+        "source_record_id": "DDInter1928|DDInter259",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "verapam11"
+        },
+        {
+          "text": "cbazitaxel"
+        }
+      ],
+      "group_id": "M0029",
+      "id": "MREC-0029-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1928",
+          "DDInter259"
+        ],
+        "source_record_id": "DDInter1928|DDInter259",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "levocetirizine"
+        },
+        {
+          "text": "trimethadione"
+        }
+      ],
+      "group_id": "M0030",
+      "id": "MREC-0030-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1053",
+          "DDInter1871"
+        ],
+        "source_record_id": "DDInter1053|DDInter1871",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "levocetilizine"
+        },
+        {
+          "text": "trimethalione"
+        }
+      ],
+      "group_id": "M0030",
+      "id": "MREC-0030-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1053",
+          "DDInter1871"
+        ],
+        "source_record_id": "DDInter1053|DDInter1871",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "1ev0cet1r1z1ne"
+        },
+        {
+          "text": "trimethdione"
+        }
+      ],
+      "group_id": "M0030",
+      "id": "MREC-0030-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1053",
+          "DDInter1871"
+        ],
+        "source_record_id": "DDInter1053|DDInter1871",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "bupropion"
+        },
+        {
+          "text": "diamorphine"
+        }
+      ],
+      "group_id": "M0031",
+      "id": "MREC-0031-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter252",
+          "DDInter532"
+        ],
+        "source_record_id": "DDInter252|DDInter532",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "bupropiol"
+        },
+        {
+          "text": "diamolphine"
+        }
+      ],
+      "group_id": "M0031",
+      "id": "MREC-0031-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter252",
+          "DDInter532"
+        ],
+        "source_record_id": "DDInter252|DDInter532",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "bpuropion"
+        },
+        {
+          "text": "daimorphine"
+        }
+      ],
+      "group_id": "M0031",
+      "id": "MREC-0031-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter252",
+          "DDInter532"
+        ],
+        "source_record_id": "DDInter252|DDInter532",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "losartan"
+        },
+        {
+          "text": "dapagliflozin"
+        }
+      ],
+      "group_id": "M0032",
+      "id": "MREC-0032-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1095",
+          "DDInter474"
+        ],
+        "source_record_id": "DDInter1095|DDInter474",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "losarlan"
+        },
+        {
+          "text": "daplgliflozin"
+        }
+      ],
+      "group_id": "M0032",
+      "id": "MREC-0032-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1095",
+          "DDInter474"
+        ],
+        "source_record_id": "DDInter1095|DDInter474",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "losarta"
+        },
+        {
+          "text": "dapag11f10z1n"
+        }
+      ],
+      "group_id": "M0032",
+      "id": "MREC-0032-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1095",
+          "DDInter474"
+        ],
+        "source_record_id": "DDInter1095|DDInter474",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "tolterodine"
+        },
+        {
+          "text": "cyclizine"
+        }
+      ],
+      "group_id": "M0033",
+      "id": "MREC-0033-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1832",
+          "DDInter453"
+        ],
+        "source_record_id": "DDInter1832|DDInter453",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "tolteroline"
+        },
+        {
+          "text": "cycllzine"
+        }
+      ],
+      "group_id": "M0033",
+      "id": "MREC-0033-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1832",
+          "DDInter453"
+        ],
+        "source_record_id": "DDInter1832|DDInter453",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "t01ter0d1ne"
+        },
+        {
+          "text": "cyclizien"
+        }
+      ],
+      "group_id": "M0033",
+      "id": "MREC-0033-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1832",
+          "DDInter453"
+        ],
+        "source_record_id": "DDInter1832|DDInter453",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ponatinib"
+        },
+        {
+          "text": "crizotinib"
+        }
+      ],
+      "group_id": "M0034",
+      "id": "MREC-0034-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1492",
+          "DDInter448"
+        ],
+        "source_record_id": "DDInter1492|DDInter448",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ponatlnib"
+        },
+        {
+          "text": "clizotinib"
+        }
+      ],
+      "group_id": "M0034",
+      "id": "MREC-0034-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1492",
+          "DDInter448"
+        ],
+        "source_record_id": "DDInter1492|DDInter448",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ponatinbi"
+        },
+        {
+          "text": "criotinib"
+        }
+      ],
+      "group_id": "M0034",
+      "id": "MREC-0034-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1492",
+          "DDInter448"
+        ],
+        "source_record_id": "DDInter1492|DDInter448",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "butorphanol"
+        },
+        {
+          "text": "dexamethasone"
+        }
+      ],
+      "group_id": "M0035",
+      "id": "MREC-0035-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter258",
+          "DDInter513"
+        ],
+        "source_record_id": "DDInter258|DDInter513",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "butorphlnol"
+        },
+        {
+          "text": "delamethasone"
+        }
+      ],
+      "group_id": "M0035",
+      "id": "MREC-0035-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter258",
+          "DDInter513"
+        ],
+        "source_record_id": "DDInter258|DDInter513",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "butorphnol"
+        },
+        {
+          "text": "dexametha50ne"
+        }
+      ],
+      "group_id": "M0035",
+      "id": "MREC-0035-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter258",
+          "DDInter513"
+        ],
+        "source_record_id": "DDInter258|DDInter513",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "vandetanib"
+        },
+        {
+          "text": "bepridil"
+        }
+      ],
+      "group_id": "M0036",
+      "id": "MREC-0036-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1917",
+          "DDInter192"
+        ],
+        "source_record_id": "DDInter1917|DDInter192",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "vanletanib"
+        },
+        {
+          "text": "bepridii"
+        }
+      ],
+      "group_id": "M0036",
+      "id": "MREC-0036-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1917",
+          "DDInter192"
+        ],
+        "source_record_id": "DDInter1917|DDInter192",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "vandetan1b"
+        },
+        {
+          "text": "beprdiil"
+        }
+      ],
+      "group_id": "M0036",
+      "id": "MREC-0036-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1917",
+          "DDInter192"
+        ],
+        "source_record_id": "DDInter1917|DDInter192",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "oxaprozin"
+        },
+        {
+          "text": "edoxaban"
+        }
+      ],
+      "group_id": "M0037",
+      "id": "MREC-0037-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1358",
+          "DDInter621"
+        ],
+        "source_record_id": "DDInter1358|DDInter621",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "oxaprozln"
+        },
+        {
+          "text": "ldoxaban"
+        }
+      ],
+      "group_id": "M0037",
+      "id": "MREC-0037-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1358",
+          "DDInter621"
+        ],
+        "source_record_id": "DDInter1358|DDInter621",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "oxaproxin"
+        },
+        {
+          "text": "edozaban"
+        }
+      ],
+      "group_id": "M0037",
+      "id": "MREC-0037-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1358",
+          "DDInter621"
+        ],
+        "source_record_id": "DDInter1358|DDInter621",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "phentermine"
+        },
+        {
+          "text": "droxidopa"
+        }
+      ],
+      "group_id": "M0038",
+      "id": "MREC-0038-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1447",
+          "DDInter606"
+        ],
+        "source_record_id": "DDInter1447|DDInter606",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "plentermine"
+        },
+        {
+          "text": "drolidopa"
+        }
+      ],
+      "group_id": "M0038",
+      "id": "MREC-0038-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1447",
+          "DDInter606"
+        ],
+        "source_record_id": "DDInter1447|DDInter606",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "phnetermine"
+        },
+        {
+          "text": "drxidopa"
+        }
+      ],
+      "group_id": "M0038",
+      "id": "MREC-0038-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1447",
+          "DDInter606"
+        ],
+        "source_record_id": "DDInter1447|DDInter606",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ixabepilone"
+        },
+        {
+          "text": "cladribine"
+        }
+      ],
+      "group_id": "M0039",
+      "id": "MREC-0039-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1001",
+          "DDInter392"
+        ],
+        "source_record_id": "DDInter1001|DDInter392",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ixlbepilone"
+        },
+        {
+          "text": "ciadribine"
+        }
+      ],
+      "group_id": "M0039",
+      "id": "MREC-0039-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1001",
+          "DDInter392"
+        ],
+        "source_record_id": "DDInter1001|DDInter392",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "iaxbepilone"
+        },
+        {
+          "text": "c1adr1b1ne"
+        }
+      ],
+      "group_id": "M0039",
+      "id": "MREC-0039-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1001",
+          "DDInter392"
+        ],
+        "source_record_id": "DDInter1001|DDInter392",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "valbenazine"
+        },
+        {
+          "text": "cyproheptadine"
+        }
+      ],
+      "group_id": "M0040",
+      "id": "MREC-0040-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1909",
+          "DDInter459"
+        ],
+        "source_record_id": "DDInter1909|DDInter459",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "valblnazine"
+        },
+        {
+          "text": "cyploheptadine"
+        }
+      ],
+      "group_id": "M0040",
+      "id": "MREC-0040-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1909",
+          "DDInter459"
+        ],
+        "source_record_id": "DDInter1909|DDInter459",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "valbenaxine"
+        },
+        {
+          "text": "cyproheptadxne"
+        }
+      ],
+      "group_id": "M0040",
+      "id": "MREC-0040-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1909",
+          "DDInter459"
+        ],
+        "source_record_id": "DDInter1909|DDInter459",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "orlistat"
+        },
+        {
+          "text": "rilpivirine"
+        }
+      ],
+      "group_id": "M0041",
+      "id": "MREC-0041-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1348",
+          "DDInter1595"
+        ],
+        "source_record_id": "DDInter1348|DDInter1595",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "orlistlt"
+        },
+        {
+          "text": "rilpivirile"
+        }
+      ],
+      "group_id": "M0041",
+      "id": "MREC-0041-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1348",
+          "DDInter1595"
+        ],
+        "source_record_id": "DDInter1348|DDInter1595",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "orlistta"
+        },
+        {
+          "text": "ripivirine"
+        }
+      ],
+      "group_id": "M0041",
+      "id": "MREC-0041-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1348",
+          "DDInter1595"
+        ],
+        "source_record_id": "DDInter1348|DDInter1595",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "venlafaxine"
+        },
+        {
+          "text": "carbinoxamine"
+        }
+      ],
+      "group_id": "M0042",
+      "id": "MREC-0042-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1927",
+          "DDInter297"
+        ],
+        "source_record_id": "DDInter1927|DDInter297",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "venlafaline"
+        },
+        {
+          "text": "carbinoxamile"
+        }
+      ],
+      "group_id": "M0042",
+      "id": "MREC-0042-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1927",
+          "DDInter297"
+        ],
+        "source_record_id": "DDInter1927|DDInter297",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ven1afax1ne"
+        },
+        {
+          "text": "carbinoxamien"
+        }
+      ],
+      "group_id": "M0042",
+      "id": "MREC-0042-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1927",
+          "DDInter297"
+        ],
+        "source_record_id": "DDInter1927|DDInter297",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "sarecycline"
+        },
+        {
+          "text": "saxagliptin"
+        }
+      ],
+      "group_id": "M0043",
+      "id": "MREC-0043-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1641",
+          "DDInter1646"
+        ],
+        "source_record_id": "DDInter1641|DDInter1646",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "sareclcline"
+        },
+        {
+          "text": "saxagliptln"
+        }
+      ],
+      "group_id": "M0043",
+      "id": "MREC-0043-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1641",
+          "DDInter1646"
+        ],
+        "source_record_id": "DDInter1641|DDInter1646",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "sraecycline"
+        },
+        {
+          "text": "5axag11pt1n"
+        }
+      ],
+      "group_id": "M0043",
+      "id": "MREC-0043-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1641",
+          "DDInter1646"
+        ],
+        "source_record_id": "DDInter1641|DDInter1646",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "zanubrutinib"
+        },
+        {
+          "text": "dasatinib"
+        }
+      ],
+      "group_id": "M0044",
+      "id": "MREC-0044-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1959",
+          "DDInter484"
+        ],
+        "source_record_id": "DDInter1959|DDInter484",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "zanubrulinib"
+        },
+        {
+          "text": "dasatinlb"
+        }
+      ],
+      "group_id": "M0044",
+      "id": "MREC-0044-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1959",
+          "DDInter484"
+        ],
+        "source_record_id": "DDInter1959|DDInter484",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "zanubrut1n1b"
+        },
+        {
+          "text": "daastinib"
+        }
+      ],
+      "group_id": "M0044",
+      "id": "MREC-0044-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1959",
+          "DDInter484"
+        ],
+        "source_record_id": "DDInter1959|DDInter484",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "acetohexamide"
+        },
+        {
+          "text": "acetylsalicylic acid"
+        }
+      ],
+      "group_id": "M0045",
+      "id": "MREC-0045-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter16",
+          "DDInter20"
+        ],
+        "source_record_id": "DDInter16|DDInter20",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "aletohexamide"
+        },
+        {
+          "text": "acetylsalicylic lcid"
+        }
+      ],
+      "group_id": "M0045",
+      "id": "MREC-0045-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter16",
+          "DDInter20"
+        ],
+        "source_record_id": "DDInter16|DDInter20",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "acetohezamide"
+        },
+        {
+          "text": "acetylsalicylic aid"
+        }
+      ],
+      "group_id": "M0045",
+      "id": "MREC-0045-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter16",
+          "DDInter20"
+        ],
+        "source_record_id": "DDInter16|DDInter20",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ramelteon"
+        },
+        {
+          "text": "triprolidine"
+        }
+      ],
+      "group_id": "M0046",
+      "id": "MREC-0046-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1564",
+          "DDInter1879"
+        ],
+        "source_record_id": "DDInter1564|DDInter1879",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "lamelteon"
+        },
+        {
+          "text": "trlprolidine"
+        }
+      ],
+      "group_id": "M0046",
+      "id": "MREC-0046-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1564",
+          "DDInter1879"
+        ],
+        "source_record_id": "DDInter1564|DDInter1879",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ramelxeon"
+        },
+        {
+          "text": "tr1pr011d1ne"
+        }
+      ],
+      "group_id": "M0046",
+      "id": "MREC-0046-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1564",
+          "DDInter1879"
+        ],
+        "source_record_id": "DDInter1564|DDInter1879",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rucaparib"
+        },
+        {
+          "text": "doxorubicin"
+        }
+      ],
+      "group_id": "M0047",
+      "id": "MREC-0047-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1626",
+          "DDInter596"
+        ],
+        "source_record_id": "DDInter1626|DDInter596",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rucapalib"
+        },
+        {
+          "text": "doxlrubicin"
+        }
+      ],
+      "group_id": "M0047",
+      "id": "MREC-0047-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1626",
+          "DDInter596"
+        ],
+        "source_record_id": "DDInter1626|DDInter596",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rucapxrib"
+        },
+        {
+          "text": "d0x0rub1c1n"
+        }
+      ],
+      "group_id": "M0047",
+      "id": "MREC-0047-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1626",
+          "DDInter596"
+        ],
+        "source_record_id": "DDInter1626|DDInter596",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "risperidone"
+        },
+        {
+          "text": "tripelennamine"
+        }
+      ],
+      "group_id": "M0048",
+      "id": "MREC-0048-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1605",
+          "DDInter1878"
+        ],
+        "source_record_id": "DDInter1605|DDInter1878",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rilperidone"
+        },
+        {
+          "text": "tripelennlmine"
+        }
+      ],
+      "group_id": "M0048",
+      "id": "MREC-0048-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1605",
+          "DDInter1878"
+        ],
+        "source_record_id": "DDInter1605|DDInter1878",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "r15per1d0ne"
+        },
+        {
+          "text": "tripelennamne"
+        }
+      ],
+      "group_id": "M0048",
+      "id": "MREC-0048-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1605",
+          "DDInter1878"
+        ],
+        "source_record_id": "DDInter1605|DDInter1878",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "nateglinide"
+        },
+        {
+          "text": "perphenazine"
+        }
+      ],
+      "group_id": "M0049",
+      "id": "MREC-0049-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1269",
+          "DDInter1432"
+        ],
+        "source_record_id": "DDInter1269|DDInter1432",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "nateglilide"
+        },
+        {
+          "text": "perphenazile"
+        }
+      ],
+      "group_id": "M0049",
+      "id": "MREC-0049-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1269",
+          "DDInter1432"
+        ],
+        "source_record_id": "DDInter1269|DDInter1432",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "nategxinide"
+        },
+        {
+          "text": "perphenazxne"
+        }
+      ],
+      "group_id": "M0049",
+      "id": "MREC-0049-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1269",
+          "DDInter1432"
+        ],
+        "source_record_id": "DDInter1269|DDInter1432",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ixazomib"
+        },
+        {
+          "text": "butalbital"
+        }
+      ],
+      "group_id": "M0050",
+      "id": "MREC-0050-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1002",
+          "DDInter257"
+        ],
+        "source_record_id": "DDInter1002|DDInter257",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ixazomlb"
+        },
+        {
+          "text": "butaibital"
+        }
+      ],
+      "group_id": "M0050",
+      "id": "MREC-0050-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1002",
+          "DDInter257"
+        ],
+        "source_record_id": "DDInter1002|DDInter257",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ixazombi"
+        },
+        {
+          "text": "buta1b1ta1"
+        }
+      ],
+      "group_id": "M0050",
+      "id": "MREC-0050-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1002",
+          "DDInter257"
+        ],
+        "source_record_id": "DDInter1002|DDInter257",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "oliceridine"
+        },
+        {
+          "text": "pazopanib"
+        }
+      ],
+      "group_id": "M0051",
+      "id": "MREC-0051-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1329",
+          "DDInter1400"
+        ],
+        "source_record_id": "DDInter1329|DDInter1400",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "olicerldine"
+        },
+        {
+          "text": "pazoplnib"
+        }
+      ],
+      "group_id": "M0051",
+      "id": "MREC-0051-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1329",
+          "DDInter1400"
+        ],
+        "source_record_id": "DDInter1329|DDInter1400",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "oliceidine"
+        },
+        {
+          "text": "apzopanib"
+        }
+      ],
+      "group_id": "M0051",
+      "id": "MREC-0051-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1329",
+          "DDInter1400"
+        ],
+        "source_record_id": "DDInter1329|DDInter1400",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "procarbazine"
+        },
+        {
+          "text": "vilanterol"
+        }
+      ],
+      "group_id": "M0052",
+      "id": "MREC-0052-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1526",
+          "DDInter1934"
+        ],
+        "source_record_id": "DDInter1526|DDInter1934",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "procalbazine"
+        },
+        {
+          "text": "vllanterol"
+        }
+      ],
+      "group_id": "M0052",
+      "id": "MREC-0052-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1526",
+          "DDInter1934"
+        ],
+        "source_record_id": "DDInter1526|DDInter1934",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "procarbaxine"
+        },
+        {
+          "text": "vilanteol"
+        }
+      ],
+      "group_id": "M0052",
+      "id": "MREC-0052-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1526",
+          "DDInter1934"
+        ],
+        "source_record_id": "DDInter1526|DDInter1934",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "macimorelin"
+        },
+        {
+          "text": "tolmetin"
+        }
+      ],
+      "group_id": "M0053",
+      "id": "MREC-0053-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1110",
+          "DDInter1831"
+        ],
+        "source_record_id": "DDInter1110|DDInter1831",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "macimoreiin"
+        },
+        {
+          "text": "tolmelin"
+        }
+      ],
+      "group_id": "M0053",
+      "id": "MREC-0053-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1110",
+          "DDInter1831"
+        ],
+        "source_record_id": "DDInter1110|DDInter1831",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "macimxrelin"
+        },
+        {
+          "text": "tlometin"
+        }
+      ],
+      "group_id": "M0053",
+      "id": "MREC-0053-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1110",
+          "DDInter1831"
+        ],
+        "source_record_id": "DDInter1110|DDInter1831",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "morphine"
+        },
+        {
+          "text": "solifenacin"
+        }
+      ],
+      "group_id": "M0054",
+      "id": "MREC-0054-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1244",
+          "DDInter1696"
+        ],
+        "source_record_id": "DDInter1244|DDInter1696",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "morlhine"
+        },
+        {
+          "text": "solifenacil"
+        }
+      ],
+      "group_id": "M0054",
+      "id": "MREC-0054-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1244",
+          "DDInter1696"
+        ],
+        "source_record_id": "DDInter1244|DDInter1696",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "m0rph1ne"
+        },
+        {
+          "text": "solifenain"
+        }
+      ],
+      "group_id": "M0054",
+      "id": "MREC-0054-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1244",
+          "DDInter1696"
+        ],
+        "source_record_id": "DDInter1244|DDInter1696",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "methylprednisolone"
+        },
+        {
+          "text": "eplerenone"
+        }
+      ],
+      "group_id": "M0055",
+      "id": "MREC-0055-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1191",
+          "DDInter656"
+        ],
+        "source_record_id": "DDInter1191|DDInter656",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "methylprednilolone"
+        },
+        {
+          "text": "ellerenone"
+        }
+      ],
+      "group_id": "M0055",
+      "id": "MREC-0055-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1191",
+          "DDInter656"
+        ],
+        "source_record_id": "DDInter1191|DDInter656",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "methylprednisoloen"
+        },
+        {
+          "text": "eplerneone"
+        }
+      ],
+      "group_id": "M0055",
+      "id": "MREC-0055-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1191",
+          "DDInter656"
+        ],
+        "source_record_id": "DDInter1191|DDInter656",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "saquinavir"
+        },
+        {
+          "text": "bosutinib"
+        }
+      ],
+      "group_id": "M0056",
+      "id": "MREC-0056-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1640",
+          "DDInter224"
+        ],
+        "source_record_id": "DDInter1640|DDInter224",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "saqulnavir"
+        },
+        {
+          "text": "bolutinib"
+        }
+      ],
+      "group_id": "M0056",
+      "id": "MREC-0056-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1640",
+          "DDInter224"
+        ],
+        "source_record_id": "DDInter1640|DDInter224",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "saqxinavir"
+        },
+        {
+          "text": "b05ut1n1b"
+        }
+      ],
+      "group_id": "M0056",
+      "id": "MREC-0056-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1640",
+          "DDInter224"
+        ],
+        "source_record_id": "DDInter1640|DDInter224",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "orlistat"
+        },
+        {
+          "text": "doxercalciferol"
+        }
+      ],
+      "group_id": "M0057",
+      "id": "MREC-0057-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1348",
+          "DDInter595"
+        ],
+        "source_record_id": "DDInter1348|DDInter595",
+        "source_severity": "low"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "orlistlt"
+        },
+        {
+          "text": "doxercalcifelol"
+        }
+      ],
+      "group_id": "M0057",
+      "id": "MREC-0057-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1348",
+          "DDInter595"
+        ],
+        "source_record_id": "DDInter1348|DDInter595",
+        "source_severity": "low"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "0r115tat"
+        },
+        {
+          "text": "d0xerca1c1fer01"
+        }
+      ],
+      "group_id": "M0057",
+      "id": "MREC-0057-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1348",
+          "DDInter595"
+        ],
+        "source_record_id": "DDInter1348|DDInter595",
+        "source_severity": "low"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "troglitazone"
+        },
+        {
+          "text": "verapamil"
+        }
+      ],
+      "group_id": "M0058",
+      "id": "MREC-0058-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1881",
+          "DDInter1928"
+        ],
+        "source_record_id": "DDInter1881|DDInter1928",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "trogiitazone"
+        },
+        {
+          "text": "verapalil"
+        }
+      ],
+      "group_id": "M0058",
+      "id": "MREC-0058-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1881",
+          "DDInter1928"
+        ],
+        "source_record_id": "DDInter1881|DDInter1928",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "tr0g11taz0ne"
+        },
+        {
+          "text": "verapaiml"
+        }
+      ],
+      "group_id": "M0058",
+      "id": "MREC-0058-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1881",
+          "DDInter1928"
+        ],
+        "source_record_id": "DDInter1881|DDInter1928",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "selumetinib"
+        },
+        {
+          "text": "dabrafenib"
+        }
+      ],
+      "group_id": "M0059",
+      "id": "MREC-0059-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1659",
+          "DDInter462"
+        ],
+        "source_record_id": "DDInter1659|DDInter462",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "seiumetinib"
+        },
+        {
+          "text": "dabrlfenib"
+        }
+      ],
+      "group_id": "M0059",
+      "id": "MREC-0059-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1659",
+          "DDInter462"
+        ],
+        "source_record_id": "DDInter1659|DDInter462",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "selumeitnib"
+        },
+        {
+          "text": "darafenib"
+        }
+      ],
+      "group_id": "M0059",
+      "id": "MREC-0059-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1659",
+          "DDInter462"
+        ],
+        "source_record_id": "DDInter1659|DDInter462",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "lumefantrine"
+        },
+        {
+          "text": "vandetanib"
+        }
+      ],
+      "group_id": "M0060",
+      "id": "MREC-0060-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1103",
+          "DDInter1917"
+        ],
+        "source_record_id": "DDInter1103|DDInter1917",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "lulefantrine"
+        },
+        {
+          "text": "valdetanib"
+        }
+      ],
+      "group_id": "M0060",
+      "id": "MREC-0060-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1103",
+          "DDInter1917"
+        ],
+        "source_record_id": "DDInter1103|DDInter1917",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "lumxfantrine"
+        },
+        {
+          "text": "vnadetanib"
+        }
+      ],
+      "group_id": "M0060",
+      "id": "MREC-0060-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1103",
+          "DDInter1917"
+        ],
+        "source_record_id": "DDInter1103|DDInter1917",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ritonavir"
+        },
+        {
+          "text": "encorafenib"
+        }
+      ],
+      "group_id": "M0061",
+      "id": "MREC-0061-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1607",
+          "DDInter640"
+        ],
+        "source_record_id": "DDInter1607|DDInter640",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rilonavir"
+        },
+        {
+          "text": "enlorafenib"
+        }
+      ],
+      "group_id": "M0061",
+      "id": "MREC-0061-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1607",
+          "DDInter640"
+        ],
+        "source_record_id": "DDInter1607|DDInter640",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "r1t0nav1r"
+        },
+        {
+          "text": "enc0rafen1b"
+        }
+      ],
+      "group_id": "M0061",
+      "id": "MREC-0061-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1607",
+          "DDInter640"
+        ],
+        "source_record_id": "DDInter1607|DDInter640",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "mesalazine"
+        },
+        {
+          "text": "diatrizoate"
+        }
+      ],
+      "group_id": "M0062",
+      "id": "MREC-0062-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1158",
+          "DDInter533"
+        ],
+        "source_record_id": "DDInter1158|DDInter533",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "mesalazlne"
+        },
+        {
+          "text": "diatrlzoate"
+        }
+      ],
+      "group_id": "M0062",
+      "id": "MREC-0062-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1158",
+          "DDInter533"
+        ],
+        "source_record_id": "DDInter1158|DDInter533",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "me5a1az1ne"
+        },
+        {
+          "text": "diatxizoate"
+        }
+      ],
+      "group_id": "M0062",
+      "id": "MREC-0062-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1158",
+          "DDInter533"
+        ],
+        "source_record_id": "DDInter1158|DDInter533",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "deferasirox"
+        },
+        {
+          "text": "dutasteride"
+        }
+      ],
+      "group_id": "M0063",
+      "id": "MREC-0063-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter488",
+          "DDInter611"
+        ],
+        "source_record_id": "DDInter488|DDInter611",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "deferasirol"
+        },
+        {
+          "text": "dutastelide"
+        }
+      ],
+      "group_id": "M0063",
+      "id": "MREC-0063-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter488",
+          "DDInter611"
+        ],
+        "source_record_id": "DDInter488|DDInter611",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "deferasirxo"
+        },
+        {
+          "text": "dutasterixe"
+        }
+      ],
+      "group_id": "M0063",
+      "id": "MREC-0063-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter488",
+          "DDInter611"
+        ],
+        "source_record_id": "DDInter488|DDInter611",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "pirbuterol"
+        },
+        {
+          "text": "procainamide"
+        }
+      ],
+      "group_id": "M0064",
+      "id": "MREC-0064-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1476",
+          "DDInter1524"
+        ],
+        "source_record_id": "DDInter1476|DDInter1524",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "pilbuterol"
+        },
+        {
+          "text": "plocainamide"
+        }
+      ],
+      "group_id": "M0064",
+      "id": "MREC-0064-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1476",
+          "DDInter1524"
+        ],
+        "source_record_id": "DDInter1476|DDInter1524",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "pirbuerol"
+        },
+        {
+          "text": "pxocainamide"
+        }
+      ],
+      "group_id": "M0064",
+      "id": "MREC-0064-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1476",
+          "DDInter1524"
+        ],
+        "source_record_id": "DDInter1476|DDInter1524",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "olaparib"
+        },
+        {
+          "text": "sulfasalazine"
+        }
+      ],
+      "group_id": "M0065",
+      "id": "MREC-0065-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1327",
+          "DDInter1725"
+        ],
+        "source_record_id": "DDInter1327|DDInter1725",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "olaparil"
+        },
+        {
+          "text": "sulfasaiazine"
+        }
+      ],
+      "group_id": "M0065",
+      "id": "MREC-0065-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1327",
+          "DDInter1725"
+        ],
+        "source_record_id": "DDInter1327|DDInter1725",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "olpaarib"
+        },
+        {
+          "text": "sulfasalzine"
+        }
+      ],
+      "group_id": "M0065",
+      "id": "MREC-0065-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1327",
+          "DDInter1725"
+        ],
+        "source_record_id": "DDInter1327|DDInter1725",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "teriflunomide"
+        },
+        {
+          "text": "diflunisal"
+        }
+      ],
+      "group_id": "M0066",
+      "id": "MREC-0066-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1771",
+          "DDInter551"
+        ],
+        "source_record_id": "DDInter1771|DDInter551",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "teriflunomidl"
+        },
+        {
+          "text": "diflulisal"
+        }
+      ],
+      "group_id": "M0066",
+      "id": "MREC-0066-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1771",
+          "DDInter551"
+        ],
+        "source_record_id": "DDInter1771|DDInter551",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ter1f1un0m1de"
+        },
+        {
+          "text": "iflunisal"
+        }
+      ],
+      "group_id": "M0066",
+      "id": "MREC-0066-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1771",
+          "DDInter551"
+        ],
+        "source_record_id": "DDInter1771|DDInter551",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rivastigmine"
+        },
+        {
+          "text": "terfenadine"
+        }
+      ],
+      "group_id": "M0067",
+      "id": "MREC-0067-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1610",
+          "DDInter1770"
+        ],
+        "source_record_id": "DDInter1610|DDInter1770",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rivastigminl"
+        },
+        {
+          "text": "terlenadine"
+        }
+      ],
+      "group_id": "M0067",
+      "id": "MREC-0067-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1610",
+          "DDInter1770"
+        ],
+        "source_record_id": "DDInter1610|DDInter1770",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "r1va5t1gm1ne"
+        },
+        {
+          "text": "terfeandine"
+        }
+      ],
+      "group_id": "M0067",
+      "id": "MREC-0067-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1610",
+          "DDInter1770"
+        ],
+        "source_record_id": "DDInter1610|DDInter1770",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rucaparib"
+        },
+        {
+          "text": "triflupromazine"
+        }
+      ],
+      "group_id": "M0068",
+      "id": "MREC-0068-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1626",
+          "DDInter1867"
+        ],
+        "source_record_id": "DDInter1626|DDInter1867",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rucalarib"
+        },
+        {
+          "text": "trifluprlmazine"
+        }
+      ],
+      "group_id": "M0068",
+      "id": "MREC-0068-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1626",
+          "DDInter1867"
+        ],
+        "source_record_id": "DDInter1626|DDInter1867",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rxcaparib"
+        },
+        {
+          "text": "triflurpomazine"
+        }
+      ],
+      "group_id": "M0068",
+      "id": "MREC-0068-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1626",
+          "DDInter1867"
+        ],
+        "source_record_id": "DDInter1626|DDInter1867",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "nabilone"
+        },
+        {
+          "text": "temazepam"
+        }
+      ],
+      "group_id": "M0069",
+      "id": "MREC-0069-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1253",
+          "DDInter1761"
+        ],
+        "source_record_id": "DDInter1253|DDInter1761",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "labilone"
+        },
+        {
+          "text": "temalepam"
+        }
+      ],
+      "group_id": "M0069",
+      "id": "MREC-0069-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1253",
+          "DDInter1761"
+        ],
+        "source_record_id": "DDInter1253|DDInter1761",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "nabiloen"
+        },
+        {
+          "text": "temzepam"
+        }
+      ],
+      "group_id": "M0069",
+      "id": "MREC-0069-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1253",
+          "DDInter1761"
+        ],
+        "source_record_id": "DDInter1253|DDInter1761",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "pemetrexed"
+        },
+        {
+          "text": "benzylpenicillin"
+        }
+      ],
+      "group_id": "M0070",
+      "id": "MREC-0070-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1414",
+          "DDInter189"
+        ],
+        "source_record_id": "DDInter1414|DDInter189",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "peletrexed"
+        },
+        {
+          "text": "benzyllenicillin"
+        }
+      ],
+      "group_id": "M0070",
+      "id": "MREC-0070-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1414",
+          "DDInter189"
+        ],
+        "source_record_id": "DDInter1414|DDInter189",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "pemertexed"
+        },
+        {
+          "text": "benzylxenicillin"
+        }
+      ],
+      "group_id": "M0070",
+      "id": "MREC-0070-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1414",
+          "DDInter189"
+        ],
+        "source_record_id": "DDInter1414|DDInter189",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "aprepitant"
+        },
+        {
+          "text": "zafirlukast"
+        }
+      ],
+      "group_id": "M0071",
+      "id": "MREC-0071-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter112",
+          "DDInter1955"
+        ],
+        "source_record_id": "DDInter112|DDInter1955",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "aprepitlnt"
+        },
+        {
+          "text": "zafirluklst"
+        }
+      ],
+      "group_id": "M0071",
+      "id": "MREC-0071-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter112",
+          "DDInter1955"
+        ],
+        "source_record_id": "DDInter112|DDInter1955",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "apreptant"
+        },
+        {
+          "text": "zafxrlukast"
+        }
+      ],
+      "group_id": "M0071",
+      "id": "MREC-0071-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter112",
+          "DDInter1955"
+        ],
+        "source_record_id": "DDInter112|DDInter1955",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "levonordefrin"
+        },
+        {
+          "text": "procarbazine"
+        }
+      ],
+      "group_id": "M0072",
+      "id": "MREC-0072-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1060",
+          "DDInter1526"
+        ],
+        "source_record_id": "DDInter1060|DDInter1526",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ievonordefrin"
+        },
+        {
+          "text": "lrocarbazine"
+        }
+      ],
+      "group_id": "M0072",
+      "id": "MREC-0072-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1060",
+          "DDInter1526"
+        ],
+        "source_record_id": "DDInter1060|DDInter1526",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "levoxordefrin"
+        },
+        {
+          "text": "procarbazixe"
+        }
+      ],
+      "group_id": "M0072",
+      "id": "MREC-0072-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1060",
+          "DDInter1526"
+        ],
+        "source_record_id": "DDInter1060|DDInter1526",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "testosterone"
+        },
+        {
+          "text": "budesonide"
+        }
+      ],
+      "group_id": "M0073",
+      "id": "MREC-0073-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1775",
+          "DDInter246"
+        ],
+        "source_record_id": "DDInter1775|DDInter246",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "testostelone"
+        },
+        {
+          "text": "budlsonide"
+        }
+      ],
+      "group_id": "M0073",
+      "id": "MREC-0073-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1775",
+          "DDInter246"
+        ],
+        "source_record_id": "DDInter1775|DDInter246",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "testoxterone"
+        },
+        {
+          "text": "budesonidx"
+        }
+      ],
+      "group_id": "M0073",
+      "id": "MREC-0073-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1775",
+          "DDInter246"
+        ],
+        "source_record_id": "DDInter1775|DDInter246",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "clidinium"
+        },
+        {
+          "text": "dicyclomine"
+        }
+      ],
+      "group_id": "M0074",
+      "id": "MREC-0074-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter397",
+          "DDInter543"
+        ],
+        "source_record_id": "DDInter397|DDInter543",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "clilinium"
+        },
+        {
+          "text": "dicycloline"
+        }
+      ],
+      "group_id": "M0074",
+      "id": "MREC-0074-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter397",
+          "DDInter543"
+        ],
+        "source_record_id": "DDInter397|DDInter543",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "clxdinium"
+        },
+        {
+          "text": "d1cyc10m1ne"
+        }
+      ],
+      "group_id": "M0074",
+      "id": "MREC-0074-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter397",
+          "DDInter543"
+        ],
+        "source_record_id": "DDInter397|DDInter543",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "streptomycin"
+        },
+        {
+          "text": "ceftriaxone"
+        }
+      ],
+      "group_id": "M0075",
+      "id": "MREC-0075-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1713",
+          "DDInter334"
+        ],
+        "source_record_id": "DDInter1713|DDInter334",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "streltomycin"
+        },
+        {
+          "text": "ceflriaxone"
+        }
+      ],
+      "group_id": "M0075",
+      "id": "MREC-0075-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1713",
+          "DDInter334"
+        ],
+        "source_record_id": "DDInter1713|DDInter334",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "streptomycix"
+        },
+        {
+          "text": "xeftriaxone"
+        }
+      ],
+      "group_id": "M0075",
+      "id": "MREC-0075-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1713",
+          "DDInter334"
+        ],
+        "source_record_id": "DDInter1713|DDInter334",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "levacetylmethadol"
+        },
+        {
+          "text": "macimorelin"
+        }
+      ],
+      "group_id": "M0076",
+      "id": "MREC-0076-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1043",
+          "DDInter1110"
+        ],
+        "source_record_id": "DDInter1043|DDInter1110",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ievacetylmethadol"
+        },
+        {
+          "text": "macimolelin"
+        }
+      ],
+      "group_id": "M0076",
+      "id": "MREC-0076-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1043",
+          "DDInter1110"
+        ],
+        "source_record_id": "DDInter1043|DDInter1110",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "levacetxlmethadol"
+        },
+        {
+          "text": "macmiorelin"
+        }
+      ],
+      "group_id": "M0076",
+      "id": "MREC-0076-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1043",
+          "DDInter1110"
+        ],
+        "source_record_id": "DDInter1043|DDInter1110",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "omacetaxine mepesuccinate"
+        },
+        {
+          "text": "diethylstilbestrol"
+        }
+      ],
+      "group_id": "M0077",
+      "id": "MREC-0077-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1335",
+          "DDInter548"
+        ],
+        "source_record_id": "DDInter1335|DDInter548",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "omacetaxlne mepesuccinate"
+        },
+        {
+          "text": "diethylltilbestrol"
+        }
+      ],
+      "group_id": "M0077",
+      "id": "MREC-0077-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1335",
+          "DDInter548"
+        ],
+        "source_record_id": "DDInter1335|DDInter548",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "omacetaxine mepesuccinxte"
+        },
+        {
+          "text": "diethlystilbestrol"
+        }
+      ],
+      "group_id": "M0077",
+      "id": "MREC-0077-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1335",
+          "DDInter548"
+        ],
+        "source_record_id": "DDInter1335|DDInter548",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "pirfenidone"
+        },
+        {
+          "text": "ciprofloxacin"
+        }
+      ],
+      "group_id": "M0078",
+      "id": "MREC-0078-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1477",
+          "DDInter384"
+        ],
+        "source_record_id": "DDInter1477|DDInter384",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "pirfelidone"
+        },
+        {
+          "text": "ciprofloxacln"
+        }
+      ],
+      "group_id": "M0078",
+      "id": "MREC-0078-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1477",
+          "DDInter384"
+        ],
+        "source_record_id": "DDInter1477|DDInter384",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "pirfenidoe"
+        },
+        {
+          "text": "ciprofloxaxin"
+        }
+      ],
+      "group_id": "M0078",
+      "id": "MREC-0078-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1477",
+          "DDInter384"
+        ],
+        "source_record_id": "DDInter1477|DDInter384",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "repaglinide"
+        },
+        {
+          "text": "sparfloxacin"
+        }
+      ],
+      "group_id": "M0079",
+      "id": "MREC-0079-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1581",
+          "DDInter1705"
+        ],
+        "source_record_id": "DDInter1581|DDInter1705",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "repagllnide"
+        },
+        {
+          "text": "spalfloxacin"
+        }
+      ],
+      "group_id": "M0079",
+      "id": "MREC-0079-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1581",
+          "DDInter1705"
+        ],
+        "source_record_id": "DDInter1581|DDInter1705",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "repag11n1de"
+        },
+        {
+          "text": "spafloxacin"
+        }
+      ],
+      "group_id": "M0079",
+      "id": "MREC-0079-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1581",
+          "DDInter1705"
+        ],
+        "source_record_id": "DDInter1581|DDInter1705",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "metoclopramide"
+        },
+        {
+          "text": "milnacipran"
+        }
+      ],
+      "group_id": "M0080",
+      "id": "MREC-0080-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1197",
+          "DDInter1220"
+        ],
+        "source_record_id": "DDInter1197|DDInter1220",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "metoclopralide"
+        },
+        {
+          "text": "milnacilran"
+        }
+      ],
+      "group_id": "M0080",
+      "id": "MREC-0080-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1197",
+          "DDInter1220"
+        ],
+        "source_record_id": "DDInter1197|DDInter1220",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "metoclopramidx"
+        },
+        {
+          "text": "minlacipran"
+        }
+      ],
+      "group_id": "M0080",
+      "id": "MREC-0080-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1197",
+          "DDInter1220"
+        ],
+        "source_record_id": "DDInter1197|DDInter1220",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "vorapaxar"
+        },
+        {
+          "text": "warfarin"
+        }
+      ],
+      "group_id": "M0081",
+      "id": "MREC-0081-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1945",
+          "DDInter1951"
+        ],
+        "source_record_id": "DDInter1945|DDInter1951",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "vorapalar"
+        },
+        {
+          "text": "walfarin"
+        }
+      ],
+      "group_id": "M0081",
+      "id": "MREC-0081-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1945",
+          "DDInter1951"
+        ],
+        "source_record_id": "DDInter1945|DDInter1951",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "v0rapaxar"
+        },
+        {
+          "text": "warfaxin"
+        }
+      ],
+      "group_id": "M0081",
+      "id": "MREC-0081-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1945",
+          "DDInter1951"
+        ],
+        "source_record_id": "DDInter1945|DDInter1951",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "methotrexate"
+        },
+        {
+          "text": "voriconazole"
+        }
+      ],
+      "group_id": "M0082",
+      "id": "MREC-0082-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1174",
+          "DDInter1946"
+        ],
+        "source_record_id": "DDInter1174|DDInter1946",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "metlotrexate"
+        },
+        {
+          "text": "vorilonazole"
+        }
+      ],
+      "group_id": "M0082",
+      "id": "MREC-0082-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1174",
+          "DDInter1946"
+        ],
+        "source_record_id": "DDInter1174|DDInter1946",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "methoterxate"
+        },
+        {
+          "text": "v0r1c0naz01e"
+        }
+      ],
+      "group_id": "M0082",
+      "id": "MREC-0082-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1174",
+          "DDInter1946"
+        ],
+        "source_record_id": "DDInter1174|DDInter1946",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "triprolidine"
+        },
+        {
+          "text": "darifenacin"
+        }
+      ],
+      "group_id": "M0083",
+      "id": "MREC-0083-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1879",
+          "DDInter480"
+        ],
+        "source_record_id": "DDInter1879|DDInter480",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "triprolidinl"
+        },
+        {
+          "text": "darlfenacin"
+        }
+      ],
+      "group_id": "M0083",
+      "id": "MREC-0083-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1879",
+          "DDInter480"
+        ],
+        "source_record_id": "DDInter1879|DDInter480",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "tr1pr011d1ne"
+        },
+        {
+          "text": "darifenxcin"
+        }
+      ],
+      "group_id": "M0083",
+      "id": "MREC-0083-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1879",
+          "DDInter480"
+        ],
+        "source_record_id": "DDInter1879|DDInter480",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ruxolitinib"
+        },
+        {
+          "text": "tioguanine"
+        }
+      ],
+      "group_id": "M0084",
+      "id": "MREC-0084-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1628",
+          "DDInter1814"
+        ],
+        "source_record_id": "DDInter1628|DDInter1814",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ruxolilinib"
+        },
+        {
+          "text": "tioguaninl"
+        }
+      ],
+      "group_id": "M0084",
+      "id": "MREC-0084-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1628",
+          "DDInter1814"
+        ],
+        "source_record_id": "DDInter1628|DDInter1814",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rux011t1n1b"
+        },
+        {
+          "text": "tiogunaine"
+        }
+      ],
+      "group_id": "M0084",
+      "id": "MREC-0084-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1628",
+          "DDInter1814"
+        ],
+        "source_record_id": "DDInter1628|DDInter1814",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "metoclopramide"
+        },
+        {
+          "text": "trazodone"
+        }
+      ],
+      "group_id": "M0085",
+      "id": "MREC-0085-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1197",
+          "DDInter1851"
+        ],
+        "source_record_id": "DDInter1197|DDInter1851",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "metoclopramlde"
+        },
+        {
+          "text": "trazldone"
+        }
+      ],
+      "group_id": "M0085",
+      "id": "MREC-0085-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1197",
+          "DDInter1851"
+        ],
+        "source_record_id": "DDInter1197|DDInter1851",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "metocopramide"
+        },
+        {
+          "text": "trazodnoe"
+        }
+      ],
+      "group_id": "M0085",
+      "id": "MREC-0085-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1197",
+          "DDInter1851"
+        ],
+        "source_record_id": "DDInter1197|DDInter1851",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rosiglitazone"
+        },
+        {
+          "text": "chlorothiazide"
+        }
+      ],
+      "group_id": "M0086",
+      "id": "MREC-0086-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1621",
+          "DDInter360"
+        ],
+        "source_record_id": "DDInter1621|DDInter360",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rosiglltazone"
+        },
+        {
+          "text": "chllrothiazide"
+        }
+      ],
+      "group_id": "M0086",
+      "id": "MREC-0086-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1621",
+          "DDInter360"
+        ],
+        "source_record_id": "DDInter1621|DDInter360",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "rosxglitazone"
+        },
+        {
+          "text": "chlorothazide"
+        }
+      ],
+      "group_id": "M0086",
+      "id": "MREC-0086-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1621",
+          "DDInter360"
+        ],
+        "source_record_id": "DDInter1621|DDInter360",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "trichlormethiazide"
+        },
+        {
+          "text": "deflazacort"
+        }
+      ],
+      "group_id": "M0087",
+      "id": "MREC-0087-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1861",
+          "DDInter492"
+        ],
+        "source_record_id": "DDInter1861|DDInter492",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "trichlormethilzide"
+        },
+        {
+          "text": "deflazalort"
+        }
+      ],
+      "group_id": "M0087",
+      "id": "MREC-0087-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1861",
+          "DDInter492"
+        ],
+        "source_record_id": "DDInter1861|DDInter492",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "trichlormethiazied"
+        },
+        {
+          "text": "deflaazcort"
+        }
+      ],
+      "group_id": "M0087",
+      "id": "MREC-0087-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1861",
+          "DDInter492"
+        ],
+        "source_record_id": "DDInter1861|DDInter492",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "atazanavir"
+        },
+        {
+          "text": "pioglitazone"
+        }
+      ],
+      "group_id": "M0088",
+      "id": "MREC-0088-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter129",
+          "DDInter1472"
+        ],
+        "source_record_id": "DDInter129|DDInter1472",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "atazlnavir"
+        },
+        {
+          "text": "pioglilazone"
+        }
+      ],
+      "group_id": "M0088",
+      "id": "MREC-0088-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter129",
+          "DDInter1472"
+        ],
+        "source_record_id": "DDInter129|DDInter1472",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "atazanav1r"
+        },
+        {
+          "text": "piogxitazone"
+        }
+      ],
+      "group_id": "M0088",
+      "id": "MREC-0088-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter129",
+          "DDInter1472"
+        ],
+        "source_record_id": "DDInter129|DDInter1472",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "temsirolimus"
+        },
+        {
+          "text": "tolterodine"
+        }
+      ],
+      "group_id": "M0089",
+      "id": "MREC-0089-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1763",
+          "DDInter1832"
+        ],
+        "source_record_id": "DDInter1763|DDInter1832",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "temsilolimus"
+        },
+        {
+          "text": "tollerodine"
+        }
+      ],
+      "group_id": "M0089",
+      "id": "MREC-0089-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1763",
+          "DDInter1832"
+        ],
+        "source_record_id": "DDInter1763|DDInter1832",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "temsirolius"
+        },
+        {
+          "text": "t01ter0d1ne"
+        }
+      ],
+      "group_id": "M0089",
+      "id": "MREC-0089-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1763",
+          "DDInter1832"
+        ],
+        "source_record_id": "DDInter1763|DDInter1832",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "sertraline"
+        },
+        {
+          "text": "enzalutamide"
+        }
+      ],
+      "group_id": "M0090",
+      "id": "MREC-0090-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1662",
+          "DDInter649"
+        ],
+        "source_record_id": "DDInter1662|DDInter649",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "seltraline"
+        },
+        {
+          "text": "enzalutamile"
+        }
+      ],
+      "group_id": "M0090",
+      "id": "MREC-0090-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1662",
+          "DDInter649"
+        ],
+        "source_record_id": "DDInter1662|DDInter649",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "xertraline"
+        },
+        {
+          "text": "enzalutxmide"
+        }
+      ],
+      "group_id": "M0090",
+      "id": "MREC-0090-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1662",
+          "DDInter649"
+        ],
+        "source_record_id": "DDInter1662|DDInter649",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "teniposide"
+        },
+        {
+          "text": "cladribine"
+        }
+      ],
+      "group_id": "M0091",
+      "id": "MREC-0091-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1765",
+          "DDInter392"
+        ],
+        "source_record_id": "DDInter1765|DDInter392",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "tenipolide"
+        },
+        {
+          "text": "lladribine"
+        }
+      ],
+      "group_id": "M0091",
+      "id": "MREC-0091-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1765",
+          "DDInter392"
+        ],
+        "source_record_id": "DDInter1765|DDInter392",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "teiposide"
+        },
+        {
+          "text": "clardibine"
+        }
+      ],
+      "group_id": "M0091",
+      "id": "MREC-0091-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1765",
+          "DDInter392"
+        ],
+        "source_record_id": "DDInter1765|DDInter392",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "trabectedin"
+        },
+        {
+          "text": "captopril"
+        }
+      ],
+      "group_id": "M0092",
+      "id": "MREC-0092-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1840",
+          "DDInter292"
+        ],
+        "source_record_id": "DDInter1840|DDInter292",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "trabecledin"
+        },
+        {
+          "text": "captoprii"
+        }
+      ],
+      "group_id": "M0092",
+      "id": "MREC-0092-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1840",
+          "DDInter292"
+        ],
+        "source_record_id": "DDInter1840|DDInter292",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "trabetcedin"
+        },
+        {
+          "text": "captoprli"
+        }
+      ],
+      "group_id": "M0092",
+      "id": "MREC-0092-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1840",
+          "DDInter292"
+        ],
+        "source_record_id": "DDInter1840|DDInter292",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "brexpiprazole"
+        },
+        {
+          "text": "cyproheptadine"
+        }
+      ],
+      "group_id": "M0093",
+      "id": "MREC-0093-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter231",
+          "DDInter459"
+        ],
+        "source_record_id": "DDInter231|DDInter459",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "brelpiprazole"
+        },
+        {
+          "text": "cyploheptadine"
+        }
+      ],
+      "group_id": "M0093",
+      "id": "MREC-0093-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter231",
+          "DDInter459"
+        ],
+        "source_record_id": "DDInter231|DDInter459",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "bxexpiprazole"
+        },
+        {
+          "text": "cyproehptadine"
+        }
+      ],
+      "group_id": "M0093",
+      "id": "MREC-0093-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter231",
+          "DDInter459"
+        ],
+        "source_record_id": "DDInter231|DDInter459",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "maraviroc"
+        },
+        {
+          "text": "brigatinib"
+        }
+      ],
+      "group_id": "M0094",
+      "id": "MREC-0094-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1125",
+          "DDInter233"
+        ],
+        "source_record_id": "DDInter1125|DDInter233",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "malaviroc"
+        },
+        {
+          "text": "brigltinib"
+        }
+      ],
+      "group_id": "M0094",
+      "id": "MREC-0094-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1125",
+          "DDInter233"
+        ],
+        "source_record_id": "DDInter1125|DDInter233",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "marav1r0c"
+        },
+        {
+          "text": "brigaxinib"
+        }
+      ],
+      "group_id": "M0094",
+      "id": "MREC-0094-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1125",
+          "DDInter233"
+        ],
+        "source_record_id": "DDInter1125|DDInter233",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "nizatidine"
+        },
+        {
+          "text": "oxaprozin"
+        }
+      ],
+      "group_id": "M0095",
+      "id": "MREC-0095-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1309",
+          "DDInter1358"
+        ],
+        "source_record_id": "DDInter1309|DDInter1358",
+        "source_severity": "low"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "nizltidine"
+        },
+        {
+          "text": "oxalrozin"
+        }
+      ],
+      "group_id": "M0095",
+      "id": "MREC-0095-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1309",
+          "DDInter1358"
+        ],
+        "source_record_id": "DDInter1309|DDInter1358",
+        "source_severity": "low"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "nizatdiine"
+        },
+        {
+          "text": "oxarpozin"
+        }
+      ],
+      "group_id": "M0095",
+      "id": "MREC-0095-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1309",
+          "DDInter1358"
+        ],
+        "source_record_id": "DDInter1309|DDInter1358",
+        "source_severity": "low"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "ribociclib"
+        },
+        {
+          "text": "alimemazine"
+        }
+      ],
+      "group_id": "M0096",
+      "id": "MREC-0096-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1588",
+          "DDInter45"
+        ],
+        "source_record_id": "DDInter1588|DDInter45",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "libociclib"
+        },
+        {
+          "text": "alimemazinl"
+        }
+      ],
+      "group_id": "M0096",
+      "id": "MREC-0096-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1588",
+          "DDInter45"
+        ],
+        "source_record_id": "DDInter1588|DDInter45",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "riociclib"
+        },
+        {
+          "text": "a11memaz1ne"
+        }
+      ],
+      "group_id": "M0096",
+      "id": "MREC-0096-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1588",
+          "DDInter45"
+        ],
+        "source_record_id": "DDInter1588|DDInter45",
+        "source_severity": "high"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "loxapine"
+        },
+        {
+          "text": "phenindamine"
+        }
+      ],
+      "group_id": "M0097",
+      "id": "MREC-0097-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1099",
+          "DDInter1441"
+        ],
+        "source_record_id": "DDInter1099|DDInter1441",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "loxapile"
+        },
+        {
+          "text": "plenindamine"
+        }
+      ],
+      "group_id": "M0097",
+      "id": "MREC-0097-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1099",
+          "DDInter1441"
+        ],
+        "source_record_id": "DDInter1099|DDInter1441",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "loxapixe"
+        },
+        {
+          "text": "phneindamine"
+        }
+      ],
+      "group_id": "M0097",
+      "id": "MREC-0097-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1099",
+          "DDInter1441"
+        ],
+        "source_record_id": "DDInter1099|DDInter1441",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "lindane"
+        },
+        {
+          "text": "moxifloxacin"
+        }
+      ],
+      "group_id": "M0098",
+      "id": "MREC-0098-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1072",
+          "DDInter1247"
+        ],
+        "source_record_id": "DDInter1072|DDInter1247",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "iindane"
+        },
+        {
+          "text": "moxifloxlcin"
+        }
+      ],
+      "group_id": "M0098",
+      "id": "MREC-0098-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1072",
+          "DDInter1247"
+        ],
+        "source_record_id": "DDInter1072|DDInter1247",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "11ndane"
+        },
+        {
+          "text": "mxoifloxacin"
+        }
+      ],
+      "group_id": "M0098",
+      "id": "MREC-0098-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1072",
+          "DDInter1247"
+        ],
+        "source_record_id": "DDInter1072|DDInter1247",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "sirolimus"
+        },
+        {
+          "text": "zonisamide"
+        }
+      ],
+      "group_id": "M0099",
+      "id": "MREC-0099-clean",
+      "input_kind": "clean",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1678",
+          "DDInter1971"
+        ],
+        "source_record_id": "DDInter1678|DDInter1971",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "sirllimus"
+        },
+        {
+          "text": "zonisamile"
+        }
+      ],
+      "group_id": "M0099",
+      "id": "MREC-0099-single_character_error",
+      "input_kind": "single_character_error",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1678",
+          "DDInter1971"
+        ],
+        "source_record_id": "DDInter1678|DDInter1971",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    },
+    {
+      "entries": [
+        {
+          "text": "sirolimu"
+        },
+        {
+          "text": "z0n15am1de"
+        }
+      ],
+      "group_id": "M0099",
+      "id": "MREC-0099-mixed_corruption",
+      "input_kind": "mixed_corruption",
+      "reference": {
+        "ingredient_ids": [
+          "DDInter1678",
+          "DDInter1971"
+        ],
+        "source_record_id": "DDInter1678|DDInter1971",
+        "source_severity": "moderate"
+      },
+      "split": "test"
+    }
+  ],
+  "generation_coverage": {
+    "eligible_test_pairs": 5380,
+    "frozen_dataset_exclusions": {
+      "missing_or_excluded_molecule": 76643,
+      "unknown_source_severity": 29813
+    },
+    "missing_reference_molecule_or_name_pairs": 0,
+    "test_pairs": 5380
+  },
+  "holdout_audit": {
+    "canonical_source_record_ids": true,
+    "message_pairs": 18822,
+    "passed": true,
+    "supervision_pairs": 18822,
+    "test_pairs": 5380,
+    "true_query_training_overlap": 0
+  },
+  "kind": "masked_known_source_pair_test",
+  "label_use": "Reference names generate text; reference identities and labels are used only for scoring.",
+  "schema": "model-recognition-stress-1",
+  "scope": "Synthetic two-entry recognition; conditional source severity on known labeled TEST pairs.",
+  "seed": 1729,
+  "source_dataset_sha256": "041938cc699d9600a2afbc3d72301a15691579edc6f42d83a096f8284d4009e4",
+  "split_sha256": "f77a388b1473331f9d4975069ff6cf06060fa14c35bd054635e3ff5638adf155",
+  "variants": [
+    "clean",
+    "single_character_error",
+    "mixed_corruption"
+  ]
+}

@@ -1,0 +1,3874 @@
+{
+  "schema_version": "1.0",
+  "version": "fda-clinical-roles-2026-10-04",
+  "source": {
+    "title": "FDA Examples of Drugs that Interact with CYP Enzymes and Transporter Systems",
+    "publisher": "U.S. Food and Drug Administration",
+    "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+    "section": "Table 1: clinical CYP and transporter roles",
+    "retrieved_at": "2026-10-04T13:34:25.600757+00:00",
+    "raw_document_sha256": "6169a95de9b1ff88902b45a5fd503436dcf06b65e8f912bee444b3d26dc0a0aa",
+    "selected_rows_sha256": "8aacaa22374922b01b71fc16f38bd931936e72ea48a5889e7b61cafe8fc2b7a0",
+    "text_encoding": "utf-8"
+  },
+  "import": {
+    "importer": "scripts/import_biology.py",
+    "importer_version": "1.0",
+    "selected_drugs": [
+      "amiodarone",
+      "atorvastatin",
+      "buspirone",
+      "caffeine",
+      "carbamazepine",
+      "cimetidine",
+      "ciprofloxacin",
+      "clarithromycin",
+      "clopidogrel",
+      "colchicine",
+      "cyclosporine",
+      "dabigatran etexilate",
+      "dextromethorphan",
+      "digoxin",
+      "diltiazem",
+      "fluconazole",
+      "fluoxetine",
+      "fluvoxamine",
+      "gemfibrozil",
+      "itraconazole",
+      "ketoconazole",
+      "lansoprazole",
+      "lovastatin",
+      "metformin",
+      "midazolam",
+      "omeprazole",
+      "paroxetine",
+      "repaglinide",
+      "rifampin",
+      "rosuvastatin",
+      "simvastatin",
+      "tacrolimus",
+      "terbinafine",
+      "tizanidine",
+      "verapamil",
+      "warfarin"
+    ],
+    "selected_other_substances": [
+      "curcumin",
+      "diosmin",
+      "grapefruit juice",
+      "st. john's wort"
+    ],
+    "ingredient_mappings": {
+      "amiodarone": "DDInter76",
+      "atorvastatin": "DDInter133",
+      "buspirone": "DDInter254",
+      "caffeine": "DDInter263",
+      "carbamazepine": "DDInter293",
+      "cimetidine": "DDInter380",
+      "ciprofloxacin": "DDInter384",
+      "clarithromycin": "DDInter393",
+      "clopidogrel": "DDInter413",
+      "colchicine": "DDInter431",
+      "cyclosporine": "DDInter458",
+      "dextromethorphan": "DDInter527",
+      "digoxin": "DDInter554",
+      "diltiazem": "DDInter561",
+      "fluconazole": "DDInter743",
+      "fluoxetine": "DDInter758",
+      "fluvoxamine": "DDInter770",
+      "gemfibrozil": "DDInter812",
+      "itraconazole": "DDInter995",
+      "ketoconazole": "DDInter1008",
+      "lansoprazole": "DDInter1022",
+      "lovastatin": "DDInter1098",
+      "metformin": "DDInter1164",
+      "midazolam": "DDInter1212",
+      "omeprazole": "DDInter1340",
+      "paroxetine": "DDInter1397",
+      "repaglinide": "DDInter1581",
+      "rosuvastatin": "DDInter1622",
+      "simvastatin": "DDInter1675",
+      "tacrolimus": "DDInter1735",
+      "terbinafine": "DDInter1768",
+      "tizanidine": "DDInter1821",
+      "verapamil": "DDInter1928",
+      "warfarin": "DDInter1951"
+    },
+    "unmapped_drugs": [
+      "dabigatran etexilate",
+      "rifampin"
+    ],
+    "normalization": "whitespace and curly apostrophe normalization; exact ingredient lookup only"
+  },
+  "limitations": [
+    "Bounded, non-exhaustive clinical role table; absent roles are unknown, not negative evidence.",
+    "A shared pathway supports a mechanistic possibility, not a documented clinical pair outcome.",
+    "Role potency describes source categories, not pair interaction severity or individual risk.",
+    "CYP3A is retained as a group and is not expanded into CYP3A4 or CYP3A5.",
+    "Dose, route, enantiomer and preparation footnotes must accompany derived paths.",
+    "Whole-product supplement roles are not generalized to constituent-containing herbs or foods."
+  ],
+  "selected_rows": [
+    {
+      "source_entity": "amiodarone",
+      "cells": [
+        {
+          "text": "amiodarone",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "2C9 moderate inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "2D6; 3A weak inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "P-gp inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "997aa4beb31b7e8aabef2b2beb607c7896b16a37b01b09dc971e6317a2c2c47e"
+    },
+    {
+      "source_entity": "atorvastatin",
+      "cells": [
+        {
+          "text": "atorvastatin",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A moderate substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "OATP1B1; OATP1B3 substrate",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "57fd1d489275a2ff69350dc9dd35394309c43b45a9448a118650c7a3d51956e7"
+    },
+    {
+      "source_entity": "buspirone",
+      "cells": [
+        {
+          "text": "buspirone",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "1de7575e0f5ec64c5c7254803ac364d83677ec08829843e9aadc6e110e7ebfac"
+    },
+    {
+      "source_entity": "caffeine",
+      "cells": [
+        {
+          "text": "caffeine",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "1A2 sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "dceefa456bf67f73f8894b36fddeea892baada76dece6d55fb795179d9dd3698"
+    },
+    {
+      "source_entity": "carbamazepine",
+      "cells": [
+        {
+          "text": "carbamazepine",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "2B6; 3A strong inducer",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "2C9 weak inducer",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "de620c45edc07d9245bd5f2110c8063eb5e867b6475043191b8750dee62a1c21"
+    },
+    {
+      "source_entity": "cimetidine",
+      "cells": [
+        {
+          "text": "cimetidine",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A; 1A2; 2D6 weak inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "OCT2; MATE1; MATE2-K inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "6c5dfecf5c8e2cd838fe59815383e7ca1737f789822e551fb426c58e1d925ba5"
+    },
+    {
+      "source_entity": "ciprofloxacin",
+      "cells": [
+        {
+          "text": "ciprofloxacin",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "1A2; 3A moderate inhibitor",
+          "footnotes": [
+            "20"
+          ]
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "OAT1; OAT3 substrate",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "28842264bc6721971acf31a85db341367dabbe89017677f4e7933caeaf3fed8e"
+    },
+    {
+      "source_entity": "clarithromycin",
+      "cells": [
+        {
+          "text": "clarithromycin",
+          "footnotes": []
+        },
+        {
+          "text": "3A strong inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "P-gp; OATP1B1; OATP1B3 inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "0e1e7ad1954cadc94f08da700fd46ff9c3ab750c0ad93af457de9fc5b6be2b7c"
+    },
+    {
+      "source_entity": "clopidogrel",
+      "cells": [
+        {
+          "text": "clopidogrel",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "2C8 moderate inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "2B6 weak inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "22882526e46fd9170b4e2c0f861d3786f225411e586616799181518e1390899e"
+    },
+    {
+      "source_entity": "colchicine",
+      "cells": [
+        {
+          "text": "colchicine",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A moderate sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "dd5b7fe3c3631ff18cebaa4ac7ef22c0c2bd3bad7169cefa9bc4ead97113bb07"
+    },
+    {
+      "source_entity": "curcumin",
+      "cells": [
+        {
+          "text": "curcumin",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "BCRP inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "a0f363216d1270314fe73835c631228979c6a61c69030410268e6fb5a9f12164"
+    },
+    {
+      "source_entity": "cyclosporine",
+      "cells": [
+        {
+          "text": "cyclosporine",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A weak inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "P-gp; BCRP; OATP1B1; OATP1B3 inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "40e0dd5c4eadcf65b529c1fcf69ccf9a34ad6ad0ed3eba0a0587cbe76cb08158"
+    },
+    {
+      "source_entity": "dabigatran etexilate",
+      "cells": [
+        {
+          "text": "dabigatran etexilate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "P-gp substrate",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "671e4cb3909c729b020658ee733c247e5345b23b6d2b96b61813fa71999e274c"
+    },
+    {
+      "source_entity": "dextromethorphan",
+      "cells": [
+        {
+          "text": "dextromethorphan",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "2D6 sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "d61070e8c9737b20cc0a805d4f91d57b7919a6f92fdc5e4727f17f8ec4e805e6"
+    },
+    {
+      "source_entity": "digoxin",
+      "cells": [
+        {
+          "text": "digoxin",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "P-gp substrate",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "3e7811d468091fc5cb7c9f0eed04143acbada94c4135dd1028e9be71a60855b5"
+    },
+    {
+      "source_entity": "diltiazem",
+      "cells": [
+        {
+          "text": "diltiazem",
+          "footnotes": [
+            "7"
+          ]
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A moderate inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "99e1b427d81dceb2b066b16bc73deb6520ddf58b7f7d1eb31ee8af86b0b80758"
+    },
+    {
+      "source_entity": "diosmin",
+      "cells": [
+        {
+          "text": "diosmin",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "2C9 weak inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "631d61b1b8929ba28e928a55446734c4ff5cde15be24ba63f87f8260ef127ef1"
+    },
+    {
+      "source_entity": "fluconazole",
+      "cells": [
+        {
+          "text": "fluconazole",
+          "footnotes": []
+        },
+        {
+          "text": "2C19 strong inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "3A; 2C9 moderate inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "f9240beac57cf29538e03bbc2769e0b3de172978314bfae24e780474ec69fd0a"
+    },
+    {
+      "source_entity": "fluoxetine",
+      "cells": [
+        {
+          "text": "fluoxetine",
+          "footnotes": []
+        },
+        {
+          "text": "2C19; 2D6 strong inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "286ebca9ce7f9875a94591c169a5d3a8302239aa5e1fb723e00e114fbbfd2dda"
+    },
+    {
+      "source_entity": "fluvoxamine",
+      "cells": [
+        {
+          "text": "fluvoxamine",
+          "footnotes": [
+            "8"
+          ]
+        },
+        {
+          "text": "1A2; 2C19 strong inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A; 2C9; 2D6 weak inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "ff606d56ddc19f1763886c45acdfcb666b76ec4360357e015c7d2a0d5e169f8a"
+    },
+    {
+      "source_entity": "gemfibrozil",
+      "cells": [
+        {
+          "text": "gemfibrozil",
+          "footnotes": []
+        },
+        {
+          "text": "2C8 strong inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "OAT3; OATP1B1; OATP1B3 inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "435ff748cfe0dbfdbcc6ab82ab105131f146839c5700afef200e44dda80957cc"
+    },
+    {
+      "source_entity": "grapefruit juice",
+      "cells": [
+        {
+          "text": "grapefruit juice",
+          "footnotes": [
+            "9"
+          ]
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A moderate inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "019f37f6459d4aca15336bfe1998c9cf91ec0532950d06a35fd55d464e3f5c77"
+    },
+    {
+      "source_entity": "itraconazole",
+      "cells": [
+        {
+          "text": "itraconazole",
+          "footnotes": []
+        },
+        {
+          "text": "3A strong inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "P-gp inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "c2c6e0a63a26514785d59a3db0f0dd0aa9d95b17ff004f5b00f6684b6cd38995"
+    },
+    {
+      "source_entity": "ketoconazole",
+      "cells": [
+        {
+          "text": "ketoconazole",
+          "footnotes": []
+        },
+        {
+          "text": "3A strong inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "P-gp inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "dd31912dd563059cb20c5e458c98343c87254d3655c94f2a1729f50b7146c147"
+    },
+    {
+      "source_entity": "lansoprazole",
+      "cells": [
+        {
+          "text": "lansoprazole",
+          "footnotes": [
+            "11"
+          ]
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "2C19 moderate sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "f3743e7144737573bc2a01773957157ead06bd321393a354623bf9dece33cad5"
+    },
+    {
+      "source_entity": "lovastatin",
+      "cells": [
+        {
+          "text": "lovastatin",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "OATP1B1 substrate",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "850a48d3a0cc753b71710d1d55e17ab7340af19169f38131a1478b8131f4ed74"
+    },
+    {
+      "source_entity": "metformin",
+      "cells": [
+        {
+          "text": "metformin",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "MATE1; MATE2-K; OCT2 substrate",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "2b2120861cd959e99d142a5c2a46f993176a60d70c6f39f54318768922c7b1d3"
+    },
+    {
+      "source_entity": "midazolam",
+      "cells": [
+        {
+          "text": "midazolam",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "e05be1f6a067b2c8f1f37c18a99b7e91adb81790031bdcdec963d5c8cb89e03b"
+    },
+    {
+      "source_entity": "omeprazole",
+      "cells": [
+        {
+          "text": "omeprazole",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "2C19 weak inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "2C19 sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "2b6d4ff2033bcadb539ad341653fa7820b9fcc049f93517dd08afec52c04f925"
+    },
+    {
+      "source_entity": "paroxetine",
+      "cells": [
+        {
+          "text": "paroxetine",
+          "footnotes": []
+        },
+        {
+          "text": "2D6 strong inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "e49c45f10091b2f017fa70ddca98e35595002a8b401b77eb6c28ee5fe016d265"
+    },
+    {
+      "source_entity": "repaglinide",
+      "cells": [
+        {
+          "text": "repaglinide",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "2C8 sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "OATP1B1; OATP1B3 substrate",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "775b12b6d7166c2ac6b582de5c48981c0b9d64c01b2414b9c4963bf579cb5975"
+    },
+    {
+      "source_entity": "rifampin",
+      "cells": [
+        {
+          "text": "rifampin",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A; 2C19 strong inducer",
+          "footnotes": []
+        },
+        {
+          "text": "1A2, 2B6; 2C8; 2C9 moderate inducer",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "OATP1B1; OATP1B3 inhibitor",
+          "footnotes": [
+            "13",
+            "13"
+          ]
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "f89a276822036e478ca12131b82c071ad9d8a3bdadfcb2ee5ae14ca415add8bc"
+    },
+    {
+      "source_entity": "rosuvastatin",
+      "cells": [
+        {
+          "text": "rosuvastatin",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "BCRP; OATP1B1; OATP1B3 substrate",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "f113b702aab11d3c845b9aca7a27f8d9bf397f03747a60466f9f7c5cea02bcd9"
+    },
+    {
+      "source_entity": "simvastatin",
+      "cells": [
+        {
+          "text": "simvastatin",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "OATP1B1; OATP1B3 substrate",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "5ef6ba073c3a038893ce88558c8c34545a07c655e8d0a70f340cb30d103a4a0e"
+    },
+    {
+      "source_entity": "st. john's wort",
+      "cells": [
+        {
+          "text": "St. John's wort",
+          "footnotes": [
+            "18"
+          ]
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A strong inducer",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "937246f8234bf0091184e6753919375a307dec535db3b882f4b47cd469154e65"
+    },
+    {
+      "source_entity": "tacrolimus",
+      "cells": [
+        {
+          "text": "tacrolimus",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "292160d0a6516b5e7743fceb75ab716d0201e9b8b7a62e46d38f777b006ada22"
+    },
+    {
+      "source_entity": "terbinafine",
+      "cells": [
+        {
+          "text": "terbinafine",
+          "footnotes": []
+        },
+        {
+          "text": "2D6 strong inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "a55cbd06118a392b91304b19e0cd7b50e9f140646f52f1922d32a66bb7d61201"
+    },
+    {
+      "source_entity": "tizanidine",
+      "cells": [
+        {
+          "text": "tizanidine",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "1A2 sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "6b5cde609bf40fd003e0425b0dd7d08fdb9b37b4542c82885fec372d6558e8d8"
+    },
+    {
+      "source_entity": "verapamil",
+      "cells": [
+        {
+          "text": "verapamil",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "3A moderate inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "P-gp inhibitor",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "a396ebcb10281d1632894f71b93adb42554203be520e36d8674fcb5d2cd372b1"
+    },
+    {
+      "source_entity": "warfarin",
+      "cells": [
+        {
+          "text": "warfarin",
+          "footnotes": [
+            "19"
+          ]
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "2C9 moderate sensitive substrate",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        },
+        {
+          "text": "",
+          "footnotes": []
+        }
+      ],
+      "row_sha256": "f761893e4827716ae2d43e2062fe56625165bcf862bb1432c2fc15a81bad44ba"
+    }
+  ],
+  "roles": [
+    {
+      "source_entity": "amiodarone",
+      "role": "inhibitor",
+      "target": "CYP2C9",
+      "potency": "moderate",
+      "source_cell": "2C9 moderate inhibitor",
+      "source_row_sha256": "997aa4beb31b7e8aabef2b2beb607c7896b16a37b01b09dc971e6317a2c2c47e",
+      "role_id": "459ae7191e2f1941fcd61533",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter76",
+      "canonical_name": "amiodarone",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "amiodarone",
+      "role": "inhibitor",
+      "target": "CYP2D6",
+      "potency": "weak",
+      "source_cell": "2D6; 3A weak inhibitor",
+      "source_row_sha256": "997aa4beb31b7e8aabef2b2beb607c7896b16a37b01b09dc971e6317a2c2c47e",
+      "role_id": "fb74719b10cb5f17fddd5fbf",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter76",
+      "canonical_name": "amiodarone",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "amiodarone",
+      "role": "inhibitor",
+      "target": "CYP3A",
+      "potency": "weak",
+      "source_cell": "2D6; 3A weak inhibitor",
+      "source_row_sha256": "997aa4beb31b7e8aabef2b2beb607c7896b16a37b01b09dc971e6317a2c2c47e",
+      "role_id": "3b680c2995fd7c7593c21289",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter76",
+      "canonical_name": "amiodarone",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "amiodarone",
+      "role": "inhibitor",
+      "target": "P-gp",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp inhibitor",
+      "source_row_sha256": "997aa4beb31b7e8aabef2b2beb607c7896b16a37b01b09dc971e6317a2c2c47e",
+      "role_id": "e122fa4c8918ed0d1d64a08a",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter76",
+      "canonical_name": "amiodarone",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "atorvastatin",
+      "role": "substrate",
+      "target": "CYP3A",
+      "potency": "moderately_sensitive",
+      "source_cell": "3A moderate substrate",
+      "source_row_sha256": "57fd1d489275a2ff69350dc9dd35394309c43b45a9448a118650c7a3d51956e7",
+      "role_id": "122ce099e17bd2f7b7e2c796",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter133",
+      "canonical_name": "atorvastatin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "atorvastatin",
+      "role": "substrate",
+      "target": "OATP1B1",
+      "potency": "clinical_table_category",
+      "source_cell": "OATP1B1; OATP1B3 substrate",
+      "source_row_sha256": "57fd1d489275a2ff69350dc9dd35394309c43b45a9448a118650c7a3d51956e7",
+      "role_id": "d00618016ef885210e9b3fa7",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter133",
+      "canonical_name": "atorvastatin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "atorvastatin",
+      "role": "substrate",
+      "target": "OATP1B3",
+      "potency": "clinical_table_category",
+      "source_cell": "OATP1B1; OATP1B3 substrate",
+      "source_row_sha256": "57fd1d489275a2ff69350dc9dd35394309c43b45a9448a118650c7a3d51956e7",
+      "role_id": "0efef436468eac22dd27c6cf",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter133",
+      "canonical_name": "atorvastatin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "buspirone",
+      "role": "substrate",
+      "target": "CYP3A",
+      "potency": "sensitive",
+      "source_cell": "3A sensitive substrate",
+      "source_row_sha256": "1de7575e0f5ec64c5c7254803ac364d83677ec08829843e9aadc6e110e7ebfac",
+      "role_id": "cd882a91a0751d0590835691",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter254",
+      "canonical_name": "buspirone",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "caffeine",
+      "role": "substrate",
+      "target": "CYP1A2",
+      "potency": "sensitive",
+      "source_cell": "1A2 sensitive substrate",
+      "source_row_sha256": "dceefa456bf67f73f8894b36fddeea892baada76dece6d55fb795179d9dd3698",
+      "role_id": "2e6e78937a08ac345b6f9ee6",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter263",
+      "canonical_name": "caffeine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "carbamazepine",
+      "role": "inducer",
+      "target": "CYP2B6",
+      "potency": "strong",
+      "source_cell": "2B6; 3A strong inducer",
+      "source_row_sha256": "de620c45edc07d9245bd5f2110c8063eb5e867b6475043191b8750dee62a1c21",
+      "role_id": "5c57ff5bbf40d045ccec2422",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter293",
+      "canonical_name": "carbamazepine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "carbamazepine",
+      "role": "inducer",
+      "target": "CYP2C9",
+      "potency": "weak",
+      "source_cell": "2C9 weak inducer",
+      "source_row_sha256": "de620c45edc07d9245bd5f2110c8063eb5e867b6475043191b8750dee62a1c21",
+      "role_id": "b8db1f853d20aa7b01170d93",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter293",
+      "canonical_name": "carbamazepine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "carbamazepine",
+      "role": "inducer",
+      "target": "CYP3A",
+      "potency": "strong",
+      "source_cell": "2B6; 3A strong inducer",
+      "source_row_sha256": "de620c45edc07d9245bd5f2110c8063eb5e867b6475043191b8750dee62a1c21",
+      "role_id": "bf930e084e3ae4344ad3f04f",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter293",
+      "canonical_name": "carbamazepine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "cimetidine",
+      "role": "inhibitor",
+      "target": "CYP1A2",
+      "potency": "weak",
+      "source_cell": "3A; 1A2; 2D6 weak inhibitor",
+      "source_row_sha256": "6c5dfecf5c8e2cd838fe59815383e7ca1737f789822e551fb426c58e1d925ba5",
+      "role_id": "7e4daa74d7c653a3c1591102",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter380",
+      "canonical_name": "cimetidine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "cimetidine",
+      "role": "inhibitor",
+      "target": "CYP2D6",
+      "potency": "weak",
+      "source_cell": "3A; 1A2; 2D6 weak inhibitor",
+      "source_row_sha256": "6c5dfecf5c8e2cd838fe59815383e7ca1737f789822e551fb426c58e1d925ba5",
+      "role_id": "3f7e2178f75f7f68e58c2bbc",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter380",
+      "canonical_name": "cimetidine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "cimetidine",
+      "role": "inhibitor",
+      "target": "CYP3A",
+      "potency": "weak",
+      "source_cell": "3A; 1A2; 2D6 weak inhibitor",
+      "source_row_sha256": "6c5dfecf5c8e2cd838fe59815383e7ca1737f789822e551fb426c58e1d925ba5",
+      "role_id": "883c99b492c76134b711638f",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter380",
+      "canonical_name": "cimetidine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "cimetidine",
+      "role": "inhibitor",
+      "target": "MATE1",
+      "potency": "clinical_table_category",
+      "source_cell": "OCT2; MATE1; MATE2-K inhibitor",
+      "source_row_sha256": "6c5dfecf5c8e2cd838fe59815383e7ca1737f789822e551fb426c58e1d925ba5",
+      "role_id": "40ea5fe56e10c4f9f42e3fee",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter380",
+      "canonical_name": "cimetidine",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "cimetidine",
+      "role": "inhibitor",
+      "target": "MATE2-K",
+      "potency": "clinical_table_category",
+      "source_cell": "OCT2; MATE1; MATE2-K inhibitor",
+      "source_row_sha256": "6c5dfecf5c8e2cd838fe59815383e7ca1737f789822e551fb426c58e1d925ba5",
+      "role_id": "74de944e3b94addfed275572",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter380",
+      "canonical_name": "cimetidine",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "cimetidine",
+      "role": "inhibitor",
+      "target": "OCT2",
+      "potency": "clinical_table_category",
+      "source_cell": "OCT2; MATE1; MATE2-K inhibitor",
+      "source_row_sha256": "6c5dfecf5c8e2cd838fe59815383e7ca1737f789822e551fb426c58e1d925ba5",
+      "role_id": "7d2817320da63549e3014ff1",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter380",
+      "canonical_name": "cimetidine",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "ciprofloxacin",
+      "role": "inhibitor",
+      "target": "CYP1A2",
+      "potency": "moderate",
+      "source_cell": "1A2; 3A moderate inhibitor",
+      "source_row_sha256": "28842264bc6721971acf31a85db341367dabbe89017677f4e7933caeaf3fed8e",
+      "role_id": "796776e7001b36514c221052",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter384",
+      "canonical_name": "ciprofloxacin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "20"
+      ],
+      "conditions": [
+        "Ciprofloxacin is generally classified a moderate CYP 1A2 inhibitor based on totality of evidence; however, it can sometimes behave like a strong inhibitor (i.e., increase AUC more than 5-fold) when it interacts with certain CYP 1A2 substrates that are considered highly sensitive (e.g., tizanidine)."
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "ciprofloxacin",
+      "role": "inhibitor",
+      "target": "CYP3A",
+      "potency": "moderate",
+      "source_cell": "1A2; 3A moderate inhibitor",
+      "source_row_sha256": "28842264bc6721971acf31a85db341367dabbe89017677f4e7933caeaf3fed8e",
+      "role_id": "b46366b28ecabba3a14d4a22",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter384",
+      "canonical_name": "ciprofloxacin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "20"
+      ],
+      "conditions": [
+        "Ciprofloxacin is generally classified a moderate CYP 1A2 inhibitor based on totality of evidence; however, it can sometimes behave like a strong inhibitor (i.e., increase AUC more than 5-fold) when it interacts with certain CYP 1A2 substrates that are considered highly sensitive (e.g., tizanidine)."
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "ciprofloxacin",
+      "role": "substrate",
+      "target": "OAT1",
+      "potency": "clinical_table_category",
+      "source_cell": "OAT1; OAT3 substrate",
+      "source_row_sha256": "28842264bc6721971acf31a85db341367dabbe89017677f4e7933caeaf3fed8e",
+      "role_id": "d2a3dfe648e5a9c89e29156e",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter384",
+      "canonical_name": "ciprofloxacin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "ciprofloxacin",
+      "role": "substrate",
+      "target": "OAT3",
+      "potency": "clinical_table_category",
+      "source_cell": "OAT1; OAT3 substrate",
+      "source_row_sha256": "28842264bc6721971acf31a85db341367dabbe89017677f4e7933caeaf3fed8e",
+      "role_id": "e3d5badce1077c6d7d53f7b8",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter384",
+      "canonical_name": "ciprofloxacin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "clarithromycin",
+      "role": "inhibitor",
+      "target": "CYP3A",
+      "potency": "strong",
+      "source_cell": "3A strong inhibitor",
+      "source_row_sha256": "0e1e7ad1954cadc94f08da700fd46ff9c3ab750c0ad93af457de9fc5b6be2b7c",
+      "role_id": "75413fd6b03ce9f287b822ad",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter393",
+      "canonical_name": "clarithromycin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "clarithromycin",
+      "role": "inhibitor",
+      "target": "OATP1B1",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp; OATP1B1; OATP1B3 inhibitor",
+      "source_row_sha256": "0e1e7ad1954cadc94f08da700fd46ff9c3ab750c0ad93af457de9fc5b6be2b7c",
+      "role_id": "e1d4e406e5f68aa1302ad81b",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter393",
+      "canonical_name": "clarithromycin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "clarithromycin",
+      "role": "inhibitor",
+      "target": "OATP1B3",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp; OATP1B1; OATP1B3 inhibitor",
+      "source_row_sha256": "0e1e7ad1954cadc94f08da700fd46ff9c3ab750c0ad93af457de9fc5b6be2b7c",
+      "role_id": "cb6261833acc67c7302046f2",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter393",
+      "canonical_name": "clarithromycin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "clarithromycin",
+      "role": "inhibitor",
+      "target": "P-gp",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp; OATP1B1; OATP1B3 inhibitor",
+      "source_row_sha256": "0e1e7ad1954cadc94f08da700fd46ff9c3ab750c0ad93af457de9fc5b6be2b7c",
+      "role_id": "539fee1d373c2cf3e01998bd",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter393",
+      "canonical_name": "clarithromycin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "clopidogrel",
+      "role": "inhibitor",
+      "target": "CYP2B6",
+      "potency": "weak",
+      "source_cell": "2B6 weak inhibitor",
+      "source_row_sha256": "22882526e46fd9170b4e2c0f861d3786f225411e586616799181518e1390899e",
+      "role_id": "2941fb8c13c8ccbc0c5ad931",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter413",
+      "canonical_name": "clopidogrel",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "clopidogrel",
+      "role": "inhibitor",
+      "target": "CYP2C8",
+      "potency": "moderate",
+      "source_cell": "2C8 moderate inhibitor",
+      "source_row_sha256": "22882526e46fd9170b4e2c0f861d3786f225411e586616799181518e1390899e",
+      "role_id": "531f005fe7b8e845de7a59f7",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter413",
+      "canonical_name": "clopidogrel",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "colchicine",
+      "role": "substrate",
+      "target": "CYP3A",
+      "potency": "moderately_sensitive",
+      "source_cell": "3A moderate sensitive substrate",
+      "source_row_sha256": "dd5b7fe3c3631ff18cebaa4ac7ef22c0c2bd3bad7169cefa9bc4ead97113bb07",
+      "role_id": "16793bed23cd4cc144b5b8c5",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter431",
+      "canonical_name": "colchicine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "curcumin",
+      "role": "inhibitor",
+      "target": "BCRP",
+      "potency": "clinical_table_category",
+      "source_cell": "BCRP inhibitor",
+      "source_row_sha256": "a0f363216d1270314fe73835c631228979c6a61c69030410268e6fb5a9f12164",
+      "role_id": "b0ae1b4e87a2b8511e3b217c",
+      "entity_type": "supplement",
+      "ingredient_id": null,
+      "canonical_name": "curcumin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": [
+        "curcumin"
+      ]
+    },
+    {
+      "source_entity": "cyclosporine",
+      "role": "inhibitor",
+      "target": "BCRP",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp; BCRP; OATP1B1; OATP1B3 inhibitor",
+      "source_row_sha256": "40e0dd5c4eadcf65b529c1fcf69ccf9a34ad6ad0ed3eba0a0587cbe76cb08158",
+      "role_id": "520a5833dc5774a240abaed4",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter458",
+      "canonical_name": "cyclosporine",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "cyclosporine",
+      "role": "inhibitor",
+      "target": "CYP3A",
+      "potency": "weak",
+      "source_cell": "3A weak inhibitor",
+      "source_row_sha256": "40e0dd5c4eadcf65b529c1fcf69ccf9a34ad6ad0ed3eba0a0587cbe76cb08158",
+      "role_id": "303e682715ce2c58e01a12ed",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter458",
+      "canonical_name": "cyclosporine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "cyclosporine",
+      "role": "inhibitor",
+      "target": "OATP1B1",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp; BCRP; OATP1B1; OATP1B3 inhibitor",
+      "source_row_sha256": "40e0dd5c4eadcf65b529c1fcf69ccf9a34ad6ad0ed3eba0a0587cbe76cb08158",
+      "role_id": "2a854d559463b013917b2dd6",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter458",
+      "canonical_name": "cyclosporine",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "cyclosporine",
+      "role": "inhibitor",
+      "target": "OATP1B3",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp; BCRP; OATP1B1; OATP1B3 inhibitor",
+      "source_row_sha256": "40e0dd5c4eadcf65b529c1fcf69ccf9a34ad6ad0ed3eba0a0587cbe76cb08158",
+      "role_id": "249025f5bd0ad5196a4f5351",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter458",
+      "canonical_name": "cyclosporine",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "cyclosporine",
+      "role": "inhibitor",
+      "target": "P-gp",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp; BCRP; OATP1B1; OATP1B3 inhibitor",
+      "source_row_sha256": "40e0dd5c4eadcf65b529c1fcf69ccf9a34ad6ad0ed3eba0a0587cbe76cb08158",
+      "role_id": "ba74f2c175ebbe665e6f544e",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter458",
+      "canonical_name": "cyclosporine",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "dabigatran etexilate",
+      "role": "substrate",
+      "target": "P-gp",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp substrate",
+      "source_row_sha256": "671e4cb3909c729b020658ee733c247e5345b23b6d2b96b61813fa71999e274c",
+      "role_id": "1e0027cfb7d3348f27fb7d61",
+      "entity_type": "drug",
+      "ingredient_id": null,
+      "canonical_name": "dabigatran etexilate",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "dextromethorphan",
+      "role": "substrate",
+      "target": "CYP2D6",
+      "potency": "sensitive",
+      "source_cell": "2D6 sensitive substrate",
+      "source_row_sha256": "d61070e8c9737b20cc0a805d4f91d57b7919a6f92fdc5e4727f17f8ec4e805e6",
+      "role_id": "be664fc456bdacdcf32f1653",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter527",
+      "canonical_name": "dextromethorphan",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "digoxin",
+      "role": "substrate",
+      "target": "P-gp",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp substrate",
+      "source_row_sha256": "3e7811d468091fc5cb7c9f0eed04143acbada94c4135dd1028e9be71a60855b5",
+      "role_id": "9aced3de35df65dbd603e8c0",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter554",
+      "canonical_name": "digoxin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "diltiazem",
+      "role": "inhibitor",
+      "target": "CYP3A",
+      "potency": "moderate",
+      "source_cell": "3A moderate inhibitor",
+      "source_row_sha256": "99e1b427d81dceb2b066b16bc73deb6520ddf58b7f7d1eb31ee8af86b0b80758",
+      "role_id": "f510b918386d6b88a01cb807",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter561",
+      "canonical_name": "diltiazem",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "7"
+      ],
+      "conditions": [
+        "Diltiazem increased AUC of certain sensitive CYP3A substrates (e.g., buspirone) more than 5-fold."
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "diosmin",
+      "role": "inhibitor",
+      "target": "CYP2C9",
+      "potency": "weak",
+      "source_cell": "2C9 weak inhibitor",
+      "source_row_sha256": "631d61b1b8929ba28e928a55446734c4ff5cde15be24ba63f87f8260ef127ef1",
+      "role_id": "6704daf9526da002ad9c8727",
+      "entity_type": "supplement",
+      "ingredient_id": null,
+      "canonical_name": "diosmin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": [
+        "diosmin"
+      ]
+    },
+    {
+      "source_entity": "fluconazole",
+      "role": "inhibitor",
+      "target": "CYP2C19",
+      "potency": "strong",
+      "source_cell": "2C19 strong inhibitor",
+      "source_row_sha256": "f9240beac57cf29538e03bbc2769e0b3de172978314bfae24e780474ec69fd0a",
+      "role_id": "0cd3798d50d228e4a77299d6",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter743",
+      "canonical_name": "fluconazole",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "fluconazole",
+      "role": "inhibitor",
+      "target": "CYP2C9",
+      "potency": "moderate",
+      "source_cell": "3A; 2C9 moderate inhibitor",
+      "source_row_sha256": "f9240beac57cf29538e03bbc2769e0b3de172978314bfae24e780474ec69fd0a",
+      "role_id": "5cdefcc3cf9a78ce0c71d82e",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter743",
+      "canonical_name": "fluconazole",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "fluconazole",
+      "role": "inhibitor",
+      "target": "CYP3A",
+      "potency": "moderate",
+      "source_cell": "3A; 2C9 moderate inhibitor",
+      "source_row_sha256": "f9240beac57cf29538e03bbc2769e0b3de172978314bfae24e780474ec69fd0a",
+      "role_id": "b3e6011f28ed6dfe75495a3a",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter743",
+      "canonical_name": "fluconazole",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "fluoxetine",
+      "role": "inhibitor",
+      "target": "CYP2C19",
+      "potency": "strong",
+      "source_cell": "2C19; 2D6 strong inhibitor",
+      "source_row_sha256": "286ebca9ce7f9875a94591c169a5d3a8302239aa5e1fb723e00e114fbbfd2dda",
+      "role_id": "68d5b6e2524c5bc94b4c5751",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter758",
+      "canonical_name": "fluoxetine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "fluoxetine",
+      "role": "inhibitor",
+      "target": "CYP2D6",
+      "potency": "strong",
+      "source_cell": "2C19; 2D6 strong inhibitor",
+      "source_row_sha256": "286ebca9ce7f9875a94591c169a5d3a8302239aa5e1fb723e00e114fbbfd2dda",
+      "role_id": "8ca5eef024c8dbf95b02e1af",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter758",
+      "canonical_name": "fluoxetine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "fluvoxamine",
+      "role": "inhibitor",
+      "target": "CYP1A2",
+      "potency": "strong",
+      "source_cell": "1A2; 2C19 strong inhibitor",
+      "source_row_sha256": "ff606d56ddc19f1763886c45acdfcb666b76ec4360357e015c7d2a0d5e169f8a",
+      "role_id": "c10b6ed32aac238af8fdfcb2",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter770",
+      "canonical_name": "fluvoxamine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "8"
+      ],
+      "conditions": [
+        "Fluvoxamine increased the AUC of certain sensitive CYP3A substrates more than 2-fold (e.g., increased the AUC of buspirone 2.35-fold)"
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "fluvoxamine",
+      "role": "inhibitor",
+      "target": "CYP2C19",
+      "potency": "strong",
+      "source_cell": "1A2; 2C19 strong inhibitor",
+      "source_row_sha256": "ff606d56ddc19f1763886c45acdfcb666b76ec4360357e015c7d2a0d5e169f8a",
+      "role_id": "19fff300a80b1ded5b2c5a5c",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter770",
+      "canonical_name": "fluvoxamine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "8"
+      ],
+      "conditions": [
+        "Fluvoxamine increased the AUC of certain sensitive CYP3A substrates more than 2-fold (e.g., increased the AUC of buspirone 2.35-fold)"
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "fluvoxamine",
+      "role": "inhibitor",
+      "target": "CYP2C9",
+      "potency": "weak",
+      "source_cell": "3A; 2C9; 2D6 weak inhibitor",
+      "source_row_sha256": "ff606d56ddc19f1763886c45acdfcb666b76ec4360357e015c7d2a0d5e169f8a",
+      "role_id": "08db53235b9d7d728c9822fc",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter770",
+      "canonical_name": "fluvoxamine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "8"
+      ],
+      "conditions": [
+        "Fluvoxamine increased the AUC of certain sensitive CYP3A substrates more than 2-fold (e.g., increased the AUC of buspirone 2.35-fold)"
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "fluvoxamine",
+      "role": "inhibitor",
+      "target": "CYP2D6",
+      "potency": "weak",
+      "source_cell": "3A; 2C9; 2D6 weak inhibitor",
+      "source_row_sha256": "ff606d56ddc19f1763886c45acdfcb666b76ec4360357e015c7d2a0d5e169f8a",
+      "role_id": "220c1442c6c2b928550cd33a",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter770",
+      "canonical_name": "fluvoxamine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "8"
+      ],
+      "conditions": [
+        "Fluvoxamine increased the AUC of certain sensitive CYP3A substrates more than 2-fold (e.g., increased the AUC of buspirone 2.35-fold)"
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "fluvoxamine",
+      "role": "inhibitor",
+      "target": "CYP3A",
+      "potency": "weak",
+      "source_cell": "3A; 2C9; 2D6 weak inhibitor",
+      "source_row_sha256": "ff606d56ddc19f1763886c45acdfcb666b76ec4360357e015c7d2a0d5e169f8a",
+      "role_id": "5bbcff92dd0c0cbe441af6f0",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter770",
+      "canonical_name": "fluvoxamine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "8"
+      ],
+      "conditions": [
+        "Fluvoxamine increased the AUC of certain sensitive CYP3A substrates more than 2-fold (e.g., increased the AUC of buspirone 2.35-fold)"
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "gemfibrozil",
+      "role": "inhibitor",
+      "target": "CYP2C8",
+      "potency": "strong",
+      "source_cell": "2C8 strong inhibitor",
+      "source_row_sha256": "435ff748cfe0dbfdbcc6ab82ab105131f146839c5700afef200e44dda80957cc",
+      "role_id": "081826d1730c2a0117932c21",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter812",
+      "canonical_name": "gemfibrozil",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "gemfibrozil",
+      "role": "inhibitor",
+      "target": "OAT3",
+      "potency": "clinical_table_category",
+      "source_cell": "OAT3; OATP1B1; OATP1B3 inhibitor",
+      "source_row_sha256": "435ff748cfe0dbfdbcc6ab82ab105131f146839c5700afef200e44dda80957cc",
+      "role_id": "7c21551e77517a0c3e2d887b",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter812",
+      "canonical_name": "gemfibrozil",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "gemfibrozil",
+      "role": "inhibitor",
+      "target": "OATP1B1",
+      "potency": "clinical_table_category",
+      "source_cell": "OAT3; OATP1B1; OATP1B3 inhibitor",
+      "source_row_sha256": "435ff748cfe0dbfdbcc6ab82ab105131f146839c5700afef200e44dda80957cc",
+      "role_id": "1e2e9abfaae573b4ffc62085",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter812",
+      "canonical_name": "gemfibrozil",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "gemfibrozil",
+      "role": "inhibitor",
+      "target": "OATP1B3",
+      "potency": "clinical_table_category",
+      "source_cell": "OAT3; OATP1B1; OATP1B3 inhibitor",
+      "source_row_sha256": "435ff748cfe0dbfdbcc6ab82ab105131f146839c5700afef200e44dda80957cc",
+      "role_id": "8e7194ec0089b40e73550fb0",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter812",
+      "canonical_name": "gemfibrozil",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "grapefruit juice",
+      "role": "inhibitor",
+      "target": "CYP3A",
+      "potency": "moderate",
+      "source_cell": "3A moderate inhibitor",
+      "source_row_sha256": "019f37f6459d4aca15336bfe1998c9cf91ec0532950d06a35fd55d464e3f5c77",
+      "role_id": "e292e91fb54c5ba0c0220474",
+      "entity_type": "food",
+      "ingredient_id": null,
+      "canonical_name": "grapefruit juice",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "9"
+      ],
+      "conditions": [
+        "The effect of grapefruit juice varies widely among brands and is concentration-, dose-, and preparation-dependent. Studies have shown that it can be classified as a “strong CYP3A inhibitor” when a certain preparation was used (e.g., high dose, double strength) or more commonly as a “moderate CYP3A inhibitor” when another preparation was used (e.g., low dose, single strength)."
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": [
+        "grapefruit juice"
+      ]
+    },
+    {
+      "source_entity": "itraconazole",
+      "role": "inhibitor",
+      "target": "CYP3A",
+      "potency": "strong",
+      "source_cell": "3A strong inhibitor",
+      "source_row_sha256": "c2c6e0a63a26514785d59a3db0f0dd0aa9d95b17ff004f5b00f6684b6cd38995",
+      "role_id": "ae4aae2f6e07691032f90a58",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter995",
+      "canonical_name": "itraconazole",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "itraconazole",
+      "role": "inhibitor",
+      "target": "P-gp",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp inhibitor",
+      "source_row_sha256": "c2c6e0a63a26514785d59a3db0f0dd0aa9d95b17ff004f5b00f6684b6cd38995",
+      "role_id": "99440795db69b3db4f6aabf7",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter995",
+      "canonical_name": "itraconazole",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "ketoconazole",
+      "role": "inhibitor",
+      "target": "CYP3A",
+      "potency": "strong",
+      "source_cell": "3A strong inhibitor",
+      "source_row_sha256": "dd31912dd563059cb20c5e458c98343c87254d3655c94f2a1729f50b7146c147",
+      "role_id": "211fc1bfb6de925500212009",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1008",
+      "canonical_name": "ketoconazole",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "ketoconazole",
+      "role": "inhibitor",
+      "target": "P-gp",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp inhibitor",
+      "source_row_sha256": "dd31912dd563059cb20c5e458c98343c87254d3655c94f2a1729f50b7146c147",
+      "role_id": "86d169aa327a7fadb128cc01",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1008",
+      "canonical_name": "ketoconazole",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "lansoprazole",
+      "role": "substrate",
+      "target": "CYP2C19",
+      "potency": "moderately_sensitive",
+      "source_cell": "2C19 moderate sensitive substrate",
+      "source_row_sha256": "f3743e7144737573bc2a01773957157ead06bd321393a354623bf9dece33cad5",
+      "role_id": "116d9866c996208e1ce54db8",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1022",
+      "canonical_name": "lansoprazole",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "11"
+      ],
+      "conditions": [
+        "S-lansoprazole is a sensitive substrate in CYP2C19 extensive metabolizer subjects."
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "lovastatin",
+      "role": "substrate",
+      "target": "CYP3A",
+      "potency": "sensitive",
+      "source_cell": "3A sensitive substrate",
+      "source_row_sha256": "850a48d3a0cc753b71710d1d55e17ab7340af19169f38131a1478b8131f4ed74",
+      "role_id": "37d880a3ca6127641d5b7bfc",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1098",
+      "canonical_name": "lovastatin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "lovastatin",
+      "role": "substrate",
+      "target": "OATP1B1",
+      "potency": "clinical_table_category",
+      "source_cell": "OATP1B1 substrate",
+      "source_row_sha256": "850a48d3a0cc753b71710d1d55e17ab7340af19169f38131a1478b8131f4ed74",
+      "role_id": "617e310b841de975c7a48885",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1098",
+      "canonical_name": "lovastatin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "metformin",
+      "role": "substrate",
+      "target": "MATE1",
+      "potency": "clinical_table_category",
+      "source_cell": "MATE1; MATE2-K; OCT2 substrate",
+      "source_row_sha256": "2b2120861cd959e99d142a5c2a46f993176a60d70c6f39f54318768922c7b1d3",
+      "role_id": "92fd62dcc7deed782bc419fd",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1164",
+      "canonical_name": "metformin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "metformin",
+      "role": "substrate",
+      "target": "MATE2-K",
+      "potency": "clinical_table_category",
+      "source_cell": "MATE1; MATE2-K; OCT2 substrate",
+      "source_row_sha256": "2b2120861cd959e99d142a5c2a46f993176a60d70c6f39f54318768922c7b1d3",
+      "role_id": "8cfc806b408ce35c080f4b2a",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1164",
+      "canonical_name": "metformin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "metformin",
+      "role": "substrate",
+      "target": "OCT2",
+      "potency": "clinical_table_category",
+      "source_cell": "MATE1; MATE2-K; OCT2 substrate",
+      "source_row_sha256": "2b2120861cd959e99d142a5c2a46f993176a60d70c6f39f54318768922c7b1d3",
+      "role_id": "4b5004c4252d08ad85894ff1",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1164",
+      "canonical_name": "metformin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "midazolam",
+      "role": "substrate",
+      "target": "CYP3A",
+      "potency": "sensitive",
+      "source_cell": "3A sensitive substrate",
+      "source_row_sha256": "e05be1f6a067b2c8f1f37c18a99b7e91adb81790031bdcdec963d5c8cb89e03b",
+      "role_id": "c99d3dd496e57274e3a472f4",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1212",
+      "canonical_name": "midazolam",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "omeprazole",
+      "role": "inhibitor",
+      "target": "CYP2C19",
+      "potency": "weak",
+      "source_cell": "2C19 weak inhibitor",
+      "source_row_sha256": "2b6d4ff2033bcadb539ad341653fa7820b9fcc049f93517dd08afec52c04f925",
+      "role_id": "43457eacf2436a0d9e5ad817",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1340",
+      "canonical_name": "omeprazole",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "omeprazole",
+      "role": "substrate",
+      "target": "CYP2C19",
+      "potency": "sensitive",
+      "source_cell": "2C19 sensitive substrate",
+      "source_row_sha256": "2b6d4ff2033bcadb539ad341653fa7820b9fcc049f93517dd08afec52c04f925",
+      "role_id": "11485bf1245b467e7d6800cc",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1340",
+      "canonical_name": "omeprazole",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "paroxetine",
+      "role": "inhibitor",
+      "target": "CYP2D6",
+      "potency": "strong",
+      "source_cell": "2D6 strong inhibitor",
+      "source_row_sha256": "e49c45f10091b2f017fa70ddca98e35595002a8b401b77eb6c28ee5fe016d265",
+      "role_id": "66cfb26cf2e1da51c4546942",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1397",
+      "canonical_name": "paroxetine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "repaglinide",
+      "role": "substrate",
+      "target": "CYP2C8",
+      "potency": "sensitive",
+      "source_cell": "2C8 sensitive substrate",
+      "source_row_sha256": "775b12b6d7166c2ac6b582de5c48981c0b9d64c01b2414b9c4963bf579cb5975",
+      "role_id": "d63c346fd77ae9aee9365d43",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1581",
+      "canonical_name": "repaglinide",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "repaglinide",
+      "role": "substrate",
+      "target": "OATP1B1",
+      "potency": "clinical_table_category",
+      "source_cell": "OATP1B1; OATP1B3 substrate",
+      "source_row_sha256": "775b12b6d7166c2ac6b582de5c48981c0b9d64c01b2414b9c4963bf579cb5975",
+      "role_id": "6dbc0cf3e34920eff2b685b2",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1581",
+      "canonical_name": "repaglinide",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "repaglinide",
+      "role": "substrate",
+      "target": "OATP1B3",
+      "potency": "clinical_table_category",
+      "source_cell": "OATP1B1; OATP1B3 substrate",
+      "source_row_sha256": "775b12b6d7166c2ac6b582de5c48981c0b9d64c01b2414b9c4963bf579cb5975",
+      "role_id": "bab76ba51b3ace203a71f64d",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1581",
+      "canonical_name": "repaglinide",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "rifampin",
+      "role": "inducer",
+      "target": "CYP1A2",
+      "potency": "moderate",
+      "source_cell": "1A2, 2B6; 2C8; 2C9 moderate inducer",
+      "source_row_sha256": "f89a276822036e478ca12131b82c071ad9d8a3bdadfcb2ee5ae14ca415add8bc",
+      "role_id": "b09c47840b4bb780a4a6958f",
+      "entity_type": "drug",
+      "ingredient_id": null,
+      "canonical_name": "rifampin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "rifampin",
+      "role": "inducer",
+      "target": "CYP2B6",
+      "potency": "moderate",
+      "source_cell": "1A2, 2B6; 2C8; 2C9 moderate inducer",
+      "source_row_sha256": "f89a276822036e478ca12131b82c071ad9d8a3bdadfcb2ee5ae14ca415add8bc",
+      "role_id": "d3de4badf0d1d5a0afcceabc",
+      "entity_type": "drug",
+      "ingredient_id": null,
+      "canonical_name": "rifampin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "rifampin",
+      "role": "inducer",
+      "target": "CYP2C19",
+      "potency": "strong",
+      "source_cell": "3A; 2C19 strong inducer",
+      "source_row_sha256": "f89a276822036e478ca12131b82c071ad9d8a3bdadfcb2ee5ae14ca415add8bc",
+      "role_id": "5eb1af0e9e39c49e1bd756e0",
+      "entity_type": "drug",
+      "ingredient_id": null,
+      "canonical_name": "rifampin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "rifampin",
+      "role": "inducer",
+      "target": "CYP2C8",
+      "potency": "moderate",
+      "source_cell": "1A2, 2B6; 2C8; 2C9 moderate inducer",
+      "source_row_sha256": "f89a276822036e478ca12131b82c071ad9d8a3bdadfcb2ee5ae14ca415add8bc",
+      "role_id": "14b32d117deced28112b5405",
+      "entity_type": "drug",
+      "ingredient_id": null,
+      "canonical_name": "rifampin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "rifampin",
+      "role": "inducer",
+      "target": "CYP2C9",
+      "potency": "moderate",
+      "source_cell": "1A2, 2B6; 2C8; 2C9 moderate inducer",
+      "source_row_sha256": "f89a276822036e478ca12131b82c071ad9d8a3bdadfcb2ee5ae14ca415add8bc",
+      "role_id": "b1bf2293aeed084351ab3cec",
+      "entity_type": "drug",
+      "ingredient_id": null,
+      "canonical_name": "rifampin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "rifampin",
+      "role": "inducer",
+      "target": "CYP3A",
+      "potency": "strong",
+      "source_cell": "3A; 2C19 strong inducer",
+      "source_row_sha256": "f89a276822036e478ca12131b82c071ad9d8a3bdadfcb2ee5ae14ca415add8bc",
+      "role_id": "4b2ce1ea1e31d8cf44ee9f80",
+      "entity_type": "drug",
+      "ingredient_id": null,
+      "canonical_name": "rifampin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "rifampin",
+      "role": "inhibitor",
+      "target": "OATP1B1",
+      "potency": "clinical_table_category",
+      "source_cell": "OATP1B1; OATP1B3 inhibitor",
+      "source_row_sha256": "f89a276822036e478ca12131b82c071ad9d8a3bdadfcb2ee5ae14ca415add8bc",
+      "role_id": "a39bd134fb2f8f64baf0da55",
+      "entity_type": "drug",
+      "ingredient_id": null,
+      "canonical_name": "rifampin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "13"
+      ],
+      "conditions": [
+        "Single dose"
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "rifampin",
+      "role": "inhibitor",
+      "target": "OATP1B3",
+      "potency": "clinical_table_category",
+      "source_cell": "OATP1B1; OATP1B3 inhibitor",
+      "source_row_sha256": "f89a276822036e478ca12131b82c071ad9d8a3bdadfcb2ee5ae14ca415add8bc",
+      "role_id": "d2734afa7d251670a8e14a2a",
+      "entity_type": "drug",
+      "ingredient_id": null,
+      "canonical_name": "rifampin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "13"
+      ],
+      "conditions": [
+        "Single dose"
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "rosuvastatin",
+      "role": "substrate",
+      "target": "BCRP",
+      "potency": "clinical_table_category",
+      "source_cell": "BCRP; OATP1B1; OATP1B3 substrate",
+      "source_row_sha256": "f113b702aab11d3c845b9aca7a27f8d9bf397f03747a60466f9f7c5cea02bcd9",
+      "role_id": "8e419a4dc73c6095a0cb76e2",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1622",
+      "canonical_name": "rosuvastatin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "rosuvastatin",
+      "role": "substrate",
+      "target": "OATP1B1",
+      "potency": "clinical_table_category",
+      "source_cell": "BCRP; OATP1B1; OATP1B3 substrate",
+      "source_row_sha256": "f113b702aab11d3c845b9aca7a27f8d9bf397f03747a60466f9f7c5cea02bcd9",
+      "role_id": "93fdf4cd20eab97a72fabf15",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1622",
+      "canonical_name": "rosuvastatin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "rosuvastatin",
+      "role": "substrate",
+      "target": "OATP1B3",
+      "potency": "clinical_table_category",
+      "source_cell": "BCRP; OATP1B1; OATP1B3 substrate",
+      "source_row_sha256": "f113b702aab11d3c845b9aca7a27f8d9bf397f03747a60466f9f7c5cea02bcd9",
+      "role_id": "43231207c329553117be749c",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1622",
+      "canonical_name": "rosuvastatin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "simvastatin",
+      "role": "substrate",
+      "target": "CYP3A",
+      "potency": "sensitive",
+      "source_cell": "3A sensitive substrate",
+      "source_row_sha256": "5ef6ba073c3a038893ce88558c8c34545a07c655e8d0a70f340cb30d103a4a0e",
+      "role_id": "afa259fcd94276f1dd1218c2",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1675",
+      "canonical_name": "simvastatin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "simvastatin",
+      "role": "substrate",
+      "target": "OATP1B1",
+      "potency": "clinical_table_category",
+      "source_cell": "OATP1B1; OATP1B3 substrate",
+      "source_row_sha256": "5ef6ba073c3a038893ce88558c8c34545a07c655e8d0a70f340cb30d103a4a0e",
+      "role_id": "e2bb6d82ab32c7223c479cc5",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1675",
+      "canonical_name": "simvastatin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "simvastatin",
+      "role": "substrate",
+      "target": "OATP1B3",
+      "potency": "clinical_table_category",
+      "source_cell": "OATP1B1; OATP1B3 substrate",
+      "source_row_sha256": "5ef6ba073c3a038893ce88558c8c34545a07c655e8d0a70f340cb30d103a4a0e",
+      "role_id": "83a4a8c6d8511d5e4d1e1f68",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1675",
+      "canonical_name": "simvastatin",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "st. john's wort",
+      "role": "inducer",
+      "target": "CYP3A",
+      "potency": "strong",
+      "source_cell": "3A strong inducer",
+      "source_row_sha256": "937246f8234bf0091184e6753919375a307dec535db3b882f4b47cd469154e65",
+      "role_id": "0aad0b06ae68fc43eac042d6",
+      "entity_type": "supplement",
+      "ingredient_id": null,
+      "canonical_name": "st. john's wort",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "18"
+      ],
+      "conditions": [
+        "The effect of St. John's wort varies widely and is preparation dependent."
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": [
+        "st. john's wort",
+        "st john's wort",
+        "st johns wort",
+        "st. johns wort"
+      ]
+    },
+    {
+      "source_entity": "tacrolimus",
+      "role": "substrate",
+      "target": "CYP3A",
+      "potency": "sensitive",
+      "source_cell": "3A sensitive substrate",
+      "source_row_sha256": "292160d0a6516b5e7743fceb75ab716d0201e9b8b7a62e46d38f777b006ada22",
+      "role_id": "b16423e7977adcd1d79bb1f2",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1735",
+      "canonical_name": "tacrolimus",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "terbinafine",
+      "role": "inhibitor",
+      "target": "CYP2D6",
+      "potency": "strong",
+      "source_cell": "2D6 strong inhibitor",
+      "source_row_sha256": "a55cbd06118a392b91304b19e0cd7b50e9f140646f52f1922d32a66bb7d61201",
+      "role_id": "23cce6885b98e5aa0a759cba",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1768",
+      "canonical_name": "terbinafine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "tizanidine",
+      "role": "substrate",
+      "target": "CYP1A2",
+      "potency": "sensitive",
+      "source_cell": "1A2 sensitive substrate",
+      "source_row_sha256": "6b5cde609bf40fd003e0425b0dd7d08fdb9b37b4542c82885fec372d6558e8d8",
+      "role_id": "cdd0d03ba96f6ae1fff3cf4a",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1821",
+      "canonical_name": "tizanidine",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "verapamil",
+      "role": "inhibitor",
+      "target": "CYP3A",
+      "potency": "moderate",
+      "source_cell": "3A moderate inhibitor",
+      "source_row_sha256": "a396ebcb10281d1632894f71b93adb42554203be520e36d8674fcb5d2cd372b1",
+      "role_id": "19def34f18d5106475650ae4",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1928",
+      "canonical_name": "verapamil",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "verapamil",
+      "role": "inhibitor",
+      "target": "P-gp",
+      "potency": "clinical_table_category",
+      "source_cell": "P-gp inhibitor",
+      "source_row_sha256": "a396ebcb10281d1632894f71b93adb42554203be520e36d8674fcb5d2cd372b1",
+      "role_id": "f72e4ad99e722b342a38f4c1",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1928",
+      "canonical_name": "verapamil",
+      "target_family": "transporter",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [],
+      "conditions": [],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    },
+    {
+      "source_entity": "warfarin",
+      "role": "substrate",
+      "target": "CYP2C9",
+      "potency": "moderately_sensitive",
+      "source_cell": "2C9 moderate sensitive substrate",
+      "source_row_sha256": "f761893e4827716ae2d43e2062fe56625165bcf862bb1432c2fc15a81bad44ba",
+      "role_id": "914443526c8ae70f41bbc101",
+      "entity_type": "drug",
+      "ingredient_id": "DDInter1951",
+      "canonical_name": "warfarin",
+      "target_family": "CYP",
+      "evidence_type": "FDA_clinical_role_table",
+      "footnote_ids": [
+        "19"
+      ],
+      "conditions": [
+        "S-warfarin"
+      ],
+      "source_url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+      "aliases": []
+    }
+  ],
+  "roles_sha256": "c2e7022252ed2f841d1a76b5e7d3ae0553e15c4db9f942a3528e0478d1c1be59"
+}

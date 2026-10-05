@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 
 
+@lru_cache(maxsize=16)
 def load_json(name: str) -> tuple[dict, str]:
     path = DATA_DIR / name
     raw = path.read_bytes()
@@ -37,11 +38,13 @@ def find_ddinter_pair(first_name: str, second_name: str) -> dict | None:
     lookup, _ = load_ddinter_lookup()
     if not lookup:
         return None
-    first = lookup["drug_index"].get(first_name)
-    second = lookup["drug_index"].get(second_name)
-    if not first or not second or first["id"] == second["id"]:
+    from .terminology import exact
+    first, second = exact(first_name), exact(second_name)
+    if len(first) != 1 or len(second) != 1:
         return None
-    key = "|".join(sorted((first["id"], second["id"])))
+    if len(first[0].ingredient_ids) != 1 or len(second[0].ingredient_ids) != 1:
+        return None
+    key = "|".join(sorted((first[0].ingredient_ids[0], second[0].ingredient_ids[0])))
     return lookup["interactions"].get(key)
 
 

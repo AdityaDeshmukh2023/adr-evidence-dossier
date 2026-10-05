@@ -1,0 +1,13 @@
+{
+  "version": "terminology-2.0",
+  "scope": "Existing demonstration aliases. Expert review of regional brand coverage remains required.",
+  "aliases": {
+    "asa": ["acetylsalicylic acid"], "aspirin": ["acetylsalicylic acid"],
+    "coumadin": ["warfarin"], "advil": ["ibuprofen"], "motrin": ["ibuprofen"],
+    "tylenol": ["acetaminophen"], "paracetamol": ["acetaminophen"],
+    "zoloft": ["sertraline"], "nardil": ["phenelzine"], "cymbalta": ["duloxetine"],
+    "lipitor": ["atorvastatin"], "zocor": ["simvastatin"]
+  },
+  "combination_products": {},
+  "combination_policy": "Add only independently reviewed brand-to-ingredient arrays. Explicit ingredient lists are supported without inventing product composition."
+}

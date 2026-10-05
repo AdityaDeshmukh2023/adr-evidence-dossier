@@ -1,0 +1,1 @@
+case_id,pair_id,reviewer_id,ingredient_a_name,ingredient_b_name,ingredient_a_id,ingredient_b_id,reference_status,source_severity,mapped_severity,source_record_or_document_id,source_version,source_section,source_url,source_excerpt_or_location,accessed_at,clinical_judgment,judgment_reason,reviewed_at

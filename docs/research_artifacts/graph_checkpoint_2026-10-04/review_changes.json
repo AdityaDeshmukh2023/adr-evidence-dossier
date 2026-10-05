@@ -1,0 +1,48 @@
+{
+  "correction": {
+    "introduced": [
+      "DDInter1951|DDInter20"
+    ],
+    "removed": [],
+    "changed": [],
+    "scope": "Actual source finding/evidence changes, not inferred clinical outcome changes."
+  },
+  "exclusion": {
+    "introduced": [],
+    "removed": [
+      "DDInter1951|DDInter20"
+    ],
+    "changed": [],
+    "scope": "Actual source finding/evidence changes, not inferred clinical outcome changes."
+  },
+  "review_history": [
+    {
+      "kind": "review_decision",
+      "label": "Review 1",
+      "ordinal": 0,
+      "mention_id": "m1",
+      "decided_at": "2026-10-04T07:21:24.739111+00:00",
+      "action": "resolve",
+      "node_id": "review_decision:4d0b0aa01b68aedc71d25b3d",
+      "introduced": [
+        "DDInter1951|DDInter20"
+      ],
+      "removed": [],
+      "retained": []
+    },
+    {
+      "kind": "review_decision",
+      "label": "Review 2",
+      "ordinal": 1,
+      "mention_id": "m1",
+      "decided_at": "2026-10-04T07:21:24.739111+00:00",
+      "action": "exclude_non_medication",
+      "node_id": "review_decision:b6290bda111c4ec4232ea78d",
+      "introduced": [],
+      "removed": [
+        "DDInter1951|DDInter20"
+      ],
+      "retained": []
+    }
+  ]
+}

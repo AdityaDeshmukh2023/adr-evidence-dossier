@@ -1,0 +1,30 @@
+{
+  "calibration_indices_sha256": "50e595d1d9ff936b734402623dae7ffe0b773abe60f9600bc960da13101e3480",
+  "calibration_internal_split": "stratified 50/25/25 temperature/threshold/independent-check",
+  "independent_policy_check_sha256": "5074998708a16306de18105e88abf71e7cd6783b295f0b4eb5ed9b0a94dd3dec",
+  "policy": {
+    "accepted_count": 236,
+    "adaptive_selection": true,
+    "coverage": 0.10378188214599825,
+    "errors": 14,
+    "formal_risk_guarantee": "none",
+    "independent_policy_check": {
+      "count": 227,
+      "errors": 13,
+      "sample_count": 2274,
+      "wilson_95_upper_error": 0.09550239375055847
+    },
+    "interval_semantics": "Selected-point Wilson statistic; adaptive threshold search is not uniform risk control.",
+    "maximum_upper_error": 0.1,
+    "minimum_accepted": 100,
+    "sample_count": 2274,
+    "scope": "Held-out source-label error, not clinical risk.",
+    "threshold": 0.9413539439061596,
+    "wilson_95_upper_error": 0.0970982062254205
+  },
+  "protocol": "cold",
+  "scope": "Known-source labels only; applicability to source-unknown records unvalidated.",
+  "temperature": 1.3416682657391161,
+  "temperature_fit_sha256": "a40997801b6288d63245393eece57a46bf6dc92efe9979f5af917a29a3ad50b3",
+  "threshold_tune_sha256": "741c30861b01889d25b0e604058a2c628442fb043553d74e340dd00b38503385"
+}

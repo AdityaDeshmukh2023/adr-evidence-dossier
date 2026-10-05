@@ -1,0 +1,23 @@
+flowchart TD
+  A[Text or printed prescription photo] --> B[Local structured OCR / text spans]
+  B --> C[Offline terminology and ingredient candidates]
+  C --> D{Identity resolved?}
+  D -->|Yes| E[Deterministic ingredient-pair screening]
+  D -->|No| F[Unassessed entries and candidate previews]
+  F --> G[Prioritize review by possible finding changes]
+  G --> H[Reviewer confirms / corrects / excludes non-medication text]
+  H --> E
+  H --> G
+  I[Versioned DDInter / curated food rules] --> E
+  E --> J[Source-linked findings and coverage]
+  K[Explicit optional openFDA / PubChem retrieval] --> J
+  J --> P[Typed evidence graph: mentions / ingredients / findings / passages / documents]
+  C --> P
+  H --> P
+  P --> Q[Provenance / candidate hypotheses / correction and version-change queries]
+  P --> L[Deterministic explanation / optional validated excerpts]
+  Q --> M
+  L --> M[Review desk / graph / HTML / replay JSON]
+  C --> N[Offline evaluation with frozen data and code]
+  G --> N
+  N --> O[Metrics / paired group intervals / tables / figures]

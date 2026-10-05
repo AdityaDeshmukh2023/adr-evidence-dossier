@@ -1,0 +1,56 @@
+{
+  "biology_manifest": {
+    "feature_semantics": "binary documented role presence; zero means not present in bounded snapshot",
+    "limitations": [
+      "Bounded, non-exhaustive clinical role table; absent roles are unknown, not negative evidence.",
+      "A shared pathway supports a mechanistic possibility, not a documented clinical pair outcome.",
+      "Role potency describes source categories, not pair interaction severity or individual risk.",
+      "CYP3A is retained as a group and is not expanded into CYP3A4 or CYP3A5.",
+      "Dose, route, enantiomer and preparation footnotes must accompany derived paths.",
+      "Whole-product supplement roles are not generalized to constituent-containing herbs or foods."
+    ],
+    "mapped_drug_count": 34,
+    "role_count": 93,
+    "roles_sha256": "c2e7022252ed2f841d1a76b5e7d3ae0553e15c4db9f942a3528e0478d1c1be59",
+    "sha256": "fabaa837255571ebb09b153c8c12f841a740c8a44041fc83f62516af7fd236fc",
+    "source": {
+      "publisher": "U.S. Food and Drug Administration",
+      "raw_document_sha256": "6169a95de9b1ff88902b45a5fd503436dcf06b65e8f912bee444b3d26dc0a0aa",
+      "retrieved_at": "2026-10-04T13:34:25.600757+00:00",
+      "section": "Table 1: clinical CYP and transporter roles",
+      "selected_rows_sha256": "8aacaa22374922b01b71fc16f38bd931936e72ea48a5889e7b61cafe8fc2b7a0",
+      "text_encoding": "utf-8",
+      "title": "FDA Examples of Drugs that Interact with CYP Enzymes and Transporter Systems",
+      "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems"
+    },
+    "unmapped_drugs": [
+      "dabigatran etexilate",
+      "rifampin"
+    ],
+    "version": "fda-clinical-roles-2026-10-04"
+  },
+  "classes": [
+    "high",
+    "moderate",
+    "low"
+  ],
+  "dataset_sha256": "041938cc699d9600a2afbc3d72301a15691579edc6f42d83a096f8284d4009e4",
+  "files": {
+    "calibration.json": "c6ff65a510b72d7eaf4e0a7991d7f9b5013f160b11ce8f87ea77b8b9301be75a",
+    "config.json": "cbcb09c2ad36a790e28e5f4406b2bd8c41d2ac716abb00ed8cb65650d9ba01aa",
+    "features.json": "9276a6c90b68f1b1f507464c6567de86a51c173ff1a973c05f9a8bf1a067114e",
+    "graph.json": "9145936b64366886e90578b712106c079e52613ee585aa5a0be7cf800eb81e37",
+    "training_scope.json": "3741ed3c0baeca4a573b3477848f8473a267b8d5fc4992dbedba4aaa86d1b20c",
+    "weights.pt": "5b24983807fdfee11c4ae3f186c0b52eb903e4d15f0e4483496923b6574d57b6"
+  },
+  "model_name": "fusion",
+  "model_version": "61407f1d3447a853d8b7",
+  "molecule_cache_sha256": "c2a2b2f301f59206e3a7dfebf231d84d8592fe60e093c98808b86c1524a38eaf",
+  "prediction_semantics": "Conditional source severity for documented interactions; not DDI existence or patient risk.",
+  "protocol": "pair",
+  "schema": "model-bundle-1",
+  "seed": 17,
+  "source_csv_sha256": "4d6acda73c7e8d21f9fcc78e1266ecbedf0d6acef2fb1483cceee342f0d6dd91",
+  "task": "documented_interaction_severity",
+  "training_scope": "training_validation_schedule_diagnostic"
+}

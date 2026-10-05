@@ -1,0 +1,21 @@
+{
+  "status": "executed",
+  "scope": "First mean-GraphSAGE layer only; cached features/adjacency and CPU inference, not whole application.",
+  "nodes": 1107,
+  "directed_message_edges": 37644,
+  "sparse_aggregation_width_before": 2048,
+  "sparse_aggregation_width_after": 128,
+  "max_absolute_output_difference": 2.086162567138672e-07,
+  "Torch_compute_threads": 4,
+  "timings": {
+    "original": {
+      "median_ms": 211.50355000008858,
+      "p95_ms": 224.24750000027416
+    },
+    "project_before_mean": {
+      "median_ms": 47.829799999817624,
+      "p95_ms": 49.44710000017949
+    }
+  },
+  "median_speedup": 4.422003646281085
+}

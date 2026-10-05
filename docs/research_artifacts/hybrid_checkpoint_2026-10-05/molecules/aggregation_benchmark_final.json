@@ -1,0 +1,26 @@
+{
+  "dataset_sha256": "041938cc699d9600a2afbc3d72301a15691579edc6f42d83a096f8284d4009e4",
+  "directed_edges": 37644,
+  "max_absolute_output_difference": 1.7881393432617188e-07,
+  "median_speedup": 4.278505700180696,
+  "nodes": 1107,
+  "optimized_aggregated_channels": 128,
+  "original_aggregated_channels": 2048,
+  "repetitions": 30,
+  "scope": "Same bias-free neighbor linear transform and mean aggregation. Synthetic seeded weights on real frozen graph; CPU microbenchmark, not whole-training speedup.",
+  "script_sha256": "62dcf3e82468516dba15caf336a220490a182ca8259720e2735da5c92158ac84",
+  "seed": 17,
+  "split_sha256": "f77a388b1473331f9d4975069ff6cf06060fa14c35bd054635e3ff5638adf155",
+  "status": "executed",
+  "threads": 4,
+  "timings": {
+    "original": {
+      "median_ms": 203.58049999958894,
+      "p95_ms": 211.101900000358
+    },
+    "project_before_mean": {
+      "median_ms": 47.58214999947086,
+      "p95_ms": 51.792600001135725
+    }
+  }
+}

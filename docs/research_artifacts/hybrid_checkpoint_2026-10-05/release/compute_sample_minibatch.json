@@ -1,0 +1,20 @@
+﻿{
+    "captured_at_utc":  "2026-10-04T19:18:42.1984570Z",
+    "training_processes":  [
+                               {
+                                   "pid":  3672,
+                                   "process_name":  "python.exe",
+                                   "working_set_mib":  0.07,
+                                   "peak_working_set_mib":  10.82,
+                                   "torch_compute_threads":  4
+                               },
+                               {
+                                   "pid":  1712,
+                                   "process_name":  "python3.12.exe",
+                                   "working_set_mib":  298.9,
+                                   "peak_working_set_mib":  489.63,
+                                   "torch_compute_threads":  4
+                               }
+                           ],
+    "scope":  "Windows process working set sampled during corrected minibatch comparison; separate launcher processes are listed independently, not whole-system memory."
+}

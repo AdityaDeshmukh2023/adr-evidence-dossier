@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "cold": {
+      "calibration": 9093,
+      "excluded_cross_role": 3449,
+      "message": 12761,
+      "supervision": 12762,
+      "test_both_unseen": 504,
+      "test_one_unseen": 7251,
+      "validation": 7959
+    },
+    "pair": {
+      "calibration": 5377,
+      "message": 18822,
+      "supervision": 18822,
+      "test": 5380,
+      "validation": 5378
+    }
+  },
+  "heldout_drugs_in_cold_adjacency": 0,
+  "passed": true,
+  "reversed_pair_leaks": 0,
+  "supervision_in_adjacency": 0
+}

@@ -1,0 +1,3802 @@
+{
+  "cases": [
+    {
+      "calibrated_probability": 0.7561752952180228,
+      "dependency_version": "0.52.0",
+      "edge_jaccard_second_seed": null,
+      "epochs": null,
+      "feature_jaccard_second_seed": 0.7391304347826086,
+      "fidelity": {
+        "feature_probability_drop": 0.041661559769165746,
+        "random_feature_probability_drop": 0.022451801733503585
+      },
+      "ingredient_ids": [
+        "DDInter305",
+        "DDInter613"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter305|DDInter613",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 11.238503700000365,
+      "seed": 17,
+      "source_severity": "high",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": -0.001201332466088445,
+          "bit": 564,
+          "ingredient_id": "DDInter613"
+        },
+        {
+          "attribution": 0.0010916959965268092,
+          "bit": 33,
+          "ingredient_id": "DDInter613"
+        },
+        {
+          "attribution": -0.001078019552664955,
+          "bit": 1696,
+          "ingredient_id": "DDInter613"
+        },
+        {
+          "attribution": 0.00103354229827346,
+          "bit": 1429,
+          "ingredient_id": "DDInter613"
+        },
+        {
+          "attribution": -0.0009565745281783222,
+          "bit": 1699,
+          "ingredient_id": "DDInter305"
+        },
+        {
+          "attribution": 0.0009477650881990485,
+          "bit": 1497,
+          "ingredient_id": "DDInter613"
+        },
+        {
+          "attribution": 0.0009168126645135999,
+          "bit": 497,
+          "ingredient_id": "DDInter305"
+        },
+        {
+          "attribution": 0.0009055998783651376,
+          "bit": 118,
+          "ingredient_id": "DDInter305"
+        },
+        {
+          "attribution": 0.0008618339181225565,
+          "bit": 932,
+          "ingredient_id": "DDInter613"
+        },
+        {
+          "attribution": 0.0008144219515315854,
+          "bit": 2038,
+          "ingredient_id": "DDInter305"
+        },
+        {
+          "attribution": 0.0008119054734265774,
+          "bit": 1986,
+          "ingredient_id": "DDInter305"
+        },
+        {
+          "attribution": 0.0007875106774530849,
+          "bit": 504,
+          "ingredient_id": "DDInter613"
+        },
+        {
+          "attribution": -0.0007617557478170056,
+          "bit": 1745,
+          "ingredient_id": "DDInter305"
+        },
+        {
+          "attribution": 0.0007524676354933035,
+          "bit": 1203,
+          "ingredient_id": "DDInter613"
+        },
+        {
+          "attribution": 0.0007132083803877975,
+          "bit": 482,
+          "ingredient_id": "DDInter613"
+        },
+        {
+          "attribution": 0.0007039026141626437,
+          "bit": 411,
+          "ingredient_id": "DDInter305"
+        },
+        {
+          "attribution": -0.0006992036660165013,
+          "bit": 1375,
+          "ingredient_id": "DDInter613"
+        },
+        {
+          "attribution": 0.0006962611245171502,
+          "bit": 1977,
+          "ingredient_id": "DDInter613"
+        },
+        {
+          "attribution": 0.0006908419068736293,
+          "bit": 841,
+          "ingredient_id": "DDInter305"
+        },
+        {
+          "attribution": -0.0006794622929646721,
+          "bit": 1518,
+          "ingredient_id": "DDInter305"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7358403173021444,
+      "dependency_version": "0.52.0",
+      "edge_jaccard_second_seed": null,
+      "epochs": null,
+      "feature_jaccard_second_seed": 0.6,
+      "fidelity": {
+        "feature_probability_drop": 0.02284185225261759,
+        "random_feature_probability_drop": 0.032840408036328594
+      },
+      "ingredient_ids": [
+        "DDInter1702",
+        "DDInter575"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1702|DDInter575",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.8272951999988436,
+      "seed": 17,
+      "source_severity": "high",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": -0.001343260823205128,
+          "bit": 575,
+          "ingredient_id": "DDInter575"
+        },
+        {
+          "attribution": 0.0010215954071099986,
+          "bit": 319,
+          "ingredient_id": "DDInter575"
+        },
+        {
+          "attribution": 0.0009520942342788885,
+          "bit": 645,
+          "ingredient_id": "DDInter1702"
+        },
+        {
+          "attribution": 0.0009493864528753448,
+          "bit": 318,
+          "ingredient_id": "DDInter575"
+        },
+        {
+          "attribution": 0.0009090935734263894,
+          "bit": 1990,
+          "ingredient_id": "DDInter1702"
+        },
+        {
+          "attribution": 0.0008513777989946902,
+          "bit": 561,
+          "ingredient_id": "DDInter1702"
+        },
+        {
+          "attribution": 0.000795111160016404,
+          "bit": 881,
+          "ingredient_id": "DDInter575"
+        },
+        {
+          "attribution": 0.000755830816501657,
+          "bit": 1476,
+          "ingredient_id": "DDInter575"
+        },
+        {
+          "attribution": 0.0007336947476090927,
+          "bit": 1769,
+          "ingredient_id": "DDInter575"
+        },
+        {
+          "attribution": -0.0007082480985900474,
+          "bit": 184,
+          "ingredient_id": "DDInter1702"
+        },
+        {
+          "attribution": 0.0007044649419754023,
+          "bit": 322,
+          "ingredient_id": "DDInter1702"
+        },
+        {
+          "attribution": 0.0006843942262548808,
+          "bit": 619,
+          "ingredient_id": "DDInter1702"
+        },
+        {
+          "attribution": 0.0006780337398595293,
+          "bit": 973,
+          "ingredient_id": "DDInter575"
+        },
+        {
+          "attribution": 0.0006764611686662647,
+          "bit": 1171,
+          "ingredient_id": "DDInter575"
+        },
+        {
+          "attribution": 0.0006358182956205383,
+          "bit": 1712,
+          "ingredient_id": "DDInter575"
+        },
+        {
+          "attribution": -0.000625423142203374,
+          "bit": 1617,
+          "ingredient_id": "DDInter1702"
+        },
+        {
+          "attribution": 0.0005838262952337914,
+          "bit": 1308,
+          "ingredient_id": "DDInter575"
+        },
+        {
+          "attribution": 0.0005834540801288313,
+          "bit": 1370,
+          "ingredient_id": "DDInter1702"
+        },
+        {
+          "attribution": 0.0005595152686055371,
+          "bit": 1142,
+          "ingredient_id": "DDInter575"
+        },
+        {
+          "attribution": -0.0005493817472483897,
+          "bit": 2017,
+          "ingredient_id": "DDInter575"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7173424722302364,
+      "dependency_version": "0.52.0",
+      "edge_jaccard_second_seed": null,
+      "epochs": null,
+      "feature_jaccard_second_seed": 0.6,
+      "fidelity": {
+        "feature_probability_drop": 0.00971325254622002,
+        "random_feature_probability_drop": 0.011269025517631537
+      },
+      "ingredient_ids": [
+        "DDInter1460",
+        "DDInter340"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1460|DDInter340",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.870348099999319,
+      "seed": 17,
+      "source_severity": "high",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0014657216232762948,
+          "bit": 1476,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": -0.0011334202542911953,
+          "bit": 1696,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": -0.001100012058628863,
+          "bit": 1905,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": 0.001074615114248445,
+          "bit": 561,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": -0.0010531636569339753,
+          "bit": 884,
+          "ingredient_id": "DDInter1460"
+        },
+        {
+          "attribution": 0.0009979590259376891,
+          "bit": 233,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": 0.0008685809567623437,
+          "bit": 664,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": -0.0008671297837423708,
+          "bit": 1299,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": 0.0008392269818315867,
+          "bit": 770,
+          "ingredient_id": "DDInter1460"
+        },
+        {
+          "attribution": -0.0008188519336158606,
+          "bit": 601,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": -0.0008001565573749758,
+          "bit": 1978,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": 0.0007794983689279888,
+          "bit": 204,
+          "ingredient_id": "DDInter1460"
+        },
+        {
+          "attribution": 0.0007508817828210113,
+          "bit": 314,
+          "ingredient_id": "DDInter1460"
+        },
+        {
+          "attribution": 0.000706097493981872,
+          "bit": 547,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": 0.0006770954813575258,
+          "bit": 697,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": -0.0006730001946380071,
+          "bit": 55,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": -0.0006680119126372119,
+          "bit": 1893,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": 0.0006401970456693107,
+          "bit": 1318,
+          "ingredient_id": "DDInter1460"
+        },
+        {
+          "attribution": 0.0006391821411853016,
+          "bit": 1019,
+          "ingredient_id": "DDInter340"
+        },
+        {
+          "attribution": 0.000633931821397482,
+          "bit": 365,
+          "ingredient_id": "DDInter340"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.8277346432053442,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.04771749703993167,
+        "random_feature_probability_drop": 0.017373590839507957
+      },
+      "ingredient_ids": [
+        "DDInter1589",
+        "DDInter1678"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1589|DDInter1678",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 2.3560199000003195,
+      "seed": 17,
+      "source_severity": "high",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0014472563199205979,
+          "bit": 645,
+          "ingredient_id": "DDInter1678"
+        },
+        {
+          "attribution": -0.0014034816152843632,
+          "bit": 564,
+          "ingredient_id": "DDInter1589"
+        },
+        {
+          "attribution": 0.001225843184158748,
+          "bit": 997,
+          "ingredient_id": "DDInter1589"
+        },
+        {
+          "attribution": -0.0012193538964311301,
+          "bit": 1028,
+          "ingredient_id": "DDInter1678"
+        },
+        {
+          "attribution": 0.001196890012380436,
+          "bit": 1885,
+          "ingredient_id": "DDInter1589"
+        },
+        {
+          "attribution": -0.001123241849313672,
+          "bit": 252,
+          "ingredient_id": "DDInter1589"
+        },
+        {
+          "attribution": 0.0010941687116883259,
+          "bit": 938,
+          "ingredient_id": "DDInter1589"
+        },
+        {
+          "attribution": -0.001062915373722717,
+          "bit": 55,
+          "ingredient_id": "DDInter1678"
+        },
+        {
+          "attribution": 0.001054218928118189,
+          "bit": 684,
+          "ingredient_id": "DDInter1678"
+        },
+        {
+          "attribution": 0.001036877699618799,
+          "bit": 1154,
+          "ingredient_id": "DDInter1678"
+        },
+        {
+          "attribution": 0.0010332333831009066,
+          "bit": 1126,
+          "ingredient_id": "DDInter1589"
+        },
+        {
+          "attribution": 0.0010287887552067332,
+          "bit": 881,
+          "ingredient_id": "DDInter1589"
+        },
+        {
+          "attribution": 0.0010231409423795412,
+          "bit": 1032,
+          "ingredient_id": "DDInter1589"
+        },
+        {
+          "attribution": 0.0009856453432348644,
+          "bit": 34,
+          "ingredient_id": "DDInter1678"
+        },
+        {
+          "attribution": 0.0009303741472876936,
+          "bit": 215,
+          "ingredient_id": "DDInter1589"
+        },
+        {
+          "attribution": -0.0009138383696267738,
+          "bit": 58,
+          "ingredient_id": "DDInter1589"
+        },
+        {
+          "attribution": 0.00088717385732906,
+          "bit": 232,
+          "ingredient_id": "DDInter1678"
+        },
+        {
+          "attribution": 0.0008706889343983448,
+          "bit": 1671,
+          "ingredient_id": "DDInter1678"
+        },
+        {
+          "attribution": 0.0008564855011172767,
+          "bit": 1162,
+          "ingredient_id": "DDInter1678"
+        },
+        {
+          "attribution": -0.0008507809803859345,
+          "bit": 295,
+          "ingredient_id": "DDInter1678"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.6935960973506543,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.00895971691320474,
+        "random_feature_probability_drop": -0.006481410081287553
+      },
+      "ingredient_ids": [
+        "DDInter1431",
+        "DDInter1771"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1431|DDInter1771",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 1.379814500000066,
+      "seed": 17,
+      "source_severity": "high",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0016965255551326663,
+          "bit": 559,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": 0.001456632669942337,
+          "bit": 1843,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": -0.0012622466485368022,
+          "bit": 276,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": -0.0011556498036497942,
+          "bit": 1028,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": 0.001081490285230302,
+          "bit": 482,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": 0.0010796470901368593,
+          "bit": 1431,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": 0.0010144013148192244,
+          "bit": 1075,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": 0.0009060407468695075,
+          "bit": 436,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": 0.00090185186530789,
+          "bit": 283,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": 0.0008180517400546705,
+          "bit": 1722,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": -0.0008119828606893975,
+          "bit": 824,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": -0.0007072567650823203,
+          "bit": 920,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": -0.0006768689422074203,
+          "bit": 1275,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": 0.00065990276186767,
+          "bit": 739,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": -0.0006480506417574361,
+          "bit": 1665,
+          "ingredient_id": "DDInter1771"
+        },
+        {
+          "attribution": -0.0006398976706805115,
+          "bit": 1917,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": 0.0005948432548450455,
+          "bit": 585,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": -0.0005723186719912565,
+          "bit": 890,
+          "ingredient_id": "DDInter1431"
+        },
+        {
+          "attribution": -0.0005268565476317377,
+          "bit": 1720,
+          "ingredient_id": "DDInter1771"
+        },
+        {
+          "attribution": -0.0005251276407705063,
+          "bit": 756,
+          "ingredient_id": "DDInter1771"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7693909425181409,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.04830200759344139,
+        "random_feature_probability_drop": 0.0072471892398425775
+      },
+      "ingredient_ids": [
+        "DDInter1275",
+        "DDInter165"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1275|DDInter165",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 1.4644265000006271,
+      "seed": 17,
+      "source_severity": "high",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0015647280833945842,
+          "bit": 1476,
+          "ingredient_id": "DDInter165"
+        },
+        {
+          "attribution": 0.0015593404927471965,
+          "bit": 1506,
+          "ingredient_id": "DDInter165"
+        },
+        {
+          "attribution": 0.0014697814538067178,
+          "bit": 1313,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0012092628795699056,
+          "bit": 1457,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0011440723104811923,
+          "bit": 1810,
+          "ingredient_id": "DDInter165"
+        },
+        {
+          "attribution": 0.0010641533672384185,
+          "bit": 1578,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0010517583469322744,
+          "bit": 225,
+          "ingredient_id": "DDInter165"
+        },
+        {
+          "attribution": -0.001029433851272188,
+          "bit": 276,
+          "ingredient_id": "DDInter165"
+        },
+        {
+          "attribution": -0.0008818151195839619,
+          "bit": 1696,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0008759379260965261,
+          "bit": 464,
+          "ingredient_id": "DDInter165"
+        },
+        {
+          "attribution": -0.0008709268960984673,
+          "bit": 323,
+          "ingredient_id": "DDInter165"
+        },
+        {
+          "attribution": 0.0008544548042834776,
+          "bit": 2023,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0008024763570801952,
+          "bit": 1171,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0008016995037962715,
+          "bit": 1206,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0007793799736361962,
+          "bit": 122,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": -0.0007558745717801685,
+          "bit": 0,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": -0.0006863839236928015,
+          "bit": 674,
+          "ingredient_id": "DDInter165"
+        },
+        {
+          "attribution": 0.0006678080453639268,
+          "bit": 1089,
+          "ingredient_id": "DDInter165"
+        },
+        {
+          "attribution": 0.0005955269448918443,
+          "bit": 43,
+          "ingredient_id": "DDInter165"
+        },
+        {
+          "attribution": 0.000583142186357577,
+          "bit": 932,
+          "ingredient_id": "DDInter1275"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7420994613070984,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.0244904465838498,
+        "random_feature_probability_drop": 0.017723130960857536
+      },
+      "ingredient_ids": [
+        "DDInter419",
+        "DDInter640"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter419|DDInter640",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 1.1270404000006238,
+      "seed": 17,
+      "source_severity": "high",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0012608756051122327,
+          "bit": 1476,
+          "ingredient_id": "DDInter419"
+        },
+        {
+          "attribution": 0.0012065362016926429,
+          "bit": 1508,
+          "ingredient_id": "DDInter419"
+        },
+        {
+          "attribution": 0.0011949016754897457,
+          "bit": 216,
+          "ingredient_id": "DDInter419"
+        },
+        {
+          "attribution": -0.0011413204264556498,
+          "bit": 1153,
+          "ingredient_id": "DDInter419"
+        },
+        {
+          "attribution": 0.0010589363956512443,
+          "bit": 1270,
+          "ingredient_id": "DDInter640"
+        },
+        {
+          "attribution": -0.0010411832147205757,
+          "bit": 350,
+          "ingredient_id": "DDInter640"
+        },
+        {
+          "attribution": 0.0009786741937318766,
+          "bit": 360,
+          "ingredient_id": "DDInter640"
+        },
+        {
+          "attribution": 0.0009115081134893899,
+          "bit": 816,
+          "ingredient_id": "DDInter419"
+        },
+        {
+          "attribution": -0.0008946570875423276,
+          "bit": 142,
+          "ingredient_id": "DDInter419"
+        },
+        {
+          "attribution": 0.0008686200466172522,
+          "bit": 1445,
+          "ingredient_id": "DDInter640"
+        },
+        {
+          "attribution": -0.0008139293212252596,
+          "bit": 787,
+          "ingredient_id": "DDInter640"
+        },
+        {
+          "attribution": 0.0007938974933949794,
+          "bit": 561,
+          "ingredient_id": "DDInter419"
+        },
+        {
+          "attribution": -0.0007112309214107881,
+          "bit": 1243,
+          "ingredient_id": "DDInter419"
+        },
+        {
+          "attribution": -0.0006894049107586397,
+          "bit": 352,
+          "ingredient_id": "DDInter419"
+        },
+        {
+          "attribution": -0.0006451396338604809,
+          "bit": 1470,
+          "ingredient_id": "DDInter419"
+        },
+        {
+          "attribution": 0.0006332395652748346,
+          "bit": 283,
+          "ingredient_id": "DDInter640"
+        },
+        {
+          "attribution": -0.0006181112357239726,
+          "bit": 63,
+          "ingredient_id": "DDInter640"
+        },
+        {
+          "attribution": 0.0006068389937698981,
+          "bit": 216,
+          "ingredient_id": "DDInter640"
+        },
+        {
+          "attribution": -0.0005864107971262911,
+          "bit": 165,
+          "ingredient_id": "DDInter419"
+        },
+        {
+          "attribution": 0.0005664112659360399,
+          "bit": 667,
+          "ingredient_id": "DDInter640"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7430172570888703,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.029820191196870738,
+        "random_feature_probability_drop": 0.021239510621405167
+      },
+      "ingredient_ids": [
+        "DDInter1400",
+        "DDInter1925"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1400|DDInter1925",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.8445744999989984,
+      "seed": 17,
+      "source_severity": "high",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0012489621658460237,
+          "bit": 1270,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": 0.0011830985649794457,
+          "bit": 1476,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": 0.0011247122365034556,
+          "bit": 1445,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": 0.0011005562735135754,
+          "bit": 561,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": 0.0010578854507627966,
+          "bit": 816,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": -0.0010570970587195916,
+          "bit": 896,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": 0.0010498465346699959,
+          "bit": 1501,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": 0.00104461476803408,
+          "bit": 1476,
+          "ingredient_id": "DDInter1400"
+        },
+        {
+          "attribution": -0.0010157195950739606,
+          "bit": 293,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": 0.000930548856842961,
+          "bit": 481,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": -0.0008744259921442676,
+          "bit": 433,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": -0.000831822382849623,
+          "bit": 1097,
+          "ingredient_id": "DDInter1400"
+        },
+        {
+          "attribution": 0.0008179325181316699,
+          "bit": 1582,
+          "ingredient_id": "DDInter1400"
+        },
+        {
+          "attribution": 0.0008171826884790789,
+          "bit": 875,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": -0.0007773249643889812,
+          "bit": 1991,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": 0.0007605680362274825,
+          "bit": 691,
+          "ingredient_id": "DDInter1400"
+        },
+        {
+          "attribution": 0.0007584174991279724,
+          "bit": 1114,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": 0.0007492237425310577,
+          "bit": 466,
+          "ingredient_id": "DDInter1400"
+        },
+        {
+          "attribution": 0.0007217768438181338,
+          "bit": 216,
+          "ingredient_id": "DDInter1925"
+        },
+        {
+          "attribution": 0.0007121085611458966,
+          "bit": 881,
+          "ingredient_id": "DDInter1400"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7774639174606465,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.06177439295886056,
+        "random_feature_probability_drop": 0.029834535799411643
+      },
+      "ingredient_ids": [
+        "DDInter112",
+        "DDInter1470"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter112|DDInter1470",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.9123354999992443,
+      "seed": 17,
+      "source_severity": "high",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0017567027252880507,
+          "bit": 752,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": -0.0015547317628943347,
+          "bit": 2004,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": 0.001311150297453878,
+          "bit": 802,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": 0.0012594846183446862,
+          "bit": 90,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": 0.0011965649346166174,
+          "bit": 1158,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": -0.0009993832720738283,
+          "bit": 870,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": 0.0009198015285960537,
+          "bit": 1543,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": 0.0009194391725628748,
+          "bit": 1928,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": 0.0008885975061616591,
+          "bit": 790,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": 0.0008654598339603581,
+          "bit": 314,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": 0.0008401814183685019,
+          "bit": 653,
+          "ingredient_id": "DDInter1470"
+        },
+        {
+          "attribution": 0.0007962203159337378,
+          "bit": 1343,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": 0.0007910386626690524,
+          "bit": 1114,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": 0.0007409355165464149,
+          "bit": 1783,
+          "ingredient_id": "DDInter1470"
+        },
+        {
+          "attribution": -0.0007275988171500103,
+          "bit": 1670,
+          "ingredient_id": "DDInter1470"
+        },
+        {
+          "attribution": 0.0007162160040365961,
+          "bit": 903,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": 0.0006972033996817117,
+          "bit": 90,
+          "ingredient_id": "DDInter1470"
+        },
+        {
+          "attribution": -0.0006946406637950986,
+          "bit": 884,
+          "ingredient_id": "DDInter1470"
+        },
+        {
+          "attribution": 0.0006482408531525152,
+          "bit": 749,
+          "ingredient_id": "DDInter112"
+        },
+        {
+          "attribution": 0.0006331068342149138,
+          "bit": 1482,
+          "ingredient_id": "DDInter1470"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7367948982112776,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.02464545637233373,
+        "random_feature_probability_drop": 0.007986541289315974
+      },
+      "ingredient_ids": [
+        "DDInter1032",
+        "DDInter649"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1032|DDInter649",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 1.0031488000004174,
+      "seed": 17,
+      "source_severity": "high",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0014997061264310219,
+          "bit": 1393,
+          "ingredient_id": "DDInter649"
+        },
+        {
+          "attribution": 0.0011539153902395682,
+          "bit": 1738,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": 0.0010998574932443717,
+          "bit": 679,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": -0.001015321690942983,
+          "bit": 97,
+          "ingredient_id": "DDInter649"
+        },
+        {
+          "attribution": -0.0010022166259204823,
+          "bit": 957,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": 0.000992491051476918,
+          "bit": 314,
+          "ingredient_id": "DDInter649"
+        },
+        {
+          "attribution": 0.0009681843911266697,
+          "bit": 1142,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": -0.000963066577810423,
+          "bit": 1589,
+          "ingredient_id": "DDInter649"
+        },
+        {
+          "attribution": 0.0009376604575663805,
+          "bit": 1171,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": 0.0008336373328461377,
+          "bit": 986,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": 0.0008188907414137248,
+          "bit": 1363,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": 0.000813096212993969,
+          "bit": 559,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": 0.0008015242493115693,
+          "bit": 790,
+          "ingredient_id": "DDInter649"
+        },
+        {
+          "attribution": 0.000799330566678691,
+          "bit": 1862,
+          "ingredient_id": "DDInter649"
+        },
+        {
+          "attribution": -0.0007805453220726122,
+          "bit": 1053,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": 0.0007472052832895315,
+          "bit": 1819,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": 0.00068187614232329,
+          "bit": 563,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": 0.0006696282756593064,
+          "bit": 473,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": 0.0006540885488526271,
+          "bit": 1372,
+          "ingredient_id": "DDInter1032"
+        },
+        {
+          "attribution": 0.0006393186637865256,
+          "bit": 1686,
+          "ingredient_id": "DDInter649"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7303438176387348,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.019293860077300606,
+        "random_feature_probability_drop": 0.004596292341791375
+      },
+      "ingredient_ids": [
+        "DDInter1180",
+        "DDInter130"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1180|DDInter130",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 1.3624254999995173,
+      "seed": 17,
+      "source_severity": "moderate",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0012533413191704312,
+          "bit": 1445,
+          "ingredient_id": "DDInter130"
+        },
+        {
+          "attribution": -0.0010411259944476114,
+          "bit": 1028,
+          "ingredient_id": "DDInter130"
+        },
+        {
+          "attribution": -0.0008679129419988385,
+          "bit": 71,
+          "ingredient_id": "DDInter1180"
+        },
+        {
+          "attribution": 0.0008664119452532759,
+          "bit": 283,
+          "ingredient_id": "DDInter130"
+        },
+        {
+          "attribution": -0.0008535284364370455,
+          "bit": 782,
+          "ingredient_id": "DDInter130"
+        },
+        {
+          "attribution": 0.0008032685554084651,
+          "bit": 221,
+          "ingredient_id": "DDInter1180"
+        },
+        {
+          "attribution": 0.0007813855344949161,
+          "bit": 482,
+          "ingredient_id": "DDInter1180"
+        },
+        {
+          "attribution": 0.0007242536644014308,
+          "bit": 119,
+          "ingredient_id": "DDInter1180"
+        },
+        {
+          "attribution": 0.0007171817324831409,
+          "bit": 1587,
+          "ingredient_id": "DDInter1180"
+        },
+        {
+          "attribution": 0.0006746923771743241,
+          "bit": 1248,
+          "ingredient_id": "DDInter1180"
+        },
+        {
+          "attribution": -0.0006679817881831696,
+          "bit": 66,
+          "ingredient_id": "DDInter1180"
+        },
+        {
+          "attribution": 0.0006586884428259054,
+          "bit": 430,
+          "ingredient_id": "DDInter130"
+        },
+        {
+          "attribution": 0.0006268136611708996,
+          "bit": 1171,
+          "ingredient_id": "DDInter130"
+        },
+        {
+          "attribution": -0.000610319441335605,
+          "bit": 1302,
+          "ingredient_id": "DDInter1180"
+        },
+        {
+          "attribution": 0.0006084217434079164,
+          "bit": 1599,
+          "ingredient_id": "DDInter1180"
+        },
+        {
+          "attribution": 0.0005954702896140418,
+          "bit": 1126,
+          "ingredient_id": "DDInter1180"
+        },
+        {
+          "attribution": -0.0005728539805431865,
+          "bit": 729,
+          "ingredient_id": "DDInter1180"
+        },
+        {
+          "attribution": 0.0005504305049726099,
+          "bit": 1088,
+          "ingredient_id": "DDInter1180"
+        },
+        {
+          "attribution": 0.0005230829051470209,
+          "bit": 169,
+          "ingredient_id": "DDInter130"
+        },
+        {
+          "attribution": 0.0005106851600658047,
+          "bit": 169,
+          "ingredient_id": "DDInter1180"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7685633016500165,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.03604266065907602,
+        "random_feature_probability_drop": 0.008721631455753442
+      },
+      "ingredient_ids": [
+        "DDInter1297",
+        "DDInter174"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1297|DDInter174",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 1.5506113999999798,
+      "seed": 17,
+      "source_severity": "moderate",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0018071501950771562,
+          "bit": 878,
+          "ingredient_id": "DDInter174"
+        },
+        {
+          "attribution": 0.0013372902969877032,
+          "bit": 319,
+          "ingredient_id": "DDInter174"
+        },
+        {
+          "attribution": 0.0013104578200682226,
+          "bit": 1476,
+          "ingredient_id": "DDInter174"
+        },
+        {
+          "attribution": -0.0011477592567175066,
+          "bit": 575,
+          "ingredient_id": "DDInter174"
+        },
+        {
+          "attribution": -0.0010867808052239525,
+          "bit": 198,
+          "ingredient_id": "DDInter174"
+        },
+        {
+          "attribution": 0.0010774012645242692,
+          "bit": 372,
+          "ingredient_id": "DDInter174"
+        },
+        {
+          "attribution": 0.001000799023131549,
+          "bit": 742,
+          "ingredient_id": "DDInter1297"
+        },
+        {
+          "attribution": -0.0009833368754925687,
+          "bit": 743,
+          "ingredient_id": "DDInter174"
+        },
+        {
+          "attribution": 0.0009701392719136948,
+          "bit": 1088,
+          "ingredient_id": "DDInter174"
+        },
+        {
+          "attribution": 0.0009486041236073106,
+          "bit": 1501,
+          "ingredient_id": "DDInter1297"
+        },
+        {
+          "attribution": 0.000924403479416469,
+          "bit": 1158,
+          "ingredient_id": "DDInter1297"
+        },
+        {
+          "attribution": -0.0008498105380567722,
+          "bit": 1136,
+          "ingredient_id": "DDInter1297"
+        },
+        {
+          "attribution": 0.0008134294422745825,
+          "bit": 1270,
+          "ingredient_id": "DDInter174"
+        },
+        {
+          "attribution": -0.000806676349384361,
+          "bit": 1685,
+          "ingredient_id": "DDInter174"
+        },
+        {
+          "attribution": 0.000778229310185452,
+          "bit": 875,
+          "ingredient_id": "DDInter174"
+        },
+        {
+          "attribution": 0.0007737169813708533,
+          "bit": 309,
+          "ingredient_id": "DDInter1297"
+        },
+        {
+          "attribution": 0.0007655642549480035,
+          "bit": 470,
+          "ingredient_id": "DDInter1297"
+        },
+        {
+          "attribution": -0.0007483431386976491,
+          "bit": 423,
+          "ingredient_id": "DDInter174"
+        },
+        {
+          "attribution": -0.0006998830465363426,
+          "bit": 1028,
+          "ingredient_id": "DDInter1297"
+        },
+        {
+          "attribution": 0.0006805720413467498,
+          "bit": 1114,
+          "ingredient_id": "DDInter1297"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7791603736826447,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.029444426833985182,
+        "random_feature_probability_drop": 0.037746772185396016
+      },
+      "ingredient_ids": [
+        "DDInter1853",
+        "DDInter1935"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1853|DDInter1935",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.9017292999997153,
+      "seed": 17,
+      "source_severity": "moderate",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0014690036887543556,
+          "bit": 1094,
+          "ingredient_id": "DDInter1853"
+        },
+        {
+          "attribution": 0.0013947088682471076,
+          "bit": 1738,
+          "ingredient_id": "DDInter1853"
+        },
+        {
+          "attribution": 0.0010592973128495942,
+          "bit": 1711,
+          "ingredient_id": "DDInter1935"
+        },
+        {
+          "attribution": -0.0010069226046418578,
+          "bit": 1937,
+          "ingredient_id": "DDInter1935"
+        },
+        {
+          "attribution": 0.0009896692940305485,
+          "bit": 1810,
+          "ingredient_id": "DDInter1935"
+        },
+        {
+          "attribution": -0.0009865139294475966,
+          "bit": 1752,
+          "ingredient_id": "DDInter1935"
+        },
+        {
+          "attribution": 0.0009625234296208873,
+          "bit": 1975,
+          "ingredient_id": "DDInter1935"
+        },
+        {
+          "attribution": 0.0009356899437449329,
+          "bit": 259,
+          "ingredient_id": "DDInter1853"
+        },
+        {
+          "attribution": -0.0009261584539217438,
+          "bit": 1028,
+          "ingredient_id": "DDInter1853"
+        },
+        {
+          "attribution": 0.0009166363058170646,
+          "bit": 289,
+          "ingredient_id": "DDInter1853"
+        },
+        {
+          "attribution": -0.0008854017468564734,
+          "bit": 850,
+          "ingredient_id": "DDInter1853"
+        },
+        {
+          "attribution": 0.0008427808432998063,
+          "bit": 1508,
+          "ingredient_id": "DDInter1935"
+        },
+        {
+          "attribution": 0.000794897691719143,
+          "bit": 893,
+          "ingredient_id": "DDInter1935"
+        },
+        {
+          "attribution": 0.0007800264297230797,
+          "bit": 119,
+          "ingredient_id": "DDInter1935"
+        },
+        {
+          "attribution": -0.0007358646544446401,
+          "bit": 1186,
+          "ingredient_id": "DDInter1853"
+        },
+        {
+          "attribution": -0.0007350290487124767,
+          "bit": 1987,
+          "ingredient_id": "DDInter1853"
+        },
+        {
+          "attribution": -0.0007283000866209477,
+          "bit": 1576,
+          "ingredient_id": "DDInter1853"
+        },
+        {
+          "attribution": 0.0007063333987957776,
+          "bit": 364,
+          "ingredient_id": "DDInter1935"
+        },
+        {
+          "attribution": 0.000696794349644092,
+          "bit": 233,
+          "ingredient_id": "DDInter1935"
+        },
+        {
+          "attribution": 0.000694241934212414,
+          "bit": 1446,
+          "ingredient_id": "DDInter1935"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.769756943000108,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.04456207557293479,
+        "random_feature_probability_drop": 0.007725280509078725
+      },
+      "ingredient_ids": [
+        "DDInter1745",
+        "DDInter465"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1745|DDInter465",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.9029239999999845,
+      "seed": 17,
+      "source_severity": "moderate",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.001529152312059523,
+          "bit": 94,
+          "ingredient_id": "DDInter1745"
+        },
+        {
+          "attribution": 0.0014987414315328351,
+          "bit": 2006,
+          "ingredient_id": "DDInter1745"
+        },
+        {
+          "attribution": 0.0012219321746442802,
+          "bit": 411,
+          "ingredient_id": "DDInter1745"
+        },
+        {
+          "attribution": 0.001172632457155487,
+          "bit": 1990,
+          "ingredient_id": "DDInter1745"
+        },
+        {
+          "attribution": 0.001107405743297818,
+          "bit": 1171,
+          "ingredient_id": "DDInter1745"
+        },
+        {
+          "attribution": 0.001078576441699397,
+          "bit": 1998,
+          "ingredient_id": "DDInter465"
+        },
+        {
+          "attribution": -0.0010670692777807744,
+          "bit": 1465,
+          "ingredient_id": "DDInter465"
+        },
+        {
+          "attribution": 0.0010486427603382253,
+          "bit": 801,
+          "ingredient_id": "DDInter1745"
+        },
+        {
+          "attribution": 0.0009427960108041589,
+          "bit": 561,
+          "ingredient_id": "DDInter465"
+        },
+        {
+          "attribution": -0.0009145989654939513,
+          "bit": 350,
+          "ingredient_id": "DDInter1745"
+        },
+        {
+          "attribution": -0.0008590310436282778,
+          "bit": 1097,
+          "ingredient_id": "DDInter465"
+        },
+        {
+          "attribution": 0.0008507815315397238,
+          "bit": 237,
+          "ingredient_id": "DDInter1745"
+        },
+        {
+          "attribution": 0.0008045288712423826,
+          "bit": 1607,
+          "ingredient_id": "DDInter1745"
+        },
+        {
+          "attribution": -0.0007901364208704464,
+          "bit": 794,
+          "ingredient_id": "DDInter465"
+        },
+        {
+          "attribution": 0.0007677341709211305,
+          "bit": 1427,
+          "ingredient_id": "DDInter465"
+        },
+        {
+          "attribution": 0.000759855258907649,
+          "bit": 1810,
+          "ingredient_id": "DDInter465"
+        },
+        {
+          "attribution": -0.0007179507130103957,
+          "bit": 1238,
+          "ingredient_id": "DDInter1745"
+        },
+        {
+          "attribution": -0.0007151051065115155,
+          "bit": 465,
+          "ingredient_id": "DDInter465"
+        },
+        {
+          "attribution": -0.0007055263206687812,
+          "bit": 782,
+          "ingredient_id": "DDInter1745"
+        },
+        {
+          "attribution": 0.0007047466758649534,
+          "bit": 2,
+          "ingredient_id": "DDInter465"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7584756666869038,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.06634947487472032,
+        "random_feature_probability_drop": 0.05318824961023727
+      },
+      "ingredient_ids": [
+        "DDInter1330",
+        "DDInter1526"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1330|DDInter1526",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 1.030576299999666,
+      "seed": 17,
+      "source_severity": "moderate",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": -0.0013790647152518432,
+          "bit": 2004,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": 0.0013444482702311689,
+          "bit": 802,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": -0.0013200734749716503,
+          "bit": 1028,
+          "ingredient_id": "DDInter1526"
+        },
+        {
+          "attribution": 0.0013074453982397927,
+          "bit": 1281,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": 0.0010483332627586606,
+          "bit": 1726,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": 0.0010091982324524906,
+          "bit": 283,
+          "ingredient_id": "DDInter1526"
+        },
+        {
+          "attribution": 0.0009647634738882971,
+          "bit": 1251,
+          "ingredient_id": "DDInter1526"
+        },
+        {
+          "attribution": 0.0009602542576345741,
+          "bit": 1842,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": -0.0009589455635250488,
+          "bit": 896,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": 0.0009542923386547386,
+          "bit": 318,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": 0.0009350397994865034,
+          "bit": 861,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": 0.0008317871599956561,
+          "bit": 1908,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": 0.0008066510350488443,
+          "bit": 1404,
+          "ingredient_id": "DDInter1526"
+        },
+        {
+          "attribution": 0.0007834987315504804,
+          "bit": 1385,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": 0.0007622545028951322,
+          "bit": 1897,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": 0.0007433972317585358,
+          "bit": 984,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": -0.0007202033225439664,
+          "bit": 1754,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": 0.0007021894402896578,
+          "bit": 255,
+          "ingredient_id": "DDInter1526"
+        },
+        {
+          "attribution": 0.0006879454460886336,
+          "bit": 222,
+          "ingredient_id": "DDInter1330"
+        },
+        {
+          "attribution": 0.0006781805904836347,
+          "bit": 1385,
+          "ingredient_id": "DDInter1526"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7705610791082969,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.04645439415864128,
+        "random_feature_probability_drop": 0.019799525490923897
+      },
+      "ingredient_ids": [
+        "DDInter1187",
+        "DDInter1209"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1187|DDInter1209",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.679105499999423,
+      "seed": 17,
+      "source_severity": "moderate",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": -0.001781777769792825,
+          "bit": 806,
+          "ingredient_id": "DDInter1187"
+        },
+        {
+          "attribution": 0.0013691586791537702,
+          "bit": 1377,
+          "ingredient_id": "DDInter1187"
+        },
+        {
+          "attribution": 0.0013602457901242815,
+          "bit": 960,
+          "ingredient_id": "DDInter1209"
+        },
+        {
+          "attribution": 0.001174371105435057,
+          "bit": 542,
+          "ingredient_id": "DDInter1209"
+        },
+        {
+          "attribution": 0.0011678030385269267,
+          "bit": 1114,
+          "ingredient_id": "DDInter1187"
+        },
+        {
+          "attribution": 0.0011562797047872664,
+          "bit": 1321,
+          "ingredient_id": "DDInter1187"
+        },
+        {
+          "attribution": 0.001121508673605831,
+          "bit": 1940,
+          "ingredient_id": "DDInter1187"
+        },
+        {
+          "attribution": 0.001086165503124903,
+          "bit": 482,
+          "ingredient_id": "DDInter1187"
+        },
+        {
+          "attribution": 0.0010836488590371118,
+          "bit": 272,
+          "ingredient_id": "DDInter1209"
+        },
+        {
+          "attribution": 0.0010684419674191759,
+          "bit": 1995,
+          "ingredient_id": "DDInter1187"
+        },
+        {
+          "attribution": -0.0010592231142254604,
+          "bit": 1681,
+          "ingredient_id": "DDInter1209"
+        },
+        {
+          "attribution": -0.0010037231779733702,
+          "bit": 151,
+          "ingredient_id": "DDInter1187"
+        },
+        {
+          "attribution": 0.0009124870780397032,
+          "bit": 1783,
+          "ingredient_id": "DDInter1187"
+        },
+        {
+          "attribution": 0.0008377621766157972,
+          "bit": 561,
+          "ingredient_id": "DDInter1209"
+        },
+        {
+          "attribution": 0.0007664204867410263,
+          "bit": 494,
+          "ingredient_id": "DDInter1209"
+        },
+        {
+          "attribution": 0.0007538978539400887,
+          "bit": 1859,
+          "ingredient_id": "DDInter1187"
+        },
+        {
+          "attribution": -0.0007305613647474729,
+          "bit": 1209,
+          "ingredient_id": "DDInter1209"
+        },
+        {
+          "attribution": 0.0007299480972875472,
+          "bit": 843,
+          "ingredient_id": "DDInter1209"
+        },
+        {
+          "attribution": 0.0007094854495335312,
+          "bit": 36,
+          "ingredient_id": "DDInter1187"
+        },
+        {
+          "attribution": 0.0007032280124121826,
+          "bit": 875,
+          "ingredient_id": "DDInter1209"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.836823925851181,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.014830936101014047,
+        "random_feature_probability_drop": 0.014473556805029597
+      },
+      "ingredient_ids": [
+        "DDInter1936",
+        "DDInter655"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1936|DDInter655",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.7165055999994365,
+      "seed": 17,
+      "source_severity": "moderate",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": -0.0014306620388992997,
+          "bit": 1239,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": 0.0014155721883071237,
+          "bit": 1493,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": 0.0011878976301886723,
+          "bit": 1075,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": 0.0011711949205164274,
+          "bit": 1446,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": 0.0011674504806933328,
+          "bit": 1154,
+          "ingredient_id": "DDInter655"
+        },
+        {
+          "attribution": -0.001100910752825257,
+          "bit": 309,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": 0.001076998942210139,
+          "bit": 545,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": -0.0010485464403586775,
+          "bit": 1035,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": -0.0010482426616817975,
+          "bit": 343,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": 0.0010213267403358373,
+          "bit": 647,
+          "ingredient_id": "DDInter655"
+        },
+        {
+          "attribution": 0.0010210275054305384,
+          "bit": 1738,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": 0.0010204921433114578,
+          "bit": 928,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": 0.0009906111921367255,
+          "bit": 1128,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": 0.0009750951318210355,
+          "bit": 973,
+          "ingredient_id": "DDInter655"
+        },
+        {
+          "attribution": -0.0009232074881566632,
+          "bit": 787,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": 0.0008746239635399888,
+          "bit": 33,
+          "ingredient_id": "DDInter655"
+        },
+        {
+          "attribution": 0.0008647967085835262,
+          "bit": 1039,
+          "ingredient_id": "DDInter655"
+        },
+        {
+          "attribution": -0.0008489561386930689,
+          "bit": 249,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": 0.0008121798161937477,
+          "bit": 1980,
+          "ingredient_id": "DDInter1936"
+        },
+        {
+          "attribution": -0.000804889127266506,
+          "bit": 602,
+          "ingredient_id": "DDInter1936"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7405556526214057,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.039557361443114725,
+        "random_feature_probability_drop": 0.035897802048671434
+      },
+      "ingredient_ids": [
+        "DDInter1430",
+        "DDInter429"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1430|DDInter429",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.6629097999993974,
+      "seed": 17,
+      "source_severity": "moderate",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": -0.002021906259358275,
+          "bit": 806,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": -0.0018432863238047048,
+          "bit": 682,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": 0.0012146228049516594,
+          "bit": 482,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": 0.0012094874250196952,
+          "bit": 873,
+          "ingredient_id": "DDInter429"
+        },
+        {
+          "attribution": 0.001204089302632383,
+          "bit": 1783,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": 0.0010395363565294247,
+          "bit": 1377,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": 0.001009924403263085,
+          "bit": 371,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": -0.000911533412036647,
+          "bit": 829,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": 0.0008769247587565587,
+          "bit": 1995,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": 0.0008705813363576453,
+          "bit": 1039,
+          "ingredient_id": "DDInter429"
+        },
+        {
+          "attribution": 0.0008514901815175335,
+          "bit": 231,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": 0.0008012375557200357,
+          "bit": 739,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": -0.0007828791812016789,
+          "bit": 1702,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": 0.0007784292819614791,
+          "bit": 116,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": 0.0007591471454588827,
+          "bit": 1114,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": 0.0006452169515114292,
+          "bit": 1942,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": 0.0006324789970335587,
+          "bit": 1292,
+          "ingredient_id": "DDInter1430"
+        },
+        {
+          "attribution": -0.0006079648080117295,
+          "bit": 1241,
+          "ingredient_id": "DDInter429"
+        },
+        {
+          "attribution": 0.0005981102536907201,
+          "bit": 1798,
+          "ingredient_id": "DDInter429"
+        },
+        {
+          "attribution": 0.0005947030363628869,
+          "bit": 1088,
+          "ingredient_id": "DDInter1430"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7450322583278852,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.027321495576859256,
+        "random_feature_probability_drop": 0.021687701563152473
+      },
+      "ingredient_ids": [
+        "DDInter1831",
+        "DDInter336"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1831|DDInter336",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.745434500000556,
+      "seed": 17,
+      "source_severity": "moderate",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.001645988999371184,
+          "bit": 319,
+          "ingredient_id": "DDInter336"
+        },
+        {
+          "attribution": 0.0013922125103817962,
+          "bit": 1476,
+          "ingredient_id": "DDInter336"
+        },
+        {
+          "attribution": 0.0007788483439981064,
+          "bit": 1446,
+          "ingredient_id": "DDInter336"
+        },
+        {
+          "attribution": 0.0007209034104533885,
+          "bit": 1385,
+          "ingredient_id": "DDInter1831"
+        },
+        {
+          "attribution": -0.0007170077090847826,
+          "bit": 1145,
+          "ingredient_id": "DDInter1831"
+        },
+        {
+          "attribution": -0.0007049684288169544,
+          "bit": 1346,
+          "ingredient_id": "DDInter1831"
+        },
+        {
+          "attribution": -0.0006991285964090821,
+          "bit": 753,
+          "ingredient_id": "DDInter336"
+        },
+        {
+          "attribution": 0.000645877506741499,
+          "bit": 233,
+          "ingredient_id": "DDInter336"
+        },
+        {
+          "attribution": 0.0006355144468557228,
+          "bit": 325,
+          "ingredient_id": "DDInter1831"
+        },
+        {
+          "attribution": 0.0006291353506640007,
+          "bit": 299,
+          "ingredient_id": "DDInter1831"
+        },
+        {
+          "attribution": 0.0005954088934458923,
+          "bit": 710,
+          "ingredient_id": "DDInter1831"
+        },
+        {
+          "attribution": -0.0005576464380396828,
+          "bit": 1823,
+          "ingredient_id": "DDInter1831"
+        },
+        {
+          "attribution": 0.0005463538408321256,
+          "bit": 488,
+          "ingredient_id": "DDInter1831"
+        },
+        {
+          "attribution": 0.0005353344356429091,
+          "bit": 1737,
+          "ingredient_id": "DDInter1831"
+        },
+        {
+          "attribution": -0.0005178223343591526,
+          "bit": 9,
+          "ingredient_id": "DDInter1831"
+        },
+        {
+          "attribution": 0.0005067770715072584,
+          "bit": 1607,
+          "ingredient_id": "DDInter336"
+        },
+        {
+          "attribution": 0.0004953514189178776,
+          "bit": 875,
+          "ingredient_id": "DDInter336"
+        },
+        {
+          "attribution": 0.0004917686634371421,
+          "bit": 1489,
+          "ingredient_id": "DDInter336"
+        },
+        {
+          "attribution": -0.00047562094272279865,
+          "bit": 114,
+          "ingredient_id": "DDInter336"
+        },
+        {
+          "attribution": -0.0004704053365287564,
+          "bit": 1692,
+          "ingredient_id": "DDInter336"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7400179765459127,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.04281555372593826,
+        "random_feature_probability_drop": 0.030100051602552802
+      },
+      "ingredient_ids": [
+        "DDInter1240",
+        "DDInter1275"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1240|DDInter1275",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.7625155000005179,
+      "seed": 17,
+      "source_severity": "moderate",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.001123892729083309,
+          "bit": 1457,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0009111012809626118,
+          "bit": 1313,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0008424633177241958,
+          "bit": 640,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0008221480036638695,
+          "bit": 1578,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": -0.000789004068678878,
+          "bit": 1696,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0007193483710352666,
+          "bit": 1206,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0006830614406290181,
+          "bit": 128,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0006790897100472648,
+          "bit": 932,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0006770293388171922,
+          "bit": 1171,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0006749783987061164,
+          "bit": 1921,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": -0.0006561621050877875,
+          "bit": 1569,
+          "ingredient_id": "DDInter1240"
+        },
+        {
+          "attribution": 0.0006040346998474888,
+          "bit": 1095,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.00057637602667171,
+          "bit": 2023,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0005495166434172916,
+          "bit": 577,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0005417136524386024,
+          "bit": 1990,
+          "ingredient_id": "DDInter1240"
+        },
+        {
+          "attribution": 0.0005376339607323644,
+          "bit": 122,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.0005094801317042652,
+          "bit": 194,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": -0.0004911974990591261,
+          "bit": 0,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.00047368206097075927,
+          "bit": 1006,
+          "ingredient_id": "DDInter1275"
+        },
+        {
+          "attribution": 0.00044103911870863044,
+          "bit": 1516,
+          "ingredient_id": "DDInter1275"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.8162946808937579,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.05623338166231495,
+        "random_feature_probability_drop": 0.03727325734554365
+      },
+      "ingredient_ids": [
+        "DDInter1635",
+        "DDInter195"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1635|DDInter195",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 1.124001899999712,
+      "seed": 17,
+      "source_severity": "low",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.001206466892199387,
+          "bit": 453,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": 0.001164105461199938,
+          "bit": 1154,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": 0.0011546203842343061,
+          "bit": 251,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": 0.0011428994084781152,
+          "bit": 1982,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": 0.001120373335311342,
+          "bit": 1428,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": 0.0010861574070801794,
+          "bit": 62,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": 0.0009954610316604828,
+          "bit": 1370,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": -0.0008824473694204471,
+          "bit": 1699,
+          "ingredient_id": "DDInter1635"
+        },
+        {
+          "attribution": -0.0008673180652465362,
+          "bit": 13,
+          "ingredient_id": "DDInter1635"
+        },
+        {
+          "attribution": 0.0008614945543286012,
+          "bit": 664,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": 0.0008309444765473017,
+          "bit": 52,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": 0.0007669276349986376,
+          "bit": 1073,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": 0.0007484114286171462,
+          "bit": 1738,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": 0.0007066750672493072,
+          "bit": 837,
+          "ingredient_id": "DDInter1635"
+        },
+        {
+          "attribution": 0.0006989255762164248,
+          "bit": 1607,
+          "ingredient_id": "DDInter1635"
+        },
+        {
+          "attribution": 0.0006830183899637632,
+          "bit": 679,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": -0.0006619436392156786,
+          "bit": 1019,
+          "ingredient_id": "DDInter195"
+        },
+        {
+          "attribution": 0.0006574243308392624,
+          "bit": 632,
+          "ingredient_id": "DDInter1635"
+        },
+        {
+          "attribution": 0.0006509625002166786,
+          "bit": 1853,
+          "ingredient_id": "DDInter1635"
+        },
+        {
+          "attribution": 0.0006070255177519357,
+          "bit": 592,
+          "ingredient_id": "DDInter1635"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7518529154480106,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.0331959300923943,
+        "random_feature_probability_drop": 0.0441398402715798
+      },
+      "ingredient_ids": [
+        "DDInter1946",
+        "DDInter380"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1946|DDInter380",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.7247330999998667,
+      "seed": 17,
+      "source_severity": "low",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0015952644878893807,
+          "bit": 1926,
+          "ingredient_id": "DDInter1946"
+        },
+        {
+          "attribution": -0.0009017918132769864,
+          "bit": 753,
+          "ingredient_id": "DDInter380"
+        },
+        {
+          "attribution": 0.0008928826690350888,
+          "bit": 1114,
+          "ingredient_id": "DDInter380"
+        },
+        {
+          "attribution": 0.0008501675175267565,
+          "bit": 1827,
+          "ingredient_id": "DDInter1946"
+        },
+        {
+          "attribution": -0.0007991306703445389,
+          "bit": 674,
+          "ingredient_id": "DDInter380"
+        },
+        {
+          "attribution": 0.0007112560962241332,
+          "bit": 1487,
+          "ingredient_id": "DDInter1946"
+        },
+        {
+          "attribution": -0.0006589860784629309,
+          "bit": 806,
+          "ingredient_id": "DDInter380"
+        },
+        {
+          "attribution": 0.0006574695944845388,
+          "bit": 1182,
+          "ingredient_id": "DDInter380"
+        },
+        {
+          "attribution": 0.0006515690393853468,
+          "bit": 393,
+          "ingredient_id": "DDInter1946"
+        },
+        {
+          "attribution": -0.0006490749895533554,
+          "bit": 2029,
+          "ingredient_id": "DDInter1946"
+        },
+        {
+          "attribution": 0.0006249705666618866,
+          "bit": 116,
+          "ingredient_id": "DDInter380"
+        },
+        {
+          "attribution": 0.000623836814966694,
+          "bit": 1722,
+          "ingredient_id": "DDInter380"
+        },
+        {
+          "attribution": 0.0006164552628717956,
+          "bit": 1509,
+          "ingredient_id": "DDInter1946"
+        },
+        {
+          "attribution": 0.0006113631167181666,
+          "bit": 1908,
+          "ingredient_id": "DDInter1946"
+        },
+        {
+          "attribution": 0.0006071858335872093,
+          "bit": 1898,
+          "ingredient_id": "DDInter380"
+        },
+        {
+          "attribution": -0.0006006759938941286,
+          "bit": 750,
+          "ingredient_id": "DDInter1946"
+        },
+        {
+          "attribution": 0.0005873676547594187,
+          "bit": 1897,
+          "ingredient_id": "DDInter380"
+        },
+        {
+          "attribution": 0.0005730513466346565,
+          "bit": 1278,
+          "ingredient_id": "DDInter380"
+        },
+        {
+          "attribution": -0.0005650105038057518,
+          "bit": 548,
+          "ingredient_id": "DDInter1946"
+        },
+        {
+          "attribution": -0.0005482169425761185,
+          "bit": 78,
+          "ingredient_id": "DDInter380"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7905683975079797,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.08417619168201562,
+        "random_feature_probability_drop": 0.02800052316536983
+      },
+      "ingredient_ids": [
+        "DDInter1707",
+        "DDInter598"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1707|DDInter598",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.8418750000000728,
+      "seed": 17,
+      "source_severity": "low",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.001465160793600262,
+          "bit": 1015,
+          "ingredient_id": "DDInter1707"
+        },
+        {
+          "attribution": 0.001266660309568124,
+          "bit": 1941,
+          "ingredient_id": "DDInter1707"
+        },
+        {
+          "attribution": 0.001220675788204062,
+          "bit": 1154,
+          "ingredient_id": "DDInter598"
+        },
+        {
+          "attribution": 0.0012183456554311078,
+          "bit": 1370,
+          "ingredient_id": "DDInter1707"
+        },
+        {
+          "attribution": 0.00116573861487268,
+          "bit": 1845,
+          "ingredient_id": "DDInter1707"
+        },
+        {
+          "attribution": 0.0011557361091831808,
+          "bit": 881,
+          "ingredient_id": "DDInter598"
+        },
+        {
+          "attribution": 0.0010529323284913517,
+          "bit": 1738,
+          "ingredient_id": "DDInter1707"
+        },
+        {
+          "attribution": 0.001048268268391439,
+          "bit": 1663,
+          "ingredient_id": "DDInter598"
+        },
+        {
+          "attribution": 0.0010232848963482866,
+          "bit": 1039,
+          "ingredient_id": "DDInter598"
+        },
+        {
+          "attribution": 0.0010231787268253356,
+          "bit": 1607,
+          "ingredient_id": "DDInter598"
+        },
+        {
+          "attribution": 0.0010013823569750002,
+          "bit": 225,
+          "ingredient_id": "DDInter1707"
+        },
+        {
+          "attribution": 0.0009804940452795563,
+          "bit": 975,
+          "ingredient_id": "DDInter1707"
+        },
+        {
+          "attribution": -0.0009631805703502749,
+          "bit": 829,
+          "ingredient_id": "DDInter598"
+        },
+        {
+          "attribution": 0.0009273975542569701,
+          "bit": 1982,
+          "ingredient_id": "DDInter1707"
+        },
+        {
+          "attribution": 0.0009167296650502976,
+          "bit": 242,
+          "ingredient_id": "DDInter1707"
+        },
+        {
+          "attribution": 0.000894959365922432,
+          "bit": 1009,
+          "ingredient_id": "DDInter598"
+        },
+        {
+          "attribution": 0.0008844237263474497,
+          "bit": 1960,
+          "ingredient_id": "DDInter1707"
+        },
+        {
+          "attribution": 0.0008502414962983096,
+          "bit": 1082,
+          "ingredient_id": "DDInter598"
+        },
+        {
+          "attribution": 0.0007886791590294706,
+          "bit": 314,
+          "ingredient_id": "DDInter1707"
+        },
+        {
+          "attribution": 0.0007755019902617732,
+          "bit": 1119,
+          "ingredient_id": "DDInter598"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7676483000163359,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.05069935014598359,
+        "random_feature_probability_drop": 0.008037248024140076
+      },
+      "ingredient_ids": [
+        "DDInter460",
+        "DDInter495"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter460|DDInter495",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 1.08330179999939,
+      "seed": 17,
+      "source_severity": "low",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": -0.0009501667375388934,
+          "bit": 564,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": 0.0009230643470914401,
+          "bit": 1593,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": 0.0009087201824513613,
+          "bit": 146,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": 0.000906995690002077,
+          "bit": 1378,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": 0.0008684138384325024,
+          "bit": 561,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": 0.0008568661451135995,
+          "bit": 464,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": -0.0008552280718596705,
+          "bit": 590,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": 0.0008517632651887652,
+          "bit": 62,
+          "ingredient_id": "DDInter460"
+        },
+        {
+          "attribution": 0.0008213226656152983,
+          "bit": 314,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": 0.0008099148060409789,
+          "bit": 408,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": 0.000794452100478793,
+          "bit": 485,
+          "ingredient_id": "DDInter460"
+        },
+        {
+          "attribution": 0.0007939150852962484,
+          "bit": 875,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": 0.000772419330246521,
+          "bit": 1928,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": -0.0007338585661500474,
+          "bit": 1991,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": -0.0006917786616895683,
+          "bit": 1355,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": 0.0006640235636439229,
+          "bit": 1171,
+          "ingredient_id": "DDInter460"
+        },
+        {
+          "attribution": -0.0006590220793896151,
+          "bit": 1865,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": 0.000638656059436471,
+          "bit": 1171,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": -0.0006168918640341303,
+          "bit": 958,
+          "ingredient_id": "DDInter495"
+        },
+        {
+          "attribution": 0.0006061831951456043,
+          "bit": 1578,
+          "ingredient_id": "DDInter460"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7572186737288747,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.03495991149032396,
+        "random_feature_probability_drop": 0.03589184170051729
+      },
+      "ingredient_ids": [
+        "DDInter1791",
+        "DDInter1860"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1791|DDInter1860",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.7772379999987606,
+      "seed": 17,
+      "source_severity": "low",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.00161529608908495,
+          "bit": 1164,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": 0.0014784274526391528,
+          "bit": 873,
+          "ingredient_id": "DDInter1791"
+        },
+        {
+          "attribution": 0.0013160338419027084,
+          "bit": 216,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": 0.0012310300786566586,
+          "bit": 982,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": 0.0012086619289846112,
+          "bit": 1652,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": 0.0010995208314739102,
+          "bit": 881,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": 0.0010793855053634616,
+          "bit": 1356,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": -0.0010717995839968353,
+          "bit": 165,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": 0.001067982904373821,
+          "bit": 1710,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": -0.0009843719734590195,
+          "bit": 724,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": -0.0009596873379678073,
+          "bit": 1696,
+          "ingredient_id": "DDInter1791"
+        },
+        {
+          "attribution": -0.000880216372838305,
+          "bit": 1915,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": -0.0008766638598487475,
+          "bit": 806,
+          "ingredient_id": "DDInter1791"
+        },
+        {
+          "attribution": -0.0008199796287158279,
+          "bit": 564,
+          "ingredient_id": "DDInter1791"
+        },
+        {
+          "attribution": 0.0007402342964724085,
+          "bit": 816,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": 0.0006898045944865316,
+          "bit": 561,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": -0.000681590340832372,
+          "bit": 917,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": -0.0006734894222120147,
+          "bit": 352,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": 0.0006712180887546992,
+          "bit": 470,
+          "ingredient_id": "DDInter1860"
+        },
+        {
+          "attribution": 0.0006654251873214889,
+          "bit": 1114,
+          "ingredient_id": "DDInter1791"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7531947541764131,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.025084605616010447,
+        "random_feature_probability_drop": 0.013046873645676693
+      },
+      "ingredient_ids": [
+        "DDInter1247",
+        "DDInter285"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1247|DDInter285",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.7030651999994006,
+      "seed": 17,
+      "source_severity": "low",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0012716253779672115,
+          "bit": 873,
+          "ingredient_id": "DDInter1247"
+        },
+        {
+          "attribution": 0.001174445048384598,
+          "bit": 1887,
+          "ingredient_id": "DDInter285"
+        },
+        {
+          "attribution": -0.001172344598444397,
+          "bit": 89,
+          "ingredient_id": "DDInter1247"
+        },
+        {
+          "attribution": 0.0010355496092699923,
+          "bit": 1396,
+          "ingredient_id": "DDInter1247"
+        },
+        {
+          "attribution": 0.0010009092661533714,
+          "bit": 1758,
+          "ingredient_id": "DDInter285"
+        },
+        {
+          "attribution": 0.0009175496353464041,
+          "bit": 314,
+          "ingredient_id": "DDInter1247"
+        },
+        {
+          "attribution": 0.0008399051402534496,
+          "bit": 1734,
+          "ingredient_id": "DDInter285"
+        },
+        {
+          "attribution": -0.0008270277432984585,
+          "bit": 1028,
+          "ingredient_id": "DDInter1247"
+        },
+        {
+          "attribution": 0.0008152250807249573,
+          "bit": 1599,
+          "ingredient_id": "DDInter1247"
+        },
+        {
+          "attribution": 0.0008060187456067069,
+          "bit": 742,
+          "ingredient_id": "DDInter1247"
+        },
+        {
+          "attribution": 0.0007907394977451077,
+          "bit": 326,
+          "ingredient_id": "DDInter1247"
+        },
+        {
+          "attribution": -0.0007660087823069262,
+          "bit": 13,
+          "ingredient_id": "DDInter285"
+        },
+        {
+          "attribution": 0.0007522770100081289,
+          "bit": 333,
+          "ingredient_id": "DDInter1247"
+        },
+        {
+          "attribution": 0.000748934488385089,
+          "bit": 1849,
+          "ingredient_id": "DDInter1247"
+        },
+        {
+          "attribution": 0.0007402394086284403,
+          "bit": 1928,
+          "ingredient_id": "DDInter1247"
+        },
+        {
+          "attribution": -0.0007329434320126893,
+          "bit": 708,
+          "ingredient_id": "DDInter285"
+        },
+        {
+          "attribution": 0.0007248701905950838,
+          "bit": 322,
+          "ingredient_id": "DDInter285"
+        },
+        {
+          "attribution": -0.0007244447159564515,
+          "bit": 276,
+          "ingredient_id": "DDInter1247"
+        },
+        {
+          "attribution": -0.0007170632499224894,
+          "bit": 1249,
+          "ingredient_id": "DDInter285"
+        },
+        {
+          "attribution": 0.000716732604473691,
+          "bit": 1235,
+          "ingredient_id": "DDInter1247"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7493481595803124,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.0418663254744055,
+        "random_feature_probability_drop": 0.020726655025205876
+      },
+      "ingredient_ids": [
+        "DDInter1103",
+        "DDInter1724"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1103|DDInter1724",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.8254329999999754,
+      "seed": 17,
+      "source_severity": "low",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0023545177982668974,
+          "bit": 319,
+          "ingredient_id": "DDInter1724"
+        },
+        {
+          "attribution": 0.0013192842386473558,
+          "bit": 1270,
+          "ingredient_id": "DDInter1724"
+        },
+        {
+          "attribution": 0.0012161269987700507,
+          "bit": 1476,
+          "ingredient_id": "DDInter1724"
+        },
+        {
+          "attribution": 0.0011486081472185106,
+          "bit": 881,
+          "ingredient_id": "DDInter1103"
+        },
+        {
+          "attribution": 0.001110774082746957,
+          "bit": 1675,
+          "ingredient_id": "DDInter1724"
+        },
+        {
+          "attribution": -0.0011021465731957392,
+          "bit": 1679,
+          "ingredient_id": "DDInter1103"
+        },
+        {
+          "attribution": 0.0008778993499163334,
+          "bit": 1398,
+          "ingredient_id": "DDInter1724"
+        },
+        {
+          "attribution": -0.000813268008016621,
+          "bit": 348,
+          "ingredient_id": "DDInter1103"
+        },
+        {
+          "attribution": 0.0007758020558412682,
+          "bit": 1171,
+          "ingredient_id": "DDInter1724"
+        },
+        {
+          "attribution": 0.000763648526898919,
+          "bit": 237,
+          "ingredient_id": "DDInter1103"
+        },
+        {
+          "attribution": 0.0007626828403317631,
+          "bit": 816,
+          "ingredient_id": "DDInter1103"
+        },
+        {
+          "attribution": 0.0007315946994310707,
+          "bit": 1542,
+          "ingredient_id": "DDInter1724"
+        },
+        {
+          "attribution": 0.0006681831318715581,
+          "bit": 1804,
+          "ingredient_id": "DDInter1724"
+        },
+        {
+          "attribution": 0.000653538842197321,
+          "bit": 1457,
+          "ingredient_id": "DDInter1724"
+        },
+        {
+          "attribution": -0.0006397877143626829,
+          "bit": 1666,
+          "ingredient_id": "DDInter1103"
+        },
+        {
+          "attribution": 0.0006339126026659869,
+          "bit": 1222,
+          "ingredient_id": "DDInter1103"
+        },
+        {
+          "attribution": 0.000614640716833037,
+          "bit": 2033,
+          "ingredient_id": "DDInter1103"
+        },
+        {
+          "attribution": 0.0005978119662302106,
+          "bit": 25,
+          "ingredient_id": "DDInter1103"
+        },
+        {
+          "attribution": 0.0005923484819732039,
+          "bit": 680,
+          "ingredient_id": "DDInter1103"
+        },
+        {
+          "attribution": -0.0005850345656881473,
+          "bit": 694,
+          "ingredient_id": "DDInter1103"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7745270119320651,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.05760952206837977,
+        "random_feature_probability_drop": 0.035206409146904205
+      },
+      "ingredient_ids": [
+        "DDInter1513",
+        "DDInter1632"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1513|DDInter1632",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.7662017999991804,
+      "seed": 17,
+      "source_severity": "low",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0014772677313885652,
+          "bit": 1738,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": -0.0013402020321109376,
+          "bit": 682,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": -0.0012259041508286828,
+          "bit": 114,
+          "ingredient_id": "DDInter1632"
+        },
+        {
+          "attribution": 0.0011193705680625499,
+          "bit": 1607,
+          "ingredient_id": "DDInter1632"
+        },
+        {
+          "attribution": 0.0011163215381202463,
+          "bit": 1428,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": -0.0010907818867735841,
+          "bit": 1531,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": 0.001078842212791642,
+          "bit": 1154,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": -0.0009887962984151955,
+          "bit": 2018,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": 0.0009647519906934576,
+          "bit": 290,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": 0.0009305740699119269,
+          "bit": 923,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": 0.0008409080743163599,
+          "bit": 84,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": 0.0008394876164743437,
+          "bit": 1288,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": -0.0007662167848874191,
+          "bit": 787,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": 0.000755153506958095,
+          "bit": 875,
+          "ingredient_id": "DDInter1632"
+        },
+        {
+          "attribution": 0.0007212066626891556,
+          "bit": 869,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": 0.0007154304351502105,
+          "bit": 843,
+          "ingredient_id": "DDInter1632"
+        },
+        {
+          "attribution": 0.0006767396879112653,
+          "bit": 679,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": 0.0006695732813568611,
+          "bit": 314,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": 0.0006616096736031807,
+          "bit": 1997,
+          "ingredient_id": "DDInter1513"
+        },
+        {
+          "attribution": 0.0006488829353372694,
+          "bit": 547,
+          "ingredient_id": "DDInter1513"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7912661098062336,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.06746334755058758,
+        "random_feature_probability_drop": 0.05052154350353821
+      },
+      "ingredient_ids": [
+        "DDInter1055",
+        "DDInter1232"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter1055|DDInter1232",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 1.3556700000008277,
+      "seed": 17,
+      "source_severity": "low",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": -0.001655449926147412,
+          "bit": 1136,
+          "ingredient_id": "DDInter1232"
+        },
+        {
+          "attribution": 0.0012783154202509195,
+          "bit": 1075,
+          "ingredient_id": "DDInter1232"
+        },
+        {
+          "attribution": 0.0011411941350729649,
+          "bit": 1093,
+          "ingredient_id": "DDInter1232"
+        },
+        {
+          "attribution": 0.0011183292679106671,
+          "bit": 1476,
+          "ingredient_id": "DDInter1232"
+        },
+        {
+          "attribution": 0.0010722259633269005,
+          "bit": 1800,
+          "ingredient_id": "DDInter1055"
+        },
+        {
+          "attribution": 0.0010156153623483988,
+          "bit": 1171,
+          "ingredient_id": "DDInter1232"
+        },
+        {
+          "attribution": 0.000977438179688761,
+          "bit": 1440,
+          "ingredient_id": "DDInter1055"
+        },
+        {
+          "attribution": 0.0009658698633074891,
+          "bit": 1457,
+          "ingredient_id": "DDInter1232"
+        },
+        {
+          "attribution": 0.0009203990808526186,
+          "bit": 1236,
+          "ingredient_id": "DDInter1055"
+        },
+        {
+          "attribution": 0.0008031715969138986,
+          "bit": 972,
+          "ingredient_id": "DDInter1232"
+        },
+        {
+          "attribution": 0.0007987230391677258,
+          "bit": 1629,
+          "ingredient_id": "DDInter1232"
+        },
+        {
+          "attribution": 0.0007850291772797391,
+          "bit": 314,
+          "ingredient_id": "DDInter1232"
+        },
+        {
+          "attribution": 0.0007679672588380981,
+          "bit": 1729,
+          "ingredient_id": "DDInter1055"
+        },
+        {
+          "attribution": -0.0007364877614293164,
+          "bit": 1172,
+          "ingredient_id": "DDInter1232"
+        },
+        {
+          "attribution": 0.0007289451285004134,
+          "bit": 960,
+          "ingredient_id": "DDInter1232"
+        },
+        {
+          "attribution": 0.000718043794236678,
+          "bit": 464,
+          "ingredient_id": "DDInter1055"
+        },
+        {
+          "attribution": 0.0006874423138469865,
+          "bit": 1019,
+          "ingredient_id": "DDInter1055"
+        },
+        {
+          "attribution": -0.000642392327314667,
+          "bit": 433,
+          "ingredient_id": "DDInter1055"
+        },
+        {
+          "attribution": -0.0005763692068683213,
+          "bit": 1660,
+          "ingredient_id": "DDInter1232"
+        },
+        {
+          "attribution": 0.000574021881675435,
+          "bit": 1114,
+          "ingredient_id": "DDInter1232"
+        }
+      ]
+    },
+    {
+      "calibrated_probability": 0.7928930086129101,
+      "dependency_version": "0.52.0",
+      "epochs": null,
+      "fidelity": {
+        "feature_probability_drop": 0.061055806236777865,
+        "random_feature_probability_drop": 0.0432249455958118
+      },
+      "ingredient_ids": [
+        "DDInter188",
+        "DDInter543"
+      ],
+      "interpretation": "Features/neighbors affecting model output, not proven biological causality.",
+      "method": "SHAP GradientExplainer",
+      "model_version": "c2bec83ceb780d78c497",
+      "pair_key": "DDInter188|DDInter543",
+      "predicted_source_severity": "moderate",
+      "samples": 64,
+      "seconds": 0.8036006000002089,
+      "seed": 17,
+      "source_severity": "low",
+      "status": "executed",
+      "top_edges": [],
+      "top_features": [
+        {
+          "attribution": 0.0016420319823282625,
+          "bit": 469,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": 0.0015207877572720463,
+          "bit": 802,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": 0.0013415121831883425,
+          "bit": 816,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": -0.0013174855782835948,
+          "bit": 1028,
+          "ingredient_id": "DDInter543"
+        },
+        {
+          "attribution": 0.0011336603228926379,
+          "bit": 762,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": -0.0011168419010236796,
+          "bit": 207,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": 0.0010985151811837568,
+          "bit": 1476,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": 0.0010262057307386385,
+          "bit": 670,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": 0.0010224717267419692,
+          "bit": 1171,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": 0.0009954884677654263,
+          "bit": 881,
+          "ingredient_id": "DDInter543"
+        },
+        {
+          "attribution": 0.000977533455397861,
+          "bit": 1896,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": 0.0009734235970881855,
+          "bit": 1203,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": 0.0008821936529557206,
+          "bit": 1197,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": 0.0008811445864580492,
+          "bit": 833,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": 0.0008446439169631503,
+          "bit": 1592,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": -0.0008397847574315165,
+          "bit": 623,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": 0.0008308310788862627,
+          "bit": 1463,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": -0.0008110634741598233,
+          "bit": 13,
+          "ingredient_id": "DDInter543"
+        },
+        {
+          "attribution": -0.0007650475794349632,
+          "bit": 1754,
+          "ingredient_id": "DDInter188"
+        },
+        {
+          "attribution": 0.0007353501798661455,
+          "bit": 1607,
+          "ingredient_id": "DDInter188"
+        }
+      ]
+    }
+  ],
+  "eligible_cases": 5380,
+  "exclusions": {
+    "no_training_graph_neighbor": 0
+  },
+  "executed_cases": 30,
+  "model_version": "c2bec83ceb780d78c497",
+  "requested_cases": 30,
+  "sample_policy": "seed17 balanced sampling per known source severity from held-out test",
+  "sampling_seed": 17,
+  "scope": "Model explanation fidelity and stability; no pharmacological mechanism validation.",
+  "selected_cases": 30,
+  "status": "executed"
+}

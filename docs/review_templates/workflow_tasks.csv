@@ -1,0 +1,1 @@
+participant_id,case_id,group_id,task_id,condition,case_set,task_order,software_data_version,started_at,ended_at,duration_seconds,completed,wrong_corrections,missed_medications,evidence_errors,unresolved_entries,prior_case_exposure,condition_deviation,notes

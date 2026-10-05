@@ -1,0 +1,30 @@
+flowchart TD
+    Input[Prescription text or local OCR] --> Identity[Ingredient resolution and retained candidates]
+    Identity --> Source[Known source-record screening]
+    Identity --> Join[Cached candidate joins for each entry pair]
+    Join --> Candidates[Stable predicates and conditional source findings]
+    Source --> Findings[Documented findings with original severity]
+    FDA[Frozen sourced enzyme and transporter roles] --> Paths[Directed mechanism-path queries]
+    Identity --> Paths
+    Paths --> Hypotheses[Mechanism-supported possibilities without severity]
+    PubChem[Versioned ingredient-to-molecule mapping] --> Fingerprints[Morgan molecular features]
+    Training[Training-only message edges and frozen severity splits] --> GNN[GraphSAGE and molecular fusion]
+    Fingerprints --> GNN
+    FDA --> GNN
+    GNN --> Calibration[Temperature scaling and conservative abstention]
+    Calibration --> CPU[Versioned cached CPU checkpoint]
+    Source --> Unknown[Documented pairs with unknown source severity]
+    Unknown --> CPU
+    CPU --> Predictions[Experimental source-severity estimates and abstentions]
+    CPU --> XAI[Offline model rationale evaluations]
+    Findings --> Dossier[Local application and versioned reports]
+    Candidates --> Dossier
+    Hypotheses --> Dossier
+    Predictions --> Dossier
+    XAI --> Dossier
+    Findings --> Evidence[Evidence graph support relationships]
+    Hypotheses --> Separate[Separate hypothesis and prediction graph relationships]
+    Predictions --> Separate
+    Evidence --> Dossier
+    Separate --> Dossier
+    Dossier --> Replay[Replay with matching code, data, feature, model and calibration hashes]

@@ -1,0 +1,69 @@
+name: Reproducibility and core checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      run_ocr:
+        description: Download models and run the synthetic OCR integration check
+        type: boolean
+        default: false
+      run_ml:
+        description: Run isolated optional ML training and artifact integrity checks
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-linux.lock
+      - run: pip install -r requirements-linux.lock
+      - run: python -m pytest -q
+      - run: python scripts/evaluate.py
+      - run: python scripts/graph_benchmark.py
+      - run: python scripts/benchmark.py --groups 10 --output artifacts/ci-research
+      - run: python scripts/hybrid_benchmark.py --groups 10 --memory-samples 0 --output artifacts/ci-hybrid
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: software-evaluation
+          path: artifacts/
+  ocr:
+    if: github.event_name == 'workflow_dispatch' && inputs.run_ocr
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y libgl1 libglib2.0-0 fonts-dejavu-core
+      - run: pip install -r requirements-linux-ocr.lock
+      - run: python scripts/ocr_smoke.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: synthetic-image-check
+          path: artifacts/ocr_smoke/
+  ml:
+    if: github.event_name == 'workflow_dispatch' && inputs.run_ml
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-ml.txt pytest
+      - run: python -m pytest tests/test_ml*.py -q
+      - run: python scripts/ml_smoke.py --molecules data/ml_smoke_molecules.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: hybrid-ml-smoke
+          path: artifacts/

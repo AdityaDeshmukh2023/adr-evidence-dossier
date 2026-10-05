@@ -1,0 +1,921 @@
+{
+  "best_validation_macro_f1": 0.28378185960415775,
+  "cached_pair_latency_ms": {
+    "median": 0.3323499995531165,
+    "p95": 0.6210999999893829
+  },
+  "calibration": {
+    "calibration_indices_sha256": "9c01920f3b35c4a77a589111b0d79eb77e449cd59a6156a62a132a5cef228389",
+    "calibration_internal_split": "stratified 50/25/25 temperature/threshold/independent-check",
+    "independent_policy_check_sha256": "2a7f0d95adf1fe1681b3dbd797c17dea696a0f38998d025ed4ba4410c5ead7bb",
+    "policy": {
+      "accepted_count": 0,
+      "adaptive_selection": true,
+      "coverage": 0,
+      "formal_risk_guarantee": "none",
+      "independent_policy_check": {
+        "count": 0,
+        "errors": 0,
+        "sample_count": 1345,
+        "wilson_95_upper_error": null
+      },
+      "interval_semantics": "Selected-point Wilson statistic; adaptive threshold search is not uniform risk control.",
+      "maximum_upper_error": 0.1,
+      "minimum_accepted": 100,
+      "reason": "no_calibration_threshold_qualifies",
+      "sample_count": 1344,
+      "scope": "Held-out source-label error, not clinical risk.",
+      "threshold": null
+    },
+    "protocol": "pair",
+    "scope": "Known-source labels only; applicability to source-unknown records unvalidated.",
+    "temperature": 0.051016926112620896,
+    "temperature_fit_sha256": "e3d105d53761f75e22df9c6056d77ce69853e759b0c14b9b53bcb2cbd5c3e78f",
+    "threshold_tune_sha256": "d1c482a83c54b021e0e60652bf82e20fe6653feb4e073248bc40a59fddc2f0ba"
+  },
+  "class_weights": [
+    0.8148655891418457,
+    0.4364372491836548,
+    1.7486971616744995
+  ],
+  "embedding_ms": 14.574599999832571,
+  "epochs_completed": 9,
+  "evaluation": {
+    "calibration": {
+      "after_calibration": {
+        "brier": 0.40690621159081913,
+        "confusion_matrix": [
+          [
+            0,
+            1143,
+            0
+          ],
+          [
+            0,
+            3986,
+            0
+          ],
+          [
+            0,
+            248,
+            0
+          ]
+        ],
+        "count": 5377,
+        "coverage_error_curve": [
+          {
+            "coverage": 1.0,
+            "error_rate": 0.258694439278408,
+            "threshold": 0.4
+          },
+          {
+            "coverage": 1.0,
+            "error_rate": 0.258694439278408,
+            "threshold": 0.5
+          },
+          {
+            "coverage": 1.0,
+            "error_rate": 0.258694439278408,
+            "threshold": 0.6
+          },
+          {
+            "coverage": 0.9717314487632509,
+            "error_rate": 0.2558851674641148,
+            "threshold": 0.7
+          },
+          {
+            "coverage": 0.08499163102101544,
+            "error_rate": 0.18599562363238512,
+            "threshold": 0.8
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.9
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.95
+          }
+        ],
+        "ece": 0.01601276244494005,
+        "high_pr_auc": 0.2919634590541389,
+        "macro_f1": 0.28381216846452345,
+        "nll": 0.7151273622779841,
+        "per_class": {
+          "high": {
+            "f1-score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 1143.0
+          },
+          "low": {
+            "f1-score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 248.0
+          },
+          "moderate": {
+            "f1-score": 0.8514365053935704,
+            "precision": 0.7413055607215919,
+            "recall": 1.0,
+            "support": 3986.0
+          }
+        },
+        "reliability": [
+          {
+            "accuracy": 0.6447368421052632,
+            "confidence": 0.6843689323321251,
+            "count": 152,
+            "lower": 0.6,
+            "upper": 0.7
+          },
+          {
+            "accuracy": 0.7374161073825504,
+            "confidence": 0.7541675529875179,
+            "count": 4768,
+            "lower": 0.7,
+            "upper": 0.8
+          },
+          {
+            "accuracy": 0.8140043763676149,
+            "confidence": 0.8135543691302531,
+            "count": 457,
+            "lower": 0.8,
+            "upper": 0.9
+          }
+        ],
+        "selective": {
+          "accepted_count": 0,
+          "coverage": 0.0,
+          "error_rate": null,
+          "per_class": {
+            "high": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 1143
+            },
+            "low": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 248
+            },
+            "moderate": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 3986
+            }
+          },
+          "threshold": null
+        }
+      },
+      "before_calibration": {
+        "brier": 0.6397259964091744,
+        "confusion_matrix": [
+          [
+            0,
+            1143,
+            0
+          ],
+          [
+            0,
+            3986,
+            0
+          ],
+          [
+            0,
+            248,
+            0
+          ]
+        ],
+        "count": 5377,
+        "coverage_error_curve": [
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.4
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.5
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.6
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.7
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.8
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.9
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.95
+          }
+        ],
+        "ece": 0.38658776328923095,
+        "high_pr_auc": 0.32959615614127646,
+        "macro_f1": 0.28381216846452345,
+        "nll": 1.058703972168475,
+        "per_class": {
+          "high": {
+            "f1-score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 1143.0
+          },
+          "low": {
+            "f1-score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 248.0
+          },
+          "moderate": {
+            "f1-score": 0.8514365053935704,
+            "precision": 0.7413055607215919,
+            "recall": 1.0,
+            "support": 3986.0
+          }
+        },
+        "reliability": [
+          {
+            "accuracy": 0.7413055607215919,
+            "confidence": 0.354717797432361,
+            "count": 5377,
+            "lower": 0.3,
+            "upper": 0.4
+          }
+        ],
+        "selective": {
+          "accepted_count": 0,
+          "coverage": 0.0,
+          "error_rate": null,
+          "per_class": {
+            "high": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 1143
+            },
+            "low": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 248
+            },
+            "moderate": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 3986
+            }
+          },
+          "threshold": null
+        }
+      }
+    },
+    "test": {
+      "after_calibration": {
+        "brier": 0.4068601645259423,
+        "confusion_matrix": [
+          [
+            0,
+            1144,
+            0
+          ],
+          [
+            0,
+            3987,
+            0
+          ],
+          [
+            0,
+            249,
+            0
+          ]
+        ],
+        "count": 5380,
+        "coverage_error_curve": [
+          {
+            "coverage": 1.0,
+            "error_rate": 0.2589219330855019,
+            "threshold": 0.4
+          },
+          {
+            "coverage": 1.0,
+            "error_rate": 0.2589219330855019,
+            "threshold": 0.5
+          },
+          {
+            "coverage": 1.0,
+            "error_rate": 0.2589219330855019,
+            "threshold": 0.6
+          },
+          {
+            "coverage": 0.9719330855018588,
+            "error_rate": 0.2545419774335437,
+            "threshold": 0.7
+          },
+          {
+            "coverage": 0.08940520446096654,
+            "error_rate": 0.1995841995841996,
+            "threshold": 0.8
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.9
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.95
+          }
+        ],
+        "ece": 0.01684826780348269,
+        "high_pr_auc": 0.3063417297827279,
+        "macro_f1": 0.2837621436959539,
+        "nll": 0.7149391829303267,
+        "per_class": {
+          "high": {
+            "f1-score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 1144.0
+          },
+          "low": {
+            "f1-score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 249.0
+          },
+          "moderate": {
+            "f1-score": 0.8512864310878616,
+            "precision": 0.7410780669144982,
+            "recall": 1.0,
+            "support": 3987.0
+          }
+        },
+        "reliability": [
+          {
+            "accuracy": 0.5894039735099338,
+            "confidence": 0.6864024178350482,
+            "count": 151,
+            "lower": 0.6,
+            "upper": 0.7
+          },
+          {
+            "accuracy": 0.7398904802021904,
+            "confidence": 0.7544569552778622,
+            "count": 4748,
+            "lower": 0.7,
+            "upper": 0.8
+          },
+          {
+            "accuracy": 0.8004158004158004,
+            "confidence": 0.8146263867574949,
+            "count": 481,
+            "lower": 0.8,
+            "upper": 0.9
+          }
+        ],
+        "selective": {
+          "accepted_count": 0,
+          "coverage": 0.0,
+          "error_rate": null,
+          "per_class": {
+            "high": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 1144
+            },
+            "low": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 249
+            },
+            "moderate": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 3987
+            }
+          },
+          "threshold": null
+        }
+      },
+      "before_calibration": {
+        "brier": 0.6396767335399655,
+        "confusion_matrix": [
+          [
+            0,
+            1144,
+            0
+          ],
+          [
+            0,
+            3987,
+            0
+          ],
+          [
+            0,
+            249,
+            0
+          ]
+        ],
+        "count": 5380,
+        "coverage_error_curve": [
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.4
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.5
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.6
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.7
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.8
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.9
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.95
+          }
+        ],
+        "ece": 0.3863221300565591,
+        "high_pr_auc": 0.3497379733001255,
+        "macro_f1": 0.2837621436959539,
+        "nll": 1.058632774741855,
+        "per_class": {
+          "high": {
+            "f1-score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 1144.0
+          },
+          "low": {
+            "f1-score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 249.0
+          },
+          "moderate": {
+            "f1-score": 0.8512864310878616,
+            "precision": 0.7410780669144982,
+            "recall": 1.0,
+            "support": 3987.0
+          }
+        },
+        "reliability": [
+          {
+            "accuracy": 0.7410780669144982,
+            "confidence": 0.3547559368579391,
+            "count": 5380,
+            "lower": 0.3,
+            "upper": 0.4
+          }
+        ],
+        "selective": {
+          "accepted_count": 0,
+          "coverage": 0.0,
+          "error_rate": null,
+          "per_class": {
+            "high": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 1144
+            },
+            "low": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 249
+            },
+            "moderate": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 3987
+            }
+          },
+          "threshold": null
+        }
+      }
+    },
+    "validation": {
+      "after_calibration": {
+        "brier": 0.4068158646677493,
+        "confusion_matrix": [
+          [
+            0,
+            1144,
+            0
+          ],
+          [
+            0,
+            3986,
+            0
+          ],
+          [
+            0,
+            248,
+            0
+          ]
+        ],
+        "count": 5378,
+        "coverage_error_curve": [
+          {
+            "coverage": 1.0,
+            "error_rate": 0.25883227965786537,
+            "threshold": 0.4
+          },
+          {
+            "coverage": 1.0,
+            "error_rate": 0.25883227965786537,
+            "threshold": 0.5
+          },
+          {
+            "coverage": 1.0,
+            "error_rate": 0.25883227965786537,
+            "threshold": 0.6
+          },
+          {
+            "coverage": 0.9683897359613239,
+            "error_rate": 0.2542242703533026,
+            "threshold": 0.7
+          },
+          {
+            "coverage": 0.08441799925622909,
+            "error_rate": 0.17180616740088106,
+            "threshold": 0.8
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.9
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.95
+          }
+        ],
+        "ece": 0.01842717757810404,
+        "high_pr_auc": 0.30147512327436327,
+        "macro_f1": 0.28378185960415775,
+        "nll": 0.714342237955298,
+        "per_class": {
+          "high": {
+            "f1-score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 1144.0
+          },
+          "low": {
+            "f1-score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 248.0
+          },
+          "moderate": {
+            "f1-score": 0.8513455788124733,
+            "precision": 0.7411677203421346,
+            "recall": 1.0,
+            "support": 3986.0
+          }
+        },
+        "reliability": [
+          {
+            "accuracy": 0.6,
+            "confidence": 0.684715579330203,
+            "count": 170,
+            "lower": 0.6,
+            "upper": 0.7
+          },
+          {
+            "accuracy": 0.7379049221708035,
+            "confidence": 0.7543189745621887,
+            "count": 4754,
+            "lower": 0.7,
+            "upper": 0.8
+          },
+          {
+            "accuracy": 0.8281938325991189,
+            "confidence": 0.8135081333474362,
+            "count": 454,
+            "lower": 0.8,
+            "upper": 0.9
+          }
+        ],
+        "selective": {
+          "accepted_count": 0,
+          "coverage": 0.0,
+          "error_rate": null,
+          "per_class": {
+            "high": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 1144
+            },
+            "low": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 248
+            },
+            "moderate": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 3986
+            }
+          },
+          "threshold": null
+        }
+      },
+      "before_calibration": {
+        "brier": 0.6397087647047769,
+        "confusion_matrix": [
+          [
+            0,
+            1144,
+            0
+          ],
+          [
+            0,
+            3986,
+            0
+          ],
+          [
+            0,
+            248,
+            0
+          ]
+        ],
+        "count": 5378,
+        "coverage_error_curve": [
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.4
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.5
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.6
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.7
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.8
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.9
+          },
+          {
+            "coverage": 0.0,
+            "error_rate": null,
+            "threshold": 0.95
+          }
+        ],
+        "ece": 0.38645750727128264,
+        "high_pr_auc": 0.34049135787914014,
+        "macro_f1": 0.28378185960415775,
+        "nll": 1.058676160852904,
+        "per_class": {
+          "high": {
+            "f1-score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 1144.0
+          },
+          "low": {
+            "f1-score": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 248.0
+          },
+          "moderate": {
+            "f1-score": 0.8513455788124733,
+            "precision": 0.7411677203421346,
+            "recall": 1.0,
+            "support": 3986.0
+          }
+        },
+        "reliability": [
+          {
+            "accuracy": 0.7411677203421346,
+            "confidence": 0.354710213070852,
+            "count": 5378,
+            "lower": 0.3,
+            "upper": 0.4
+          }
+        ],
+        "selective": {
+          "accepted_count": 0,
+          "coverage": 0.0,
+          "error_rate": null,
+          "per_class": {
+            "high": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 1144
+            },
+            "low": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 248
+            },
+            "moderate": {
+              "accepted_count": 0,
+              "coverage": 0.0,
+              "error_rate": null,
+              "source_count": 3986
+            }
+          },
+          "threshold": null
+        }
+      }
+    }
+  },
+  "feature_coverage": {
+    "documented_role_nodes": 28,
+    "mapped_nodes": 1107,
+    "supervision_drugs": 1061
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.0891352891921997,
+      "validation_macro_f1": 0.28378185960415775
+    },
+    {
+      "epoch": 2,
+      "loss": 1.0754764080047607,
+      "validation_macro_f1": 0.28378185960415775
+    },
+    {
+      "epoch": 3,
+      "loss": 1.0620404481887817,
+      "validation_macro_f1": 0.28378185960415775
+    },
+    {
+      "epoch": 4,
+      "loss": 1.0467283725738525,
+      "validation_macro_f1": 0.28378185960415775
+    },
+    {
+      "epoch": 5,
+      "loss": 1.0286699533462524,
+      "validation_macro_f1": 0.28378185960415775
+    },
+    {
+      "epoch": 6,
+      "loss": 1.009493350982666,
+      "validation_macro_f1": 0.28378185960415775
+    },
+    {
+      "epoch": 7,
+      "loss": 0.9879282712936401,
+      "validation_macro_f1": 0.28378185960415775
+    },
+    {
+      "epoch": 8,
+      "loss": 0.9701230525970459,
+      "validation_macro_f1": 0.28378185960415775
+    },
+    {
+      "epoch": 9,
+      "loss": 0.9625258445739746,
+      "validation_macro_f1": 0.28378185960415775
+    }
+  ],
+  "manifest": {
+    "biology_manifest": {
+      "feature_semantics": "binary documented role presence; zero means not present in bounded snapshot",
+      "limitations": [
+        "Bounded, non-exhaustive clinical role table; absent roles are unknown, not negative evidence.",
+        "A shared pathway supports a mechanistic possibility, not a documented clinical pair outcome.",
+        "Role potency describes source categories, not pair interaction severity or individual risk.",
+        "CYP3A is retained as a group and is not expanded into CYP3A4 or CYP3A5.",
+        "Dose, route, enantiomer and preparation footnotes must accompany derived paths.",
+        "Whole-product supplement roles are not generalized to constituent-containing herbs or foods."
+      ],
+      "mapped_drug_count": 34,
+      "role_count": 93,
+      "roles_sha256": "c2e7022252ed2f841d1a76b5e7d3ae0553e15c4db9f942a3528e0478d1c1be59",
+      "sha256": "fabaa837255571ebb09b153c8c12f841a740c8a44041fc83f62516af7fd236fc",
+      "source": {
+        "publisher": "U.S. Food and Drug Administration",
+        "raw_document_sha256": "6169a95de9b1ff88902b45a5fd503436dcf06b65e8f912bee444b3d26dc0a0aa",
+        "retrieved_at": "2026-10-04T13:34:25.600757+00:00",
+        "section": "Table 1: clinical CYP and transporter roles",
+        "selected_rows_sha256": "8aacaa22374922b01b71fc16f38bd931936e72ea48a5889e7b61cafe8fc2b7a0",
+        "text_encoding": "utf-8",
+        "title": "FDA Examples of Drugs that Interact with CYP Enzymes and Transporter Systems",
+        "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems"
+      },
+      "unmapped_drugs": [
+        "dabigatran etexilate",
+        "rifampin"
+      ],
+      "version": "fda-clinical-roles-2026-10-04"
+    },
+    "classes": [
+      "high",
+      "moderate",
+      "low"
+    ],
+    "dataset_sha256": "041938cc699d9600a2afbc3d72301a15691579edc6f42d83a096f8284d4009e4",
+    "files": {
+      "calibration.json": "eb5a273729ae29e93db11a02c78a08f85a8548e41e4986032604f704db8f49f1",
+      "config.json": "25d6c6b41bbec84572e5c0f1df69390cae24e9aba8a8548bca8b355b4cfb652e",
+      "features.json": "9276a6c90b68f1b1f507464c6567de86a51c173ff1a973c05f9a8bf1a067114e",
+      "graph.json": "9145936b64366886e90578b712106c079e52613ee585aa5a0be7cf800eb81e37",
+      "training_scope.json": "d1ca6f752b40fc345b0d30a23dbd498787d93bbcb9f01fb1aa899ee7993c2966",
+      "weights.pt": "898aac0c7b186247aa7a4be15ce66b143721e947b479a04f5df67c7f9752b9ef"
+    },
+    "model_name": "fingerprint",
+    "model_version": "c2bec83ceb780d78c497",
+    "molecule_cache_sha256": "c2a2b2f301f59206e3a7dfebf231d84d8592fe60e093c98808b86c1524a38eaf",
+    "prediction_semantics": "Conditional source severity for documented interactions; not DDI existence or patient risk.",
+    "protocol": "pair",
+    "schema": "model-bundle-1",
+    "seed": 17,
+    "source_csv_sha256": "4d6acda73c7e8d21f9fcc78e1266ecbedf0d6acef2fb1483cceee342f0d6dd91",
+    "task": "documented_interaction_severity",
+    "training_scope": "source_label_benchmark"
+  },
+  "missing_modality": {},
+  "model": "fingerprint",
+  "protocol": "pair",
+  "seed": 17,
+  "training_provenance": {
+    "dataset_sha256": "041938cc699d9600a2afbc3d72301a15691579edc6f42d83a096f8284d4009e4",
+    "no_negative_interaction_labels": true,
+    "seed": 17,
+    "source_csv_sha256": "4d6acda73c7e8d21f9fcc78e1266ecbedf0d6acef2fb1483cceee342f0d6dd91",
+    "split_sha256": "f77a388b1473331f9d4975069ff6cf06060fa14c35bd054635e3ff5638adf155",
+    "supervision_in_adjacency": false
+  },
+  "training_seconds": 13.413131700001031,
+  "versions": {
+    "numpy": "2.5.3",
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "torch": "2.14.1+cpu"
+  }
+}

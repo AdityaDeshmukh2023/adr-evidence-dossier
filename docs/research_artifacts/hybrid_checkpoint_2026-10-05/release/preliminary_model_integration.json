@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "bundle": "pair/graphsage/17",
+  "source_severities": [
+    "moderate",
+    "unknown",
+    "high"
+  ],
+  "model_predictions": [
+    {
+      "task": "documented_interaction_severity",
+      "conditional_on": "documented interaction",
+      "status": "abstained",
+      "model_version": "448db55a5f3dc41f3450",
+      "model_name": "graphsage",
+      "calibration_protocol": "pair",
+      "scope": "Predict source severity; not patient risk or proof of a new interaction.",
+      "ingredient_ids": [
+        "DDInter14",
+        "DDInter20"
+      ],
+      "source_record_id": "DDInter14|DDInter20",
+      "source_state": "unknown",
+      "accepted": false,
+      "predicted_severity": "moderate",
+      "probabilities": {
+        "high": 0.4240929605014478,
+        "moderate": 0.4950507690134035,
+        "low": 0.08085627048514867
+      },
+      "explanation": null,
+      "explanation_reference": null,
+      "calibration_sha256": "5cd1d23f3b646aa4df75899dd46bea7d0418bc666bec6094a12e81451b95fe64",
+      "calibration_version": "5cd1d23f3b646aa4df75899dd46bea7d0418bc666bec6094a12e81451b95fe64",
+      "feature_coverage": {
+        "molecular": "complete",
+        "mapped_drugs": 2,
+        "requested_drugs": 2,
+        "biology": "bounded_snapshot_partial_or_unknown"
+      },
+      "abstention_reason": "no_calibration_threshold_qualifies",
+      "source_unknown_applicability": "unvalidated_distribution; source labels unavailable"
+    }
+  ],
+  "model_symmetry": "exact",
+  "replay": "matched",
+  "graph": {
+    "schema_version": "1.1",
+    "nodes": 34,
+    "edges": 66,
+    "node_types": {
+      "candidate": 3,
+      "candidate_assessment": 3,
+      "coverage": 3,
+      "dossier": 1,
+      "evidence": 4,
+      "finding": 3,
+      "ingredient": 3,
+      "mention": 3,
+      "model_prediction": 1,
+      "review_priority": 3,
+      "source_document": 4,
+      "source_record": 3
+    },
+    "relation_types": {
+      "assesses": 6,
+      "assesses_identity": 6,
+      "contains_ingredient": 3,
+      "from_document": 4,
+      "has_candidate": 3,
+      "has_candidate_assessment": 3,
+      "has_coverage": 3,
+      "has_evidence": 4,
+      "has_finding": 3,
+      "has_mention": 3,
+      "has_model_prediction": 1,
+      "has_priority": 3,
+      "participates_in": 6,
+      "prediction_involves": 2,
+      "record_involves": 6,
+      "resolved_to": 3,
+      "supported_by": 4,
+      "uses_record": 3
+    },
+    "content_sha256": "55ee2bcd3ab9a317f304470f691c6f18306bc60bb7b81c2fd9e652f5526b98a4",
+    "run_id": "befb4c9c-8135-4002-99ee-bb3ce4fbc0a3",
+    "completeness": "complete_for_entered_medicines",
+    "original_input_included": false,
+    "candidates_included": true,
+    "candidate_preview_limit": 120,
+    "candidate_previews_total": 0,
+    "candidate_previews_included": 0,
+    "candidate_previews_truncated": false,
+    "scope": "Source provenance, candidate possibilities, and separate biological/model hypotheses.",
+    "candidate_assessments_total": 3,
+    "candidate_assessments_truncated": false
+  }
+}

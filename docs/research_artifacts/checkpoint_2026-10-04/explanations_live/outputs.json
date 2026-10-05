@@ -1,0 +1,578 @@
+[
+  {
+    "output_id": "9b9a5d8c73d3",
+    "case_id": "EXPL-1",
+    "method": "template",
+    "text": "Assessment status: complete_for_entered_medicines.\n\nwarfarin + acetylsalicylic acid: source severity high. Both medicines can increase bleeding risk through different antithrombotic effects. Evidence: 4e94b970a6965e54bc2c, f4947e035cb6d14f8548.",
+    "mode": "template",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1951|DDInter20",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1951",
+            "DDInter20"
+          ],
+          "evidence": [
+            {
+              "id": "4e94b970a6965e54bc2c",
+              "excerpt": "Pair DDInter1951|DDInter20; source severity Major; categories A,B."
+            },
+            {
+              "id": "f4947e035cb6d14f8548",
+              "excerpt": "Anticoagulant labeling contains clinically important interaction and bleeding warnings."
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {},
+    "latency_ms": 0.016799999912109342
+  },
+  {
+    "output_id": "c3427f2f3607",
+    "case_id": "EXPL-1",
+    "method": "prompt_only",
+    "text": "**Interaction between DDInter1951 and DDInter20**\n\n- **Severity:** High (classified as \u201cMajor\u201d in the source).  \n- **Evidence:**  \n  - *Evidence ID 4e94b970a6965e54bc2c*: \u201cPair DDInter1951|DDInter20; source severity Major; categories A,B.\u201d  \n  - *Evidence ID f4947e035cb6d14f8548*: \u201cAnticoagulant labeling contains clinically important interaction and bleeding warnings.\u201d  \n\nThese records indicate that co\u2011administration of DDInter1951 and DDInter20 carries a high risk of clinically significant interaction, specifically related to bleeding.",
+    "mode": "unvalidated experimental baseline; never shown as app guidance",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1951|DDInter20",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1951",
+            "DDInter20"
+          ],
+          "evidence": [
+            {
+              "id": "4e94b970a6965e54bc2c",
+              "excerpt": "Pair DDInter1951|DDInter20; source severity Major; categories A,B."
+            },
+            {
+              "id": "f4947e035cb6d14f8548",
+              "excerpt": "Anticoagulant labeling contains clinically important interaction and bleeding warnings."
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "model": "openai/gpt-oss-20b",
+      "usage": {
+        "completion_tokens": 156,
+        "prompt_tokens": 242,
+        "total_tokens": 398,
+        "completion_time": 0.220233237,
+        "completion_tokens_details": {
+          "reasoning_tokens": 10
+        },
+        "prompt_time": 0.011969781,
+        "prompt_tokens_details": null,
+        "queue_time": 0.395201753,
+        "total_time": 0.232203018
+      },
+      "finish_reason": "stop",
+      "reasoning_effort": "low",
+      "include_reasoning": false,
+      "estimated_cost_usd": 6.495e-05,
+      "pricing_checked_on": "2026-10-04",
+      "pricing_source": "https://console.groq.com/docs/models",
+      "input_usd_per_million": 0.075,
+      "output_usd_per_million": 0.3,
+      "pricing_basis": "Standard published token rates; account credits, retries and discounts excluded"
+    },
+    "latency_ms": 1969.0988999998353
+  },
+  {
+    "output_id": "4f765d45ac52",
+    "case_id": "EXPL-1",
+    "method": "validated_extractive",
+    "text": "Assessment status: complete_for_entered_medicines.\n\nwarfarin + acetylsalicylic acid: source severity high. Both medicines can increase bleeding risk through different antithrombotic effects. Evidence: 4e94b970a6965e54bc2c, f4947e035cb6d14f8548.\n\nSelected source excerpts:\nDDInter1951|DDInter20 [4e94b970a6965e54bc2c]: Pair DDInter1951|DDInter20; source severity Major; categories A,B.",
+    "mode": "validated extractive Groq explanation",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1951|DDInter20",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1951",
+            "DDInter20"
+          ],
+          "evidence": [
+            {
+              "id": "4e94b970a6965e54bc2c",
+              "excerpt": "Pair DDInter1951|DDInter20; source severity Major; categories A,B."
+            },
+            {
+              "id": "f4947e035cb6d14f8548",
+              "excerpt": "Anticoagulant labeling contains clinically important interaction and bleeding warnings."
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "model": "openai/gpt-oss-20b",
+      "prompt_version": "evidence-selection-2.1",
+      "usage": {
+        "completion_tokens": 158,
+        "prompt_tokens": 466,
+        "total_tokens": 624,
+        "completion_time": 0.173006148,
+        "completion_tokens_details": {
+          "reasoning_tokens": 83
+        },
+        "prompt_time": 0.243232618,
+        "prompt_tokens_details": null,
+        "queue_time": 0.333641181,
+        "total_time": 0.416238766
+      },
+      "response_format": "json_schema",
+      "max_completion_tokens": 1600,
+      "reasoning_effort": "low",
+      "include_reasoning": false,
+      "estimated_cost_usd": 8.235e-05,
+      "pricing_checked_on": "2026-10-04",
+      "pricing_source": "https://console.groq.com/docs/models",
+      "input_usd_per_million": 0.075,
+      "output_usd_per_million": 0.3,
+      "pricing_basis": "Standard published token rates; account credits, retries and discounts excluded",
+      "payload_sha256": "37ca752e757687aec6a0e872e9300b3babaa6d5a347cd565d8e497f13b2ab957"
+    },
+    "latency_ms": 1691.1633000001984
+  },
+  {
+    "output_id": "23c2caa0817c",
+    "case_id": "EXPL-2",
+    "method": "template",
+    "text": "Assessment status: complete_for_entered_medicines.\n\nabacavir + naltrexone: source severity moderate. Mechanism unavailable in this source snapshot. Evidence: 071c56f38dda20ace1fb.",
+    "mode": "template",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1|DDInter1263",
+          "severity": "moderate",
+          "ingredient_ids": [
+            "DDInter1",
+            "DDInter1263"
+          ],
+          "evidence": [
+            {
+              "id": "071c56f38dda20ace1fb",
+              "excerpt": "Pair DDInter1|DDInter1263; source severity Moderate; categories A."
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {},
+    "latency_ms": 0.019099999917671084
+  },
+  {
+    "output_id": "bbc1960663ca",
+    "case_id": "EXPL-2",
+    "method": "prompt_only",
+    "text": "**Interaction between DDInter1 and DDInter1263**\n\n- **Severity:** Moderate  \n- **Evidence ID:** 071c56f38dda20ace1fb  \n\nThe evidence indicates that when DDInter1 and DDInter1263 are taken together, a moderate\u2011severity interaction may occur. No additional details about the clinical implications or management are provided in the supplied record.",
+    "mode": "unvalidated experimental baseline; never shown as app guidance",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1|DDInter1263",
+          "severity": "moderate",
+          "ingredient_ids": [
+            "DDInter1",
+            "DDInter1263"
+          ],
+          "evidence": [
+            {
+              "id": "071c56f38dda20ace1fb",
+              "excerpt": "Pair DDInter1|DDInter1263; source severity Moderate; categories A."
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "model": "openai/gpt-oss-20b",
+      "usage": {
+        "completion_tokens": 95,
+        "prompt_tokens": 204,
+        "total_tokens": 299,
+        "completion_time": 0.099246031,
+        "completion_tokens_details": {
+          "reasoning_tokens": 10
+        },
+        "prompt_time": 0.01175282,
+        "prompt_tokens_details": null,
+        "queue_time": 0.310761396,
+        "total_time": 0.110998851
+      },
+      "finish_reason": "stop",
+      "reasoning_effort": "low",
+      "include_reasoning": false,
+      "estimated_cost_usd": 4.38e-05,
+      "pricing_checked_on": "2026-10-04",
+      "pricing_source": "https://console.groq.com/docs/models",
+      "input_usd_per_million": 0.075,
+      "output_usd_per_million": 0.3,
+      "pricing_basis": "Standard published token rates; account credits, retries and discounts excluded"
+    },
+    "latency_ms": 1336.1484000001838
+  },
+  {
+    "output_id": "6985985c7a01",
+    "case_id": "EXPL-2",
+    "method": "validated_extractive",
+    "text": "Assessment status: complete_for_entered_medicines.\n\nabacavir + naltrexone: source severity moderate. Mechanism unavailable in this source snapshot. Evidence: 071c56f38dda20ace1fb.\n\nSelected source excerpts:\nDDInter1|DDInter1263 [071c56f38dda20ace1fb]: source severity Moderate",
+    "mode": "validated extractive Groq explanation",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1|DDInter1263",
+          "severity": "moderate",
+          "ingredient_ids": [
+            "DDInter1",
+            "DDInter1263"
+          ],
+          "evidence": [
+            {
+              "id": "071c56f38dda20ace1fb",
+              "excerpt": "Pair DDInter1|DDInter1263; source severity Moderate; categories A."
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "model": "openai/gpt-oss-20b",
+      "prompt_version": "evidence-selection-2.1",
+      "usage": {
+        "completion_tokens": 124,
+        "prompt_tokens": 413,
+        "total_tokens": 537,
+        "completion_time": 0.129428553,
+        "completion_tokens_details": {
+          "reasoning_tokens": 66
+        },
+        "prompt_time": 0.029041982,
+        "prompt_tokens_details": null,
+        "queue_time": 0.305712181,
+        "total_time": 0.158470535
+      },
+      "response_format": "json_schema",
+      "max_completion_tokens": 1600,
+      "reasoning_effort": "low",
+      "include_reasoning": false,
+      "estimated_cost_usd": 6.8175e-05,
+      "pricing_checked_on": "2026-10-04",
+      "pricing_source": "https://console.groq.com/docs/models",
+      "input_usd_per_million": 0.075,
+      "output_usd_per_million": 0.3,
+      "pricing_basis": "Standard published token rates; account credits, retries and discounts excluded",
+      "payload_sha256": "f5e82f6a6f10c9a44a019a3fdf96d1901ffff8b30c7f8779cd0b71c3e85028f9"
+    },
+    "latency_ms": 1275.6266999999752
+  },
+  {
+    "output_id": "d76866ed1069",
+    "case_id": "EXPL-3",
+    "method": "template",
+    "text": "Assessment status: complete_for_entered_medicines.\n\ntramadol + fluoxetine: source severity high. The combination can increase serotonergic adverse-effect risk and may affect seizure risk in susceptible patients. Evidence: fdc16ef092ee13c8f271.",
+    "mode": "template",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDI-DEMO-004",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1841",
+            "DDInter758"
+          ],
+          "evidence": [
+            {
+              "id": "fdc16ef092ee13c8f271",
+              "excerpt": "Check current labeling for interaction warnings and patient-specific contraindications."
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {},
+    "latency_ms": 0.01900000006571645
+  },
+  {
+    "output_id": "adb209690902",
+    "case_id": "EXPL-3",
+    "method": "prompt_only",
+    "text": "**Medication Interaction Record: DDI\u2011DEMO\u2011004**\n\n- **Severity:** High  \n- **Ingredients involved:**  \n  - DDInter1841  \n  - DDInter758  \n\n**Explanation**\n\nThis record indicates a high\u2011severity interaction between the two listed ingredients. The evidence provided (ID: **fdc16ef092ee13c8f271**) advises that clinicians should review the current labeling for interaction warnings and consider any patient\u2011specific contraindications. No additional details or treatment recommendations are supplied.",
+    "mode": "unvalidated experimental baseline; never shown as app guidance",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDI-DEMO-004",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1841",
+            "DDInter758"
+          ],
+          "evidence": [
+            {
+              "id": "fdc16ef092ee13c8f271",
+              "excerpt": "Check current labeling for interaction warnings and patient-specific contraindications."
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "model": "openai/gpt-oss-20b",
+      "usage": {
+        "completion_tokens": 123,
+        "prompt_tokens": 197,
+        "total_tokens": 320,
+        "completion_time": 0.129191971,
+        "completion_tokens_details": {
+          "reasoning_tokens": 11
+        },
+        "prompt_time": 0.013320467,
+        "prompt_tokens_details": null,
+        "queue_time": 0.049609811,
+        "total_time": 0.142512438
+      },
+      "finish_reason": "stop",
+      "reasoning_effort": "low",
+      "include_reasoning": false,
+      "estimated_cost_usd": 5.1675e-05,
+      "pricing_checked_on": "2026-10-04",
+      "pricing_source": "https://console.groq.com/docs/models",
+      "input_usd_per_million": 0.075,
+      "output_usd_per_million": 0.3,
+      "pricing_basis": "Standard published token rates; account credits, retries and discounts excluded"
+    },
+    "latency_ms": 967.6229000001513
+  },
+  {
+    "output_id": "30ca1d440c88",
+    "case_id": "EXPL-3",
+    "method": "validated_extractive",
+    "text": "Assessment status: complete_for_entered_medicines.\n\ntramadol + fluoxetine: source severity high. The combination can increase serotonergic adverse-effect risk and may affect seizure risk in susceptible patients. Evidence: fdc16ef092ee13c8f271.\n\nSelected source excerpts:\nDDI-DEMO-004 [fdc16ef092ee13c8f271]: Check current labeling for interaction warnings and patient-specific contraindications.",
+    "mode": "validated extractive Groq explanation",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDI-DEMO-004",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1841",
+            "DDInter758"
+          ],
+          "evidence": [
+            {
+              "id": "fdc16ef092ee13c8f271",
+              "excerpt": "Check current labeling for interaction warnings and patient-specific contraindications."
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "model": "openai/gpt-oss-20b",
+      "prompt_version": "evidence-selection-2.1",
+      "usage": {
+        "completion_tokens": 131,
+        "prompt_tokens": 404,
+        "total_tokens": 535,
+        "completion_time": 0.195255932,
+        "completion_tokens_details": {
+          "reasoning_tokens": 66
+        },
+        "prompt_time": 0.020307362,
+        "prompt_tokens_details": null,
+        "queue_time": 0.34839153,
+        "total_time": 0.215563294
+      },
+      "response_format": "json_schema",
+      "max_completion_tokens": 1600,
+      "reasoning_effort": "low",
+      "include_reasoning": false,
+      "estimated_cost_usd": 6.96e-05,
+      "pricing_checked_on": "2026-10-04",
+      "pricing_source": "https://console.groq.com/docs/models",
+      "input_usd_per_million": 0.075,
+      "output_usd_per_million": 0.3,
+      "pricing_basis": "Standard published token rates; account credits, retries and discounts excluded",
+      "payload_sha256": "4de1b69a741121d834f46f4f207105f7aadda7157248ac368910404c45882c75"
+    },
+    "latency_ms": 1295.1620999999705
+  },
+  {
+    "output_id": "c07e1d243863",
+    "case_id": "EXPL-4",
+    "method": "template",
+    "text": "Assessment status: complete_for_entered_medicines.\n\nwarfarin + clopidogrel: source severity high. Combining antiplatelet and anticoagulant effects can increase bleeding risk. Evidence: a9089bc0f3843632f786, 9a9e9198f480bd73f6b0.",
+    "mode": "template",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1951|DDInter413",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1951",
+            "DDInter413"
+          ],
+          "evidence": [
+            {
+              "id": "a9089bc0f3843632f786",
+              "excerpt": "Pair DDInter1951|DDInter413; source severity Major; categories B."
+            },
+            {
+              "id": "9a9e9198f480bd73f6b0",
+              "excerpt": "Use current product labeling and clinician assessment for bleeding-risk decisions."
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {},
+    "latency_ms": 0.015000000075815478
+  },
+  {
+    "output_id": "d3556e210a1e",
+    "case_id": "EXPL-4",
+    "method": "prompt_only",
+    "text": "**Interaction between DDInter1951 and DDInter413**\n\n- **Severity:** High (classified as \u201cMajor\u201d in the source).  \n- **Key point:** The combination of these two ingredients carries a significant risk of bleeding.  \n- **Evidence:**  \n  - *a9089bc0f3843632f786* \u2013 states the pair is a Major interaction.  \n  - *9a9e9198f480bd73f6b0* \u2013 advises that decisions about bleeding risk should rely on current product labeling and clinician assessment.",
+    "mode": "unvalidated experimental baseline; never shown as app guidance",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1951|DDInter413",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1951",
+            "DDInter413"
+          ],
+          "evidence": [
+            {
+              "id": "a9089bc0f3843632f786",
+              "excerpt": "Pair DDInter1951|DDInter413; source severity Major; categories B."
+            },
+            {
+              "id": "9a9e9198f480bd73f6b0",
+              "excerpt": "Use current product labeling and clinician assessment for bleeding-risk decisions."
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "model": "openai/gpt-oss-20b",
+      "usage": {
+        "completion_tokens": 131,
+        "prompt_tokens": 240,
+        "total_tokens": 371,
+        "completion_time": 0.134171107,
+        "completion_tokens_details": {
+          "reasoning_tokens": 10
+        },
+        "prompt_time": 0.011622895,
+        "prompt_tokens_details": null,
+        "queue_time": 0.305430208,
+        "total_time": 0.145794002
+      },
+      "finish_reason": "stop",
+      "reasoning_effort": "low",
+      "include_reasoning": false,
+      "estimated_cost_usd": 5.73e-05,
+      "pricing_checked_on": "2026-10-04",
+      "pricing_source": "https://console.groq.com/docs/models",
+      "input_usd_per_million": 0.075,
+      "output_usd_per_million": 0.3,
+      "pricing_basis": "Standard published token rates; account credits, retries and discounts excluded"
+    },
+    "latency_ms": 1345.500900000161
+  },
+  {
+    "output_id": "7301a62597fc",
+    "case_id": "EXPL-4",
+    "method": "validated_extractive",
+    "text": "Assessment status: complete_for_entered_medicines.\n\nwarfarin + clopidogrel: source severity high. Combining antiplatelet and anticoagulant effects can increase bleeding risk. Evidence: a9089bc0f3843632f786, 9a9e9198f480bd73f6b0.\n\nSelected source excerpts:\nDDInter1951|DDInter413 [a9089bc0f3843632f786]: Pair DDInter1951|DDInter413; source severity Major; categories B.",
+    "mode": "validated extractive Groq explanation",
+    "evidence": {
+      "schema": "evidence-selection-2.1",
+      "completeness": "complete_for_entered_medicines",
+      "records": [
+        {
+          "record_id": "DDInter1951|DDInter413",
+          "severity": "high",
+          "ingredient_ids": [
+            "DDInter1951",
+            "DDInter413"
+          ],
+          "evidence": [
+            {
+              "id": "a9089bc0f3843632f786",
+              "excerpt": "Pair DDInter1951|DDInter413; source severity Major; categories B."
+            },
+            {
+              "id": "9a9e9198f480bd73f6b0",
+              "excerpt": "Use current product labeling and clinician assessment for bleeding-risk decisions."
+            }
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "model": "openai/gpt-oss-20b",
+      "prompt_version": "evidence-selection-2.1",
+      "usage": {
+        "completion_tokens": 135,
+        "prompt_tokens": 464,
+        "total_tokens": 599,
+        "completion_time": 0.137507463,
+        "completion_tokens_details": {
+          "reasoning_tokens": 63
+        },
+        "prompt_time": 0.024437569,
+        "prompt_tokens_details": null,
+        "queue_time": 0.345242666,
+        "total_time": 0.161945032
+      },
+      "response_format": "json_schema",
+      "max_completion_tokens": 1600,
+      "reasoning_effort": "low",
+      "include_reasoning": false,
+      "estimated_cost_usd": 7.53e-05,
+      "pricing_checked_on": "2026-10-04",
+      "pricing_source": "https://console.groq.com/docs/models",
+      "input_usd_per_million": 0.075,
+      "output_usd_per_million": 0.3,
+      "pricing_basis": "Standard published token rates; account credits, retries and discounts excluded",
+      "payload_sha256": "77d0f4f0318bcfd7e8b016957289d2ba3dc748d043d1a1f7e271f0107e8c1ad6"
+    },
+    "latency_ms": 825.8123999999043
+  }
+]

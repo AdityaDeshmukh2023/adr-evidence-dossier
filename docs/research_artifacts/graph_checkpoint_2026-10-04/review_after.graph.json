@@ -1,0 +1,376 @@
+{
+  "schema_version": "1.0",
+  "metadata": {
+    "run_id": "GRAPH-REVIEW-DEMO",
+    "completeness": "complete_for_entered_medicines",
+    "original_input_included": false,
+    "candidates_included": true,
+    "candidate_preview_limit": 120,
+    "candidate_previews_total": 0,
+    "candidate_previews_included": 0,
+    "candidate_previews_truncated": false,
+    "scope": "Dossier provenance and bounded candidate-dependent source records; no learned inference."
+  },
+  "nodes": [
+    {
+      "kind": "candidate",
+      "label": "acetylsalicylic acid",
+      "mention_id": "m2",
+      "ingredient_ids": [
+        "DDInter20"
+      ],
+      "lexical_score": 1.0,
+      "method": "alias",
+      "assertion": "candidate; not a resolved identity",
+      "id": "candidate:15eadd00a8ead91e025df159"
+    },
+    {
+      "kind": "candidate",
+      "label": "warfarin",
+      "mention_id": "m1",
+      "ingredient_ids": [
+        "DDInter1951"
+      ],
+      "lexical_score": 0.875,
+      "method": "approximate",
+      "assertion": "candidate; not a resolved identity",
+      "id": "candidate:e4671a3a7d28043846214d75"
+    },
+    {
+      "kind": "coverage",
+      "label": "high",
+      "state": "high",
+      "assessment_type": "pair",
+      "id": "coverage:922d322be0a75dde5e62d1de"
+    },
+    {
+      "kind": "dossier",
+      "label": "Medication review dossier",
+      "completeness": "complete_for_entered_medicines",
+      "id": "dossier:4b24a966b42352660a297961"
+    },
+    {
+      "kind": "evidence",
+      "label": "Warfarin label",
+      "evidence_id": "f4947e035cb6d14f8548",
+      "excerpt": "Anticoagulant labeling contains clinically important interaction and bleeding warnings.",
+      "excerpt_hash": "76635eaed297c28846ebe74181134c07d82a588a24f090c07e689add064624d8",
+      "purpose": "interaction_record",
+      "section": "",
+      "retrieved_at": "2026-08-31",
+      "id": "evidence:61127f5dde2972337d5c21c1"
+    },
+    {
+      "kind": "evidence",
+      "label": "DDInter interaction record",
+      "evidence_id": "4e94b970a6965e54bc2c",
+      "excerpt": "Pair DDInter1951|DDInter20; source severity Major; categories A,B.",
+      "excerpt_hash": "1d16a431a15f09fd5435542e9638c4b7a6ba8ea673fe24828772654eb7ed9c07",
+      "purpose": "interaction_record",
+      "section": "interaction severity",
+      "retrieved_at": "",
+      "id": "evidence:cd1711f94b76018afaac124f"
+    },
+    {
+      "kind": "finding",
+      "label": "warfarin + acetylsalicylic acid",
+      "source_record_id": "DDInter1951|DDInter20",
+      "severity": "high",
+      "interaction_type": "drug-drug",
+      "ingredient_ids": [
+        "DDInter1951",
+        "DDInter20"
+      ],
+      "data_version": "ddinter-local-2026-09-01",
+      "assertion": "detected source finding; not patient-specific risk",
+      "id": "finding:9886624de42f48cee12c5ef6"
+    },
+    {
+      "kind": "historical_finding",
+      "label": "DDInter1951|DDInter20",
+      "source_record_id": "DDInter1951|DDInter20",
+      "assertion": "record ID captured in review history",
+      "id": "historical_finding:f1994cd52658761b37d8055d"
+    },
+    {
+      "kind": "ingredient",
+      "label": "acetylsalicylic acid",
+      "ingredient_id": "DDInter20",
+      "id": "ingredient:63a2aff7a419df93982c8014"
+    },
+    {
+      "kind": "ingredient",
+      "label": "warfarin",
+      "ingredient_id": "DDInter1951",
+      "id": "ingredient:6c2ac2eded0d0980fa381e11"
+    },
+    {
+      "kind": "mention",
+      "label": "Entry m1",
+      "mention_id": "m1",
+      "status": "reviewed",
+      "normalized": true,
+      "strength": null,
+      "route": null,
+      "frequency": null,
+      "source_span": [
+        0,
+        8
+      ],
+      "bbox": null,
+      "ocr_score": null,
+      "id": "mention:bb07a1d862b326218ab7a4ec"
+    },
+    {
+      "kind": "mention",
+      "label": "Entry m2",
+      "mention_id": "m2",
+      "status": "exact",
+      "normalized": true,
+      "strength": null,
+      "route": null,
+      "frequency": null,
+      "source_span": [
+        9,
+        16
+      ],
+      "bbox": null,
+      "ocr_score": null,
+      "id": "mention:d102c4cc247dea0557d36554"
+    },
+    {
+      "kind": "review_decision",
+      "label": "Review 1",
+      "ordinal": 0,
+      "mention_id": "m1",
+      "decided_at": "2026-10-04T07:21:24.739111+00:00",
+      "action": "resolve",
+      "id": "review_decision:4d0b0aa01b68aedc71d25b3d"
+    },
+    {
+      "kind": "review_priority",
+      "label": "Exact terminology match; verify against the source prescription.",
+      "rank": 1,
+      "required": false,
+      "high_changes": 0,
+      "other_changes": 0,
+      "coverage_changes": 0,
+      "ambiguity": 0.0,
+      "id": "review_priority:d102c4cc247dea0557d36554"
+    },
+    {
+      "kind": "source_document",
+      "label": "Warfarin label",
+      "source": "DailyMed",
+      "document_id": "",
+      "document_version": "",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/",
+      "identifier_available": false,
+      "id": "source_document:576a279b6e1bab9b0239d569"
+    },
+    {
+      "kind": "source_document",
+      "label": "DDInter interaction record",
+      "source": "DDInter local snapshot",
+      "document_id": "DDInter1951|DDInter20",
+      "document_version": "ddinter-local-2026-09-01",
+      "url": "https://ddinter.scbdd.com/download/",
+      "identifier_available": true,
+      "id": "source_document:5aa6c0d6e1568884c32d2865"
+    },
+    {
+      "kind": "source_record",
+      "label": "DDInter1951|DDInter20",
+      "source_record_id": "DDInter1951|DDInter20",
+      "interaction_type": "drug-drug",
+      "data_version": "ddinter-local-2026-09-01",
+      "severity": "high",
+      "ingredient_ids": [
+        "DDInter1951",
+        "DDInter20"
+      ],
+      "id": "source_record:223b15633b0351b329ce5ac3"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "uses_record",
+      "source": "finding:9886624de42f48cee12c5ef6",
+      "target": "source_record:223b15633b0351b329ce5ac3",
+      "id": "edge:066f9a6a7f18c04dfd44b5b1"
+    },
+    {
+      "relation": "has_evidence",
+      "source": "source_record:223b15633b0351b329ce5ac3",
+      "target": "evidence:61127f5dde2972337d5c21c1",
+      "id": "edge:0be373a54a0fe647340cb917"
+    },
+    {
+      "relation": "has_candidate",
+      "source": "mention:bb07a1d862b326218ab7a4ec",
+      "target": "candidate:e4671a3a7d28043846214d75",
+      "id": "edge:195f4b02f27a653c470c2ce4"
+    },
+    {
+      "relation": "assesses",
+      "source": "coverage:922d322be0a75dde5e62d1de",
+      "target": "ingredient:6c2ac2eded0d0980fa381e11",
+      "id": "edge:1aaca17f67901a43a12fe534"
+    },
+    {
+      "relation": "changes_mention",
+      "source": "review_decision:4d0b0aa01b68aedc71d25b3d",
+      "target": "mention:bb07a1d862b326218ab7a4ec",
+      "id": "edge:1d9bf292bfe3405895cd0ecd"
+    },
+    {
+      "relation": "supported_by",
+      "ordinal": 1,
+      "source": "finding:9886624de42f48cee12c5ef6",
+      "target": "evidence:61127f5dde2972337d5c21c1",
+      "id": "edge:233bdb417f348bebc00c99d6"
+    },
+    {
+      "relation": "assesses",
+      "source": "coverage:922d322be0a75dde5e62d1de",
+      "target": "ingredient:63a2aff7a419df93982c8014",
+      "id": "edge:26c26446f0c1ab4a17a8b9d6"
+    },
+    {
+      "relation": "has_coverage",
+      "source": "dossier:4b24a966b42352660a297961",
+      "target": "coverage:922d322be0a75dde5e62d1de",
+      "id": "edge:3a8319fa2936408de6996eb6"
+    },
+    {
+      "relation": "has_finding",
+      "source": "dossier:4b24a966b42352660a297961",
+      "target": "finding:9886624de42f48cee12c5ef6",
+      "id": "edge:4eb91ed2bafc66fd86ffd717"
+    },
+    {
+      "relation": "participates_in",
+      "source": "ingredient:6c2ac2eded0d0980fa381e11",
+      "target": "finding:9886624de42f48cee12c5ef6",
+      "id": "edge:6dd0cc7035ee9442001d8f9a"
+    },
+    {
+      "relation": "currently_detected_as",
+      "source": "historical_finding:f1994cd52658761b37d8055d",
+      "target": "finding:9886624de42f48cee12c5ef6",
+      "id": "edge:6e754c401787b81b7ba0d514"
+    },
+    {
+      "relation": "contains_ingredient",
+      "source": "candidate:15eadd00a8ead91e025df159",
+      "target": "ingredient:63a2aff7a419df93982c8014",
+      "id": "edge:7057792b2486e8c8eebd708a"
+    },
+    {
+      "relation": "resolved_to",
+      "resolution_status": "exact",
+      "source": "mention:d102c4cc247dea0557d36554",
+      "target": "ingredient:63a2aff7a419df93982c8014",
+      "id": "edge:7151deff3767b982876b549c"
+    },
+    {
+      "relation": "introduced",
+      "source": "review_decision:4d0b0aa01b68aedc71d25b3d",
+      "target": "historical_finding:f1994cd52658761b37d8055d",
+      "id": "edge:7c78bd2d504b392cb651450b"
+    },
+    {
+      "relation": "supported_by",
+      "ordinal": 0,
+      "source": "finding:9886624de42f48cee12c5ef6",
+      "target": "evidence:cd1711f94b76018afaac124f",
+      "id": "edge:7e3b28d2b247e473d1d41a0f"
+    },
+    {
+      "relation": "selected_ingredient",
+      "source": "review_decision:4d0b0aa01b68aedc71d25b3d",
+      "target": "ingredient:6c2ac2eded0d0980fa381e11",
+      "id": "edge:8660a6254b9d8acc9bf3ddb8"
+    },
+    {
+      "relation": "from_document",
+      "source": "evidence:61127f5dde2972337d5c21c1",
+      "target": "source_document:576a279b6e1bab9b0239d569",
+      "id": "edge:94557106729a0ef1f65cd6da"
+    },
+    {
+      "relation": "contains_ingredient",
+      "source": "candidate:e4671a3a7d28043846214d75",
+      "target": "ingredient:6c2ac2eded0d0980fa381e11",
+      "id": "edge:94e1c63ca9c89c7321ca38c4"
+    },
+    {
+      "relation": "record_involves",
+      "source": "source_record:223b15633b0351b329ce5ac3",
+      "target": "ingredient:63a2aff7a419df93982c8014",
+      "id": "edge:9b18126aaee87d86280daa4f"
+    },
+    {
+      "relation": "has_evidence",
+      "source": "source_record:223b15633b0351b329ce5ac3",
+      "target": "evidence:cd1711f94b76018afaac124f",
+      "id": "edge:a1dd11b4d6925a263075702e"
+    },
+    {
+      "relation": "record_involves",
+      "source": "source_record:223b15633b0351b329ce5ac3",
+      "target": "ingredient:6c2ac2eded0d0980fa381e11",
+      "id": "edge:a29d1b4d5373763a3ef77e98"
+    },
+    {
+      "relation": "has_mention",
+      "source": "dossier:4b24a966b42352660a297961",
+      "target": "mention:bb07a1d862b326218ab7a4ec",
+      "id": "edge:b5800e1cc048a649fcb01efa"
+    },
+    {
+      "relation": "has_mention",
+      "source": "dossier:4b24a966b42352660a297961",
+      "target": "mention:d102c4cc247dea0557d36554",
+      "id": "edge:b88292727285e52e1df01647"
+    },
+    {
+      "relation": "has_priority",
+      "source": "mention:d102c4cc247dea0557d36554",
+      "target": "review_priority:d102c4cc247dea0557d36554",
+      "id": "edge:c634771ac1b689873a0bb591"
+    },
+    {
+      "relation": "from_document",
+      "source": "evidence:cd1711f94b76018afaac124f",
+      "target": "source_document:5aa6c0d6e1568884c32d2865",
+      "id": "edge:c72a159ca0837a46d4d5a488"
+    },
+    {
+      "relation": "resolved_to",
+      "resolution_status": "reviewed",
+      "source": "mention:bb07a1d862b326218ab7a4ec",
+      "target": "ingredient:6c2ac2eded0d0980fa381e11",
+      "id": "edge:c8649fe9d4a3184e02d4efed"
+    },
+    {
+      "relation": "has_review",
+      "source": "dossier:4b24a966b42352660a297961",
+      "target": "review_decision:4d0b0aa01b68aedc71d25b3d",
+      "id": "edge:dc2c07cafc66c7e6c6f36987"
+    },
+    {
+      "relation": "has_candidate",
+      "source": "mention:d102c4cc247dea0557d36554",
+      "target": "candidate:15eadd00a8ead91e025df159",
+      "id": "edge:f48233c179a736c93d915f59"
+    },
+    {
+      "relation": "participates_in",
+      "source": "ingredient:63a2aff7a419df93982c8014",
+      "target": "finding:9886624de42f48cee12c5ef6",
+      "id": "edge:fd79a882a192a8a144566326"
+    }
+  ],
+  "content_sha256": "2f8359679ed2da6c2e18e036b77e2a539c38ddc9fc5b01aecf8c775032007423"
+}

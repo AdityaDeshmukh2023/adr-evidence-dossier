@@ -1,0 +1,5973 @@
+{
+  "version": "synthetic-review-1.0",
+  "kind": "synthetic",
+  "seed": 17,
+  "label_provenance": "Local source tables; no independent clinical review.",
+  "scope": "Annotated medication-entry boundaries; text corruption is not real image OCR.",
+  "cases": [
+    {
+      "id": "SYN-000-clean",
+      "group_id": "G000",
+      "split": "development",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "emicizumab",
+          "gold_names": [
+            "emicizumab"
+          ]
+        },
+        {
+          "text": "terbutaline",
+          "gold_names": [
+            "terbutaline"
+          ]
+        },
+        {
+          "text": "ziprasidone",
+          "gold_names": [
+            "ziprasidone"
+          ]
+        },
+        {
+          "text": "homatropine",
+          "gold_names": [
+            "homatropine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1769",
+            "DDInter1967"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-000-single_character_error",
+      "group_id": "G000",
+      "split": "development",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "emicilumab",
+          "gold_names": [
+            "emicizumab"
+          ]
+        },
+        {
+          "text": "terbutaline",
+          "gold_names": [
+            "terbutaline"
+          ]
+        },
+        {
+          "text": "zipralidone",
+          "gold_names": [
+            "ziprasidone"
+          ]
+        },
+        {
+          "text": "homatropine",
+          "gold_names": [
+            "homatropine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1769",
+            "DDInter1967"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-000-mixed_corruption",
+      "group_id": "G000",
+      "split": "development",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "emicilumab",
+          "gold_names": [
+            "emicizumab"
+          ]
+        },
+        {
+          "text": "terbutal1ne",
+          "gold_names": [
+            "terbutaline"
+          ]
+        },
+        {
+          "text": "zipralidone",
+          "gold_names": [
+            "ziprasidone"
+          ]
+        },
+        {
+          "text": "ZXQVVV",
+          "gold_names": [
+            "homatropine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1769",
+            "DDInter1967"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-001-clean",
+      "group_id": "G001",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "donepezil",
+          "gold_names": [
+            "donepezil"
+          ]
+        },
+        {
+          "text": "dexmethylphenidate",
+          "gold_names": [
+            "dexmethylphenidate"
+          ]
+        },
+        {
+          "text": "brexpiprazole",
+          "gold_names": [
+            "brexpiprazole"
+          ]
+        },
+        {
+          "text": "vilanterol",
+          "gold_names": [
+            "vilanterol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1934",
+            "DDInter521"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-001-single_character_error",
+      "group_id": "G001",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "donelezil",
+          "gold_names": [
+            "donepezil"
+          ]
+        },
+        {
+          "text": "dexmethylphenidate",
+          "gold_names": [
+            "dexmethylphenidate"
+          ]
+        },
+        {
+          "text": "brexpilrazole",
+          "gold_names": [
+            "brexpiprazole"
+          ]
+        },
+        {
+          "text": "vilanterol",
+          "gold_names": [
+            "vilanterol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1934",
+            "DDInter521"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-001-mixed_corruption",
+      "group_id": "G001",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "donelezil",
+          "gold_names": [
+            "donepezil"
+          ]
+        },
+        {
+          "text": "dexmethylphen1date",
+          "gold_names": [
+            "dexmethylphenidate"
+          ]
+        },
+        {
+          "text": "brexpilrazole",
+          "gold_names": [
+            "brexpiprazole"
+          ]
+        },
+        {
+          "text": "vilanterol",
+          "gold_names": [
+            "vilanterol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1934",
+            "DDInter521"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-002-clean",
+      "group_id": "G002",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "glycopyrronium",
+          "gold_names": [
+            "glycopyrronium"
+          ]
+        },
+        {
+          "text": "isocarboxazid",
+          "gold_names": [
+            "isocarboxazid"
+          ]
+        },
+        {
+          "text": "dextromethorphan",
+          "gold_names": [
+            "dextromethorphan"
+          ]
+        },
+        {
+          "text": "quinestrol",
+          "gold_names": [
+            "quinestrol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter527",
+            "DDInter981"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter834",
+            "DDInter981"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-002-single_character_error",
+      "group_id": "G002",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "glycopylronium",
+          "gold_names": [
+            "glycopyrronium"
+          ]
+        },
+        {
+          "text": "isocarboxazid",
+          "gold_names": [
+            "isocarboxazid"
+          ]
+        },
+        {
+          "text": "dextromelhorphan",
+          "gold_names": [
+            "dextromethorphan"
+          ]
+        },
+        {
+          "text": "quinestrol",
+          "gold_names": [
+            "quinestrol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter527",
+            "DDInter981"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter834",
+            "DDInter981"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-002-mixed_corruption",
+      "group_id": "G002",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "glycopylronium",
+          "gold_names": [
+            "glycopyrronium"
+          ]
+        },
+        {
+          "text": "1s0carb0xaz1d",
+          "gold_names": [
+            "isocarboxazid"
+          ]
+        },
+        {
+          "text": "dextromelhorphan",
+          "gold_names": [
+            "dextromethorphan"
+          ]
+        },
+        {
+          "text": "quinestrol",
+          "gold_names": [
+            "quinestrol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter527",
+            "DDInter981"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter834",
+            "DDInter981"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-003-clean",
+      "group_id": "G003",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "atazanavir",
+          "gold_names": [
+            "atazanavir"
+          ]
+        },
+        {
+          "text": "meperidine",
+          "gold_names": [
+            "meperidine"
+          ]
+        },
+        {
+          "text": "loteprednol etabonate",
+          "gold_names": [
+            "loteprednol etabonate"
+          ]
+        },
+        {
+          "text": "ibuprofen",
+          "gold_names": [
+            "ibuprofen"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1097",
+            "DDInter900"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1150",
+            "DDInter900"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter129",
+            "DDInter900"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-003-single_character_error",
+      "group_id": "G003",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "atazalavir",
+          "gold_names": [
+            "atazanavir"
+          ]
+        },
+        {
+          "text": "meperidine",
+          "gold_names": [
+            "meperidine"
+          ]
+        },
+        {
+          "text": "loteprednoi etabonate",
+          "gold_names": [
+            "loteprednol etabonate"
+          ]
+        },
+        {
+          "text": "ibuprofen",
+          "gold_names": [
+            "ibuprofen"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1097",
+            "DDInter900"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1150",
+            "DDInter900"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter129",
+            "DDInter900"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-003-mixed_corruption",
+      "group_id": "G003",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "atazalavir",
+          "gold_names": [
+            "atazanavir"
+          ]
+        },
+        {
+          "text": "meper1d1ne",
+          "gold_names": [
+            "meperidine"
+          ]
+        },
+        {
+          "text": "loteprednoi etabonate",
+          "gold_names": [
+            "loteprednol etabonate"
+          ]
+        },
+        {
+          "text": "ibuprofen",
+          "gold_names": [
+            "ibuprofen"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1097",
+            "DDInter900"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1150",
+            "DDInter900"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter129",
+            "DDInter900"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-004-clean",
+      "group_id": "G004",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "magnesium carbonate",
+          "gold_names": [
+            "magnesium carbonate"
+          ]
+        },
+        {
+          "text": "darunavir",
+          "gold_names": [
+            "darunavir"
+          ]
+        },
+        {
+          "text": "methadone",
+          "gold_names": [
+            "methadone"
+          ]
+        },
+        {
+          "text": "encorafenib",
+          "gold_names": [
+            "encorafenib"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1166",
+            "DDInter640"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter482",
+            "DDInter640"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-004-single_character_error",
+      "group_id": "G004",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "magnesiumlcarbonate",
+          "gold_names": [
+            "magnesium carbonate"
+          ]
+        },
+        {
+          "text": "darunavir",
+          "gold_names": [
+            "darunavir"
+          ]
+        },
+        {
+          "text": "methldone",
+          "gold_names": [
+            "methadone"
+          ]
+        },
+        {
+          "text": "encorafenib",
+          "gold_names": [
+            "encorafenib"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1166",
+            "DDInter640"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter482",
+            "DDInter640"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-004-mixed_corruption",
+      "group_id": "G004",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "magnesiumlcarbonate",
+          "gold_names": [
+            "magnesium carbonate"
+          ]
+        },
+        {
+          "text": "darunav1r",
+          "gold_names": [
+            "darunavir"
+          ]
+        },
+        {
+          "text": "methldone",
+          "gold_names": [
+            "methadone"
+          ]
+        },
+        {
+          "text": "encorafenib",
+          "gold_names": [
+            "encorafenib"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1166",
+            "DDInter640"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter482",
+            "DDInter640"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-005-clean",
+      "group_id": "G005",
+      "split": "development",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "avatrombopag",
+          "gold_names": [
+            "avatrombopag"
+          ]
+        },
+        {
+          "text": "fedratinib",
+          "gold_names": [
+            "fedratinib"
+          ]
+        },
+        {
+          "text": "dasatinib",
+          "gold_names": [
+            "dasatinib"
+          ]
+        },
+        {
+          "text": "entecavir",
+          "gold_names": [
+            "entecavir"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter484",
+            "DDInter714"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-005-single_character_error",
+      "group_id": "G005",
+      "split": "development",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "avatrolbopag",
+          "gold_names": [
+            "avatrombopag"
+          ]
+        },
+        {
+          "text": "fedratinib",
+          "gold_names": [
+            "fedratinib"
+          ]
+        },
+        {
+          "text": "dasalinib",
+          "gold_names": [
+            "dasatinib"
+          ]
+        },
+        {
+          "text": "entecavir",
+          "gold_names": [
+            "entecavir"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter484",
+            "DDInter714"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-005-mixed_corruption",
+      "group_id": "G005",
+      "split": "development",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "avatrolbopag",
+          "gold_names": [
+            "avatrombopag"
+          ]
+        },
+        {
+          "text": "fedrat1n1b",
+          "gold_names": [
+            "fedratinib"
+          ]
+        },
+        {
+          "text": "dasalinib",
+          "gold_names": [
+            "dasatinib"
+          ]
+        },
+        {
+          "text": "entecavir",
+          "gold_names": [
+            "entecavir"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter484",
+            "DDInter714"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-006-clean",
+      "group_id": "G006",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "betamethasone (topical)",
+          "gold_names": [
+            "betamethasone (topical)"
+          ]
+        },
+        {
+          "text": "insulin degludec",
+          "gold_names": [
+            "insulin degludec"
+          ]
+        },
+        {
+          "text": "muromonab",
+          "gold_names": [
+            "muromonab"
+          ]
+        },
+        {
+          "text": "carboplatin",
+          "gold_names": [
+            "carboplatin"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter196",
+            "DDInter930"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-006-single_character_error",
+      "group_id": "G006",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "betamethasole (topical)",
+          "gold_names": [
+            "betamethasone (topical)"
+          ]
+        },
+        {
+          "text": "insulin degludec",
+          "gold_names": [
+            "insulin degludec"
+          ]
+        },
+        {
+          "text": "murolonab",
+          "gold_names": [
+            "muromonab"
+          ]
+        },
+        {
+          "text": "carboplatin",
+          "gold_names": [
+            "carboplatin"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter196",
+            "DDInter930"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-006-mixed_corruption",
+      "group_id": "G006",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "betamethasole (topical)",
+          "gold_names": [
+            "betamethasone (topical)"
+          ]
+        },
+        {
+          "text": "1nsul1n degludec",
+          "gold_names": [
+            "insulin degludec"
+          ]
+        },
+        {
+          "text": "murolonab",
+          "gold_names": [
+            "muromonab"
+          ]
+        },
+        {
+          "text": "carboplatin",
+          "gold_names": [
+            "carboplatin"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter196",
+            "DDInter930"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-007-clean",
+      "group_id": "G007",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "fosaprepitant",
+          "gold_names": [
+            "fosaprepitant"
+          ]
+        },
+        {
+          "text": "cyanocobalamin",
+          "gold_names": [
+            "cyanocobalamin"
+          ]
+        },
+        {
+          "text": "ifosfamide",
+          "gold_names": [
+            "ifosfamide"
+          ]
+        },
+        {
+          "text": "lactulose",
+          "gold_names": [
+            "lactulose"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1018",
+            "DDInter451"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1018",
+            "DDInter906"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter778",
+            "DDInter906"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-007-single_character_error",
+      "group_id": "G007",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "fosaprlpitant",
+          "gold_names": [
+            "fosaprepitant"
+          ]
+        },
+        {
+          "text": "cyanocobalamin",
+          "gold_names": [
+            "cyanocobalamin"
+          ]
+        },
+        {
+          "text": "ifosflmide",
+          "gold_names": [
+            "ifosfamide"
+          ]
+        },
+        {
+          "text": "lactulose",
+          "gold_names": [
+            "lactulose"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1018",
+            "DDInter451"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1018",
+            "DDInter906"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter778",
+            "DDInter906"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-007-mixed_corruption",
+      "group_id": "G007",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "fosaprlpitant",
+          "gold_names": [
+            "fosaprepitant"
+          ]
+        },
+        {
+          "text": "cyan0c0balam1n",
+          "gold_names": [
+            "cyanocobalamin"
+          ]
+        },
+        {
+          "text": "ifosflmide",
+          "gold_names": [
+            "ifosfamide"
+          ]
+        },
+        {
+          "text": "ZXQVVV",
+          "gold_names": [
+            "lactulose"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1018",
+            "DDInter451"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1018",
+            "DDInter906"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter778",
+            "DDInter906"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-008-clean",
+      "group_id": "G008",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "ivacaftor",
+          "gold_names": [
+            "ivacaftor"
+          ]
+        },
+        {
+          "text": "fosphenytoin",
+          "gold_names": [
+            "fosphenytoin"
+          ]
+        },
+        {
+          "text": "cisapride",
+          "gold_names": [
+            "cisapride"
+          ]
+        },
+        {
+          "text": "leuprolide",
+          "gold_names": [
+            "leuprolide"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1042",
+            "DDInter385"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter385",
+            "DDInter997"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter783",
+            "DDInter997"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-008-single_character_error",
+      "group_id": "G008",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "ivaclftor",
+          "gold_names": [
+            "ivacaftor"
+          ]
+        },
+        {
+          "text": "fosphenytoin",
+          "gold_names": [
+            "fosphenytoin"
+          ]
+        },
+        {
+          "text": "cisalride",
+          "gold_names": [
+            "cisapride"
+          ]
+        },
+        {
+          "text": "leuprolide",
+          "gold_names": [
+            "leuprolide"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1042",
+            "DDInter385"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter385",
+            "DDInter997"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter783",
+            "DDInter997"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-008-mixed_corruption",
+      "group_id": "G008",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "ivaclftor",
+          "gold_names": [
+            "ivacaftor"
+          ]
+        },
+        {
+          "text": "f0sphenyt01n",
+          "gold_names": [
+            "fosphenytoin"
+          ]
+        },
+        {
+          "text": "cisalride",
+          "gold_names": [
+            "cisapride"
+          ]
+        },
+        {
+          "text": "leuprolide",
+          "gold_names": [
+            "leuprolide"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1042",
+            "DDInter385"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter385",
+            "DDInter997"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter783",
+            "DDInter997"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-009-clean",
+      "group_id": "G009",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "mepyramine",
+          "gold_names": [
+            "mepyramine"
+          ]
+        },
+        {
+          "text": "creatine",
+          "gold_names": [
+            "creatine"
+          ]
+        },
+        {
+          "text": "metaraminol",
+          "gold_names": [
+            "metaraminol"
+          ]
+        },
+        {
+          "text": "thiopental",
+          "gold_names": [
+            "thiopental"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1155",
+            "DDInter1795"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-009-single_character_error",
+      "group_id": "G009",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "mepyrlmine",
+          "gold_names": [
+            "mepyramine"
+          ]
+        },
+        {
+          "text": "creatine",
+          "gold_names": [
+            "creatine"
+          ]
+        },
+        {
+          "text": "metarlminol",
+          "gold_names": [
+            "metaraminol"
+          ]
+        },
+        {
+          "text": "thiopental",
+          "gold_names": [
+            "thiopental"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1155",
+            "DDInter1795"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-009-mixed_corruption",
+      "group_id": "G009",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "mepyrlmine",
+          "gold_names": [
+            "mepyramine"
+          ]
+        },
+        {
+          "text": "creat1ne",
+          "gold_names": [
+            "creatine"
+          ]
+        },
+        {
+          "text": "metarlminol",
+          "gold_names": [
+            "metaraminol"
+          ]
+        },
+        {
+          "text": "thiopental",
+          "gold_names": [
+            "thiopental"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1155",
+            "DDInter1795"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-010-clean",
+      "group_id": "G010",
+      "split": "development",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "metoprolol",
+          "gold_names": [
+            "metoprolol"
+          ]
+        },
+        {
+          "text": "atorvastatin",
+          "gold_names": [
+            "atorvastatin"
+          ]
+        },
+        {
+          "text": "liothyronine",
+          "gold_names": [
+            "liothyronine"
+          ]
+        },
+        {
+          "text": "dihydrotachysterol",
+          "gold_names": [
+            "dihydrotachysterol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter1200"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter133"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-010-single_character_error",
+      "group_id": "G010",
+      "split": "development",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "metoplolol",
+          "gold_names": [
+            "metoprolol"
+          ]
+        },
+        {
+          "text": "atorvastatin",
+          "gold_names": [
+            "atorvastatin"
+          ]
+        },
+        {
+          "text": "liothylonine",
+          "gold_names": [
+            "liothyronine"
+          ]
+        },
+        {
+          "text": "dihydrotachysterol",
+          "gold_names": [
+            "dihydrotachysterol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter1200"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter133"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-010-mixed_corruption",
+      "group_id": "G010",
+      "split": "development",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "metoplolol",
+          "gold_names": [
+            "metoprolol"
+          ]
+        },
+        {
+          "text": "at0rvastat1n",
+          "gold_names": [
+            "atorvastatin"
+          ]
+        },
+        {
+          "text": "liothylonine",
+          "gold_names": [
+            "liothyronine"
+          ]
+        },
+        {
+          "text": "dihydrotachysterol",
+          "gold_names": [
+            "dihydrotachysterol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter1200"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter133"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-011-clean",
+      "group_id": "G011",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "enfuvirtide",
+          "gold_names": [
+            "enfuvirtide"
+          ]
+        },
+        {
+          "text": "modafinil",
+          "gold_names": [
+            "modafinil"
+          ]
+        },
+        {
+          "text": "acyclovir",
+          "gold_names": [
+            "acyclovir"
+          ]
+        },
+        {
+          "text": "oxymorphone",
+          "gold_names": [
+            "oxymorphone"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1236",
+            "DDInter25"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-011-single_character_error",
+      "group_id": "G011",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "enfuvlrtide",
+          "gold_names": [
+            "enfuvirtide"
+          ]
+        },
+        {
+          "text": "modafinil",
+          "gold_names": [
+            "modafinil"
+          ]
+        },
+        {
+          "text": "acyciovir",
+          "gold_names": [
+            "acyclovir"
+          ]
+        },
+        {
+          "text": "oxymorphone",
+          "gold_names": [
+            "oxymorphone"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1236",
+            "DDInter25"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-011-mixed_corruption",
+      "group_id": "G011",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "enfuvlrtide",
+          "gold_names": [
+            "enfuvirtide"
+          ]
+        },
+        {
+          "text": "m0daf1n1l",
+          "gold_names": [
+            "modafinil"
+          ]
+        },
+        {
+          "text": "acyciovir",
+          "gold_names": [
+            "acyclovir"
+          ]
+        },
+        {
+          "text": "oxymorphone",
+          "gold_names": [
+            "oxymorphone"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1236",
+            "DDInter25"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-012-clean",
+      "group_id": "G012",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "typhoid vaccine (live)",
+          "gold_names": [
+            "typhoid vaccine (live)"
+          ]
+        },
+        {
+          "text": "perindopril",
+          "gold_names": [
+            "perindopril"
+          ]
+        },
+        {
+          "text": "potassium bicarbonate",
+          "gold_names": [
+            "potassium bicarbonate"
+          ]
+        },
+        {
+          "text": "betamethasone",
+          "gold_names": [
+            "betamethasone"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1431",
+            "DDInter1496"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1431",
+            "DDInter195"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1894",
+            "DDInter195"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-012-single_character_error",
+      "group_id": "G012",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "typhoid vacline (live)",
+          "gold_names": [
+            "typhoid vaccine (live)"
+          ]
+        },
+        {
+          "text": "perindopril",
+          "gold_names": [
+            "perindopril"
+          ]
+        },
+        {
+          "text": "potassium licarbonate",
+          "gold_names": [
+            "potassium bicarbonate"
+          ]
+        },
+        {
+          "text": "betamethasone",
+          "gold_names": [
+            "betamethasone"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1431",
+            "DDInter1496"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1431",
+            "DDInter195"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1894",
+            "DDInter195"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-012-mixed_corruption",
+      "group_id": "G012",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "typhoid vacline (live)",
+          "gold_names": [
+            "typhoid vaccine (live)"
+          ]
+        },
+        {
+          "text": "per1nd0pr1l",
+          "gold_names": [
+            "perindopril"
+          ]
+        },
+        {
+          "text": "potassium licarbonate",
+          "gold_names": [
+            "potassium bicarbonate"
+          ]
+        },
+        {
+          "text": "betamethasone",
+          "gold_names": [
+            "betamethasone"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1431",
+            "DDInter1496"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1431",
+            "DDInter195"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1894",
+            "DDInter195"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-013-clean",
+      "group_id": "G013",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "ferrous gluconate",
+          "gold_names": [
+            "ferrous gluconate"
+          ]
+        },
+        {
+          "text": "ranolazine",
+          "gold_names": [
+            "ranolazine"
+          ]
+        },
+        {
+          "text": "diethylpropion",
+          "gold_names": [
+            "diethylpropion"
+          ]
+        },
+        {
+          "text": "levothyroxine",
+          "gold_names": [
+            "levothyroxine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter1570"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter547"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter726"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-013-single_character_error",
+      "group_id": "G013",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "ferrous lluconate",
+          "gold_names": [
+            "ferrous gluconate"
+          ]
+        },
+        {
+          "text": "ranolazine",
+          "gold_names": [
+            "ranolazine"
+          ]
+        },
+        {
+          "text": "diethyllropion",
+          "gold_names": [
+            "diethylpropion"
+          ]
+        },
+        {
+          "text": "levothyroxine",
+          "gold_names": [
+            "levothyroxine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter1570"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter547"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter726"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-013-mixed_corruption",
+      "group_id": "G013",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "ferrous lluconate",
+          "gold_names": [
+            "ferrous gluconate"
+          ]
+        },
+        {
+          "text": "ran0laz1ne",
+          "gold_names": [
+            "ranolazine"
+          ]
+        },
+        {
+          "text": "diethyllropion",
+          "gold_names": [
+            "diethylpropion"
+          ]
+        },
+        {
+          "text": "levothyroxine",
+          "gold_names": [
+            "levothyroxine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter1570"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter547"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter726"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-014-clean",
+      "group_id": "G014",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "saw palmetto",
+          "gold_names": [
+            "saw palmetto"
+          ]
+        },
+        {
+          "text": "nystatin",
+          "gold_names": [
+            "nystatin"
+          ]
+        },
+        {
+          "text": "aprepitant",
+          "gold_names": [
+            "aprepitant"
+          ]
+        },
+        {
+          "text": "ethinylestradiol",
+          "gold_names": [
+            "ethinylestradiol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter112",
+            "DDInter1318"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter112",
+            "DDInter692"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1645",
+            "DDInter692"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-014-single_character_error",
+      "group_id": "G014",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "saw paimetto",
+          "gold_names": [
+            "saw palmetto"
+          ]
+        },
+        {
+          "text": "nystatin",
+          "gold_names": [
+            "nystatin"
+          ]
+        },
+        {
+          "text": "aprepltant",
+          "gold_names": [
+            "aprepitant"
+          ]
+        },
+        {
+          "text": "ethinylestradiol",
+          "gold_names": [
+            "ethinylestradiol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter112",
+            "DDInter1318"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter112",
+            "DDInter692"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1645",
+            "DDInter692"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-014-mixed_corruption",
+      "group_id": "G014",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "saw paimetto",
+          "gold_names": [
+            "saw palmetto"
+          ]
+        },
+        {
+          "text": "nystat1n",
+          "gold_names": [
+            "nystatin"
+          ]
+        },
+        {
+          "text": "aprepltant",
+          "gold_names": [
+            "aprepitant"
+          ]
+        },
+        {
+          "text": "ZXQVVV",
+          "gold_names": [
+            "ethinylestradiol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter112",
+            "DDInter1318"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter112",
+            "DDInter692"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1645",
+            "DDInter692"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-015-clean",
+      "group_id": "G015",
+      "split": "development",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "liothyronine",
+          "gold_names": [
+            "liothyronine"
+          ]
+        },
+        {
+          "text": "rabeprazole",
+          "gold_names": [
+            "rabeprazole"
+          ]
+        },
+        {
+          "text": "levothyroxine",
+          "gold_names": [
+            "levothyroxine"
+          ]
+        },
+        {
+          "text": "pomalidomide",
+          "gold_names": [
+            "pomalidomide"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter1074"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter1559"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter1559"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-015-single_character_error",
+      "group_id": "G015",
+      "split": "development",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "liothylonine",
+          "gold_names": [
+            "liothyronine"
+          ]
+        },
+        {
+          "text": "rabeprazole",
+          "gold_names": [
+            "rabeprazole"
+          ]
+        },
+        {
+          "text": "levothlroxine",
+          "gold_names": [
+            "levothyroxine"
+          ]
+        },
+        {
+          "text": "pomalidomide",
+          "gold_names": [
+            "pomalidomide"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter1074"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter1559"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter1559"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-015-mixed_corruption",
+      "group_id": "G015",
+      "split": "development",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "liothylonine",
+          "gold_names": [
+            "liothyronine"
+          ]
+        },
+        {
+          "text": "rabepraz0le",
+          "gold_names": [
+            "rabeprazole"
+          ]
+        },
+        {
+          "text": "levothlroxine",
+          "gold_names": [
+            "levothyroxine"
+          ]
+        },
+        {
+          "text": "pomalidomide",
+          "gold_names": [
+            "pomalidomide"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter1074"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1064",
+            "DDInter1559"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter1559"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-016-clean",
+      "group_id": "G016",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "sulindac",
+          "gold_names": [
+            "sulindac"
+          ]
+        },
+        {
+          "text": "labetalol",
+          "gold_names": [
+            "labetalol"
+          ]
+        },
+        {
+          "text": "regorafenib",
+          "gold_names": [
+            "regorafenib"
+          ]
+        },
+        {
+          "text": "procaine",
+          "gold_names": [
+            "procaine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1576",
+            "DDInter1729"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-016-single_character_error",
+      "group_id": "G016",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "sulildac",
+          "gold_names": [
+            "sulindac"
+          ]
+        },
+        {
+          "text": "labetalol",
+          "gold_names": [
+            "labetalol"
+          ]
+        },
+        {
+          "text": "regorlfenib",
+          "gold_names": [
+            "regorafenib"
+          ]
+        },
+        {
+          "text": "procaine",
+          "gold_names": [
+            "procaine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1576",
+            "DDInter1729"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-016-mixed_corruption",
+      "group_id": "G016",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "sulildac",
+          "gold_names": [
+            "sulindac"
+          ]
+        },
+        {
+          "text": "labetal0l",
+          "gold_names": [
+            "labetalol"
+          ]
+        },
+        {
+          "text": "regorlfenib",
+          "gold_names": [
+            "regorafenib"
+          ]
+        },
+        {
+          "text": "procaine",
+          "gold_names": [
+            "procaine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1576",
+            "DDInter1729"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-017-clean",
+      "group_id": "G017",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "pentoxyverine",
+          "gold_names": [
+            "pentoxyverine"
+          ]
+        },
+        {
+          "text": "cefditoren",
+          "gold_names": [
+            "cefditoren"
+          ]
+        },
+        {
+          "text": "peginterferon beta-1a",
+          "gold_names": [
+            "peginterferon beta-1a"
+          ]
+        },
+        {
+          "text": "orphenadrine",
+          "gold_names": [
+            "orphenadrine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1349",
+            "DDInter1427"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-017-single_character_error",
+      "group_id": "G017",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "pentoxlverine",
+          "gold_names": [
+            "pentoxyverine"
+          ]
+        },
+        {
+          "text": "cefditoren",
+          "gold_names": [
+            "cefditoren"
+          ]
+        },
+        {
+          "text": "peginterfelon beta-1a",
+          "gold_names": [
+            "peginterferon beta-1a"
+          ]
+        },
+        {
+          "text": "orphenadrine",
+          "gold_names": [
+            "orphenadrine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1349",
+            "DDInter1427"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-017-mixed_corruption",
+      "group_id": "G017",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "pentoxlverine",
+          "gold_names": [
+            "pentoxyverine"
+          ]
+        },
+        {
+          "text": "cefd1t0ren",
+          "gold_names": [
+            "cefditoren"
+          ]
+        },
+        {
+          "text": "peginterfelon beta-1a",
+          "gold_names": [
+            "peginterferon beta-1a"
+          ]
+        },
+        {
+          "text": "orphenadrine",
+          "gold_names": [
+            "orphenadrine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1349",
+            "DDInter1427"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-018-clean",
+      "group_id": "G018",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "siponimod",
+          "gold_names": [
+            "siponimod"
+          ]
+        },
+        {
+          "text": "teriflunomide",
+          "gold_names": [
+            "teriflunomide"
+          ]
+        },
+        {
+          "text": "zinc chloride",
+          "gold_names": [
+            "zinc chloride"
+          ]
+        },
+        {
+          "text": "enalapril",
+          "gold_names": [
+            "enalapril"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1676",
+            "DDInter1771"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1771",
+            "DDInter1964"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1771",
+            "DDInter638"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-018-single_character_error",
+      "group_id": "G018",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "sipolimod",
+          "gold_names": [
+            "siponimod"
+          ]
+        },
+        {
+          "text": "teriflunomide",
+          "gold_names": [
+            "teriflunomide"
+          ]
+        },
+        {
+          "text": "zinc clloride",
+          "gold_names": [
+            "zinc chloride"
+          ]
+        },
+        {
+          "text": "enalapril",
+          "gold_names": [
+            "enalapril"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1676",
+            "DDInter1771"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1771",
+            "DDInter1964"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1771",
+            "DDInter638"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-018-mixed_corruption",
+      "group_id": "G018",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "sipolimod",
+          "gold_names": [
+            "siponimod"
+          ]
+        },
+        {
+          "text": "ter1flun0m1de",
+          "gold_names": [
+            "teriflunomide"
+          ]
+        },
+        {
+          "text": "zinc clloride",
+          "gold_names": [
+            "zinc chloride"
+          ]
+        },
+        {
+          "text": "enalapril",
+          "gold_names": [
+            "enalapril"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1676",
+            "DDInter1771"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1771",
+            "DDInter1964"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1771",
+            "DDInter638"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-019-clean",
+      "group_id": "G019",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "mesalazine",
+          "gold_names": [
+            "mesalazine"
+          ]
+        },
+        {
+          "text": "berotralstat",
+          "gold_names": [
+            "berotralstat"
+          ]
+        },
+        {
+          "text": "progesterone",
+          "gold_names": [
+            "progesterone"
+          ]
+        },
+        {
+          "text": "vibegron",
+          "gold_names": [
+            "vibegron"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1158",
+            "DDInter1529"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-019-single_character_error",
+      "group_id": "G019",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "mesallzine",
+          "gold_names": [
+            "mesalazine"
+          ]
+        },
+        {
+          "text": "berotralstat",
+          "gold_names": [
+            "berotralstat"
+          ]
+        },
+        {
+          "text": "progeslerone",
+          "gold_names": [
+            "progesterone"
+          ]
+        },
+        {
+          "text": "vibegron",
+          "gold_names": [
+            "vibegron"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1158",
+            "DDInter1529"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-019-mixed_corruption",
+      "group_id": "G019",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "mesallzine",
+          "gold_names": [
+            "mesalazine"
+          ]
+        },
+        {
+          "text": "ber0tralstat",
+          "gold_names": [
+            "berotralstat"
+          ]
+        },
+        {
+          "text": "progeslerone",
+          "gold_names": [
+            "progesterone"
+          ]
+        },
+        {
+          "text": "vibegron",
+          "gold_names": [
+            "vibegron"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1158",
+            "DDInter1529"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-020-clean",
+      "group_id": "G020",
+      "split": "development",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "trovafloxacin",
+          "gold_names": [
+            "trovafloxacin"
+          ]
+        },
+        {
+          "text": "mecasermin rinfabate",
+          "gold_names": [
+            "mecasermin rinfabate"
+          ]
+        },
+        {
+          "text": "azilsartan medoxomil",
+          "gold_names": [
+            "azilsartan medoxomil"
+          ]
+        },
+        {
+          "text": "acetohexamide",
+          "gold_names": [
+            "acetohexamide"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter16",
+            "DDInter1887"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-020-single_character_error",
+      "group_id": "G020",
+      "split": "development",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "trovafioxacin",
+          "gold_names": [
+            "trovafloxacin"
+          ]
+        },
+        {
+          "text": "mecasermin rinfabate",
+          "gold_names": [
+            "mecasermin rinfabate"
+          ]
+        },
+        {
+          "text": "azilsartanlmedoxomil",
+          "gold_names": [
+            "azilsartan medoxomil"
+          ]
+        },
+        {
+          "text": "acetohexamide",
+          "gold_names": [
+            "acetohexamide"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter16",
+            "DDInter1887"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-020-mixed_corruption",
+      "group_id": "G020",
+      "split": "development",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "trovafioxacin",
+          "gold_names": [
+            "trovafloxacin"
+          ]
+        },
+        {
+          "text": "mecaserm1n r1nfabate",
+          "gold_names": [
+            "mecasermin rinfabate"
+          ]
+        },
+        {
+          "text": "azilsartanlmedoxomil",
+          "gold_names": [
+            "azilsartan medoxomil"
+          ]
+        },
+        {
+          "text": "acetohexamide",
+          "gold_names": [
+            "acetohexamide"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter16",
+            "DDInter1887"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-021-clean",
+      "group_id": "G021",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "magaldrate",
+          "gold_names": [
+            "magaldrate"
+          ]
+        },
+        {
+          "text": "norfloxacin",
+          "gold_names": [
+            "norfloxacin"
+          ]
+        },
+        {
+          "text": "digoxin",
+          "gold_names": [
+            "digoxin"
+          ]
+        },
+        {
+          "text": "erythromycin",
+          "gold_names": [
+            "erythromycin"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1112",
+            "DDInter1313"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1112",
+            "DDInter554"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1112",
+            "DDInter670"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1313",
+            "DDInter670"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter554",
+            "DDInter670"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-021-single_character_error",
+      "group_id": "G021",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "magallrate",
+          "gold_names": [
+            "magaldrate"
+          ]
+        },
+        {
+          "text": "norfloxacin",
+          "gold_names": [
+            "norfloxacin"
+          ]
+        },
+        {
+          "text": "diglxin",
+          "gold_names": [
+            "digoxin"
+          ]
+        },
+        {
+          "text": "erythromycin",
+          "gold_names": [
+            "erythromycin"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1112",
+            "DDInter1313"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1112",
+            "DDInter554"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1112",
+            "DDInter670"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1313",
+            "DDInter670"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter554",
+            "DDInter670"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-021-mixed_corruption",
+      "group_id": "G021",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "magallrate",
+          "gold_names": [
+            "magaldrate"
+          ]
+        },
+        {
+          "text": "n0rfl0xac1n",
+          "gold_names": [
+            "norfloxacin"
+          ]
+        },
+        {
+          "text": "diglxin",
+          "gold_names": [
+            "digoxin"
+          ]
+        },
+        {
+          "text": "ZXQVVV",
+          "gold_names": [
+            "erythromycin"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1112",
+            "DDInter1313"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1112",
+            "DDInter554"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1112",
+            "DDInter670"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1313",
+            "DDInter670"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter554",
+            "DDInter670"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-022-clean",
+      "group_id": "G022",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "trazodone",
+          "gold_names": [
+            "trazodone"
+          ]
+        },
+        {
+          "text": "crizotinib",
+          "gold_names": [
+            "crizotinib"
+          ]
+        },
+        {
+          "text": "dolutegravir",
+          "gold_names": [
+            "dolutegravir"
+          ]
+        },
+        {
+          "text": "lactitol",
+          "gold_names": [
+            "lactitol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1016",
+            "DDInter1851"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1016",
+            "DDInter448"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1851",
+            "DDInter448"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter448",
+            "DDInter582"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-022-single_character_error",
+      "group_id": "G022",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "trazldone",
+          "gold_names": [
+            "trazodone"
+          ]
+        },
+        {
+          "text": "crizotinib",
+          "gold_names": [
+            "crizotinib"
+          ]
+        },
+        {
+          "text": "dolutelravir",
+          "gold_names": [
+            "dolutegravir"
+          ]
+        },
+        {
+          "text": "lactitol",
+          "gold_names": [
+            "lactitol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1016",
+            "DDInter1851"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1016",
+            "DDInter448"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1851",
+            "DDInter448"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter448",
+            "DDInter582"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-022-mixed_corruption",
+      "group_id": "G022",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "trazldone",
+          "gold_names": [
+            "trazodone"
+          ]
+        },
+        {
+          "text": "cr1z0t1n1b",
+          "gold_names": [
+            "crizotinib"
+          ]
+        },
+        {
+          "text": "dolutelravir",
+          "gold_names": [
+            "dolutegravir"
+          ]
+        },
+        {
+          "text": "lactitol",
+          "gold_names": [
+            "lactitol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1016",
+            "DDInter1851"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1016",
+            "DDInter448"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1851",
+            "DDInter448"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter448",
+            "DDInter582"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-023-clean",
+      "group_id": "G023",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "halcinonide (topical)",
+          "gold_names": [
+            "halcinonide (topical)"
+          ]
+        },
+        {
+          "text": "vinorelbine",
+          "gold_names": [
+            "vinorelbine"
+          ]
+        },
+        {
+          "text": "rofecoxib",
+          "gold_names": [
+            "rofecoxib"
+          ]
+        },
+        {
+          "text": "lisdexamfetamine",
+          "gold_names": [
+            "lisdexamfetamine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1613",
+            "DDInter1939"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-023-single_character_error",
+      "group_id": "G023",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "halcinonidl (topical)",
+          "gold_names": [
+            "halcinonide (topical)"
+          ]
+        },
+        {
+          "text": "vinorelbine",
+          "gold_names": [
+            "vinorelbine"
+          ]
+        },
+        {
+          "text": "rofeloxib",
+          "gold_names": [
+            "rofecoxib"
+          ]
+        },
+        {
+          "text": "lisdexamfetamine",
+          "gold_names": [
+            "lisdexamfetamine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1613",
+            "DDInter1939"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-023-mixed_corruption",
+      "group_id": "G023",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "halcinonidl (topical)",
+          "gold_names": [
+            "halcinonide (topical)"
+          ]
+        },
+        {
+          "text": "v1n0relb1ne",
+          "gold_names": [
+            "vinorelbine"
+          ]
+        },
+        {
+          "text": "rofeloxib",
+          "gold_names": [
+            "rofecoxib"
+          ]
+        },
+        {
+          "text": "lisdexamfetamine",
+          "gold_names": [
+            "lisdexamfetamine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1613",
+            "DDInter1939"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-024-clean",
+      "group_id": "G024",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "cyclosporine",
+          "gold_names": [
+            "cyclosporine"
+          ]
+        },
+        {
+          "text": "erythromycin",
+          "gold_names": [
+            "erythromycin"
+          ]
+        },
+        {
+          "text": "hydrocodone",
+          "gold_names": [
+            "hydrocodone"
+          ]
+        },
+        {
+          "text": "darifenacin",
+          "gold_names": [
+            "darifenacin"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter458",
+            "DDInter480"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter458",
+            "DDInter670"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter480",
+            "DDInter670"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter480",
+            "DDInter884"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter670",
+            "DDInter884"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-024-single_character_error",
+      "group_id": "G024",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "cycloslorine",
+          "gold_names": [
+            "cyclosporine"
+          ]
+        },
+        {
+          "text": "erythromycin",
+          "gold_names": [
+            "erythromycin"
+          ]
+        },
+        {
+          "text": "hydrolodone",
+          "gold_names": [
+            "hydrocodone"
+          ]
+        },
+        {
+          "text": "darifenacin",
+          "gold_names": [
+            "darifenacin"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter458",
+            "DDInter480"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter458",
+            "DDInter670"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter480",
+            "DDInter670"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter480",
+            "DDInter884"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter670",
+            "DDInter884"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-024-mixed_corruption",
+      "group_id": "G024",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "cycloslorine",
+          "gold_names": [
+            "cyclosporine"
+          ]
+        },
+        {
+          "text": "erythr0myc1n",
+          "gold_names": [
+            "erythromycin"
+          ]
+        },
+        {
+          "text": "hydrolodone",
+          "gold_names": [
+            "hydrocodone"
+          ]
+        },
+        {
+          "text": "darifenacin",
+          "gold_names": [
+            "darifenacin"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter458",
+            "DDInter480"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter458",
+            "DDInter670"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter480",
+            "DDInter670"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter480",
+            "DDInter884"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter670",
+            "DDInter884"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-025-clean",
+      "group_id": "G025",
+      "split": "development",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "moxifloxacin",
+          "gold_names": [
+            "moxifloxacin"
+          ]
+        },
+        {
+          "text": "canagliflozin",
+          "gold_names": [
+            "canagliflozin"
+          ]
+        },
+        {
+          "text": "pseudoephedrine",
+          "gold_names": [
+            "pseudoephedrine"
+          ]
+        },
+        {
+          "text": "alvimopan",
+          "gold_names": [
+            "alvimopan"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1247",
+            "DDInter280"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1545",
+            "DDInter280"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-025-single_character_error",
+      "group_id": "G025",
+      "split": "development",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "moxifllxacin",
+          "gold_names": [
+            "moxifloxacin"
+          ]
+        },
+        {
+          "text": "canagliflozin",
+          "gold_names": [
+            "canagliflozin"
+          ]
+        },
+        {
+          "text": "pseudoelhedrine",
+          "gold_names": [
+            "pseudoephedrine"
+          ]
+        },
+        {
+          "text": "alvimopan",
+          "gold_names": [
+            "alvimopan"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1247",
+            "DDInter280"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1545",
+            "DDInter280"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-025-mixed_corruption",
+      "group_id": "G025",
+      "split": "development",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "moxifllxacin",
+          "gold_names": [
+            "moxifloxacin"
+          ]
+        },
+        {
+          "text": "canagl1fl0z1n",
+          "gold_names": [
+            "canagliflozin"
+          ]
+        },
+        {
+          "text": "pseudoelhedrine",
+          "gold_names": [
+            "pseudoephedrine"
+          ]
+        },
+        {
+          "text": "alvimopan",
+          "gold_names": [
+            "alvimopan"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1247",
+            "DDInter280"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1545",
+            "DDInter280"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-026-clean",
+      "group_id": "G026",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "trimetrexate",
+          "gold_names": [
+            "trimetrexate"
+          ]
+        },
+        {
+          "text": "vincristine (liposome)",
+          "gold_names": [
+            "vincristine (liposome)"
+          ]
+        },
+        {
+          "text": "chlorcyclizine",
+          "gold_names": [
+            "chlorcyclizine"
+          ]
+        },
+        {
+          "text": "dapsone (topical)",
+          "gold_names": [
+            "dapsone (topical)"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1875",
+            "DDInter476"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-026-single_character_error",
+      "group_id": "G026",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "trimetlexate",
+          "gold_names": [
+            "trimetrexate"
+          ]
+        },
+        {
+          "text": "vincristine (liposome)",
+          "gold_names": [
+            "vincristine (liposome)"
+          ]
+        },
+        {
+          "text": "chlorcyllizine",
+          "gold_names": [
+            "chlorcyclizine"
+          ]
+        },
+        {
+          "text": "dapsone (topical)",
+          "gold_names": [
+            "dapsone (topical)"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1875",
+            "DDInter476"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-026-mixed_corruption",
+      "group_id": "G026",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "trimetlexate",
+          "gold_names": [
+            "trimetrexate"
+          ]
+        },
+        {
+          "text": "v1ncr1st1ne (l1p0s0me)",
+          "gold_names": [
+            "vincristine (liposome)"
+          ]
+        },
+        {
+          "text": "chlorcyllizine",
+          "gold_names": [
+            "chlorcyclizine"
+          ]
+        },
+        {
+          "text": "dapsone (topical)",
+          "gold_names": [
+            "dapsone (topical)"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1875",
+            "DDInter476"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-027-clean",
+      "group_id": "G027",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "orlistat",
+          "gold_names": [
+            "orlistat"
+          ]
+        },
+        {
+          "text": "chlorothiazide",
+          "gold_names": [
+            "chlorothiazide"
+          ]
+        },
+        {
+          "text": "rasburicase",
+          "gold_names": [
+            "rasburicase"
+          ]
+        },
+        {
+          "text": "exemestane",
+          "gold_names": [
+            "exemestane"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1348",
+            "DDInter705"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-027-single_character_error",
+      "group_id": "G027",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "orliltat",
+          "gold_names": [
+            "orlistat"
+          ]
+        },
+        {
+          "text": "chlorothiazide",
+          "gold_names": [
+            "chlorothiazide"
+          ]
+        },
+        {
+          "text": "rasbulicase",
+          "gold_names": [
+            "rasburicase"
+          ]
+        },
+        {
+          "text": "exemestane",
+          "gold_names": [
+            "exemestane"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1348",
+            "DDInter705"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-027-mixed_corruption",
+      "group_id": "G027",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "orliltat",
+          "gold_names": [
+            "orlistat"
+          ]
+        },
+        {
+          "text": "chl0r0th1az1de",
+          "gold_names": [
+            "chlorothiazide"
+          ]
+        },
+        {
+          "text": "rasbulicase",
+          "gold_names": [
+            "rasburicase"
+          ]
+        },
+        {
+          "text": "exemestane",
+          "gold_names": [
+            "exemestane"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1348",
+            "DDInter705"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-028-clean",
+      "group_id": "G028",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "rivaroxaban",
+          "gold_names": [
+            "rivaroxaban"
+          ]
+        },
+        {
+          "text": "mitotane",
+          "gold_names": [
+            "mitotane"
+          ]
+        },
+        {
+          "text": "insulin human (zinc)",
+          "gold_names": [
+            "insulin human (zinc)"
+          ]
+        },
+        {
+          "text": "plicamycin",
+          "gold_names": [
+            "plicamycin"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1233",
+            "DDInter1609"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1484",
+            "DDInter1609"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-028-single_character_error",
+      "group_id": "G028",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "rivarlxaban",
+          "gold_names": [
+            "rivaroxaban"
+          ]
+        },
+        {
+          "text": "mitotane",
+          "gold_names": [
+            "mitotane"
+          ]
+        },
+        {
+          "text": "insulin hulan (zinc)",
+          "gold_names": [
+            "insulin human (zinc)"
+          ]
+        },
+        {
+          "text": "plicamycin",
+          "gold_names": [
+            "plicamycin"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1233",
+            "DDInter1609"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1484",
+            "DDInter1609"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-028-mixed_corruption",
+      "group_id": "G028",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "rivarlxaban",
+          "gold_names": [
+            "rivaroxaban"
+          ]
+        },
+        {
+          "text": "m1t0tane",
+          "gold_names": [
+            "mitotane"
+          ]
+        },
+        {
+          "text": "insulin hulan (zinc)",
+          "gold_names": [
+            "insulin human (zinc)"
+          ]
+        },
+        {
+          "text": "ZXQVVV",
+          "gold_names": [
+            "plicamycin"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1233",
+            "DDInter1609"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1484",
+            "DDInter1609"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-029-clean",
+      "group_id": "G029",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "troglitazone",
+          "gold_names": [
+            "troglitazone"
+          ]
+        },
+        {
+          "text": "aclidinium",
+          "gold_names": [
+            "aclidinium"
+          ]
+        },
+        {
+          "text": "clobetasol",
+          "gold_names": [
+            "clobetasol"
+          ]
+        },
+        {
+          "text": "ulipristal",
+          "gold_names": [
+            "ulipristal"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1881",
+            "DDInter1897"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-029-single_character_error",
+      "group_id": "G029",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "troglilazone",
+          "gold_names": [
+            "troglitazone"
+          ]
+        },
+        {
+          "text": "aclidinium",
+          "gold_names": [
+            "aclidinium"
+          ]
+        },
+        {
+          "text": "clobelasol",
+          "gold_names": [
+            "clobetasol"
+          ]
+        },
+        {
+          "text": "ulipristal",
+          "gold_names": [
+            "ulipristal"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1881",
+            "DDInter1897"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-029-mixed_corruption",
+      "group_id": "G029",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "troglilazone",
+          "gold_names": [
+            "troglitazone"
+          ]
+        },
+        {
+          "text": "acl1d1n1um",
+          "gold_names": [
+            "aclidinium"
+          ]
+        },
+        {
+          "text": "clobelasol",
+          "gold_names": [
+            "clobetasol"
+          ]
+        },
+        {
+          "text": "ulipristal",
+          "gold_names": [
+            "ulipristal"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1881",
+            "DDInter1897"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-030-clean",
+      "group_id": "G030",
+      "split": "development",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "ribociclib",
+          "gold_names": [
+            "ribociclib"
+          ]
+        },
+        {
+          "text": "levodopa",
+          "gold_names": [
+            "levodopa"
+          ]
+        },
+        {
+          "text": "tetracycline (topical)",
+          "gold_names": [
+            "tetracycline (topical)"
+          ]
+        },
+        {
+          "text": "sulfamethoxazole",
+          "gold_names": [
+            "sulfamethoxazole"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1588",
+            "DDInter1724"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-030-single_character_error",
+      "group_id": "G030",
+      "split": "development",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "riboclclib",
+          "gold_names": [
+            "ribociclib"
+          ]
+        },
+        {
+          "text": "levodopa",
+          "gold_names": [
+            "levodopa"
+          ]
+        },
+        {
+          "text": "tetracyclinl (topical)",
+          "gold_names": [
+            "tetracycline (topical)"
+          ]
+        },
+        {
+          "text": "sulfamethoxazole",
+          "gold_names": [
+            "sulfamethoxazole"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1588",
+            "DDInter1724"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-030-mixed_corruption",
+      "group_id": "G030",
+      "split": "development",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "riboclclib",
+          "gold_names": [
+            "ribociclib"
+          ]
+        },
+        {
+          "text": "lev0d0pa",
+          "gold_names": [
+            "levodopa"
+          ]
+        },
+        {
+          "text": "tetracyclinl (topical)",
+          "gold_names": [
+            "tetracycline (topical)"
+          ]
+        },
+        {
+          "text": "sulfamethoxazole",
+          "gold_names": [
+            "sulfamethoxazole"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1588",
+            "DDInter1724"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-031-clean",
+      "group_id": "G031",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "tegaserod",
+          "gold_names": [
+            "tegaserod"
+          ]
+        },
+        {
+          "text": "econazole",
+          "gold_names": [
+            "econazole"
+          ]
+        },
+        {
+          "text": "piroxicam",
+          "gold_names": [
+            "piroxicam"
+          ]
+        },
+        {
+          "text": "acyclovir",
+          "gold_names": [
+            "acyclovir"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1478",
+            "DDInter1754"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1478",
+            "DDInter25"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1754",
+            "DDInter25"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter25",
+            "DDInter616"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-031-single_character_error",
+      "group_id": "G031",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "tegalerod",
+          "gold_names": [
+            "tegaserod"
+          ]
+        },
+        {
+          "text": "econazole",
+          "gold_names": [
+            "econazole"
+          ]
+        },
+        {
+          "text": "pirolicam",
+          "gold_names": [
+            "piroxicam"
+          ]
+        },
+        {
+          "text": "acyclovir",
+          "gold_names": [
+            "acyclovir"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1478",
+            "DDInter1754"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1478",
+            "DDInter25"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1754",
+            "DDInter25"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter25",
+            "DDInter616"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-031-mixed_corruption",
+      "group_id": "G031",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "tegalerod",
+          "gold_names": [
+            "tegaserod"
+          ]
+        },
+        {
+          "text": "ec0naz0le",
+          "gold_names": [
+            "econazole"
+          ]
+        },
+        {
+          "text": "pirolicam",
+          "gold_names": [
+            "piroxicam"
+          ]
+        },
+        {
+          "text": "acyclovir",
+          "gold_names": [
+            "acyclovir"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1478",
+            "DDInter1754"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1478",
+            "DDInter25"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1754",
+            "DDInter25"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter25",
+            "DDInter616"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-032-clean",
+      "group_id": "G032",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "tofacitinib",
+          "gold_names": [
+            "tofacitinib"
+          ]
+        },
+        {
+          "text": "ranitidine",
+          "gold_names": [
+            "ranitidine"
+          ]
+        },
+        {
+          "text": "siponimod",
+          "gold_names": [
+            "siponimod"
+          ]
+        },
+        {
+          "text": "everolimus",
+          "gold_names": [
+            "everolimus"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1568",
+            "DDInter1676"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1676",
+            "DDInter1825"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1676",
+            "DDInter704"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1825",
+            "DDInter704"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-032-single_character_error",
+      "group_id": "G032",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "tofacltinib",
+          "gold_names": [
+            "tofacitinib"
+          ]
+        },
+        {
+          "text": "ranitidine",
+          "gold_names": [
+            "ranitidine"
+          ]
+        },
+        {
+          "text": "sipolimod",
+          "gold_names": [
+            "siponimod"
+          ]
+        },
+        {
+          "text": "everolimus",
+          "gold_names": [
+            "everolimus"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1568",
+            "DDInter1676"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1676",
+            "DDInter1825"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1676",
+            "DDInter704"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1825",
+            "DDInter704"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-032-mixed_corruption",
+      "group_id": "G032",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "tofacltinib",
+          "gold_names": [
+            "tofacitinib"
+          ]
+        },
+        {
+          "text": "ran1t1d1ne",
+          "gold_names": [
+            "ranitidine"
+          ]
+        },
+        {
+          "text": "sipolimod",
+          "gold_names": [
+            "siponimod"
+          ]
+        },
+        {
+          "text": "everolimus",
+          "gold_names": [
+            "everolimus"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1568",
+            "DDInter1676"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1676",
+            "DDInter1825"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1676",
+            "DDInter704"
+          ],
+          "severity": "high"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1825",
+            "DDInter704"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-033-clean",
+      "group_id": "G033",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "secobarbital",
+          "gold_names": [
+            "secobarbital"
+          ]
+        },
+        {
+          "text": "bicalutamide",
+          "gold_names": [
+            "bicalutamide"
+          ]
+        },
+        {
+          "text": "lixisenatide",
+          "gold_names": [
+            "lixisenatide"
+          ]
+        },
+        {
+          "text": "ozanimod",
+          "gold_names": [
+            "ozanimod"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1376",
+            "DDInter1650"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1376",
+            "DDInter204"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-033-single_character_error",
+      "group_id": "G033",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "secobalbital",
+          "gold_names": [
+            "secobarbital"
+          ]
+        },
+        {
+          "text": "bicalutamide",
+          "gold_names": [
+            "bicalutamide"
+          ]
+        },
+        {
+          "text": "lixiselatide",
+          "gold_names": [
+            "lixisenatide"
+          ]
+        },
+        {
+          "text": "ozanimod",
+          "gold_names": [
+            "ozanimod"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1376",
+            "DDInter1650"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1376",
+            "DDInter204"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-033-mixed_corruption",
+      "group_id": "G033",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "secobalbital",
+          "gold_names": [
+            "secobarbital"
+          ]
+        },
+        {
+          "text": "b1calutam1de",
+          "gold_names": [
+            "bicalutamide"
+          ]
+        },
+        {
+          "text": "lixiselatide",
+          "gold_names": [
+            "lixisenatide"
+          ]
+        },
+        {
+          "text": "ozanimod",
+          "gold_names": [
+            "ozanimod"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1376",
+            "DDInter1650"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1376",
+            "DDInter204"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-034-clean",
+      "group_id": "G034",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "esomeprazole",
+          "gold_names": [
+            "esomeprazole"
+          ]
+        },
+        {
+          "text": "salsalate",
+          "gold_names": [
+            "salsalate"
+          ]
+        },
+        {
+          "text": "tryptophan",
+          "gold_names": [
+            "tryptophan"
+          ]
+        },
+        {
+          "text": "plantago seed",
+          "gold_names": [
+            "plantago seed"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1637",
+            "DDInter676"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-034-single_character_error",
+      "group_id": "G034",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "esomeplazole",
+          "gold_names": [
+            "esomeprazole"
+          ]
+        },
+        {
+          "text": "salsalate",
+          "gold_names": [
+            "salsalate"
+          ]
+        },
+        {
+          "text": "tryptlphan",
+          "gold_names": [
+            "tryptophan"
+          ]
+        },
+        {
+          "text": "plantago seed",
+          "gold_names": [
+            "plantago seed"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1637",
+            "DDInter676"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-034-mixed_corruption",
+      "group_id": "G034",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "esomeplazole",
+          "gold_names": [
+            "esomeprazole"
+          ]
+        },
+        {
+          "text": "salsalate",
+          "gold_names": [
+            "salsalate"
+          ]
+        },
+        {
+          "text": "tryptlphan",
+          "gold_names": [
+            "tryptophan"
+          ]
+        },
+        {
+          "text": "plantago seed",
+          "gold_names": [
+            "plantago seed"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1637",
+            "DDInter676"
+          ],
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "SYN-035-clean",
+      "group_id": "G035",
+      "split": "development",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "bictegravir",
+          "gold_names": [
+            "bictegravir"
+          ]
+        },
+        {
+          "text": "rosiglitazone",
+          "gold_names": [
+            "rosiglitazone"
+          ]
+        },
+        {
+          "text": "famotidine",
+          "gold_names": [
+            "famotidine"
+          ]
+        },
+        {
+          "text": "carisoprodol",
+          "gold_names": [
+            "carisoprodol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1621",
+            "DDInter301"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1621",
+            "DDInter712"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter301",
+            "DDInter712"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-035-single_character_error",
+      "group_id": "G035",
+      "split": "development",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "bictelravir",
+          "gold_names": [
+            "bictegravir"
+          ]
+        },
+        {
+          "text": "rosiglitazone",
+          "gold_names": [
+            "rosiglitazone"
+          ]
+        },
+        {
+          "text": "famotldine",
+          "gold_names": [
+            "famotidine"
+          ]
+        },
+        {
+          "text": "carisoprodol",
+          "gold_names": [
+            "carisoprodol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1621",
+            "DDInter301"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1621",
+            "DDInter712"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter301",
+            "DDInter712"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-035-mixed_corruption",
+      "group_id": "G035",
+      "split": "development",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "bictelravir",
+          "gold_names": [
+            "bictegravir"
+          ]
+        },
+        {
+          "text": "r0s1gl1taz0ne",
+          "gold_names": [
+            "rosiglitazone"
+          ]
+        },
+        {
+          "text": "famotldine",
+          "gold_names": [
+            "famotidine"
+          ]
+        },
+        {
+          "text": "ZXQVVV",
+          "gold_names": [
+            "carisoprodol"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1621",
+            "DDInter301"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1621",
+            "DDInter712"
+          ],
+          "severity": "unknown"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter301",
+            "DDInter712"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-036-clean",
+      "group_id": "G036",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "ambrisentan",
+          "gold_names": [
+            "ambrisentan"
+          ]
+        },
+        {
+          "text": "durvalumab",
+          "gold_names": [
+            "durvalumab"
+          ]
+        },
+        {
+          "text": "adalimumab",
+          "gold_names": [
+            "adalimumab"
+          ]
+        },
+        {
+          "text": "teriparatide",
+          "gold_names": [
+            "teriparatide"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter27",
+            "DDInter610"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-036-single_character_error",
+      "group_id": "G036",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "ambrilentan",
+          "gold_names": [
+            "ambrisentan"
+          ]
+        },
+        {
+          "text": "durvalumab",
+          "gold_names": [
+            "durvalumab"
+          ]
+        },
+        {
+          "text": "adalilumab",
+          "gold_names": [
+            "adalimumab"
+          ]
+        },
+        {
+          "text": "teriparatide",
+          "gold_names": [
+            "teriparatide"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter27",
+            "DDInter610"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-036-mixed_corruption",
+      "group_id": "G036",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "ambrilentan",
+          "gold_names": [
+            "ambrisentan"
+          ]
+        },
+        {
+          "text": "durvalumab",
+          "gold_names": [
+            "durvalumab"
+          ]
+        },
+        {
+          "text": "adalilumab",
+          "gold_names": [
+            "adalimumab"
+          ]
+        },
+        {
+          "text": "teriparatide",
+          "gold_names": [
+            "teriparatide"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter27",
+            "DDInter610"
+          ],
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "SYN-037-clean",
+      "group_id": "G037",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "propranolol",
+          "gold_names": [
+            "propranolol"
+          ]
+        },
+        {
+          "text": "amiodarone",
+          "gold_names": [
+            "amiodarone"
+          ]
+        },
+        {
+          "text": "mazindol",
+          "gold_names": [
+            "mazindol"
+          ]
+        },
+        {
+          "text": "liothyronine",
+          "gold_names": [
+            "liothyronine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter1126"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter1539"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter76"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-037-single_character_error",
+      "group_id": "G037",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "proprlnolol",
+          "gold_names": [
+            "propranolol"
+          ]
+        },
+        {
+          "text": "amiodarone",
+          "gold_names": [
+            "amiodarone"
+          ]
+        },
+        {
+          "text": "mazildol",
+          "gold_names": [
+            "mazindol"
+          ]
+        },
+        {
+          "text": "liothyronine",
+          "gold_names": [
+            "liothyronine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter1126"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter1539"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter76"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-037-mixed_corruption",
+      "group_id": "G037",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "proprlnolol",
+          "gold_names": [
+            "propranolol"
+          ]
+        },
+        {
+          "text": "am10dar0ne",
+          "gold_names": [
+            "amiodarone"
+          ]
+        },
+        {
+          "text": "mazildol",
+          "gold_names": [
+            "mazindol"
+          ]
+        },
+        {
+          "text": "liothyronine",
+          "gold_names": [
+            "liothyronine"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter1126"
+          ],
+          "severity": "moderate"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter1539"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1074",
+            "DDInter76"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-038-clean",
+      "group_id": "G038",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "flucytosine",
+          "gold_names": [
+            "flucytosine"
+          ]
+        },
+        {
+          "text": "natalizumab",
+          "gold_names": [
+            "natalizumab"
+          ]
+        },
+        {
+          "text": "vitamin e",
+          "gold_names": [
+            "vitamin e"
+          ]
+        },
+        {
+          "text": "ferrous fumarate",
+          "gold_names": [
+            "ferrous fumarate"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1268",
+            "DDInter1943"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1943",
+            "DDInter725"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-038-single_character_error",
+      "group_id": "G038",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "flucylosine",
+          "gold_names": [
+            "flucytosine"
+          ]
+        },
+        {
+          "text": "natalizumab",
+          "gold_names": [
+            "natalizumab"
+          ]
+        },
+        {
+          "text": "vitalin e",
+          "gold_names": [
+            "vitamin e"
+          ]
+        },
+        {
+          "text": "ferrous fumarate",
+          "gold_names": [
+            "ferrous fumarate"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1268",
+            "DDInter1943"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1943",
+            "DDInter725"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-038-mixed_corruption",
+      "group_id": "G038",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "flucylosine",
+          "gold_names": [
+            "flucytosine"
+          ]
+        },
+        {
+          "text": "natal1zumab",
+          "gold_names": [
+            "natalizumab"
+          ]
+        },
+        {
+          "text": "vitalin e",
+          "gold_names": [
+            "vitamin e"
+          ]
+        },
+        {
+          "text": "ferrous fumarate",
+          "gold_names": [
+            "ferrous fumarate"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1268",
+            "DDInter1943"
+          ],
+          "severity": "low"
+        },
+        {
+          "ingredient_ids": [
+            "DDInter1943",
+            "DDInter725"
+          ],
+          "severity": "moderate"
+        }
+      ]
+    },
+    {
+      "id": "SYN-039-clean",
+      "group_id": "G039",
+      "split": "test",
+      "input_kind": "clean",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "acyclovir",
+          "gold_names": [
+            "acyclovir"
+          ]
+        },
+        {
+          "text": "ezogabine",
+          "gold_names": [
+            "ezogabine"
+          ]
+        },
+        {
+          "text": "raltegravir",
+          "gold_names": [
+            "raltegravir"
+          ]
+        },
+        {
+          "text": "ramipril",
+          "gold_names": [
+            "ramipril"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1565",
+            "DDInter25"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-039-single_character_error",
+      "group_id": "G039",
+      "split": "test",
+      "input_kind": "single_character_error",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "acyciovir",
+          "gold_names": [
+            "acyclovir"
+          ]
+        },
+        {
+          "text": "ezogabine",
+          "gold_names": [
+            "ezogabine"
+          ]
+        },
+        {
+          "text": "raltelravir",
+          "gold_names": [
+            "raltegravir"
+          ]
+        },
+        {
+          "text": "ramipril",
+          "gold_names": [
+            "ramipril"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1565",
+            "DDInter25"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "SYN-039-mixed_corruption",
+      "group_id": "G039",
+      "split": "test",
+      "input_kind": "mixed_corruption",
+      "origin": "synthetic_text",
+      "entries": [
+        {
+          "text": "acyciovir",
+          "gold_names": [
+            "acyclovir"
+          ]
+        },
+        {
+          "text": "ez0gab1ne",
+          "gold_names": [
+            "ezogabine"
+          ]
+        },
+        {
+          "text": "raltelravir",
+          "gold_names": [
+            "raltegravir"
+          ]
+        },
+        {
+          "text": "ramipril",
+          "gold_names": [
+            "ramipril"
+          ]
+        }
+      ],
+      "gold_findings": [
+        {
+          "ingredient_ids": [
+            "DDInter1565",
+            "DDInter25"
+          ],
+          "severity": "unknown"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+flowchart LR
+    classDef input fill:#E8F1FA,stroke:#2874A6,color:#173B57,stroke-width:1.5px
+    classDef core fill:#E9F7EF,stroke:#239B56,color:#12452A,stroke-width:1.5px
+    classDef data fill:#FEF5E7,stroke:#D68910,color:#5A3500,stroke-width:1.5px
+    classDef output fill:#F4ECF7,stroke:#7D3C98,color:#3D1E4D,stroke-width:1.5px
+    classDef note fill:#FDEDEC,stroke:#C0392B,color:#641E16,stroke-width:1.5px
+
+    A[User enters medicines<br/>and optional food details]:::input
+    B[Medicine name cleaning<br/>and matching]:::core
+    C[Interaction checking engine]:::core
+    D[DDInter dataset<br/>known drug-drug interactions]:::data
+    E[Curated food rules<br/>drug-food interactions]:::data
+    F[Evidence and simple explanation<br/>severity + source links]:::core
+    G[Results page<br/>alerts + graph + report]:::output
+    H[Safety message<br/>not a replacement for a doctor]:::note
+
+    A --> B --> C --> F --> G
+    D --> C
+    E --> C
+    G --> H

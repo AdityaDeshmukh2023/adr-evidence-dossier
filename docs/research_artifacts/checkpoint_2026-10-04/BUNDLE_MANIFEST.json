@@ -1,0 +1,31 @@
+{
+  "scope": "Synthetic results and unfilled human-rating sheets only; no clinical validation.",
+  "files_sha256": {
+    "research/summary.json": "676118e4aca35e02d03d03dd2d9ed111c0178cce40314d06ff9a9ffd0f193b47",
+    "research/dataset.json": "1fb45ebf52b81775f9dadd8cc49cbf80cd1f4de8a9f5127e28aeedcea8193df5",
+    "research/comparison.csv": "634a43e60781868347053444c813c867d73b66108906bc4d4453b6bec963f64d",
+    "research/case_metrics.csv": "d83b6940dde2b83806d189bd5e3c916c812bf61f9389e01b85713ab23a5dded2",
+    "research/case_results.jsonl": "0a537e9660dc07b6d222e19a0b3dbf080ae64d88401e9b7b9eb5b29a2a2dd9b6",
+    "research/ablation_at_half_budget.csv": "d10b66c1422bb00e2bea2a9172571ed9d4fee74a06d68ad10e79e75eb86e8dfc",
+    "research/extraction_metrics.csv": "0e1d753b6679238ded547a66610fd9c8d94ef428c92af12b0742341126875954",
+    "research/failure_categories.csv": "75da3dee29b8974c1fee55289fb55e7588b3f1c93a89abd2e4962ec01ede6ce4",
+    "research/identity_summary.csv": "1255e435b3c76e0821761f1b9341ca34a53c705f6d543e67118f8187e90f0d9f",
+    "research/latency_cost.csv": "c3a936ece853cddb9c044d77d1da56d1cad1a10f8544442b57b4c988b063b7af",
+    "research/severity_confusion.csv": "88145aae856720b78903850930a5242593b74bfac1c51f855b66bac396ec57bd",
+    "research/RESULTS.md": "c4109c015a69e7f59105a2e95d9d02f2da677919982be41cc5ad5d7b0dd5f5f4",
+    "research/review_budget.png": "e554e0c12a60563cf5965dddd243039940d34bbced20996129f11b0b40b3f66b",
+    "research/review_budget.svg": "b7a6ae6af31112d26f843be5a1cd1d4ed8f8ffecb2c9a8440757fceffd451a4f",
+    "research/identity_resolution.png": "582f996703b242e89e91285386a9050d8af5c903310ea2782ee3be739900a99a",
+    "research/failure_categories.png": "241110278bcbb61179657f297827b842e1faa12eb1a5895a2223cc7e79289382",
+    "ocr_benchmark/summary.json": "492ab52ac11037d23da498372e0085613d72a1221172f7954f4aeec970de5656",
+    "ocr_benchmark/image_metrics.csv": "794b3178163ea406d42bdffda8c6639e3f42c65eff27e962518853eccd7416e9",
+    "ocr_benchmark/ocr_error_rates.png": "f2d83ba5595ca558a3d0be663987821592c4d92f82901b6e062f88d306e84368",
+    "evaluation/results.json": "1eee833672fdd368253636a686e3f1e7760fd99223e8d0ca2d39f71e94209daf",
+    "explanations_live/summary.json": "39759455017be091e8af9b2bd81b2e899739132ad8f0bb7f2cb26cb8da96f22a",
+    "explanations_live/outputs.json": "8692b000e21db04a8940901f7f0726bcb7544b18be9a5695273eedf0c4b1dbce",
+    "explanations_live/blinded_review.json": "b45ff6336586e795362e2bd87d0f68245ffef58173865e28ed66c79f4d38e987",
+    "explanations_live/ratings.csv": "04a45437953150f4cc1f0df4a6490262e865a4463e138f80ddb98b53cf758638"
+  },
+  "provenance": "Each experiment summary retains its own original execution manifest.",
+  "rule": "Never reinterpret an old manifest as representing a later code revision."
+}
